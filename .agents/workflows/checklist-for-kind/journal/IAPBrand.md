@@ -12,3 +12,4 @@
 ## Status Updates
 - **2026-06-16**: Started migration for IAPBrand. Opened Issue #10375 to implement direct KRM types and generate.sh for IAPBrand.
 - **2026-06-16**: Assigned Issue #10375 to codebot-robot to begin implementation of Step 1.
+- **2026-06-16**: Added the `overseer` label to Issue #10375 to trigger the AI Factory (argus-watcher-bot) for Step 1 implementation.
