@@ -13,4 +13,4 @@
 | 4 | Implement Direct Controller & E2E Fixtures | | | | | |
 
 ## Status Update Notes
-- **2026-06-16**: Overseer monitored migration tracking for ComputeInstance. Verified Step 1 is still in progress with open issue #9985 and open PR #10059. CI checks for PR #10059 are currently failing on `unit-tests` and `fuzz-roundtrippers`. Awaiting PR fix and merge before moving to Step 2.
+- **2026-06-16**: Overseer checked PR #10059. The PR remains open with failing CI checks on `unit-tests` and `fuzz-roundtrippers`. Commented `/assign factorybot-robot` on the PR to request assistance and trigger automatic fixes/re-runs. Awaiting PR fix and merge before moving to Step 2.
