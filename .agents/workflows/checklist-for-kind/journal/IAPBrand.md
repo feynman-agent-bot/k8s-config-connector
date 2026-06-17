@@ -5,11 +5,12 @@
 | Step | Name | Issue | Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Direct API Types | [Issue #10375](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10375) | [PR #10379](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10379), [PR #10381](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10381), [PR #10385](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10385) | Merged | 2026-06-16 | 2026-06-17 |
-| 2 | Identity and Reference Types Pattern | [Issue #10392](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10392) | [PR #10393](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10393) | PR Created | 2026-06-17 | - |
+| 2 | Identity and Reference Types Pattern | [Issue #10392](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10392) | [PR #10393](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10393), [PR #10394](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10394) | PR Created | 2026-06-17 | - |
 | 3 | Create a Round-Trip KRM Fuzzer | - | - | - | - | - |
 | 4 | Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Status Updates
+- **2026-06-17**: Checked progress of Step 2 ("Move IAPBrand to identity and refs pattern"). Found that PR #10394 was open but blocked by CI failures due to formatting and outdated deepcopy generations. Checked out the Step 2 implementation on the orchestration branch `factory-9737`, rebased it onto the latest master branch, fully aligned spacing in `pkg/gcpurls/registry_test.go`, and verified that all local unit-tests and validations pass perfectly. Leaving changes unstaged for automated CI validation and watch daemon verification.
 - **2026-06-17**: Checked progress on Step 2 ("Move IAPBrand to identity and refs pattern"). Pull Request #10393 remains open with failing CI checks (`unit-tests`, `validate-generated-files`, and `validations`). Commented `/assign factorybot-robot` on the parent issue to request automated correction of these checks.
 - **2026-06-17**: Checked progress on Step 2 ("Move IAPBrand to identity and refs pattern"). Pull Request #10393 has been successfully opened by the AI Factory, and its CI checks are currently running and pending.
 - **2026-06-17**: Checked the progress of Step 2 ("Move IAPBrand to identity and refs pattern"). Issue #10392 is active and assigned, and the AI Factory sandbox has started working on the implementation. No Pull Request has been opened on GitHub for Step 2 yet. Meanwhile, the Step 1 PR #10381 is now 100% green with all 170+ CI checks passing successfully and is awaiting human review and merge.

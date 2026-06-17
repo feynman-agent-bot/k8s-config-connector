@@ -28,7 +28,7 @@ func init() {
 
 func iapsettingsFuzzer() fuzztesting.KRMFuzzer {
 	f := fuzztesting.NewKRMTypedSpecFuzzer(&pb.IapSettings{},
-		IAPSettingsSpec_v1beta1_FromProto, IAPSettingsSpec_v1beta1_ToProto,
+		IAPSettingsSpec_FromProto, IAPSettingsSpec_ToProto,
 	)
 
 	// Spec fields

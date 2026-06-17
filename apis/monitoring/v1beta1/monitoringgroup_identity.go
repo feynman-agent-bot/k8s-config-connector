@@ -59,10 +59,6 @@ func (i *MonitoringGroupIdentity) Host() string {
 	return MonitoringGroupIdentityFormat.Host()
 }
 
-func (i *MonitoringGroupIdentity) ParentString() string {
-	return "projects/" + i.Project
-}
-
 func getIdentityFromMonitoringGroupSpec(ctx context.Context, reader client.Reader, obj *MonitoringGroup) (*MonitoringGroupIdentity, error) {
 	resourceID, err := refs.GetResourceID(obj)
 	if err != nil {
