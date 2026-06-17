@@ -10,6 +10,7 @@
 | 4 | Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Status Updates
+- **2026-06-17**: Checked progress. Pull Request #10379 remains open with failing CI checks (validations, unit-tests, validate-generated-files). Re-assigned the PR to `factorybot-robot` to trigger automated correction of the failed checks.
 - **2026-06-17**: Checked progress on Pull Request #10379. Analyzed failed CI check-runs:
   1. `validate-generated-files` failed because the reference documentation (`iapbrand.md` and `iapsettings.md`) is out-of-date and needs to be regenerated via `make resource-docs`.
   2. `unit-tests` failed (`TestCRDFieldPresenceInTests`) because newly introduced fields on `IAPSettings` / `IAPBrand` are not yet covered in tests and must be added to the exceptions list in `tests/apichecks/testdata/exceptions/missingfields.txt` (which is typically updated automatically by running the unit tests check script).
