@@ -10,7 +10,7 @@
 | 4 | Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Status Updates
-- **2026-06-17**: Checked progress. Pull Request #10379 has been opened by `lovelace-coder-bot` to address Issue #10375. CI checks are currently in progress.
+- **2026-06-17**: Checked progress. Pull Request #10379 has been opened by `lovelace-coder-bot` to address Issue #10375. CI checks were previously failing on `validate-generated-files` and `unit-tests`, but a new CI run has been triggered and is currently in progress.
 - **2026-06-16**: Checked progress. No PR has been opened yet. Step 1 remains in progress.
 - **2026-06-16**: AI Factory (argus-watcher-bot) started fixing Issue #10375 in a sandbox.
 - **2026-06-16**: Started migration for IAPBrand. Opened Issue #10375 to implement direct KRM types and generate.sh for IAPBrand.
