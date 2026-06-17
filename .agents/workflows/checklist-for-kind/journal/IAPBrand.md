@@ -10,6 +10,10 @@
 | 4 | Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Status Updates
+- **2026-06-17**: Checked progress on Pull Request #10379. Analyzed failed CI check-runs:
+  1. `validate-generated-files` failed because the reference documentation (`iapbrand.md` and `iapsettings.md`) is out-of-date and needs to be regenerated via `make resource-docs`.
+  2. `unit-tests` failed (`TestCRDFieldPresenceInTests`) because newly introduced fields on `IAPSettings` / `IAPBrand` are not yet covered in tests and must be added to the exceptions list in `tests/apichecks/testdata/exceptions/missingfields.txt` (which is typically updated automatically by running the unit tests check script).
+  Step 1 remains in progress while the watch daemon / automated correction processes these fixes.
 - **2026-06-17**: Checked progress. Pull Request #10379 has been opened by `lovelace-coder-bot` to address Issue #10375. CI checks were previously failing on `validate-generated-files` and `unit-tests`, but a new CI run has been triggered and is currently in progress.
 - **2026-06-16**: Checked progress. No PR has been opened yet. Step 1 remains in progress.
 - **2026-06-16**: AI Factory (argus-watcher-bot) started fixing Issue #10375 in a sandbox.
