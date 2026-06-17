@@ -10,6 +10,7 @@
 | 4 | Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Status Updates
+- **2026-06-17**: Checked progress on Step 1. Both Pull Requests #10379 and #10381 remain open and are blocked by failing CI checks (validations, unit-tests, validate-generated-files) on commit 79f48c70c9. Re-assigned the PRs to `factorybot-robot` using the GitHub API to re-trigger automated correction of the failed checks. Step 1 remains in progress.
 - **2026-06-17**: Checked progress. Pull Request #10379 and #10381 are both open but currently blocked by failing CI checks (unit-tests, validations, validate-generated-files) on commit 79f48c70c9. Step 1 remains in progress.
 - **2026-06-17**: Checked progress. Pull Request #10381 has been opened with the `overseer` label to address Issue #10375. Both PR #10379 and PR #10381 are currently failing CI checks. Investigation of GHA run 27657392037 shows that `validate-generated-files` is failing due to an out-of-date generated file (`apis/cloudbuild/v1alpha1/types.generated.go`), and `unit-tests` is failing due to a runner infrastructure `gcloud` CLI authentication issue. The code compiles and passes local validation checks. Step 1 remains in progress.
 - **2026-06-17**: Checked progress. Pull Request #10379 remains open with failing CI checks (validations, unit-tests, validate-generated-files). Re-assigned the PR to `factorybot-robot` to trigger automated correction of the failed checks.
