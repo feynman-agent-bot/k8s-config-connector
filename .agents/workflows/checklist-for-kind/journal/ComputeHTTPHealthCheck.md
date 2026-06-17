@@ -1,15 +1,21 @@
 # ComputeHTTPHealthCheck Migration Journal
 
-## Current Step: Step 1 (Direct API Types)
+## Current Step: Step 2 (Identity and Reference Types Pattern)
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|-----------|--------------|---------------------|--------|--------------|----------------|
-| 1 | Direct API Types | [#9981](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9981) | [#10036](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10036) | PR Created | 2026-06-13 | |
-| 2 | Identity and Reference Types Pattern | | | Not Started | | |
+| 1 | Direct API Types | [#9981](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9981) | [#9676](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9676) | Completed | 2026-06-13 | 2026-06-13 |
+| 2 | Identity and Reference Types Pattern | [#10382](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10382) | | Open | 2026-06-17 | |
 | 3 | Create a Round-Trip KRM Fuzzer | | | Not Started | | |
 | 4 | Implement Direct Controller & E2E Fixtures | | | Not Started | | |
 
 ## Progress Log
+
+### 2026-06-17 (walle-agent-bot) - Transition to Step 2
+- Confirmed that Step 1 (Direct API Types) was already successfully completed and merged into upstream master via PR #9676 (commit `82c88af6de`) on 2026-06-13.
+- Closed the redundant, duplicate PR #10036 and completed/closed the corresponding issue #9981.
+- Opened issue #10382 for Step 2 (Identity and Reference Types Pattern) and assigned it to `factorybot-robot`.
+- Updated the migration journal and parent issue #9656.
 
 ### 2026-06-16 (feynman-agent-bot)
 - Assessed migration status. Step 1 PR #10036 is open but has merge conflicts and failing checks (including `tests-e2e-fixtures-compute`, `tests-scenarios-unclassified`, `validate-generated-files`, and `validations`).
