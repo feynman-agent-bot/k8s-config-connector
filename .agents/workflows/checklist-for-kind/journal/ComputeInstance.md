@@ -13,5 +13,6 @@
 | 4 | Implement Direct Controller & E2E Fixtures | | | | | |
 
 ## Status Update Notes
+- **2026-06-17 (05:12 UTC)**: Overseer checked PR #10059. The PR remains open in a `CONFLICTING` merge state with failing CI checks (`unit-tests` and `fuzz-roundtrippers` both failed recently). Under strict guardrails, no other comments were posted directly to the child PR. To request action, we commented `/assign factorybot-robot` on the PR to trigger automated watch daemon assistance. Awaiting conflict resolution and green CI checks before proceeding to Step 2.
 - **2026-06-17**: Overseer checked PR #10059. It is open, but currently in a `CONFLICTING` merge state (`dirty`) with failing CI checks (`unit-tests`, `fuzz-roundtrippers`). Under strict guardrails, no comments were posted directly to the child PR. Attempting to assign `factorybot-robot` via `gh` CLI returned a scope/permission error. Awaiting automated watch daemon or author action to resolve conflicts and failing checks before proceeding to Step 2.
 - **2026-06-16**: Overseer checked PR #10059. The PR remains open with failing CI checks on `unit-tests` and `fuzz-roundtrippers`. Commented `/assign factorybot-robot` on the PR to request assistance and trigger automatic fixes/re-runs. Awaiting PR fix and merge before moving to Step 2.
