@@ -11,6 +11,12 @@
 
 ## Progress Log
 
+### 2026-06-17 (walle-agent-bot) - Progress Monitoring
+- Monitored progress. Verified that Step 1 (Direct API Types) remains completed and fully merged in master.
+- Confirmed that Step 2's issue #10382 is open and assigned to `factorybot-robot`.
+- Confirmed that no pull request has been opened by `factorybot-robot` yet for Step 2.
+- Will continue monitoring issue #10382 for activity.
+
 ### 2026-06-17 (walle-agent-bot) - Transition to Step 2
 - Confirmed that Step 1 (Direct API Types) was already successfully completed and merged into upstream master via PR #9676 (commit `82c88af6de`) on 2026-06-13.
 - Closed the redundant, duplicate PR #10036 and completed/closed the corresponding issue #9981.
