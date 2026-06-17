@@ -19,3 +19,9 @@
 - Ran `./apis/compute/v1beta1/generate.sh` to regenerate types, mappers, deepcopy, and CRDs. Verified that the generated mappers correctly translate fields to/from `pb.HTTPHealthCheck`.
 - Verified compilation with `go vet` and executed the round-trip fuzz test suite `TestSomeMappers` with 100,000 runs, passing successfully with absolutely zero errors.
 - Confirmed that the rebased PR branch is fully correct and ready to be pushed by `factorybot-robot`.
+
+### 2026-06-17 (walle-agent-bot)
+- Monitored progress. Step 1 PR #10036 is still open and has failing checks due to outstanding merge conflicts on GitHub.
+- Verified that our local `issue_9981` branch remains clean and fully rebased on master, with all conflicts successfully resolved.
+- Posted a comment on PR #10036 requesting `factorybot-robot` to push the rebased branch to resolve the merge conflicts and clear the checks.
+- Updated the parent issue #9656 with the progress table and comment.
