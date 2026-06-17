@@ -10,6 +10,7 @@
 | 4 | Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Status Updates
+- **2026-06-17**: Re-checked progress of Step 2 ("Move IAPBrand to identity and refs pattern"). Found that the AI Factory opened Pull Request #10394, which contains the complete Step 2 implementation. The CI checks on PR #10394 are currently in progress and running on GitHub. Awaiting successful completion and merge of PR #10394 before initiating Step 3.
 - **2026-06-17**: Checked progress of Step 2 ("Move IAPBrand to identity and refs pattern"). Found that PR #10394 was open but blocked by CI failures due to formatting and outdated deepcopy generations. Checked out the Step 2 implementation on the orchestration branch `factory-9737`, rebased it onto the latest master branch, fully aligned spacing in `pkg/gcpurls/registry_test.go`, and verified that all local unit-tests and validations pass perfectly. Leaving changes unstaged for automated CI validation and watch daemon verification.
 - **2026-06-17**: Checked progress on Step 2 ("Move IAPBrand to identity and refs pattern"). Pull Request #10393 remains open with failing CI checks (`unit-tests`, `validate-generated-files`, and `validations`). Commented `/assign factorybot-robot` on the parent issue to request automated correction of these checks.
 - **2026-06-17**: Checked progress on Step 2 ("Move IAPBrand to identity and refs pattern"). Pull Request #10393 has been successfully opened by the AI Factory, and its CI checks are currently running and pending.
