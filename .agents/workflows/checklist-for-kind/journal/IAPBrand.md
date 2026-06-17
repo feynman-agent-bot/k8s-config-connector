@@ -10,6 +10,7 @@
 | 4 | Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Status Updates
+- **2026-06-17**: Checked the progress of Step 2 ("Move IAPBrand to identity and refs pattern"). Issue #10392 is active and assigned, and the AI Factory sandbox has started working on the implementation. No Pull Request has been opened on GitHub for Step 2 yet. Meanwhile, the Step 1 PR #10381 is now 100% green with all 170+ CI checks passing successfully and is awaiting human review and merge.
 - **2026-06-17**: Verified that PR #10381 successfully passed 100% of its CI check-runs and was merged locally into the main working branch. Proceeded to Step 2: opened Issue #10392 ("Move IAPBrand to identity and refs pattern") and assigned to `feynman-agent-bot` (fallback).
 - **2026-06-17**: Monitored the migration progress. Verified that all CI check-runs for Pull Request #10381 are successfully completed and 100% green. The PR is currently awaiting human owner review, approval, and merge before we can proceed to Step 2.
 - **2026-06-17**: Re-checked progress on Step 1. Pull Request #10381 is confirmed to be 100% green with all 170+ CI checks passing successfully on GitHub. The PR remains open, pending human owner review, approval, and merge. Step 1 remains in progress.
