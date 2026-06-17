@@ -10,6 +10,7 @@
 | 4 | Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Status Updates
+- **2026-06-17**: Re-verified that Pull Request #10381 remains open with all 120+ CI checks (100% green) fully passing. We are waiting for a human owner to review and merge the PR to master before starting Step 2.
 - **2026-06-17**: Checked progress on Step 1. PR #10381 has all 120+ CI checks fully passing (100% green), including E2E fixtures, scenario, and direct-iam tests. Waiting for human owner review and merge.
 - **2026-06-17**: Checked progress on Step 1. Verified that PR #10381 remains open with all CI checks fully passing (100% green). Waiting for human owner review and merge to master before starting Step 2.
 - **2026-06-17**: Checked progress on Step 1. All core CI checks on Pull Request #10381 (including `unit-tests`, `golangci-lint`, `validate-generated-files`, `fuzz-roundtrippers`, and `validations`) have now successfully passed on the latest commit `ad5276bbca`. The PR remains open, pending human approval and merge on GitHub. Step 1 remains in progress.
