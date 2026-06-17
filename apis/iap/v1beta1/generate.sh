@@ -19,21 +19,24 @@ set -o pipefail
 
 REPO_ROOT="$(git rev-parse --show-toplevel)"
 source "${REPO_ROOT}/dev/tools/goimports.sh"
-
 cd ${REPO_ROOT}/dev/tools/controllerbuilder
 
+./generate-proto.sh
+
 go run . generate-types \
-  --service google.cloud.datalabeling.v1beta1 \
-  --api-version datalabeling.cnrm.cloud.google.com/v1alpha1 \
+  --service google.cloud.iap.v1 \
+  --api-version iap.cnrm.cloud.google.com/v1beta1 \
   --include-skipped-output \
-  --resource DataLabelingInstruction:Instruction \
-  --resource DataLabelingAnnotationSpecSet:AnnotationSpecSet \
-  --resource DataLabelingDataset:Dataset \
-  --resource DataLabelingEvaluationJob:EvaluationJob \
-  --prune-unused-types=false
+  --resource IAPSettings:IapSettings \
+  --resource IAPBrand:Brand
+
+go run . generate-mapper \
+  --service google.cloud.iap.v1 \
+  --api-version iap.cnrm.cloud.google.com/v1beta1 \
+  --include-skipped-output \
+  --multiversion
 
 cd ${REPO_ROOT}
 dev/tasks/generate-crds
 
-# Format generated code
-go run -mod=readonly golang.org/x/tools/cmd/goimports@${GOLANG_X_TOOLS_VERSION} -w apis/datalabeling/v1alpha1/
+go run -mod=readonly golang.org/x/tools/cmd/goimports@${GOLANG_X_TOOLS_VERSION} -w  pkg/controller/direct/iap/
