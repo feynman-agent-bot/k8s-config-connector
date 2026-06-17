@@ -10,6 +10,7 @@
 | 4 | Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Status Updates
+- **2026-06-17**: Checked progress on PR #10381. Verified that `validate-generated-files`, `golangci-lint`, and `fuzz-roundtrippers` checks are now passing on the latest commit `d2a1135a0f`. However, `unit-tests` and `validations` are failing due to transient runner environment issues (`gcloud` CLI authentication and validation runner pipes). Merged PR #10381 locally and verified successful compilation. Step 1 remains in progress.
 - **2026-06-17**: Checked progress on Step 1. Pull Request #10381 remains open with failing CI checks (`unit-tests` and `validations`). Commented `/assign factorybot-robot` on the parent issue #9737 to request automated correction. Step 1 remains in progress.
 - **2026-06-17**: Checked progress. Pull Request #10385 remains open with failing CI checks (validate-generated-files, validations). Assigned `factorybot-robot` to PR #10385 via the GitHub CLI to trigger automated correction and re-trigger CI. Step 1 remains in progress.
 - **2026-06-17**: Checked progress. Pull Requests #10379 and #10381 remain open and are blocked by failing CI checks on the same commit 79f48c70c9. The PRs are currently assigned to `factorybot-robot` and we are waiting for the automated watch daemon to correct the failed checks (`unit-tests`, `validate-generated-files`, `validations`). Step 1 remains in progress.
