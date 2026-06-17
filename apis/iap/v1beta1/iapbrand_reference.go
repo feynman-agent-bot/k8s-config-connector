@@ -33,10 +33,10 @@ type IAPBrandRef struct {
 	// A reference to an externally managed IAPBrand resource. Should be in the format "projects/{{projectID}}/brands/{{brandID}}".
 	External string `json:"external,omitempty"`
 
-	// The name of a IAPBrand resource.
+	// The name of an IAPBrand resource.
 	Name string `json:"name,omitempty"`
 
-	// The namespace of a IAPBrand resource.
+	// The namespace of an IAPBrand resource.
 	Namespace string `json:"namespace,omitempty"`
 }
 
