@@ -10,6 +10,7 @@
 | 4 | Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Status Updates
+- **2026-06-17**: Checked progress. Both PR #10379 and PR #10381 remain open and are blocked by failing CI checks (unit-tests, validate-generated-files, validations). Commented `/assign factorybot-robot` on both PRs to request automated correction. Step 1 remains in progress.
 - **2026-06-17**: Checked progress. Pull Requests #10379 and #10381 remain open with failing CI checks (validations, unit-tests, validate-generated-files). Attempted direct REST API assignment to `factorybot-robot` on the child PRs but received permission 404s. Requesting automated correction by commenting `/assign factorybot-robot` on the parent issue. Step 1 remains in progress.
 - **2026-06-17**: Checked progress on Step 1. Both Pull Requests #10379 and #10381 remain open and are blocked by failing CI checks (validations, unit-tests, validate-generated-files) on commit 79f48c70c9. Re-assigned the PRs to `factorybot-robot` using the GitHub API to re-trigger automated correction of the failed checks. Step 1 remains in progress.
 - **2026-06-17**: Checked progress. Pull Request #10379 and #10381 are both open but currently blocked by failing CI checks (unit-tests, validations, validate-generated-files) on commit 79f48c70c9. Step 1 remains in progress.
