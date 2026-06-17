@@ -1,7 +1,7 @@
 # Migration Journal: ComputeURLMap
 
 ## Current Step
-Step 1: Direct API Types (In Progress - PR Created)
+Step 2: Identity and Reference Types Pattern (Pending Step 1 PR Merge)
 
 ## Progress Tracking
 
