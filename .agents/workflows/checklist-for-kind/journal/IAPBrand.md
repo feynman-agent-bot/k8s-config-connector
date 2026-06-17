@@ -10,6 +10,7 @@
 | 4 | Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Status Updates
+- **2026-06-17**: Checked progress on Step 2 ("Move IAPBrand to identity and refs pattern"). Pull Request #10393 remains open with failing CI checks (`unit-tests`, `validate-generated-files`, and `validations`). Commented `/assign factorybot-robot` on the parent issue to request automated correction of these checks.
 - **2026-06-17**: Checked progress on Step 2 ("Move IAPBrand to identity and refs pattern"). Pull Request #10393 has been successfully opened by the AI Factory, and its CI checks are currently running and pending.
 - **2026-06-17**: Checked the progress of Step 2 ("Move IAPBrand to identity and refs pattern"). Issue #10392 is active and assigned, and the AI Factory sandbox has started working on the implementation. No Pull Request has been opened on GitHub for Step 2 yet. Meanwhile, the Step 1 PR #10381 is now 100% green with all 170+ CI checks passing successfully and is awaiting human review and merge.
 - **2026-06-17**: Verified that PR #10381 successfully passed 100% of its CI check-runs and was merged locally into the main working branch. Proceeded to Step 2: opened Issue #10392 ("Move IAPBrand to identity and refs pattern") and assigned to `feynman-agent-bot` (fallback).
