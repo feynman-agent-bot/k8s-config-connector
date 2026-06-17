@@ -4,12 +4,13 @@
 
 | Step | Name | Issue | Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Direct API Types | [Issue #10375](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10375) | [PR #10379](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10379), [PR #10381](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10381) | PR Created | 2026-06-16 | - |
+| 1 | Direct API Types | [Issue #10375](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10375) | [PR #10379](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10379), [PR #10381](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10381), [PR #10385](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10385) | PR Created | 2026-06-16 | - |
 | 2 | Identity and Reference Types Pattern | - | - | - | - | - |
 | 3 | Create a Round-Trip KRM Fuzzer | - | - | - | - | - |
 | 4 | Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Status Updates
+- **2026-06-17**: Checked progress. Pull Request #10385 remains open with failing CI checks (validate-generated-files, validations). Assigned `factorybot-robot` to PR #10385 via the GitHub CLI to trigger automated correction and re-trigger CI. Step 1 remains in progress.
 - **2026-06-17**: Checked progress. Pull Requests #10379 and #10381 remain open and are blocked by failing CI checks on the same commit 79f48c70c9. The PRs are currently assigned to `factorybot-robot` and we are waiting for the automated watch daemon to correct the failed checks (`unit-tests`, `validate-generated-files`, `validations`). Step 1 remains in progress.
 - **2026-06-17**: Checked progress. Both PR #10379 and PR #10381 remain open and are blocked by failing CI checks (unit-tests, validate-generated-files, validations). Commented `/assign factorybot-robot` on both PRs to request automated correction. Step 1 remains in progress.
 - **2026-06-17**: Checked progress. Pull Requests #10379 and #10381 remain open with failing CI checks (validations, unit-tests, validate-generated-files). Attempted direct REST API assignment to `factorybot-robot` on the child PRs but received permission 404s. Requesting automated correction by commenting `/assign factorybot-robot` on the parent issue. Step 1 remains in progress.
