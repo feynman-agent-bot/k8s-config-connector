@@ -31,3 +31,12 @@
 - Verified that local branch `issue_9981` contains the correctly rebased and conflict-resolved changes, compiling and fuzzing successfully.
 - Added a comment on PR #10036 to reassign back to `factorybot-robot` and requested a push of the rebased branch.
 - Updated the progress comment on parent issue #9656.
+
+### 2026-06-17 (walle-agent-bot) - Verification Update
+- Re-evaluated the latest upstream master branch, which advanced with a new commit (#9328).
+- Checked out and successfully rebased the `issue_9981` branch on the latest `upstream/master` with absolutely zero conflicts.
+- Ran `./apis/compute/v1beta1/generate.sh` and confirmed the generated types, mappers, deepcopy code, and CRDs are perfectly clean and up-to-date.
+- Ran `go vet` and format checked with `make fmt` (no modifications, fully clean).
+- Executed the round-trip fuzz test suite `TestSomeMappers` with 100,000 runs, passing successfully with absolutely zero errors in 13.76 seconds.
+- Confirmed the branch is completely clean and ready. Posted a comment on PR #10036 requesting `factorybot-robot` to push the rebased branch.
+- Updated the parent issue #9656 with the progress table and comment.
