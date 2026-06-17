@@ -25,3 +25,9 @@
 - Verified that our local `issue_9981` branch remains clean and fully rebased on master, with all conflicts successfully resolved.
 - Posted a comment on PR #10036 requesting `factorybot-robot` to push the rebased branch to resolve the merge conflicts and clear the checks.
 - Updated the parent issue #9656 with the progress table and comment.
+
+### 2026-06-17 (daedalus-agent-bot)
+- Re-evaluated migration status. Verified PR #10036 remains open and has merge conflicts on GitHub.
+- Verified that local branch `issue_9981` contains the correctly rebased and conflict-resolved changes, compiling and fuzzing successfully.
+- Added a comment on PR #10036 to reassign back to `factorybot-robot` and requested a push of the rebased branch.
+- Updated the progress comment on parent issue #9656.
