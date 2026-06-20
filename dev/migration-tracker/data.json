@@ -16,7 +16,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
       "tests": false
     },
@@ -135,9 +135,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -168,7 +168,7 @@
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "External Work: #6821, External Work: #4821, External Work: #4820",
@@ -177,7 +177,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6821, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4821, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4820",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 3 (KRM Fuzzer)"
   },
   {
     "group": "accesscontextmanager",
@@ -191,9 +191,9 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -226,7 +226,7 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -253,8 +253,8 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -286,7 +286,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -296,7 +296,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "alloydb",
@@ -347,9 +347,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -359,7 +359,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "apigee",
@@ -373,9 +373,9 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -407,7 +407,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -417,7 +417,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "apigee",
@@ -464,9 +464,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -476,7 +476,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "apigee",
@@ -518,10 +518,10 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -532,7 +532,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5705",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "appengine",
@@ -695,10 +695,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -709,7 +709,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "beyondcorp",
@@ -725,10 +725,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -739,7 +739,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "beyondcorp",
@@ -755,10 +755,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -769,7 +769,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "bigquerydatapolicy",
@@ -788,7 +788,7 @@
       "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": true,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -799,7 +799,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 3 (KRM Fuzzer)"
   },
   {
     "group": "bigquery",
@@ -848,11 +848,11 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -861,7 +861,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 1 (Direct KRM Types)"
   },
   {
     "group": "bigquery",
@@ -879,11 +879,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -893,7 +893,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "bigqueryreservation",
@@ -940,9 +940,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -1034,9 +1034,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -1068,7 +1068,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -1078,7 +1078,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "bigtable",
@@ -1098,7 +1098,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -1108,7 +1108,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8799",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "billingbudgets",
@@ -1154,10 +1154,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -1168,7 +1168,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "binaryauthorization",
@@ -1184,11 +1184,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
-      "mocks": true,
-      "controller": false,
+      "mocks": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -1198,7 +1198,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4760",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "certificatemanager",
@@ -1401,7 +1401,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -1411,7 +1411,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "cloudfunctions2",
@@ -1458,9 +1458,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -1489,11 +1489,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -1503,7 +1503,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "cloudiot",
@@ -1517,12 +1517,12 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -1531,7 +1531,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "cloudiot",
@@ -1545,10 +1545,10 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -1559,7 +1559,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "cloudscheduler",
@@ -1575,11 +1575,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
-      "mocks": true,
-      "controller": false,
+      "mocks": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -1589,7 +1589,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1610,17 +1610,17 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10507",
+    "notes": "External Work: #10507, External Work: #10470",
     "sortOrder": 53,
     "downstreamCount": 2,
     "trackingIssue": "[#10470](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10470)",
-    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10507",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10507, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10470",
     "assignee": "barney-s",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1639,7 +1639,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
       "tests": false
     },
@@ -1666,9 +1666,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -1700,7 +1700,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
       "tests": false
     },
@@ -1732,11 +1732,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
+      "gen-types": false,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -1746,7 +1746,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9960, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8857, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6975, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7736",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1766,7 +1766,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
       "tests": false
     },
@@ -1800,7 +1800,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -1810,7 +1810,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10508",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1827,9 +1827,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -1855,9 +1855,9 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -1886,10 +1886,10 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -1899,7 +1899,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10515",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1916,10 +1916,10 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -1929,7 +1929,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10526",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1946,8 +1946,8 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -2019,7 +2019,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
       "tests": false
     },
@@ -2049,7 +2049,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
       "tests": false
     },
@@ -2104,8 +2104,8 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -2132,10 +2132,10 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -2145,7 +2145,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9983",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2166,17 +2166,17 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10572",
+    "notes": "External Work: #10572, External Work: #10552",
     "sortOrder": 524,
     "downstreamCount": 4,
     "trackingIssue": "[#10552](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10552)",
-    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10572",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10572, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10552",
     "assignee": "daedalus-agent-bot",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2228,7 +2228,7 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
@@ -2260,9 +2260,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -2290,10 +2290,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
       "tests": false
     },
@@ -2304,7 +2304,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9988",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 1 (Direct KRM Types)"
   },
   {
     "group": "compute",
@@ -2323,9 +2323,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -2353,9 +2353,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -2383,9 +2383,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -2413,9 +2413,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -2445,7 +2445,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -2455,7 +2455,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10519, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6858, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6195",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2473,12 +2473,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "External Work: #9994",
@@ -2487,7 +2487,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9994",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "compute",
@@ -2504,9 +2504,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -2534,9 +2534,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -2565,9 +2565,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -2596,9 +2596,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -2627,10 +2627,10 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -2640,7 +2640,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2660,7 +2660,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
       "tests": false
     },
@@ -2744,9 +2744,9 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -2775,7 +2775,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
       "tests": false
     },
@@ -2803,7 +2803,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
       "tests": false
     },
@@ -2830,9 +2830,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -2861,10 +2861,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
       "tests": false
     },
@@ -2875,7 +2875,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10012",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 1 (Direct KRM Types)"
   },
   {
     "group": "compute",
@@ -2889,9 +2889,9 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -2922,7 +2922,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
       "tests": false
     },
@@ -2950,9 +2950,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -2982,9 +2982,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -3013,9 +3013,9 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
+      "identity-reference": false,
       "mapper-fuzzer": true,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
       "tests": false
     },
@@ -3045,7 +3045,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
       "tests": false
     },
@@ -3105,7 +3105,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3115,7 +3115,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3131,11 +3131,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3145,7 +3145,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10023",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3169,11 +3169,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10574",
+    "notes": "External Work: #10574, External Work: #10551",
     "sortOrder": 24,
     "downstreamCount": 6,
     "trackingIssue": "[#10551](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10551)",
-    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10574",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10574, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10551",
     "assignee": "daedalus-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3195,8 +3195,8 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -3226,8 +3226,8 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -3256,9 +3256,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -3284,9 +3284,9 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
+      "gen-types": false,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -3345,17 +3345,17 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10034, External Work: #6486, External Work: #5353, External Work: #3783",
+    "notes": "External Work: #10034, External Work: #6486, External Work: #5353, External Work: #3783, External Work: #10591",
     "sortOrder": 11,
     "downstreamCount": 13,
-    "trackingIssue": "N/A",
-    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10034, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6486, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5353, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/3783",
-    "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "trackingIssue": "[#10591](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10591)",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10034, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6486, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5353, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/3783, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10591",
+    "assignee": "daedalus-agent-bot",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3371,11 +3371,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3385,7 +3385,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10035",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3399,9 +3399,9 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -3429,9 +3429,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -3463,7 +3463,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3473,7 +3473,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3493,7 +3493,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3503,7 +3503,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5953",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3519,9 +3519,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -3549,9 +3549,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -3612,9 +3612,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -3643,9 +3643,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -3674,9 +3674,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -3735,9 +3735,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -3768,17 +3768,17 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10575, External Work: #8709, External Work: #6438, External Work: #5713",
+    "notes": "External Work: #10575, External Work: #8709, External Work: #6438, External Work: #5713, External Work: #9740",
     "sortOrder": 27,
     "downstreamCount": 5,
     "trackingIssue": "[#9740](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9740)",
-    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10575, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8709, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6438, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5713",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10575, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8709, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6438, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5713, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9740",
     "assignee": "barney-s",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3797,9 +3797,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -3829,9 +3829,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -3860,11 +3860,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
-      "mocks": true,
-      "controller": false,
+      "mocks": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3874,7 +3874,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "containeranalysis",
@@ -3888,11 +3888,11 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3902,7 +3902,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "containeranalysis",
@@ -3949,10 +3949,10 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
+      "identity-reference": false,
       "mapper-fuzzer": true,
-      "mocks": true,
-      "controller": false,
+      "mocks": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3962,7 +3962,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "container",
@@ -3984,7 +3984,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3994,7 +3994,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10459, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10458, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9813, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8960, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8362, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8125, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7605, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7604, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7495, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7206, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6655, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6654, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6652, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6520, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5901, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5514, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5186, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8135, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/6831, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5086, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5085, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/4987",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "container",
@@ -4044,10 +4044,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -4058,7 +4058,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dlp",
@@ -4074,10 +4074,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -4088,7 +4088,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dlp",
@@ -4106,10 +4106,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -4120,7 +4120,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7417",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dlp",
@@ -4136,10 +4136,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -4150,7 +4150,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dns",
@@ -4238,11 +4238,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9777, External Work: #7603, External Work: #5355, External Work: #4982, External Work: #3287, External Work: #9395",
+    "notes": "External Work: #9777, External Work: #7603, External Work: #5355, External Work: #4982, External Work: #3287, External Work: #9395, External Work: #10415",
     "sortOrder": 281,
     "downstreamCount": 0,
     "trackingIssue": "[#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415)",
-    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9777, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7603, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5355, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4982, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/3287, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9395",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9777, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7603, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5355, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4982, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/3287, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9395, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415",
     "assignee": "barney-s",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -4292,9 +4292,9 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
+      "identity-reference": false,
       "mapper-fuzzer": true,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
       "tests": false
     },
@@ -4323,9 +4323,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -4335,7 +4335,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "datacatalog",
@@ -4382,11 +4382,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
-      "mocks": true,
-      "controller": false,
+      "mocks": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -4396,7 +4396,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "dataflow",
@@ -4451,7 +4451,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -4461,7 +4461,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9410, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6803",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "dataproc",
@@ -4478,8 +4478,8 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -4511,11 +4511,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
+      "gen-types": false,
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -4525,7 +4525,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10461, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9000, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8023, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6989",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "dataproc",
@@ -4545,9 +4545,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -4635,11 +4635,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
-      "controller": false,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -4649,7 +4649,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "dialogflow",
@@ -4863,10 +4863,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -4877,7 +4877,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflow",
@@ -4893,10 +4893,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -4907,7 +4907,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflow",
@@ -4923,10 +4923,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -4937,7 +4937,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "documentai",
@@ -4982,11 +4982,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -4996,7 +4996,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "edgecontainer",
@@ -5014,9 +5014,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -5045,9 +5045,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -5075,11 +5075,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -5089,7 +5089,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "edgenetwork",
@@ -5106,11 +5106,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -5120,7 +5120,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "eventarc",
@@ -5139,11 +5139,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -5153,7 +5153,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "filestore",
@@ -5169,11 +5169,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -5183,7 +5183,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10267",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "filestore",
@@ -5200,11 +5200,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -5214,7 +5214,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "filestore",
@@ -5260,11 +5260,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
-      "controller": false,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -5274,7 +5274,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "firebasedatabase",
@@ -5290,11 +5290,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
-      "mocks": true,
-      "controller": false,
+      "mocks": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -5304,7 +5304,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "firebasehosting",
@@ -5348,10 +5348,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -5362,7 +5362,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "firebase",
@@ -5376,11 +5376,11 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
-      "mocks": true,
-      "controller": false,
+      "mocks": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -5390,7 +5390,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "firebasestorage",
@@ -5495,7 +5495,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -5505,7 +5505,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9481",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "gkehub",
@@ -5521,11 +5521,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -5535,7 +5535,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "gkehub",
@@ -5549,11 +5549,11 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
+      "gen-types": false,
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -5563,7 +5563,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "healthcare",
@@ -5635,11 +5635,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
-      "mocks": true,
-      "controller": false,
+      "mocks": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -5649,7 +5649,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "healthcare",
@@ -5721,9 +5721,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -5752,8 +5752,8 @@
       "gen-types": true,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": false,
+      "mocks": true,
+      "controller": true,
       "tests": false
     },
     "mocksLastRefreshed": "Never",
@@ -5763,7 +5763,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7649",
     "assignee": "",
-    "stage": "Stage 1 (Direct KRM Types)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "iam",
@@ -5777,9 +5777,9 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -5810,7 +5810,7 @@
     "state": "Completed",
     "steps": {
       "gen-types": true,
-      "identity-reference": false,
+      "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": true,
@@ -5839,9 +5839,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": true,
       "tests": false
     },
     "mocksLastRefreshed": "Never",
@@ -5851,7 +5851,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/2873, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7650",
     "assignee": "",
-    "stage": "Stage 1 (Direct KRM Types)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "iam",
@@ -5871,7 +5871,7 @@
       "gen-types": true,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
       "tests": false
     },
@@ -5896,11 +5896,11 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -5910,7 +5910,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "iam",
@@ -5928,7 +5928,7 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -5954,9 +5954,9 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -5984,9 +5984,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -6014,9 +6014,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -6045,9 +6045,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -6081,11 +6081,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9737",
     "sortOrder": 105,
     "downstreamCount": 1,
     "trackingIssue": "[#9737](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9737)",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9737",
     "assignee": "barney-s",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -6103,9 +6103,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -6133,11 +6133,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
-      "controller": false,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -6147,7 +6147,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9416",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "identityplatform",
@@ -6163,10 +6163,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -6177,7 +6177,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "identityplatform",
@@ -6193,10 +6193,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -6207,7 +6207,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "identityplatform",
@@ -6221,10 +6221,10 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -6235,7 +6235,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "identityplatform",
@@ -6279,11 +6279,11 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
-      "controller": false,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -6293,7 +6293,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "identityplatform",
@@ -6369,10 +6369,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -6383,7 +6383,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "kms",
@@ -6432,8 +6432,8 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": true
+      "controller": true,
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -6442,7 +6442,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "kms",
@@ -6490,7 +6490,7 @@
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": true,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "External Work: #10570",
@@ -6516,7 +6516,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
       "tests": false
     },
@@ -6676,11 +6676,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
-      "mocks": true,
-      "controller": false,
+      "mocks": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -6690,7 +6690,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "memcache",
@@ -6706,11 +6706,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -6720,7 +6720,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "monitoring",
@@ -6768,7 +6768,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -6778,7 +6778,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "monitoring",
@@ -6796,9 +6796,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -6808,7 +6808,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "monitoring",
@@ -6884,7 +6884,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -6894,7 +6894,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "monitoring",
@@ -6911,9 +6911,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -6972,11 +6972,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -6986,7 +6986,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "networkconnectivity",
@@ -7003,9 +7003,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -7065,7 +7065,7 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -7093,9 +7093,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
+      "gen-types": false,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -7123,9 +7123,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -7153,9 +7153,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -7186,7 +7186,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
       "tests": false
     },
@@ -7213,9 +7213,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -7244,9 +7244,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -7306,9 +7306,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -7336,9 +7336,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
+      "gen-types": false,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -7367,9 +7367,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -7398,9 +7398,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -7428,10 +7428,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -7442,7 +7442,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "osconfig",
@@ -7460,8 +7460,8 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -7472,7 +7472,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 2 (Identity & Reference Types)"
   },
   {
     "group": "osconfig",
@@ -7488,10 +7488,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -7502,7 +7502,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "oslogin",
@@ -7516,10 +7516,10 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -7530,7 +7530,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "privateca",
@@ -7580,11 +7580,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -7594,7 +7594,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "privateca",
@@ -7613,11 +7613,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -7627,7 +7627,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10363, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10357",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "privateca",
@@ -7678,7 +7678,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -7688,7 +7688,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/2943, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5240",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "pubsublite",
@@ -7704,11 +7704,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -7718,7 +7718,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5702",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "pubsublite",
@@ -7734,11 +7734,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -7748,7 +7748,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "pubsublite",
@@ -7764,11 +7764,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -7778,7 +7778,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5701",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "pubsub",
@@ -7889,11 +7889,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -7903,7 +7903,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "redis",
@@ -7950,9 +7950,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -7981,11 +7981,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -7995,7 +7995,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "run",
@@ -8047,11 +8047,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
+      "gen-types": false,
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -8061,7 +8061,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9714, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6686, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5554",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "sql",
@@ -8075,11 +8075,11 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -8089,7 +8089,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "sql",
@@ -8104,8 +8104,8 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -8131,11 +8131,11 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -8145,7 +8145,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8796, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7148",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "secretmanager",
@@ -8249,11 +8249,11 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
-      "controller": false,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -8263,7 +8263,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "serviceusage",
@@ -8346,7 +8346,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -8356,7 +8356,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "servicedirectory",
@@ -8407,7 +8407,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -8417,7 +8417,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "servicenetworking",
@@ -8433,11 +8433,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -8447,7 +8447,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "serviceusage",
@@ -8493,11 +8493,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -8507,7 +8507,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6319",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "spanner",
@@ -8524,11 +8524,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
+      "gen-types": false,
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -8538,7 +8538,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5359",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "spanner",
@@ -8588,7 +8588,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -8598,7 +8598,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9779, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6921, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6207, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5556, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5553, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/6511",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "storage",
@@ -8615,8 +8615,8 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -8644,9 +8644,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -8704,11 +8704,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -8718,7 +8718,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "storagetransfer",
@@ -8764,11 +8764,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
-      "mocks": true,
-      "controller": false,
+      "mocks": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -8778,7 +8778,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "tpu",
@@ -8794,11 +8794,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
+      "gen-types": false,
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -8808,7 +8808,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "tags",
@@ -8826,7 +8826,7 @@
     "state": "Completed",
     "steps": {
       "gen-types": true,
-      "identity-reference": false,
+      "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": true,
@@ -8945,11 +8945,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -8959,7 +8959,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "vertexai",
@@ -8979,8 +8979,8 @@
       "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": true,
-      "mocks": true,
-      "controller": false,
+      "mocks": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -8990,7 +8990,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9698, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7985",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "vertexai",
@@ -9008,11 +9008,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
-      "mocks": true,
-      "controller": false,
+      "mocks": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -9022,7 +9022,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7987",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "vertexai",
@@ -9094,11 +9094,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
-      "controller": false,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -9108,7 +9108,7 @@
     "trackingIssue": "N/A",
     "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8389",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "vertexai",
@@ -9154,10 +9154,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
+      "gen-types": false,
       "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -9168,6 +9168,6 @@
     "trackingIssue": "N/A",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 2 (Identity & Reference Types)"
   }
 ]
