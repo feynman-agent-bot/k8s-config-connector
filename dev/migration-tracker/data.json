@@ -21,11 +21,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #7286, External Work: #7290",
     "sortOrder": 123,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7286, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7290",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -105,19 +105,19 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
+      "gen-types": true,
+      "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #8948, External Work: #7285, External Work: #6814, External Work: #9601",
     "sortOrder": 46,
     "downstreamCount": 2,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8948, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7285, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6814, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9601",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -143,11 +143,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9601",
+    "notes": "External Work: #9601, External Work: #8948, External Work: #7285",
     "sortOrder": 133,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9601",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9601, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8948, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7285",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -163,21 +163,21 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
+      "gen-types": true,
+      "identity-reference": true,
       "mapper-fuzzer": true,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #6821, External Work: #4821, External Work: #4820",
     "sortOrder": 37,
     "downstreamCount": 3,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6821, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4821, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4820",
     "assignee": "",
-    "stage": "Stage 3 (KRM Fuzzer)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "accesscontextmanager",
@@ -199,11 +199,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #8950",
     "sortOrder": 134,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8950",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -224,19 +224,19 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
+      "gen-types": true,
+      "identity-reference": true,
       "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #8952, External Work: #8951, External Work: #6992, External Work: #4754",
     "sortOrder": 135,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8952, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8951, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6992, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4754",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -260,11 +260,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #8952, External Work: #6992",
     "sortOrder": 136,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8952, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6992",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -282,7 +282,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": false,
       "mocks": true,
@@ -345,7 +345,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": false,
       "mocks": true,
@@ -403,8 +403,8 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
+      "gen-types": true,
+      "identity-reference": true,
       "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
@@ -462,8 +462,8 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
+      "gen-types": true,
+      "identity-reference": true,
       "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
@@ -526,11 +526,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5705",
     "sortOrder": 149,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5705",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -544,7 +544,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -554,13 +554,13 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5706",
     "sortOrder": 150,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5706",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "appengine",
@@ -590,7 +590,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "appengine",
@@ -618,7 +618,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "appengine",
@@ -648,7 +648,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "artifactregistry",
@@ -785,9 +785,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -847,7 +847,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": false,
       "mapper-fuzzer": false,
       "mocks": true,
@@ -909,19 +909,19 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9562",
     "sortOrder": 181,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9562",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -1042,11 +1042,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9616",
+    "notes": "External Work: #9616, External Work: #7385",
     "sortOrder": 186,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9616",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9616, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7385",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -1064,8 +1064,8 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
+      "gen-types": true,
+      "identity-reference": true,
       "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
@@ -1094,9 +1094,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -1124,7 +1124,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
@@ -1132,11 +1132,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9170, External Work: #5011, External Work: #5944, External Work: #4994",
     "sortOrder": 189,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9170, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5011, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5944, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/4994",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -1192,11 +1192,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #4760",
     "sortOrder": 192,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4760",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -1320,7 +1320,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "cloudasset",
@@ -1348,7 +1348,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "cloudasset",
@@ -1378,7 +1378,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "cloudbuild",
@@ -1397,8 +1397,8 @@
     "state": "In Progress",
     "steps": {
       "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -1440,7 +1440,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "cloudfunctions",
@@ -1530,7 +1530,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "cloudiot",
@@ -1605,7 +1605,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
@@ -1613,11 +1613,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10507",
     "sortOrder": 53,
     "downstreamCount": 2,
     "trackingIssue": "#10470",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10507",
     "assignee": "barney-s",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -1643,11 +1643,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9956",
     "sortOrder": 224,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9956",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -1673,11 +1673,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9958, External Work: #9957, External Work: #7578, External Work: #7330",
     "sortOrder": 20,
     "downstreamCount": 7,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9958, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9957, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7578, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7330",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -1704,11 +1704,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9958, External Work: #7578, External Work: #7330",
     "sortOrder": 225,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9958, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7578, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7330",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -1732,18 +1732,18 @@
     "state": "In Progress",
     "steps": {
       "gen-types": false,
-      "identity-reference": false,
+      "identity-reference": true,
       "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #8857",
+    "notes": "External Work: #8857, External Work: #9964, External Work: #9960, External Work: #6975, External Work: #7736",
     "sortOrder": 16,
     "downstreamCount": 9,
     "trackingIssue": "",
-    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8857",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8857, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9964, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9960, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6975, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7736",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -1770,11 +1770,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9964",
     "sortOrder": 226,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9964",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -1795,19 +1795,19 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10508, External Work: #9968",
     "sortOrder": 527,
     "downstreamCount": 4,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10508, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9968",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -1834,11 +1834,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9968",
     "sortOrder": 525,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9968",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -1862,11 +1862,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9970",
     "sortOrder": 227,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9970",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -1884,7 +1884,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
@@ -1892,11 +1892,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10526, External Work: #10515, External Work: #9976, External Work: #5440",
     "sortOrder": 228,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10526, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10515, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9976, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5440",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -1914,7 +1914,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
@@ -1922,11 +1922,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10526, External Work: #9976, External Work: #5440",
     "sortOrder": 31,
     "downstreamCount": 4,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10526, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9976, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5440",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -1952,11 +1952,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9976",
     "sortOrder": 229,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9976",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2023,11 +2023,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9980, External Work: #9978, External Work: #4541, External Work: #7316",
     "sortOrder": 232,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9980, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9978, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4541, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7316",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2053,11 +2053,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9980",
     "sortOrder": 233,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9980",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2109,11 +2109,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9982",
     "sortOrder": 234,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9982",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2129,7 +2129,7 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": false,
       "mapper-fuzzer": false,
       "mocks": true,
@@ -2137,11 +2137,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9983",
     "sortOrder": 12,
     "downstreamCount": 12,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9983",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2160,7 +2160,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
@@ -2168,11 +2168,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10572",
     "sortOrder": 524,
     "downstreamCount": 4,
     "trackingIssue": "#10552",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10572",
     "assignee": "daedalus-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2224,7 +2224,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
@@ -2232,11 +2232,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9988, External Work: #9987",
     "sortOrder": 15,
     "downstreamCount": 10,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9988, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9987",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2265,11 +2265,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9987",
     "sortOrder": 89,
     "downstreamCount": 1,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9987",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2295,11 +2295,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9988",
     "sortOrder": 235,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9988",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2328,11 +2328,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9989, External Work: #6168, External Work: #5958",
     "sortOrder": 21,
     "downstreamCount": 7,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9989, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/6168, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5958",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2358,11 +2358,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9990",
     "sortOrder": 33,
     "downstreamCount": 4,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9990",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2388,11 +2388,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9991",
     "sortOrder": 237,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9991",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2418,11 +2418,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9992",
     "sortOrder": 238,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9992",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2438,19 +2438,19 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
+      "gen-types": true,
+      "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10519, External Work: #10002, External Work: #9999, External Work: #9998, External Work: #9997, External Work: #9995, External Work: #9994, External Work: #6858, External Work: #6195, External Work: #6132, External Work: #5608, External Work: #4942",
     "sortOrder": 5,
     "downstreamCount": 123,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10519, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10002, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9999, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9998, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9997, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9995, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9994, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6858, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6195, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6132, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5608, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4942",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2478,11 +2478,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9995, External Work: #9994, External Work: #6132",
     "sortOrder": 241,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9995, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9994, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6132",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2509,11 +2509,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9995, External Work: #6132",
     "sortOrder": 14,
     "downstreamCount": 11,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9995, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6132",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2539,11 +2539,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9999, External Work: #9998, External Work: #9997, External Work: #4942",
     "sortOrder": 242,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9999, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9998, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9997, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4942",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2570,11 +2570,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9998",
     "sortOrder": 243,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9998",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2601,11 +2601,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9999, External Work: #4942",
     "sortOrder": 244,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9999, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4942",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2623,7 +2623,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
@@ -2631,11 +2631,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10002, External Work: #5608",
     "sortOrder": 245,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10002, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5608",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2662,11 +2662,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10002, External Work: #5608",
     "sortOrder": 246,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10002, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5608",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2685,7 +2685,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
@@ -2693,11 +2693,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10003",
     "sortOrder": 247,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10003",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2713,7 +2713,7 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
@@ -2749,11 +2749,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10010, External Work: #10007, External Work: #10006",
     "sortOrder": 248,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10010, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10007, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10006",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2777,11 +2777,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10007",
     "sortOrder": 249,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10007",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2805,11 +2805,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10010",
     "sortOrder": 250,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10010",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2835,11 +2835,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10011",
     "sortOrder": 251,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10011",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2858,7 +2858,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": false,
       "mapper-fuzzer": false,
       "mocks": true,
@@ -2866,11 +2866,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10012",
     "sortOrder": 252,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10012",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2894,11 +2894,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10013",
     "sortOrder": 253,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10013",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2924,11 +2924,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10014",
     "sortOrder": 254,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10014",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2955,11 +2955,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10015",
     "sortOrder": 526,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10015",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2987,11 +2987,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10017",
     "sortOrder": 255,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10017",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3011,7 +3011,7 @@
     "steps": {
       "gen-types": false,
       "identity-reference": false,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -3047,11 +3047,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10019",
     "sortOrder": 257,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10019",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3098,7 +3098,7 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
@@ -3136,11 +3136,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10574, External Work: #10551, External Work: #10029, External Work: #10028, External Work: #10027, External Work: #10023, External Work: #6649, External Work: #10424",
     "sortOrder": 260,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10574, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10551, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10029, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10028, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10027, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10023, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6649, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10424",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3158,7 +3158,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
@@ -3166,11 +3166,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10574, External Work: #10029, External Work: #10028, External Work: #10027, External Work: #6649, External Work: #10424",
     "sortOrder": 24,
     "downstreamCount": 6,
     "trackingIssue": "#10551",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10574, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10029, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10028, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10027, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6649, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10424",
     "assignee": "daedalus-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3199,11 +3199,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10027",
     "sortOrder": 91,
     "downstreamCount": 1,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10027",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3230,11 +3230,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10424",
+    "notes": "External Work: #10424, External Work: #10028, External Work: #6649",
     "sortOrder": 261,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10424",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10424, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10028, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6649",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3261,11 +3261,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10029",
     "sortOrder": 262,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10029",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3282,18 +3282,18 @@
     "state": "In Progress",
     "steps": {
       "gen-types": false,
-      "identity-reference": false,
+      "identity-reference": true,
       "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10030",
     "sortOrder": 263,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10030",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3337,19 +3337,19 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
+      "gen-types": true,
+      "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10034, External Work: #6486, External Work: #5353, External Work: #3783",
     "sortOrder": 11,
     "downstreamCount": 13,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10034, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6486, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5353, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/3783",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3375,11 +3375,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10035",
     "sortOrder": 54,
     "downstreamCount": 2,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10035",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3403,11 +3403,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10037",
     "sortOrder": 264,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10037",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3433,11 +3433,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10038",
     "sortOrder": 265,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10038",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3455,7 +3455,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
@@ -3485,19 +3485,19 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5953, External Work: #5773",
     "sortOrder": 9,
     "downstreamCount": 23,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5953, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5773",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3523,11 +3523,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10041",
     "sortOrder": 55,
     "downstreamCount": 2,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10041",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3553,11 +3553,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10042",
     "sortOrder": 56,
     "downstreamCount": 2,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10042",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3576,19 +3576,19 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10043, External Work: #8480, External Work: #6788, External Work: #5399, External Work: #4602",
     "sortOrder": 57,
     "downstreamCount": 2,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10043, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8480, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6788, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5399, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4602",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3616,11 +3616,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10044",
     "sortOrder": 266,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10044",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3647,11 +3647,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10133",
     "sortOrder": 267,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10133",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3678,11 +3678,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10134",
     "sortOrder": 58,
     "downstreamCount": 2,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10134",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3739,11 +3739,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10136",
     "sortOrder": 26,
     "downstreamCount": 5,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10136",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3762,7 +3762,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": false,
       "mocks": true,
@@ -3770,11 +3770,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #8709",
+    "notes": "External Work: #8709, External Work: #10575, External Work: #6438, External Work: #5713",
     "sortOrder": 27,
     "downstreamCount": 5,
     "trackingIssue": "#9740",
-    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8709",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8709, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10575, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6438, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5713",
     "assignee": "barney-s",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3801,11 +3801,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10138",
     "sortOrder": 39,
     "downstreamCount": 3,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10138",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3833,11 +3833,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10139",
     "sortOrder": 60,
     "downstreamCount": 2,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10139",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3917,9 +3917,9 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -3928,7 +3928,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "containerattached",
@@ -3976,7 +3976,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
@@ -3984,11 +3984,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10459, #10458, #8960, #8125, #8135",
+    "notes": "External Work: #10459, #10458, #8960, #8125, #8135, External Work: #9813, External Work: #8362, External Work: #7605, External Work: #7604, External Work: #7495, External Work: #7206, External Work: #6655, External Work: #6654, External Work: #6652, External Work: #6520, External Work: #6496, External Work: #6429, External Work: #5901, External Work: #5514, External Work: #5186, External Work: #6831, External Work: #5086, External Work: #5085, External Work: #4987",
     "sortOrder": 61,
     "downstreamCount": 2,
     "trackingIssue": "",
-    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10459, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10458, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8960, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8125, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8135",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10459, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10458, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8960, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8125, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8135, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9813, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8362, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7605, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7604, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7495, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7206, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6655, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6654, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6652, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6520, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6496, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6429, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5901, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5514, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5186, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/6831, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5086, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5085, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/4987",
     "assignee": "himanigulati01",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -4009,7 +4009,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
@@ -4017,11 +4017,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10410, #9684, #8362",
+    "notes": "External Work: #10410, #9684, #8362, External Work: #10534, External Work: #7682, External Work: #7604, External Work: #6520, External Work: #4871, External Work: #3798, External Work: #3570, External Work: #3480, External Work: #2775",
     "sortOrder": 273,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10410, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9684, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8362",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10410, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9684, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8362, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10534, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7682, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7604, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6520, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4871, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/3798, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/3570, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/3480, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/2775",
     "assignee": "gemmahou",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -4110,11 +4110,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #7417",
     "sortOrder": 278,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7417",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -4228,17 +4228,17 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9395",
+    "notes": "External Work: #9395, External Work: #9777, External Work: #7603, External Work: #5355, External Work: #4982, External Work: #3287",
     "sortOrder": 281,
     "downstreamCount": 0,
     "trackingIssue": "#10415",
-    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9395",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9395, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9777, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7603, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5355, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4982, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/3287",
     "assignee": "barney-s",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -4294,11 +4294,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10442",
     "sortOrder": 283,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10442",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -4316,8 +4316,8 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
+      "gen-types": true,
+      "identity-reference": true,
       "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
@@ -4346,9 +4346,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -4442,7 +4442,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
@@ -4450,11 +4450,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9410, External Work: #6803",
     "sortOrder": 295,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9410, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6803",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -4472,7 +4472,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": false,
       "mapper-fuzzer": false,
       "mocks": true,
@@ -4507,18 +4507,18 @@
     "state": "In Progress",
     "steps": {
       "gen-types": false,
-      "identity-reference": false,
+      "identity-reference": true,
       "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10461, #9000, #8023",
+    "notes": "External Work: #10461, #9000, #8023, External Work: #6989, External Work: #5609",
     "sortOrder": 25,
     "downstreamCount": 6,
     "trackingIssue": "",
-    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10461, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9000, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8023",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10461, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9000, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8023, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6989, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5609",
     "assignee": "maqiuyujoyce",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -4584,7 +4584,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "datastream",
@@ -4603,9 +4603,9 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -4614,7 +4614,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "deploymentmanager",
@@ -4672,7 +4672,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflowcx",
@@ -4702,7 +4702,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflowcx",
@@ -4730,7 +4730,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflowcx",
@@ -4758,7 +4758,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflowcx",
@@ -4786,7 +4786,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflowcx",
@@ -4814,7 +4814,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflowcx",
@@ -4842,7 +4842,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflow",
@@ -5172,11 +5172,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10267",
     "sortOrder": 347,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10267",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -5327,7 +5327,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "firebasehosting",
@@ -5415,7 +5415,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "firebase",
@@ -5443,7 +5443,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "firestore",
@@ -5494,11 +5494,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9481, External Work: #9266, External Work: #5007, External Work: #6018, External Work: #6017, External Work: #5474, External Work: #5434, External Work: #5008",
     "sortOrder": 1,
     "downstreamCount": 367,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9481, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9266, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5007, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/6018, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/6017, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5474, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5434, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5008",
     "assignee": "",
     "stage": "Stage 5 (Controller Implemented)"
   },
@@ -5524,11 +5524,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #6471, External Work: #4597, External Work: #5801, External Work: #5788",
     "sortOrder": 102,
     "downstreamCount": 1,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6471, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4597, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5801, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5788",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -5545,7 +5545,7 @@
     "state": "In Progress",
     "steps": {
       "gen-types": false,
-      "identity-reference": false,
+      "identity-reference": true,
       "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
@@ -5586,7 +5586,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "healthcare",
@@ -5614,7 +5614,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "healthcare",
@@ -5672,7 +5672,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "healthcare",
@@ -5700,7 +5700,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "iam",
@@ -5744,7 +5744,7 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": false,
       "mapper-fuzzer": false,
       "mocks": true,
@@ -5752,11 +5752,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #7649",
     "sortOrder": 371,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7649",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -5832,7 +5832,7 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": false,
       "mapper-fuzzer": false,
       "mocks": true,
@@ -5840,11 +5840,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #6027, External Work: #2873, External Work: #7650, External Work: #5739",
     "sortOrder": 375,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6027, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/2873, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7650, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5739",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -5863,7 +5863,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": false,
       "mapper-fuzzer": false,
       "mocks": true,
@@ -5871,11 +5871,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #6027",
     "sortOrder": 376,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6027",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -5899,11 +5899,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #6675, External Work: #3338",
     "sortOrder": 7,
     "downstreamCount": 51,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6675, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/3338",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -5921,19 +5921,19 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
+      "gen-types": true,
+      "identity-reference": true,
       "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #6675, External Work: #3338",
     "sortOrder": 377,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6675, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/3338",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -6068,7 +6068,7 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
@@ -6136,11 +6136,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9416",
     "sortOrder": 382,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9416",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -6260,7 +6260,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "identityplatform",
@@ -6318,7 +6318,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "identityplatform",
@@ -6348,7 +6348,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "identityplatform",
@@ -6423,12 +6423,12 @@
     "dependencies": [],
     "state": "Not Started",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -6437,7 +6437,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "kms",
@@ -6483,18 +6483,18 @@
       "gen-types": false,
       "identity-reference": true,
       "mapper-fuzzer": true,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10570",
     "sortOrder": 394,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10570",
     "assignee": "",
-    "stage": "Stage 3 (KRM Fuzzer)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "kms",
@@ -6506,23 +6506,23 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10172",
     "sortOrder": 395,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10172",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "logging",
@@ -6729,7 +6729,7 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
@@ -6737,11 +6737,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9681, External Work: #6991, External Work: #5641",
     "sortOrder": 107,
     "downstreamCount": 1,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9681, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6991, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5641",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -6759,7 +6759,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
@@ -6789,7 +6789,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": false,
       "mocks": true,
@@ -6817,19 +6817,19 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5721",
     "sortOrder": 411,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5721",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -6845,19 +6845,19 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #7684",
     "sortOrder": 412,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7684",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -6875,7 +6875,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
@@ -6883,11 +6883,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10147, External Work: #5559",
     "sortOrder": 109,
     "downstreamCount": 1,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10147, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5559",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -6914,11 +6914,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10147, External Work: #5559",
     "sortOrder": 413,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10147, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5559",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -6937,7 +6937,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
@@ -6945,11 +6945,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9566, External Work: #5714",
     "sortOrder": 414,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9566, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5714",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -7028,19 +7028,19 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5077",
     "sortOrder": 422,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5077",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -7058,8 +7058,8 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
+      "gen-types": true,
+      "identity-reference": true,
       "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
@@ -7089,7 +7089,7 @@
     "state": "In Progress",
     "steps": {
       "gen-types": false,
-      "identity-reference": false,
+      "identity-reference": true,
       "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
@@ -7186,11 +7186,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #7277",
     "sortOrder": 433,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7277",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -7247,11 +7247,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #3520",
     "sortOrder": 435,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/3520",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -7308,11 +7308,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #6207, External Work: #6511",
     "sortOrder": 437,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6207, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/6511",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -7331,7 +7331,7 @@
     "state": "In Progress",
     "steps": {
       "gen-types": false,
-      "identity-reference": false,
+      "identity-reference": true,
       "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
@@ -7452,8 +7452,8 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
+      "gen-types": true,
+      "identity-reference": true,
       "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
@@ -7582,11 +7582,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Anomaly: tracking issue closed but controller not registered, External Work: #10363, External Work: #10357",
     "sortOrder": 453,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10363, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10357",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -7615,11 +7615,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10363",
+    "notes": "External Work: #10363, External Work: #10357",
     "sortOrder": 113,
     "downstreamCount": 1,
     "trackingIssue": "",
-    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10363",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10363, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10357",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -7675,11 +7675,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10038, External Work: #10037, External Work: #10013, External Work: #5888, External Work: #5721, External Work: #5098, External Work: #4715, External Work: #2943, External Work: #6968, External Work: #6849, External Work: #5240",
     "sortOrder": 3,
     "downstreamCount": 362,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10038, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10037, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10013, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5888, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5721, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5098, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4715, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/2943, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/6968, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/6849, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5240",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -7705,11 +7705,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5702",
     "sortOrder": 455,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5702",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -7735,11 +7735,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5700",
     "sortOrder": 456,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5700",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -7765,11 +7765,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5701",
     "sortOrder": 457,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5701",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -8046,11 +8046,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9714",
+    "notes": "External Work: #9714, External Work: #6686, External Work: #5554",
     "sortOrder": 466,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9714",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9714, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6686, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5554",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -8130,11 +8130,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #8796",
+    "notes": "External Work: #8796, External Work: #7148",
     "sortOrder": 469,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8796",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8796, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7148",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -8226,7 +8226,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "securitycenter",
@@ -8331,7 +8331,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
@@ -8490,11 +8490,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #6319",
     "sortOrder": 481,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6319",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -8514,18 +8514,18 @@
     "state": "In Progress",
     "steps": {
       "gen-types": false,
-      "identity-reference": false,
+      "identity-reference": true,
       "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5359",
     "sortOrder": 117,
     "downstreamCount": 1,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5359",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -8573,19 +8573,19 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9779, External Work: #6921, External Work: #6207, External Work: #5556, External Work: #5553, External Work: #6511, External Work: #5572, External Work: #5546",
     "sortOrder": 8,
     "downstreamCount": 39,
     "trackingIssue": "",
-    "external_tracking": "",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9779, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6921, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6207, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5556, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5553, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/6511, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5572, https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5546",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -8737,7 +8737,7 @@
     "trackingIssue": "",
     "external_tracking": "",
     "assignee": "",
-    "stage": "Not Started"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "storagetransfer",
@@ -8783,9 +8783,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -8965,19 +8965,19 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7985",
+    "notes": "External Work: #7985, External Work: #9698",
     "sortOrder": 506,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7985",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7985, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9698",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -9091,11 +9091,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #8389",
+    "notes": "External Work: #8389, External Work: #8390",
     "sortOrder": 514,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8389",
+    "external_tracking": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8389, https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8390",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
