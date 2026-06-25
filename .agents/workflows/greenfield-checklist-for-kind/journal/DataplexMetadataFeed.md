@@ -16,6 +16,7 @@ The types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-con
 | 4 | MockGCP Log Alignment | - | - | Not Started | - | - |
 
 ## Status Updates
+* **2026-06-25**: Verified that PR #10820 remains open with failing checks (`unit-tests`, `validate-generated-files`, `validations`). Unassigned and re-assigned `hopper-coder-bot` via the GitHub REST API to trigger a fresh troubleshooting attempt.
 * **2026-06-25**: Verified that PR #10820 is open but has failing checks (`unit-tests`, `validate-generated-files`, `validations`) and no active assignee. Assigned the PR back to the author bot `hopper-coder-bot` via the GitHub REST API to re-trigger troubleshooting.
 * **2026-06-25**: Verified PR #10820 remains open with failing checks (`validate-generated-files`, `validations`) and no active assignee. Successfully re-assigned it back to the author bot `hopper-coder-bot` via the GitHub REST API to resume troubleshooting.
 * **2026-06-25**: Verified PR #10820 continues to fail on `validate-generated-files`, `unit-tests`, and `validations` with no active assignee. Re-assigned the PR back to `hopper-coder-bot` via the GitHub REST API to continue troubleshooting and resolve these failing checks.
