@@ -4,7 +4,7 @@ This journal tracks the progress of migrating the `DataplexMetadataFeed` resourc
 
 ## Current Step
 **Step 1: Direct API Types and Identity and Reference Types Pattern**
-Checked PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) and verified that standard checks (`validate-generated-files`, `validations`) continue to fail. Since the PR was unassigned, successfully assigned `hopper-coder-bot` via the GitHub REST API to trigger a fresh troubleshooting attempt.
+The author bot `hopper-coder-bot` pushed a new commit to PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) which upgrades `controller-gen` to `v0.17.2`. This has successfully fixed the `controller-gen` panic! The checks are now failing with standard out-of-date generated file diffs, which `hopper-coder-bot` is actively assigned to resolve.
 
 ## Progress Tracking
 
@@ -16,6 +16,7 @@ Checked PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/
 | 4 | MockGCP Log Alignment | - | - | Not Started | - | - |
 
 ## Status Updates
+* **2026-06-25**: Monitored PR #10820. The author bot `hopper-coder-bot` pushed a new commit `9d529fb02f0b5748247687c416edf55a6a8374f8` upgrading `controller-gen` to `v0.17.2`, successfully resolving the Go 1.23+ deepcopy generator panic. The check runs are now failing on a normal out-of-date generated files diff instead of panicking. The PR remains assigned to `hopper-coder-bot` to complete the file generation.
 * **2026-06-25**: Checked PR #10820 and verified that standard checks (`validate-generated-files`, `validations`) continue to fail. Since the PR was unassigned, successfully assigned `hopper-coder-bot` via the GitHub REST API to trigger a fresh troubleshooting attempt.
 * **2026-06-25**: Checked PR #10820 and verified that `validate-generated-files` and `validations` checks continue to fail. Successfully unassigned and re-assigned `hopper-coder-bot` via the GitHub REST API to trigger a fresh troubleshooting attempt and resolve the failing checks.
 * **2026-06-25**: Checked PR #10820 and verified that `validate-generated-files` and `validations` checks continue to fail. Since there was no active assignee on the PR, successfully assigned it back to the author bot `hopper-coder-bot` via the GitHub REST API to trigger a fresh troubleshooting attempt.
@@ -27,7 +28,7 @@ Checked PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/
 * **2026-06-25**: Monitored the types-only PR #10820 and verified that checks `validate-generated-files` and `validations` remain in a failing state. Verified that the PR was unassigned, and successfully assigned the PR back to the author bot `hopper-coder-bot` via the GitHub REST API to re-trigger automated troubleshooting.
 * **2026-06-25**: Monitored the types-only PR #10820 and verified that checks `validate-generated-files` and `validations` remain in a failing state due to a `controller-gen` panic (`interface conversion: types.Type is nil, not *types.Named`) during CRD/deepcopy generation. Successfully unassigned and re-assigned `hopper-coder-bot` to trigger automated troubleshooting and resolve the failing checks.
 * **2026-06-25**: Checked the status of PR #10820. Found that checks `validate-generated-files` and `validations` have failed and the PR was unassigned. Successfully assigned the PR back to the author bot `hopper-coder-bot` via the GitHub REST API to trigger troubleshooting and resolve the failures.
-* **2026-06-25**: Checked PR #10820 and verified standard checks (`validate-generated-files`, `unit-tests`, `validations`) are currently pending because the author bot `hopper-coder-bot` successfully resolved previous validation failures by renaming reference fields with the standard `Refs` suffix and regenerating all resources. The PR remains assigned to `hopper-coder-bot` for continuous monitoring.
+* **2026-06-25**: Checked PR #10820 and verified standard checks (`unit-tests`, `validate-generated-files`, and `validations`) are currently pending because the author bot `hopper-coder-bot` successfully resolved previous validation failures by renaming reference fields with the standard `Refs` suffix and regenerating all resources. The PR remains assigned to `hopper-coder-bot` for continuous monitoring.
 * **2026-06-25**: Verified PR #10820 remains open with failing checks (`unit-tests`, `validate-generated-files`, and `validations`) and no assignee. Successfully assigned the PR back to the author bot `hopper-coder-bot` via the GitHub REST API to trigger troubleshooting and resolve the failures.
 * **2026-06-25**: Checked PR #10820 and verified that checks 'unit-tests', 'validate-generated-files', and 'validations' continue to fail. Unassigned and re-assigned 'hopper-coder-bot' via the GitHub REST API to trigger a fresh troubleshooting attempt and monitor progress.
 * **2026-06-25**: Checked PR #10820 and verified that checks 'unit-tests', 'validate-generated-files', and 'validations' continue to fail. Since the PR was unassigned, successfully assigned the PR back to 'hopper-coder-bot' via the GitHub REST API to re-trigger troubleshooting.
