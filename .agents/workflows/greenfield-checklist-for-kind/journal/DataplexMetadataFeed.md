@@ -4,7 +4,7 @@ This journal tracks the progress of migrating the `DataplexMetadataFeed` resourc
 
 ## Current Step
 **Step 1: Direct API Types and Identity and Reference Types Pattern**
-The types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) remains open with failing checks (`validate-generated-files`, `validations`). It has been assigned back to `hopper-coder-bot` for troubleshooting and resolution.
+The types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) remains open with failing checks (`validate-generated-files`, `unit-tests`, `validations`). It has been assigned back to `hopper-coder-bot` for continuous monitoring and troubleshooting.
 
 ## Progress Tracking
 
@@ -16,6 +16,7 @@ The types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-con
 | 4 | MockGCP Log Alignment | - | - | Not Started | - | - |
 
 ## Status Updates
+* **2026-06-25**: Verified PR #10820 continues to fail on `validate-generated-files`, `unit-tests`, and `validations` with no active assignee. Re-assigned the PR back to `hopper-coder-bot` via the GitHub REST API to continue troubleshooting and resolve these failing checks.
 * **2026-06-25**: Monitored the progress of the types-only PR #10820. The checks `validate-generated-files`, `unit-tests`, and `validations` remain in a failing state. Unassigned and re-assigned `hopper-coder-bot` via the GitHub REST API to trigger a fresh troubleshooting attempt.
 * **2026-06-25**: Monitored the types-only PR #10820 and found that `validate-generated-files`, `unit-tests`, and `validations` checks remain in a failing state. Since the PR was unassigned, assigned the PR back to the author bot `hopper-coder-bot` via the GitHub REST API to re-trigger its troubleshooting workflow.
 * **2026-06-25**: Monitored the types-only PR #10820 and found `unit-tests`, `validate-generated-files`, and `validations` checks are still failing. Successfully unassigned and re-assigned `hopper-coder-bot` via the GitHub REST API to trigger a fresh troubleshooting attempt.
