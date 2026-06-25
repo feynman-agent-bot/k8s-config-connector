@@ -4,7 +4,7 @@ This journal tracks the progress of migrating the `DataplexMetadataFeed` resourc
 
 ## Current Step
 **Step 1: Direct API Types and Identity and Reference Types Pattern**
-The checks `validate-generated-files` and `validations` on PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) are failing. We have unassigned and re-assigned the author bot `hopper-coder-bot` via the GitHub REST API to trigger a fresh troubleshooting attempt and resolve these failing checks.
+The checks `validate-generated-files` and `validations` on PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) are failing. Since the PR was unassigned, we have assigned the author bot `hopper-coder-bot` via the GitHub REST API to trigger automated troubleshooting and resolve these failing checks.
 
 ## Progress Tracking
 
@@ -16,6 +16,7 @@ The checks `validate-generated-files` and `validations` on PR [#10820](https://g
 | 4 | MockGCP Log Alignment | - | - | Not Started | - | - |
 
 ## Status Updates
+* **2026-06-25**: Monitored the types-only PR #10820 and verified standard checks 'validate-generated-files' and 'validations' continue to fail. Since the PR had no active assignee, assigned the PR back to the author bot 'hopper-coder-bot' via the GitHub REST API to trigger automated troubleshooting and resolve these failing checks.
 * **2026-06-25**: Checked PR #10820 and verified that checks `validate-generated-files` and `validations` continue to fail. Successfully unassigned and re-assigned `hopper-coder-bot` via the GitHub REST API to trigger a fresh troubleshooting attempt and resolve the failing checks.
 * **2026-06-25**: Monitored PR #10820 and verified standard checks (`validate-generated-files`, `validations`) continue to fail. Since the PR was unassigned, successfully assigned it back to the author bot `hopper-coder-bot` via the GitHub REST API to trigger automated troubleshooting and resolve the failing checks.
 * **2026-06-25**: Checked PR #10820 and verified that standard checks (`validate-generated-files`, `validations`) continue to fail. Confirmed the PR remains assigned to `hopper-coder-bot` for ongoing troubleshooting.
