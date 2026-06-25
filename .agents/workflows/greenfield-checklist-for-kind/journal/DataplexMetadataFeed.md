@@ -4,7 +4,7 @@ This journal tracks the progress of migrating the `DataplexMetadataFeed` resourc
 
 ## Current Step
 **Step 1: Direct API Types and Identity and Reference Types Pattern**
-The checks `validate-generated-files` and `validations` on PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) are failing. The PR was unassigned, so we have assigned it back to `hopper-coder-bot` to trigger automated troubleshooting and resolve the failing checks.
+The checks `validate-generated-files` and `validations` on PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) are failing due to out-of-date generated deepcopy/mapper files. We have unassigned and re-assigned the PR back to `hopper-coder-bot` to trigger automated troubleshooting and resolve these failing checks.
 
 ## Progress Tracking
 
@@ -71,3 +71,4 @@ The checks `validate-generated-files` and `validations` on PR [#10820](https://g
 * **2026-06-25**: Verified that PR #10820 remains open with failing checks (`unit-tests`, `validate-generated-files`, and `validations`). Unassigned and re-assigned `hopper-coder-bot` via the GitHub REST API to trigger a fresh troubleshooting attempt and resolve the failures.
 * **2026-06-25**: Checked PR #10820 and verified that checks `validate-generated-files` and `validations` remain in a failing state. Verified the PR was unassigned, and successfully assigned the PR back to the author bot `hopper-coder-bot` via the GitHub REST API to re-trigger troubleshooting and resolve the failures.
 * **2026-06-25**: Checked PR #10820 and verified that standard checks (`validate-generated-files`, `validations`) continue to fail. Confirmed that the PR had no active assignee, and successfully assigned it back to the author bot `hopper-coder-bot` via the GitHub REST API to trigger automated troubleshooting and resolve the failing checks.
+* **2026-06-25**: Monitored PR #10820 and verified that `unit-tests` and other checks are passing, but `validate-generated-files` and `validations` checks fail because `zz_generated.deepcopy.go` and `mapper.generated.go` are out of date. Successfully unassigned and re-assigned `hopper-coder-bot` via the GitHub REST API to trigger automated troubleshooting and resolve these failing checks.
