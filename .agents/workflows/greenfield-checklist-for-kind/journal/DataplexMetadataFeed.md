@@ -4,7 +4,7 @@ This journal tracks the progress of migrating the `DataplexMetadataFeed` resourc
 
 ## Current Step
 **Step 1: Direct API Types and Identity and Reference Types Pattern**
-The initial types-only PR has been created, but some CI check-runs are failing. Assigning the PR back to the author bot (`hopper-coder-bot`) for troubleshooting and resolution.
+The types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) remains open with failing checks (`validate-generated-files`, `unit-tests`, `validations`). It has been assigned back to `hopper-coder-bot` for troubleshooting and resolution.
 
 ## Progress Tracking
 
@@ -16,6 +16,7 @@ The initial types-only PR has been created, but some CI check-runs are failing. 
 | 4 | MockGCP Log Alignment | - | - | Not Started | - | - |
 
 ## Status Updates
+* **2026-06-25**: Monitored PR #10820 checks and found that 'validate-generated-files', 'unit-tests', and 'validations' continue to fail. Since the PR was unassigned, assigned the PR back to 'hopper-coder-bot' via the REST API to re-trigger troubleshooting.
 * **2026-06-25**: Checked the CI check runs on PR #10820 and verified that `unit-tests`, `validate-generated-files`, and `validations` checks remain in a failing state. Since there were no active runs on GitHub Actions, unassigned and re-assigned `hopper-coder-bot` via the REST API to re-trigger its troubleshooting workflow.
 * **2026-06-25**: Checked PR #10820 status and verified that checks `validate-generated-files`, `unit-tests`, and `validations` are failing. Confirmed PR has no assignee. Successfully assigned the PR back to the author bot `hopper-coder-bot` to trigger troubleshooting and resolve the failures.
 * **2026-06-25**: Monitored the progress of the types-only PR #10820. The PR remains open and assigned to `hopper-coder-bot` with failing checks (`validate-generated-files`, `unit-tests`, `validations`). Continuing to monitor the PR for fixes.
