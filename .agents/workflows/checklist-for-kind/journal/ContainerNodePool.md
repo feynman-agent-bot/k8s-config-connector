@@ -10,10 +10,11 @@ Step 4: Ensure MockGCP matches real gcp behavior
 | 1 | Direct API Types | [#9794](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9794) | [#9800](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9800) | Completed | 2026-06-12 | 2026-06-12 |
 | 2 | Identity and Reference Types Pattern | [#10433](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10433) | [#10506](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10506) | Completed | 2026-06-19 | 2026-06-19 |
 | 3 | Create a Round-Trip KRM Fuzzer | [#9794](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9794) | [#9800](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9800) | Completed | 2026-06-12 | 2026-06-12 |
-| 4 | Ensure MockGCP matches real gcp behavior | [#10887](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10887) | TBD | Open | 2026-06-25 | |
+| 4 | Ensure MockGCP matches real gcp behavior | [#10887](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10887) | [#10910](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10910) | Open | 2026-06-25 | |
 | 5 | Implement Direct Controller & E2E Fixtures | | | Pending | | |
 
 ## Status Update Notes
+* **2026-06-26**: Re-verified Step 4 status at 03:55 UTC. Issue #10887 remains OPEN. PR #10910 is OPEN, but `test-mockgcp` failed on commit `2c4e4b087d0674116c2e78c17d7f851d3ba57a88`. Checked PR #10908; all GHA checks have completed successfully and passed. Assigned PR #10910 back to `lovelace-coder-bot` via the REST API to trigger automatic diagnostic and resolution flow for the `test-mockgcp` failure. Will continue to monitor both.
 * **2026-06-25**: Checked the status of MockGCP alignment for ContainerNodePool. Issue #10887 is still OPEN. The AI Factory sandbox fixing is currently in progress, and no pull request has been opened yet by `lovelace-coder-bot`.
 * **2026-06-25**: Re-evaluated Step 4. Confirmed that issue #10887 remains OPEN with `lovelace-coder-bot` assigned, and no pull request has been opened yet. Will continue to monitor the sandbox fixing progress.
 * **2026-06-25**: Checked status again. Issue #10887 remains OPEN. No pull request has been opened yet by `lovelace-coder-bot`. Monitoring the AI Factory sandbox progress.
