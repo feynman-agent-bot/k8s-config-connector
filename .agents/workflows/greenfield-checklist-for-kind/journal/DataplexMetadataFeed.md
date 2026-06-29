@@ -4,18 +4,19 @@ This journal tracks the progress of migrating the `DataplexMetadataFeed` resourc
 
 ## Current Step
 **Step 1: Direct API Types and Identity and Reference Types Pattern**
-PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) is open, and all 193 CI checks are completed and passing successfully (100% green). We are currently waiting for a human OWNER review and merge of this types-only PR before we can proceed to Step 2 (Direct Controller & E2E Fixtures).
+PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) is open, but currently has git merge conflicts (mergeable state is "dirty"). We have assigned the PR back to the author bot `hopper-coder-bot` to resolve the conflicts.
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Direct API Types & Identity | [#9280](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9280) | [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) | PR Created (Passing Checks) | 2026-06-25 | - |
+| 1 | Direct API Types & Identity | [#9280](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9280) | [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) | PR Created (Merge Conflict) | 2026-06-25 | - |
 | 2 | Direct Controller & E2E Fixtures | - | - | Not Started | - | - |
 | 3 | MockGCP Generation & Alignment | - | - | Not Started | - | - |
 | 4 | MockGCP Log Alignment | - | - | Not Started | - | - |
 
 ## Status Updates
+* **2026-06-29 (21:45 UTC)**: Checked types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820). The PR's mergeable_state is "dirty", indicating git merge conflicts. Assigned the PR back to `hopper-coder-bot` to resolve the conflicts.
 * **2026-06-29 (21:21 UTC)**: Re-verified types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) status. All 193 CI checks are completed and passing successfully (100% green). The types-only PR remains OPEN, and we continue to wait for a human OWNER review and merge of this types-only PR before we can proceed to Step 2 (Direct Controller & E2E Fixtures).
 * **2026-06-29 (21:08 UTC)**: Re-verified types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) status. All 193 CI checks are completed and passing successfully (100% green). The types-only PR remains OPEN, and we continue to wait for a human OWNER review and merge of this types-only PR before we can proceed to Step 2 (Direct Controller & E2E Fixtures).
 * **2026-06-29 (20:46 UTC)**: Checked types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) status. All 193 CI checks are completed and passing successfully (100% green). The types-only PR remains OPEN, and we continue to wait for a human OWNER review and merge of this types-only PR before we can proceed to Step 2 (Direct Controller & E2E Fixtures).
