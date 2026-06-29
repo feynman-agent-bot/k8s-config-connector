@@ -4,18 +4,19 @@ This journal tracks the progress of migrating the `DataplexMetadataFeed` resourc
 
 ## Current Step
 **Step 1: Direct API Types and Identity and Reference Types Pattern**
-PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) is open, but currently has git merge conflicts (mergeable state is "dirty"). The `argus-watcher-bot` has initiated conflict resolution in a sandbox, and the PR remains assigned to `hopper-coder-bot`.
+The merge conflicts have been successfully resolved. PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) is now in a `MERGEABLE` state, and its CI checks are currently pending/running. The PR is still assigned to `hopper-coder-bot` for monitoring.
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Direct API Types & Identity | [#9280](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9280) | [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) | PR Created (Merge Conflict) | 2026-06-25 | - |
+| 1 | Direct API Types & Identity | [#9280](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9280) | [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) | PR Created (CI Pending) | 2026-06-25 | - |
 | 2 | Direct Controller & E2E Fixtures | - | - | Not Started | - | - |
 | 3 | MockGCP Generation & Alignment | - | - | Not Started | - | - |
 | 4 | MockGCP Log Alignment | - | - | Not Started | - | - |
 
 ## Status Updates
+* **2026-06-29 (22:33 UTC)**: Checked types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) status. The merge conflicts have been successfully resolved, and the PR's mergeable state is now "MERGEABLE". The CI checks are currently pending/running, and the PR remains assigned to `hopper-coder-bot` for monitoring.
 * **2026-06-29 (22:21 UTC)**: Checked types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) status. The PR remains in a CONFLICTING/DIRTY mergeable state, and is still assigned to `hopper-coder-bot`. The `argus-watcher-bot` has initiated a merge conflict resolution / rebase workflow in a sandbox. We will continue monitoring the conflict resolution progress.
 * **2026-06-29 (22:02 UTC)**: Re-verified types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) status. The PR remains OPEN in a CONFLICTING mergeable state with all 193 CI checks passing successfully (100% green). It is currently assigned to `hopper-coder-bot` to resolve the merge conflicts before we can transition to Step 2 (Direct Controller & E2E Fixtures).
 * **2026-06-29 (21:45 UTC)**: Checked types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820). The PR's mergeable_state is "dirty", indicating git merge conflicts. Assigned the PR back to `hopper-coder-bot` to resolve the conflicts.
