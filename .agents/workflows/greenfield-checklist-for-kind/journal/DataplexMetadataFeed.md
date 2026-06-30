@@ -4,18 +4,19 @@ This journal tracks the progress of migrating the `DataplexMetadataFeed` resourc
 
 ## Current Step
 **Step 1: Direct API Types and Identity and Reference Types Pattern**
-The types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) is open, but the latest CI checks have failed ('validations', 'golangci-lint', 'tests-preview', 'unit-tests', and 'validate-generated-files'). It has been assigned back to `hopper-coder-bot` for troubleshooting.
+The types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) is open, and a new commit (`2f172f257546c8a9594fbdc83fc8a88dee535066`) was pushed by `hopper-coder-bot`. The CI checks are currently running and in-progress.
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Direct API Types & Identity | [#9280](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9280) | [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) | PR Created (Troubleshooting) | 2026-06-25 | - |
+| 1 | Direct API Types & Identity | [#9280](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9280) | [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) | PR Created (CI In Progress) | 2026-06-25 | - |
 | 2 | Direct Controller & E2E Fixtures | - | - | Not Started | - | - |
 | 3 | MockGCP Generation & Alignment | - | - | Not Started | - | - |
 | 4 | MockGCP Log Alignment | - | - | Not Started | - | - |
 
 ## Status Updates
+* **2026-06-30 (01:54 UTC)**: Checked types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) status. A new commit (`2f172f257546c8a9594fbdc83fc8a88dee535066`) was pushed by `hopper-coder-bot` to address previous failures. The CI checks are currently running and in-progress (173 running, 15 succeeded, 5 skipped, 0 failed). The PR remains assigned to `hopper-coder-bot` while we monitor the run.
 * **2026-06-30 (01:29 UTC)**: Checked types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) status. The CI checks remain in a failed state ('golangci-lint', 'tests-preview', 'unit-tests', 'validate-generated-files', and 'validations'). Re-assigned the PR back to `hopper-coder-bot` via the REST API to ensure the automated troubleshooting and fix cycle continues.
 * **2026-06-30 (01:16 UTC)**: Checked types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) status. The CI checks remain in a failed state ('golangci-lint', 'tests-preview', 'unit-tests', 'validate-generated-files', and 'validations'). Re-assigned the PR back to `hopper-coder-bot` via the REST API to ensure the automated troubleshooting and fix cycle continues.
 * **2026-06-30 (00:54 UTC)**: Checked types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) status. The CI checks remain in a failed state ('golangci-lint', 'tests-preview', 'unit-tests', 'validate-generated-files', and 'validations'). The PR remains assigned to `hopper-coder-bot` for ongoing troubleshooting.
