@@ -7,7 +7,7 @@
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types, Identity & refs Pattern | [#10320](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10320) | [#10356](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10356) | PR Closed | 2026-06-15 | - |
+| 1 | Direct API Types, Identity & refs Pattern | [#10320](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10320) | [#10988](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10988) | PR Created | 2026-06-15 | - |
 | 2 | Direct Controller, E2E fixtures and Fuzzer | - | - | Not Started | - | - |
 | 3 | mockGCP generation | - | - | Not Started | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Not Started | - | - |
@@ -15,10 +15,10 @@
 ## Status Update Notes
 
 ### 2026-06-30
-- Checked status of Issue #10320 (Step 1: Types & Identity) and verified it remains open and assigned to implementation bots (`codebot-robot` and `ada-coder-bot`).
-- Confirmed that no new Pull Request has been opened yet since the previous PR #10356 was closed.
-- Verified that there are no other open/closed Pull Requests for this resource.
-- We will continue monitoring the issue and await the implementation bot to submit a new Pull Request for Step 1.
+- Observed that a new Pull Request #10988 has been opened by `ada-coder-bot` for Step 1.
+- Checked CI check runs on PR #10988 and found some failures: `unit-tests-operator`, `validate-generated-files`, and `validations`.
+- Assigned PR #10988 to its author bot `ada-coder-bot` via the REST API to handle the failures and update the PR.
+- Updated Step 1 status to "PR Created".
 
 ### 2026-06-29
 - Initialized greenfield checklist journal for WorkloadManagerEvaluation.
