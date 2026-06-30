@@ -14,6 +14,11 @@
 
 ## Status Update Notes
 
+### 2026-06-30 (Update 12)
+- Monitored the completed and running CI check runs. All core checks (including `unit-tests`, `unit-tests-operator`, `validate-generated-files`, and `validations`) have passed successfully with zero failures.
+- Several unrelated e2e fixture runs are still in progress or pending, but the PR is fully functional, clean, and ready for review/merging.
+- We remain on Step 1, awaiting human OWNER (`fedebongio`) review and final merge of the PR.
+
 ### 2026-06-30 (Update 11)
 - Verified that all CI checks for commit `e5b1ea52ebca8005abd393f68656f0fb76e03ac7` have successfully passed, including `unit-tests`, `unit-tests-operator`, `validate-generated-files`, and `validations`.
 - The pull request is clean and ready for review/merging.
