@@ -14,13 +14,22 @@
 
 ## Status Update Notes
 
-### 2026-06-30
+### 2026-06-30 (Update 3)
+- Checked the completed CI status on PR #10988. Observed that several validation checks failed on the latest force-pushed commit `1d9c8b68836ecb1c22ca8e7f063c9d49cf8b7a6a`:
+  - `unit-tests-operator` failed due to golden file mismatch in `TestGoldenConfigConnector/simple` because the newly added `workloadmanager.cnrm.cloud.google.com` API group is missing from the golden RBAC manifests in `operator/pkg/controllers/configconnector/testdata/golden/simple/_expected.yaml`.
+  - `unit-tests` failed due to missing validation exception entries for `WorkloadManagerEvaluation` in `alpha-missingfields.txt` and `missingrefs.txt`.
+  - `validate-generated-files` and `validations` failed as well, due to these outstanding generation/validation mismatches.
+- Assigned the PR #10988 back to its author `ada-coder-bot` so that it can resolve these failures (e.g., by regenerating the golden files and exception lists with `WRITE_GOLDEN_OUTPUT=true`).
+- We remain on Step 1 awaiting the validation fixes and eventual merge.
+
+### 2026-06-30 (Update 2)
 - Checked PR #10988 status and comments. Noted that `ada-coder-bot` resolved the previous proto compilation issue by employing the custom isolated `PROTO_SHA` pattern in `apis/workloadmanager/v1alpha1/generate.sh` and force-pushed.
 - Inspected the newly triggered CI checks on PR #10988. Observed that while many checks are still in-progress, the `unit-tests-operator` check-run failed.
 - Analyzed the failed job log (run `28418262513` job `84205797217`) and identified the failure as a golden file mismatch in `TestGoldenConfigConnector/simple` because the newly added `workloadmanager.cnrm.cloud.google.com` API group is missing from the golden RBAC manifests in `operator/pkg/controllers/configconnector/testdata/golden/simple/_expected.yaml`.
 - Assigned the PR #10988 to its author `ada-coder-bot` to address the operator golden file mismatch and regenerate the expected golden files.
 - We remain on Step 1 awaiting the CI fixes and merge.
 
+### 2026-06-30 (Update 1)
 - Monitored the progress of Pull Request #10988. Checked the newly triggered CI checks on PR #10988.
 - Observed that `ada-coder-bot` investigated the previous failures, found that the `apis/git.versions` update had broken compilation for other APIs, and reverted it back to stable commit `1765b559c42386788ff0c6412491277b4791107a` in a force-pushed commit `c1b00313a20cbe08cef599d3d3287efa502e7a9b`.
 - Checked the updated CI run and noted that the `validate-generated-files` check-run failed.
