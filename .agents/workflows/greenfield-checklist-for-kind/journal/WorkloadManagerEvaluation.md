@@ -15,12 +15,10 @@
 ## Status Update Notes
 
 ### 2026-06-30
-- Monitored the progress of Pull Request #10988. Checked CI status and confirmed that the check-runs (`unit-tests-operator`, `validate-generated-files`, `unit-tests`, and `validations`) are still in a failing state.
-- Verified that `ada-coder-bot` remains assigned to the PR, and AI Factory (via `argus-watcher-bot`) is investigating the failures. We remain on Step 1 awaiting the fixes.
-- Observed that Pull Request #10988 has been opened by `ada-coder-bot` for Step 1.
-- Checked CI check runs on PR #10988 and found multiple failures: `unit-tests`, `unit-tests-operator`, `validate-generated-files`, and `validations`.
-- Verified that PR #10988 is assigned to its author bot `ada-coder-bot` to address the failures.
-- Updated Step 1 status to "PR Created".
+- Monitored the progress of Pull Request #10988. Checked the newly triggered CI checks on PR #10988.
+- Observed that `ada-coder-bot` investigated the previous failures, found that the `apis/git.versions` update had broken compilation for other APIs, and reverted it back to stable commit `1765b559c42386788ff0c6412491277b4791107a` in a force-pushed commit `c1b00313a20cbe08cef599d3d3287efa502e7a9b`.
+- Checked the updated CI run and noted that the `validate-generated-files` check-run failed.
+- Verified that `ada-coder-bot` remains assigned to the underlying issue, and AI Factory is active. We remain on Step 1 awaiting the validation fixes.
 
 ### 2026-06-29
 - Initialized greenfield checklist journal for WorkloadManagerEvaluation.
