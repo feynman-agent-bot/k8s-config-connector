@@ -14,6 +14,13 @@
 
 ## Status Update Notes
 
+### 2026-06-30 (Update 9)
+- Monitored PR #10988 and confirmed that the latest commit `03af2428f8d346c45dbccee6bdb25bb9c7d09118` successfully passed `unit-tests`, `unit-tests-operator`, `validate-generated-files`, and other presubmits.
+- However, the `validations` check-run is still in a `failure` state due to missing regenerated Go clients.
+- Observed that the PR's assignee list was empty, and no active development was currently assigned on GitHub.
+- Formally assigned PR #10988 back to its author `ada-coder-bot` via the GitHub REST API to trigger the regeneration of Go clients (`make ready-pr` or `make generate-go-client ensure fmt`) and push the update.
+- We remain on Step 1 awaiting the validation fixes and merge.
+
 ### 2026-06-30 (Update 8)
 - Checked the completed CI status on PR #10988.
 - Observed that the `unit-tests` and `fuzz-roundtrippers` check-runs successfully passed on the latest commit `03af2428f8d346c45dbccee6bdb25bb9c7d09118`.
