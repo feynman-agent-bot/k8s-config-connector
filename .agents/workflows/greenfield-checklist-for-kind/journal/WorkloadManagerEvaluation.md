@@ -14,6 +14,12 @@
 
 ## Status Update Notes
 
+### 2026-06-30 (Update 4)
+- Monitored PR #10988 and observed that all major validation/unit tests (`unit-tests`, `unit-tests-operator`, `validate-generated-files`, `validations`) failed on the latest commit `1d9c8b68836ecb1c22ca8e7f063c9d49cf8b7a6a`.
+- Confirmed that the PR currently has no assignees.
+- Assigned the PR #10988 back to its author `ada-coder-bot` via REST API to trigger its retry and fix the remaining failures (golden file mismatches in operator tests and missing exception lists in validation tests).
+- We remain on Step 1 awaiting these fixes.
+
 ### 2026-06-30 (Update 3)
 - Checked the completed CI status on PR #10988. Observed that several validation checks failed on the latest force-pushed commit `1d9c8b68836ecb1c22ca8e7f063c9d49cf8b7a6a`:
   - `unit-tests-operator` failed due to golden file mismatch in `TestGoldenConfigConnector/simple` because the newly added `workloadmanager.cnrm.cloud.google.com` API group is missing from the golden RBAC manifests in `operator/pkg/controllers/configconnector/testdata/golden/simple/_expected.yaml`.
