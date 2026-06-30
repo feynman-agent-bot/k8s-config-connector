@@ -14,6 +14,12 @@
 
 ## Status Update Notes
 
+### 2026-06-30 (Update 6)
+- Monitored PR #10988 and confirmed that the CI checks (`unit-tests-operator`, `unit-tests`, `validate-generated-files`, `validations`) remain in a `failure` state for the latest commit `1d9c8b68836ecb1c22ca8e7f063c9d49cf8b7a6a`.
+- Noticed that the PR assignees list was still empty despite the previous update attempting to assign the PR back.
+- Successfully assigned PR #10988 back to its author `ada-coder-bot` via the REST API to ensure it receives the notification and triggers a retry to fix the golden files and validation exception lists.
+- We remain on Step 1 awaiting the validation fixes and subsequent merge.
+
 ### 2026-06-30 (Update 5)
 - Monitored PR #10988 and checked the assignee list. Discovered that the automated assignment to `ada-coder-bot` had not been successfully persisted (assignees list was empty).
 - Successfully reassigned the PR to its author `ada-coder-bot` via the REST API to trigger its retry and resolve the outstanding CI failures (operator golden files and validation exception lists).
