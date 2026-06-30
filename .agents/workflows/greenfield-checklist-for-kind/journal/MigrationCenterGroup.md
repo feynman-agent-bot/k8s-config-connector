@@ -1,18 +1,19 @@
 # Greenfield Migration Checklist Journal: MigrationCenterGroup
 
 ## Current Step
-**Step 1: Direct API Types and Identity and Reference Types Pattern**
+**Step 2: Direct Controller, E2E fixtures and Fuzzer**
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct KRM Types & Identity | [#10288](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10288) | [#10985](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10985) | PR Created | 2026-06-29 | - |
-| 2 | Direct Controller & E2E | - | - | Pending | - | - |
+| 1 | Direct KRM Types & Identity | [#10288](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10288) | [#10985](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10985) | Completed | 2026-06-29 | 2026-06-30 |
+| 2 | Direct Controller & E2E | [#11086](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11086) | - | Open | 2026-06-30 | - |
 | 3 | mockGCP Generation | - | - | Pending | - | - |
 | 4 | mockGCP Alignment | - | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-06-30 (23:45 UTC)**: Completed Step 1. Pull Request [#10985](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10985) was merged successfully by a human OWNER. Transitioning to Step 2. Opened GitHub Issue [#11086](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11086) to implement the direct controller, E2E fixtures, and fuzzer for `MigrationCenterGroup`.
 - **2026-06-30 (23:30 UTC)**: Monitored Step 1 PR [#10985](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10985). Confirmed that the PR remains approved and all 193 CI checks have successfully completed and passed. The PR is open and assigned to `acpana`, awaiting a human OWNER merge before transitioning to Step 2.
 - **2026-06-30 (23:10 UTC)**: Monitored Step 1 PR [#10985](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10985). Confirmed all 193 CI checks are passing successfully and the PR remains approved. It is currently open and assigned to `acpana`, awaiting a human OWNER merge before transitioning to Step 2.
 - **2026-06-30 (22:57 UTC)**: Monitored Step 1 PR [#10985](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10985). Confirmed the PR is fully approved and all 193 CI checks have successfully completed and passed. A review comment from `acpana` was left on the location field ("this needs to be a pointer"). The PR remains open and assigned to `acpana`, awaiting merge before we can proceed to Step 2.
