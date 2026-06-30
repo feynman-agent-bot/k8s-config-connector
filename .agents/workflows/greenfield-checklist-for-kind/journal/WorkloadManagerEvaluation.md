@@ -14,6 +14,11 @@
 
 ## Status Update Notes
 
+### 2026-06-30 (Update 41)
+- Monitored the open Pull Request #10988. Checked the CI check-runs and confirmed that all completed runs have successfully passed (all green with zero failures). One remaining run (`tests-e2e-fixtures-compute`) is currently pending/running.
+- The PR remains open, fully validated with no failures, and is awaiting review and approval from human OWNERs. No new comments or reviews have been posted by human reviewers since the previous update.
+- Since Step 1 has not yet been merged, we remain on Step 1 to monitor the PR before proceeding to Step 2.
+
 ### 2026-06-30 (Update 40)
 - Monitored the open Pull Request #10988. Checked and verified that all 170 completed CI check-runs have passed successfully with zero failures.
 - Confirmed that the remaining 23 check-runs are currently pending/queued but no failures have occurred.
