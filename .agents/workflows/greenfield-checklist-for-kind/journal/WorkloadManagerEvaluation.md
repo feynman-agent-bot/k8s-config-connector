@@ -14,6 +14,14 @@
 
 ## Status Update Notes
 
+### 2026-06-30 (Update 36)
+- Monitored the open Pull Request #10988. Checked and verified that all CI check-runs successfully completed with zero failures.
+- Identified that human reviewer `acpana` left review feedback comments on the PR:
+  - Line 70 of `apis/workloadmanager/v1alpha1/workloadmanagerevaluation_types.go`: `"want this to be a pointer"`
+  - Line 94 of `tests/apichecks/testdata/exceptions/missingrefs.txt`: `"you need to use KCC style ref fields for these"`
+- Successfully assigned the PR back to its author `ada-coder-bot` on GitHub to address the feedback.
+- Since Step 1 has not yet been merged, we remain on Step 1 to monitor the progress of feedback resolution.
+
 ### 2026-06-30 (Update 35)
 - Re-monitored the open Pull Request #10988. Verified that all CI check-runs have completely passed and are fully green.
 - The PR remains open, is fully validated, and is pending human OWNER review and merge. No comments, reviews, or approvals have been posted by human reviewers.
