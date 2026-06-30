@@ -14,6 +14,13 @@
 
 ## Status Update Notes
 
+### 2026-06-30 (Update 8)
+- Checked the completed CI status on PR #10988.
+- Observed that the `unit-tests` and `fuzz-roundtrippers` check-runs successfully passed on the latest commit `03af2428f8d346c45dbccee6bdb25bb9c7d09118`.
+- However, the `validations` check-run failed due to missing regenerated Go clients for the newly added `WorkloadManagerEvaluation` resource (`ERROR: Resource Go Clients must be regenerated`).
+- Assigned the PR #10988 back to its author `ada-coder-bot` to regenerate the Go clients using `make ready-pr` or `make generate-go-client ensure fmt` and push the updated commit.
+- We remain on Step 1 awaiting these validation fixes and the subsequent merge.
+
 ### 2026-06-30 (Update 7)
 - Monitored PR #10988 and confirmed that no new commits have been pushed since the last update. The latest commit `1d9c8b68836ecb1c22ca8e7f063c9d49cf8b7a6a` is still in a `failure` state for checks (`unit-tests`, `unit-tests-operator`, `validate-generated-files`, `validations`).
 - Verified that `ada-coder-bot` remains assigned to the PR to work on the operator golden files and validation exception lists.
