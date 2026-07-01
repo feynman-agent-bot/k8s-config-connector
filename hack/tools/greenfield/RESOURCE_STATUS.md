@@ -84,7 +84,7 @@ This file tracks the progress of new "Direct" resource implementations.
 | DataplexDataScan | dataplex | [#8693](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8693) | - | - | 1 | OPEN |
 | DataplexDataTaxonomy | dataplex | [#9326](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9326) | - | - | 1 | OPEN |
 | DataplexGlossary | dataplex | [#9311](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9311) | - | - | 1 | OPEN |
-| DataplexMetadataFeed | dataplex | [#9344](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9344) | - | - | 1 | OPEN |
+| DataplexMetadataFeed | dataplex | [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) | - | - | 1 | OPEN |
 | DataplexMetadataJob | dataplex | [#9339](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9339) | - | - | 1 | OPEN |
 | DataprocSession | dataproc | [#8695](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8695) | [#8890](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8890) | - | 2 | OPEN |
 | DataprocSessionTemplate | dataproc | [#9332](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9332) | - | - | 1 | MERGED |
