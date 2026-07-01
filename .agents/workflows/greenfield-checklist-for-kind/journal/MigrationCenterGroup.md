@@ -8,11 +8,12 @@
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct KRM Types & Identity | [#10288](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10288) | [#10985](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10985) | Completed | 2026-06-29 | 2026-06-30 |
-| 2 | Direct Controller & E2E | [#11086](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11086) | - | Open | 2026-06-30 | - |
+| 2 | Direct Controller & E2E | [#11086](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11086) | [#11093](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11093) | PR Created | 2026-06-30 | - |
 | 3 | mockGCP Generation | - | - | Pending | - | - |
 | 4 | mockGCP Alignment | - | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-07-01 (01:54 UTC)**: Monitored Step 2. Detected that a new Pull Request [#11093](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11093) has been opened by `hopper-coder-bot`. The PR is currently open and has no `overseer/giving-up` label. Assigned the PR to `hopper-coder-bot` via the REST API to ensure continuous monitoring and automated troubleshooting of CI check-runs, which are currently pending.
 - **2026-07-01 (01:31 UTC)**: Monitored Step 2. Verified that GitHub Issue [#11086](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11086) remains open and assigned to `hopper-coder-bot`. Confirmed via GitHub CLI that no Pull Request has been opened yet. The sandbox is still in progress. We will continue to wait for the automation to open the PR.
 - **2026-07-01 (01:18 UTC)**: Monitored Step 2. Verified that GitHub Issue [#11086](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11086) remains open and is assigned to `hopper-coder-bot`. Confirmed that no Pull Request has been opened yet. The AI Factory sandbox is actively running to implement the direct controller, E2E fixtures, and fuzzer. We will continue to wait for the automation to open the PR.
 - **2026-07-01 (00:56 UTC)**: Monitored Step 2. Verified that GitHub Issue [#11086](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11086) remains open and is assigned to `hopper-coder-bot`. Confirmed that no Pull Request has been opened yet. The AI Factory sandbox is actively running to implement the direct controller, E2E fixtures, and fuzzer. We will continue to wait for the automation to open the PR.
