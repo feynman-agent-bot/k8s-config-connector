@@ -14,6 +14,11 @@
 
 ## Status Update Notes
 
+### 2026-07-02 (Update 141)
+- Re-monitored the open Pull Request #10988 on GitHub. Verified that the PR remains in the `OPEN` state and is fully validated (100% green with zero failures, verified via checks).
+- Confirmed that no new comments, reviews, or approvals have been posted by human reviewers since the previous update. The PR remains pending human OWNER (`fedebongio`) review, approval, and merge.
+- Since Step 1 has not yet been merged, we continue to monitor the PR and remain on Step 1 before proceeding to Step 2.
+
 ### 2026-07-02 (Update 140)
 - Re-monitored the open Pull Request #10988 on GitHub. Verified that the PR remains in the `OPEN` state and is `MERGEABLE`.
 - Checked and confirmed that all CI checks continue to pass successfully (100% green with zero failures, verified via checks). No new comments or reviews have been posted by human reviewers, and the PR remains pending human OWNER (`fedebongio`) review, approval, and merge.
