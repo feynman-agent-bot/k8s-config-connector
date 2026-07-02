@@ -4,18 +4,19 @@ This journal tracks the progress of migrating the `DataplexMetadataFeed` resourc
 
 ## Current Step
 **Step 1: Direct API Types and Identity and Reference Types Pattern**
-The types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) is OPEN, but has encountered merge conflicts (DIRTY/CONFLICTING state). Assigned the PR to `hopper-coder-bot` to perform conflict resolution. We must wait for conflicts to be resolved and the PR to be merged before proceeding to Step 2.
+The types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) is OPEN, fully MERGEABLE (merge conflicts have been resolved), and CI checks are currently running and in-progress (with 0 failures so far). We are awaiting human OWNER review and merge of this types-only PR to proceed to Step 2.
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Direct API Types & Identity | [#9280](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9280) | [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) | PR Created (Conflicting / Conflict Resolution In-Progress) | 2026-06-25 | - |
+| 1 | Direct API Types & Identity | [#9280](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9280) | [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) | PR Created (CI Running / Awaiting Merge) | 2026-06-25 | - |
 | 2 | Direct Controller & E2E Fixtures | - | - | Not Started | - | - |
 | 3 | MockGCP Generation & Alignment | - | - | Not Started | - | - |
 | 4 | MockGCP Log Alignment | - | - | Not Started | - | - |
 
 ## Status Updates
+* **2026-07-02 (14:54 UTC)**: Checked types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) status. Confirmed that the merge conflicts have been successfully resolved by `hopper-coder-bot`, and the PR is now in a fully MERGEABLE state. The CI checks are currently running and in-progress (with 0 failures so far). We continue to await completion of the remaining checks and human OWNER review/merge of this types-only PR to proceed to Step 2 (Direct Controller & E2E Fixtures).
 * **2026-07-02 (13:41 UTC)**: Checked types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) status. Confirmed that the PR remains OPEN, but is currently in a CONFLICTING/DIRTY mergeable state. Assigned the PR back to the author bot `hopper-coder-bot` to resolve the merge conflicts so we can proceed to Step 2 (Direct Controller & E2E Fixtures).
 * **2026-07-02 (13:02 UTC)**: Checked types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) status. Confirmed that the PR remains OPEN, is fully MERGEABLE, and all 193 CI checks are completed and passing successfully (100% green). We continue to await human OWNER review and merge of this types-only PR to proceed to Step 2 (Direct Controller & E2E Fixtures).
 * **2026-07-02 (12:26 UTC)**: Checked types-only PR [#10820](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10820) status. Confirmed that the PR remains OPEN, is fully MERGEABLE, and all 193 CI checks are completed and passing successfully (100% green). We continue to await human OWNER review and merge of this types-only PR to proceed to Step 2 (Direct Controller & E2E Fixtures).
