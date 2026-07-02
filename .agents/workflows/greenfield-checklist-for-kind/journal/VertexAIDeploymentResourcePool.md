@@ -8,7 +8,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|-----------|--------------|---------------------|--------|--------------|----------------|
 | 1 | Direct API Types & Identity/Reference | [#7986](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7986) <br> [#8150](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8150) <br> [#8431](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8431) | [#7995](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7995) <br> [#8151](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8151) <br> [#8433](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8433) | `Completed` | 2026-05-09 | 2026-05-19 |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | [#8601](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8601) | [#8610](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8610) | `In Progress` | 2026-05-23 | |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11207](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11207) | | `In Progress` | 2026-05-23 | |
 | 3 | mockGCP generation | | | `Not Started` | | |
 | 4 | MockGCP Alignment with RealGCP | | | `Not Started` | | |
 
@@ -54,3 +54,4 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 - **2026-07-02**: Reset the assignment of `codebot-robot` on issue #8601 and commented to prompt the fresh direct controller implementation. Verified that no active pull request currently exists.
 - **2026-07-02**: Monitored Step 2 progress. Verified that issue #8601 remains open and assigned to `codebot-robot` with no new Pull Request submitted yet. Continuing to actively wait for the fresh direct controller implementation.
 - **2026-07-02**: Checked Step 2 progress. Confirmed that issue #8601 remains open and assigned to `codebot-robot` with no new Pull Request submitted. We continue to wait for the fresh controller implementation.
+- **2026-07-02**: Closed the stuck Step 2 issue #8601 (which was linked to the closed PR #8610) and opened a brand new Step 2 issue #11207. Assigned `codebot-robot` to #11207 to initiate a fresh, clean controller implementation run and bypass any closed PR tracking blocks.
