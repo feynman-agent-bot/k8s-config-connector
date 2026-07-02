@@ -13,4 +13,4 @@
 | Step 4: MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
-* **2026-07-02**: Initialized migration journal for `NetworkSecuritySecurityProfileGroup`. Step 1 is currently tracked under Issue #8738. Previous PRs #8820 and #8764 were closed. No active PR exists.
+* **2026-07-02**: Triggered a fresh, clean run of the types and identity generation step by re-assigning `codebot-robot` to issue #8738. Previous PRs #8820 and #8764 were closed.
