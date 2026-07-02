@@ -14,6 +14,11 @@
 
 ## Status Update Notes
 
+### 2026-07-02 (Update 142)
+- Re-monitored the open Pull Request #10988 on GitHub. Verified that all CI check-runs successfully completed and passed (100% green with zero failures).
+- Identified new review feedback from human reviewer `acpana` on `tests/apichecks/testdata/exceptions/multi_version_crd_diff/IAPSettings.diff` requesting to revert changes to this file.
+- Successfully assigned the PR back to its author `ada-coder-bot` via GitHub REST API to address the feedback. We remain on Step 1 awaiting the resolution of this feedback.
+
 ### 2026-07-02 (Update 141)
 - Re-monitored the open Pull Request #10988 on GitHub. Verified that the PR remains in the `OPEN` state and is fully validated (100% green with zero failures, verified via checks).
 - Confirmed that no new comments, reviews, or approvals have been posted by human reviewers since the previous update. The PR remains pending human OWNER (`fedebongio`) review, approval, and merge.
