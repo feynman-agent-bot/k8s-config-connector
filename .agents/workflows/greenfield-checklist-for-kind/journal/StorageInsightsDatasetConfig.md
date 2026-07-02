@@ -12,5 +12,6 @@ Current Step: Step 1 (Direct API Types and Identity and Reference Types Pattern)
 | 4 | mockGCP Alignment | N/A | N/A | Pending | | |
 
 ## Status Updates
+* **2026-07-02**: Step 1 Pull Request [#11252](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11252) CI checks have failed (`unit-tests`, `unit-tests-operator`, `validate-generated-files`, `validations`). Assigned the PR to lovelace-coder-bot for fixes.
 * **2026-07-02**: Step 1 Pull Request [#11252](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11252) has been created by lovelace-coder-bot and is currently under review with CI checks in progress.
 * **2026-07-02**: Initialized Greenfield Migration Checklist orchestration. Created Step 1 GitHub issue [#11243](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11243) for generating direct KRM types and identity.
