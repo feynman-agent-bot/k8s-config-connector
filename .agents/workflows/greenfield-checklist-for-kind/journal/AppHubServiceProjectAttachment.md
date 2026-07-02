@@ -1,0 +1,17 @@
+# Greenfield Migration Progress: AppHubServiceProjectAttachment
+
+Current Step: **Step 2: Direct Controller, E2E fixtures and Fuzzer**
+
+## Progress Tracking
+
+| Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
+|------|-----------|--------------|---------------------|--------|--------------|----------------|
+| 1 | Direct API Types and Identity | [#8400](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8400) | [#8418](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8418) | Completed | 2026-05-19 | 2026-05-19 |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#8788](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8788) | [#8791](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8791) | PR Created | 2026-05-28 | - |
+| 3 | mockGCP generation | - | - | Not Started | - | - |
+| 4 | MockGCP Alignment with RealGCP | - | - | Not Started | - | - |
+
+## Status Update Notes
+
+- **2026-07-02**: Initialized migration tracker journal. Step 1 was successfully completed and merged via #8418. Step 2 is in progress with PR #8791 open.
+- **2026-07-02**: Verified that PR #8791 has failing CI checks (`unit-tests`, `tests-scenarios-powertool`). Assigning the PR to the author bot (`codebot-robot`) to trigger the fix and re-run.
