@@ -13,6 +13,7 @@ This journal tracks the progress of migrating `NetworkManagementVpcFlowLogsConfi
 
 ## Status Updates
 
+* **2026-07-03**: `lovelace-coder-bot` resolved the out-of-date Go client `validations` check-run failure by regenerating clients and force-pushing. All CI check-runs for PR #11253 are currently passing or in progress, with no active failures. We will continue monitoring the PR.
 * **2026-07-03**: The `validations` check-run failed on PR #11253 because generated Go clients were out of date. `lovelace-coder-bot` is currently assigned, and `argus-watcher-bot` has started triaging the failure to run `make ready-pr` and regenerate the clients. Step 1 remains **In Progress**.
 * **2026-07-03**: The `validations` check-run failed on PR #11253. Assigned the PR back to `lovelace-coder-bot` to trigger automated triage, local validation fixes, and code formatting/generation updates as necessary.
 * **2026-07-03**: Step 1 Pull Request #11253 had compilation/linter failures due to a generator limitation with protobuf `oneof` fields. `lovelace-coder-bot` resolved these by implementing explicit hand-written mappers in `pkg/controller/direct/networkmanagement/vpcflowlogsconfig_mappers.go` and force-pushing a clean commit. All CI checks are currently running and pending/in progress.
