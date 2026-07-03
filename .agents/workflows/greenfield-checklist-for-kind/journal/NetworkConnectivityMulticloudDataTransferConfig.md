@@ -13,6 +13,11 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4. MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Update Notes
-- **2026-07-03**: Re-assigned PR #11245 to its author bot 'lovelace-coder-bot' to address the failing CI checks ('validate-generated-files', 'unit-tests', and 'validations').
+- **2026-07-03**: Re-assigned PR #11245 to its author bot 'lovelace-coder-bot' to address the following failing CI checks:
+  1. `validate-generated-files` & `validations` are failing because `docs/reports/crd_report.csv` and `docs/reports/crd_report.md` are out-of-date and need to be regenerated via `dev/tasks/generate-resource-report` (or `make generate`).
+  2. `unit-tests` failed on:
+     - `TestRegisteredTemplatesMatchCAI` (`pkg/gcpurls`): template path `"//networkconnectivity.googleapis.com/projects/{project}/locations/{location}/multicloudDataTransferConfigs/{multicloud_data_transfer_config}"` was not found in CAI definitions.
+     - `TestCRDFieldPresenceInTestsForAlpha` (`tests/apichecks`): new alpha fields of `NetworkConnectivityMulticloudDataTransferConfig` need exceptions added to `tests/apichecks/testdata/exceptions/alpha-missingfields.txt` as E2E test fixtures do not exist yet.
+     - `TestCRDObjectTypes` (`tests/apichecks`): `spec.services` is missing properties, additionalProperties, or x-kubernetes-preserve-unknown-fields validations in the CRD schema.
 - **2026-07-02**: Lovelace-coder-bot created a new Pull Request #11245 to address Step 1, but multiple CI check-runs failed. Assigned the PR back to the author bot for investigation and resolution.
 - **2026-07-02**: Initialized migration tracking journal. Checked current status: Issue #10290 is open for Step 1, but the corresponding PR #10301 was closed by a collaborator who passed it to overseer. Step 1 needs to be re-run/re-assigned to generate a clean, updated PR.
