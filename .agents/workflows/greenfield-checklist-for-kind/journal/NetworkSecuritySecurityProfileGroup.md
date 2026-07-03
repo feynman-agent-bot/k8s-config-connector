@@ -7,12 +7,13 @@
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Step 1: Direct API Types and Identity and Reference Types Pattern | [#8738](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8738) | - | Open | 2026-07-02 | - |
+| Step 1: Direct API Types and Identity and Reference Types Pattern | [#8738](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8738) | [#11262](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11262) | PR Created | 2026-07-02 | - |
 | Step 2: Direct Controller, E2E fixtures and Fuzzer | - | - | Pending | - | - |
 | Step 3: mockGCP generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
+* **2026-07-03 (01:35 UTC)**: Checked status of Step 1. PR #11262 was created by 'codebot-robot', but the 'unit-tests' check has failed (specifically due to missing api exceptions for 'NetworkSecuritySecurityProfileGroup' in 'alpha-missingfields.txt'). The PR remains assigned to 'codebot-robot'.
 * **2026-07-02 (21:59 UTC)**: Checked status of Step 1. Issue #8738 remains open and is assigned to 'codebot-robot'. No open PR has been created yet. Awaiting progress from the assignee bot.
 * **2026-07-02 (21:31 UTC)**: Checked status of Step 1. Issue #8738 remains open and is assigned to 'codebot-robot', 'lovelace-coder-bot', and 'ada-coder-bot'. No open PR has been created yet. Awaiting progress from the assignee bots.
 * **2026-07-02 (21:17 UTC)**: Checked status of Step 1. Issue #8738 remains open and is assigned to 'lovelace-coder-bot' and 'ada-coder-bot'. No open PR has been created yet. Awaiting progress from the assignee bots.
