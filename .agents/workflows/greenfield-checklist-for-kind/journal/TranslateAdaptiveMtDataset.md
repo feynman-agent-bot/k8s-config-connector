@@ -9,11 +9,11 @@ This journal tracks the progress of the Greenfield migration for the `TranslateA
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Direct API Types and Identity | [#10308](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10308) | - | Open | 2026-07-02 | - |
+| 1 | Direct API Types and Identity | [#10308](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10308) | [#11259](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11259) | PR Created | 2026-07-02 | - |
 | 2 | Direct Controller & E2E Fixtures | - | - | Pending | - | - |
 | 3 | mockGCP Generation | - | - | Pending | - | - |
 | 4 | mockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
-* **2026-07-03**: Checked status of the migration. No active Pull Request is open. The child issue (#10308) remains open and assigned to `hopper-coder-bot`, who is currently working on generating KRM types and IdentityV2 structures.
+* **2026-07-03**: Found active Pull Request [#11259](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11259) for Step 1. CI checks are in progress, but `unit-tests-operator` failed. Successfully assigned the PR to `hopper-coder-bot` via GitHub REST API to trigger investigation and fix.
 * **2026-07-02**: Initialized migration tracking. Step 1 issue (#10308) is open and assigned to coder bots (`codebot-robot`, `hopper-coder-bot`). No active PR is currently open.
