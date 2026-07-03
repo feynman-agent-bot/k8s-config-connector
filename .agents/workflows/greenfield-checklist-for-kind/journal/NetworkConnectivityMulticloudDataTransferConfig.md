@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4. MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Update Notes
+- **2026-07-03**: Re-assigned PR #11245 to its author bot 'lovelace-coder-bot' to address the remaining failing CI checks. `unit-tests` are now successfully passing, but `validate-generated-files` and `validations` are still failing on the latest commit (`cf4a1bd`). This indicates that some generated files (CRDs, mappers, manifests, or reports) are out-of-date or not formatted correctly. The coder bot must run the full generation and formatting workflow (`make ready-pr`, `make generate`, `make manifests`, `dev/tasks/generate-resource-report`, and `make fmt`) and update the PR.
 - **2026-07-03**: Re-assigned PR #11245 to its author bot 'lovelace-coder-bot' to address the following failing CI checks:
   1. `validate-generated-files` & `validations` are failing because `docs/reports/crd_report.csv` and `docs/reports/crd_report.md` are out-of-date and need to be regenerated via `dev/tasks/generate-resource-report` (or `make generate`).
   2. `unit-tests` failed on:
