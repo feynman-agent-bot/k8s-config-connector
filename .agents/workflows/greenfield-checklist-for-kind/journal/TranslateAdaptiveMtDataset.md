@@ -15,4 +15,5 @@ This journal tracks the progress of the Greenfield migration for the `TranslateA
 | 4 | mockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
+* **2026-07-03**: Checked status of the migration. No active Pull Request is open. The child issue (#10308) remains open and assigned to `hopper-coder-bot`, who is currently working on generating KRM types and IdentityV2 structures.
 * **2026-07-02**: Initialized migration tracking. Step 1 issue (#10308) is open and assigned to coder bots (`codebot-robot`, `hopper-coder-bot`). No active PR is currently open.
