@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4. MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Updates
+* **2026-07-07**: Confirmed `tests-preview` check-run timed out and failed on PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236) as a performance flake. The AI Factory has attempted to fix CI failures 3 times and is giving up; human OWNER/maintainer assistance is now required to re-run the failed check.
 * **2026-07-07**: Confirmed the CI check-run `tests-preview` failed on PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236) under `pkg/cli/preview`. The PR remains assigned to `ada-coder-bot` to investigate and resolve the failure.
 * **2026-07-07**: Verified that the merge conflicts on PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236) have been successfully resolved. The PR is now mergeable and the new CI check-runs are currently pending/in progress. We are standing by for CI completion and human OWNER review.
 * **2026-07-07**: Detected that PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236) has merge conflicts (status: CONFLICTING). Assigned the PR back to the author bot `ada-coder-bot` to resolve the conflicts.
