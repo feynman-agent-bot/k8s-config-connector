@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | Step 4: MockGCP Alignment with RealGCP | N/A | N/A | Not Started | N/A | N/A |
 
 ## History / Status Updates
+- **2026-07-07**: Re-assigned PR #11416 to `hopper-coder-bot` via GitHub CLI to apply the pointer fix for the `Model` field in the API spec, as the PR was unassigned and remains blocked on `feynman-agent-bot`'s review.
 - **2026-07-07**: Monitored PR #11416. Confirmed all 195 CI checks successfully passed, but the PR is blocked on `feynman-agent-bot`'s `CHANGES_REQUESTED` review. Re-assigned the PR back to `hopper-coder-bot` via the REST API to trigger a fresh fix run for the pointer field `Model`.
 - **2026-07-07**: Monitored PR #11416. Confirmed CI checks are passing, but PR remains in 'Changes Requested' state due to non-pointer scalar primitive `Model` field. Re-assigned the PR to `hopper-coder-bot` via GitHub REST API to apply the required pointer fix.
 - **2026-07-07**: Monitored PR #11416. Re-verified that all 195 CI checks are successfully passing, and the PR remains in 'Changes Requested' state. Assigned to `hopper-coder-bot` pending the pointer fix for the `Model` field.
