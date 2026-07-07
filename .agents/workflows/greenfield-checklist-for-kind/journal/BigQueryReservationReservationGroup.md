@@ -6,13 +6,14 @@ Current Step: Step 1 (Direct API Types and Identity and Reference Types Pattern)
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
-| 1. Direct API Types, Identity & Reference Types | [#9022](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9022) | [#11391](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11391) | In Progress (All completed checks passing) | 2026-07-06 | - |
+| 1. Direct API Types, Identity & Reference Types | [#9022](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9022) | [#11391](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11391) | Awaiting Review (All CI checks passing) | 2026-07-06 | - |
 | 2. Direct Controller, E2E fixtures & Fuzzer | - | - | Pending | - | - |
 | 3. mockGCP Generation | - | - | Pending | - | - |
 | 4. MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Updates
 
+- **2026-07-07**: Monitored Step 1 PR #11391. Confirmed that all CI checks have completed successfully and are passing 100% (including `validations`, `unit-tests`, `test-mockgcp`, and all e2e fixture test suites). The PR remains open, with no active reviews, and is awaiting human OWNER review and merge.
 - **2026-07-07**: Monitored Step 1 PR #11391. Verified that all CI checks (including `validations`, `unit-tests`, `validate-generated-files`, and all e2e fixture test suites) have completed and passed successfully. The PR is currently open and awaiting review and merge.
 - **2026-07-07**: Monitored Step 1 PR #11391. All completed CI checks are passing successfully (including `unit-tests`, `test-mockgcp`, `smoketest-with-kind`, `run-linters`, `golangci-lint`, `fuzz-roundtrippers`, `validations`, and `build-images`). Only three remaining integration check runs (`compute`, `dataflow`, and `bigquery` fixture tests) are currently in progress. We will continue monitoring the PR for merge.
 - **2026-07-07**: Monitored Step 1 PR #11391. Verified that a new commit `a10e0988` was pushed, fixing the previous errors. All completed CI checks (including `validate-generated-files`, `unit-tests`, `test-mockgcp`, `smoketest-with-kind`, `golangci-lint`, and `fuzz-roundtrippers`) are now passing successfully. Other checks are currently running. No active failures were found. We will continue monitoring the PR for merge.
