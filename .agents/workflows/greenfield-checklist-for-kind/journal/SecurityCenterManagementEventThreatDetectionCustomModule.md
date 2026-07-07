@@ -7,11 +7,12 @@
 
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types and Identity and Reference Types Pattern | [#8716](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8716) | - | Open | 2026-07-07 | - |
+| 1 | Direct API Types and Identity and Reference Types Pattern | [#8716](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8716) | [#11432](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11432) | PR Created | 2026-07-07 | - |
 | 2 | Direct Controller, E2E fixtures and Fuzzer | - | - | - | - | - |
 | 3 | mockGCP generation | - | - | - | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Notes / Status Updates
 
+- **2026-07-07**: Pull Request [#11432](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11432) has been opened by `codebot-robot` for Step 1. Identified `unit-tests-operator` CI failure. Assigned `codebot-robot` to the PR to investigate and fix the check failure.
 - **2026-07-07**: Initialized Greenfield Migration Checklist. Step 1 issue is already open (#8716). Re-assigning to the agent bot to trigger development, as the previous PR (#8777) was closed without merging.
