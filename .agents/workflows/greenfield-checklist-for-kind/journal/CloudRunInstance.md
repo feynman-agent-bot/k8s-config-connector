@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Notes
+- **2026-07-07**: Checked PR #9008 status. The latest commit (02fb32f) has completed 16 out of 21 checks, with all of them passing and no failures. The remaining 5 checks are currently in progress. The PR remains in "PR Created" status under Step 1.
 - **2026-07-07**: Checked PR #9008 status. A new commit (02fb32f) was pushed by `codebot-robot`. Current CI checks are in progress with no failures reported.
 - **2026-07-07**: Checked PR #9008 status. CI check `validate-generated-files` failed on the latest commit (d9a02f2). The PR was unassigned, so assigned it back to `codebot-robot` to investigate and resolve the code/file validation failures.
 - **2026-07-07**: Checked PR #9008 status. Diagnosed the failure of `tests-e2e-fixtures-run` on commit `f9df077` and found it is due to `cloudruninstancebasic` fixture being executed before the direct controller config is registered in `static_config.go` (a Step 2 task). Since `codebot-robot` is already assigned, they will need to either defer the fixture files to Step 2 or exclude them from current test runs.
