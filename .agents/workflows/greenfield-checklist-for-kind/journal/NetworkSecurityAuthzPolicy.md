@@ -17,5 +17,6 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 ### 2026-07-07
 - Initialized Greenfield migration tracking journal for `NetworkSecurityAuthzPolicy`.
 - Identified that Step 1 is currently in progress: GitHub Issue [#8721](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8721) is open, and a corresponding Pull Request [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) has been created.
-- Pull Request [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) has been approved and LGTM'd by human maintainers. All CI checks are passing.
-- Waiting for PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) to be merged before moving to Step 2.
+- Pull Request [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) has been approved and LGTM'd by human maintainers, and all CI checks are passing.
+- Checked the PR mergeability status and found it is currently blocked by merge conflicts (`mergeable_state: dirty`).
+- Waiting for the merge conflicts on PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) to be resolved and the PR to be merged before moving to Step 2.
