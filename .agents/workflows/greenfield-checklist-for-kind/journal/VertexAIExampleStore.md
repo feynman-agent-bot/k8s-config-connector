@@ -9,10 +9,11 @@ Step 1: Direct API Types and Identity and Reference Types Pattern (PR Open - Che
 | --- | --- | --- | --- | --- | --- |
 | Step 1: Direct API Types and Identity and Reference Types Pattern | [#10212](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10212) | [#11422](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11422) | PR Created | 2026-07-06 |  |
 | Step 2: Direct Controller, E2E fixtures and Fuzzer | [#8600](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8600) | [#8611](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8611) | Merged | 2026-06-04 | 2026-06-04 |
-| Step 3: mockGCP generation | [#11103](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11103) | [#11400](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11400) | PR Created | 2026-07-06 |  |
+| Step 3: mockGCP generation | [#11103](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11103) | [#11400](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11400) | Closed | 2026-07-06 |  |
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Update Notes
+* **2026-07-07 (23:58 UTC)**: Detected that Step 3 PR #11400 was closed by reviewer `acpana` as "bad PR" because Step 1 (PR #11422) is still open and not yet merged. We must wait for Step 1 to merge first.
 * **2026-07-07 (23:32 UTC)**: Re-verified both open PRs (#11422 and #11400) remain in OPEN state with all CI checks fully passing, awaiting human review and merge.
 * **2026-07-07 (23:14 UTC)**: Re-verified both open PRs (#11422 and #11400) remain in OPEN state with all CI checks fully passing, awaiting human review and merge.
 * **2026-07-07 (22:55 UTC)**: Re-verified both open PRs (#11422 and #11400) remain in OPEN state with all CI checks fully passing, awaiting human review and merge.
