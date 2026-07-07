@@ -13,6 +13,7 @@
 | 4 | mockGCP Alignment | | | Pending | | |
 
 ## Status Updates
+* **2026-07-07**: Pinpointed the specific unit test failures under `tests/apichecks`: `TestCRDFieldPresenceInTestsForAlpha` is failing due to missing unstructured test fields, and `TestCRDsAcronyms` is failing due to an acronym violation (`sseBGPIps` vs `sseBGPIPs`). Re-assigned 'lovelace-coder-bot' via the REST API to address these issues.
 * **2026-07-07**: Verified that PR #11440 has a failing 'unit-tests' CI check (while others like 'golangci-lint' passed). Successfully assigned 'lovelace-coder-bot' to the PR via REST API to triage and fix the unit-test failures.
 * **2026-07-07**: Checked Step 1 progress. Pull Request #11440 has failing CI checks (golangci-lint, unit-tests). Assigned the PR back to lovelace-coder-bot to triage and resolve the failures.
 * **2026-07-07**: Pull Request #11440 has been successfully created by lovelace-coder-bot for Step 1. Updated the tracking table status to 'PR Created'. CI checks are currently pending.
