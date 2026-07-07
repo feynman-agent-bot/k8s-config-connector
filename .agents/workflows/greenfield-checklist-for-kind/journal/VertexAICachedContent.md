@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [Issue #11392](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11392) | [PR #11416](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11416) | CI Failing | 2026-07-07 | N/A |
+| Step 1: Direct API Types and Identity | [Issue #11392](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11392) | [PR #11416](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11416) | CI Running | 2026-07-07 | N/A |
 | Step 2: Direct Controller, E2E fixtures and Fuzzer | N/A | N/A | Not Started | N/A | N/A |
 | Step 3: mockGCP generation | N/A | N/A | Not Started | N/A | N/A |
 | Step 4: MockGCP Alignment with RealGCP | N/A | N/A | Not Started | N/A | N/A |
 
 ## History / Status Updates
+- **2026-07-07**: Verified that `hopper-coder-bot` has pushed a new commit resolving the previous failures, and the CI checks are now in progress.
 - **2026-07-07**: Re-evaluated PR #11416 and found failing CI checks (`validate-generated-files` and `validations`). Re-assigned the PR back to `hopper-coder-bot` via the REST API for triage and fix resolution.
 - **2026-07-07**: Checked PR #11416 and found failing CI checks (`validate-generated-files` and `validations`). Re-assigned the PR back to `hopper-coder-bot` via the REST API for triage and fix resolution.
 - **2026-07-07**: Verified PR #11416 is still failing CI checks (validations, unit-tests). Re-assigned the PR back to hopper-coder-bot to resolve the remaining errors.
