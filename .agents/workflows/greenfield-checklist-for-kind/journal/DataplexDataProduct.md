@@ -1,0 +1,16 @@
+# Migration Journal: DataplexDataProduct
+
+## Current Step
+Step 1: Direct API Types and Identity and Reference Types Pattern
+
+## Progress Tracking
+
+| Step | Name | Issue | Pull Request | Status | Date Started | Date Completed |
+|------|------|-------|--------------|--------|--------------|----------------|
+| 1 | Direct API Types, Identity, and References | #9277 | #11384 | PR Created | 2026-07-06 | |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | | | | | |
+| 3 | mockGCP generation | | | | | |
+| 4 | MockGCP Alignment with RealGCP | | | | | |
+
+## Notes & Updates
+- **2026-07-07**: Initialized journal. PR #11384 has failing CI checks (`validate-generated-files`, `unit-tests`, `validations`). Assigned the PR to `lovelace-coder-bot` for automated fix and triage.
