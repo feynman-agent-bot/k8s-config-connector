@@ -13,6 +13,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-07-07**: Monitored and verified that Step 2 issue (#11425) remains open and is actively assigned to coder bots (lovelace-coder-bot and ada-coder-bot). The implementation is in progress; no pull request has been opened yet.
 - **2026-07-07**: Confirmed that the AI Factory has actively started implementing the direct controller for #11425 in a sandbox. The coder bots (lovelace-coder-bot and ada-coder-bot) are currently working on the implementation. No pull request has been opened yet.
 - **2026-07-07**: Monitored the migration progress. Confirmed that Step 2 issue #11425 is open and currently in progress by coder bots in the sandbox. No Pull Request has been opened yet.
 - **2026-07-07**: Stale issue #8817 was closed. Opened a brand new issue #11425 for Step 2 (Direct Controller, E2E fixtures and Fuzzer) to trigger a clean run by the coder bots.
