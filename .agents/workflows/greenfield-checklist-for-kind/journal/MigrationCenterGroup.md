@@ -1,18 +1,19 @@
 # Greenfield Migration Checklist Journal: MigrationCenterGroup
 
 ## Current Step
-**Step 2: Direct Controller, E2E fixtures and Fuzzer**
+**Step 3: mockGCP generation**
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct KRM Types & Identity | [#10288](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10288) | [#10985](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10985) | Completed | 2026-06-29 | 2026-06-30 |
-| 2 | Direct Controller & E2E | [#11086](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11086) | [#11093](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11093) | PR Created | 2026-06-30 | - |
-| 3 | mockGCP Generation | - | - | Pending | - | - |
+| 2 | Direct Controller & E2E | [#11086](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11086) | [#11093](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11093) | Completed | 2026-06-30 | 2026-07-05 |
+| 3 | mockGCP Generation | [#11442](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11442) | - | Open | 2026-07-07 | - |
 | 4 | mockGCP Alignment | - | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-07-07 (05:48 UTC)**: Completed Step 2. Pull Request [#11093](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11093) was merged successfully on 2026-07-05. Transitioning to Step 3. Opened GitHub Issue [#11442](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11442) to implement MockGCP and Alignment for `MigrationCenterGroup`.
 - **2026-07-03 (22:58 UTC)**: Monitored Step 2 PR [#11093](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11093). Checked CI status and confirmed that all 196 check-runs are completed and successfully passing with zero failures. Since the PR was open and unassigned, successfully assigned it back to `hopper-coder-bot` via the REST API to ensure continuous automated tracking. Awaiting human OWNER review and merge to master before transitioning to Step 3.
 - **2026-07-03 (22:20 UTC)**: Monitored Step 2 PR [#11093](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11093). Checked CI status and confirmed that all 196 check-runs continue to pass successfully with zero failures. Since the PR was found open and unassigned, successfully assigned it back to `hopper-coder-bot` via the REST API to maintain continuous automated tracking. Awaiting human OWNER review and merge to master before transitioning to Step 3.
 - **2026-07-03 (21:04 UTC)**: Monitored Step 2 PR [#11093](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11093). Checked CI status and confirmed that all 196 check-runs continue to pass successfully with zero failures. Since the PR was found open and unassigned, successfully assigned it back to `hopper-coder-bot` via the REST API to maintain continuous automated tracking. Awaiting human OWNER review and merge to master before transitioning to Step 3.
