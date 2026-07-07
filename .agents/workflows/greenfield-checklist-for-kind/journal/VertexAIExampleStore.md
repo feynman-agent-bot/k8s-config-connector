@@ -1,7 +1,7 @@
 # Greenfield Migration Journal: VertexAIExampleStore
 
 ## Current Step
-Step 1: Direct API Types and Identity and Reference Types Pattern (PR Open - Pending Checks)
+Step 1: Direct API Types and Identity and Reference Types Pattern (PR Open - Checks Passing)
 
 ## Progress Tracking
 
@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern (PR Open - Pen
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Update Notes
+* **2026-07-07**: Step 1 PR #11422 CI checks have now fully completed and passed. Awaiting human review/merge.
 * **2026-07-07**: Initialized journal for VertexAIExampleStore Greenfield checklist.
 * **2026-07-07**: Step 1 PR #11422 is currently open and running CI checks.
 * **2026-07-07**: Step 3 PR #11400 is currently open with all CI checks passing, awaiting human review.
