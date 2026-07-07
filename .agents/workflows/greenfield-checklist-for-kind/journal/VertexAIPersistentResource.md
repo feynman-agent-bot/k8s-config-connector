@@ -3,19 +3,20 @@
 This journal tracks the progress of the Greenfield migration for the `VertexAIPersistentResource` resource kind.
 
 ## Current Step
-**Step 1: Direct API Types and Identity and Reference Types Pattern** (CI checks failing, monitored and assigned to `ada-coder-bot` for resolution)
+**Step 1: Direct API Types and Identity and Reference Types Pattern** (E2E checks in progress, other CI validations passing)
 
 ## Progress Tracking Table
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | Failing Checks | July 6, 2026 | - |
+| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | Checks Running | July 6, 2026 | - |
 | Step 2: Direct Controller and E2E Fixtures | - | - | Pending | - | - |
 | Step 3: MockGCP Generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment | - | - | Pending | - | - |
 
 ## Updates History
 
+- **July 7, 2026 (Checks In Progress)**: Verified that all pre-submit validations, linters, unit-tests, and image builds have completed successfully on PR #11408 (commit `5ff1afd`). E2E fixture tests are currently running and in progress.
 - **July 7, 2026 (CI Failed & Assigned)**: Observed that the new CI check-runs completed but failed with failures in `unit-tests` and `validations`. Assigned the PR back to `ada-coder-bot` to re-trigger its auto-fix/triage workflow.
 - **July 7, 2026 (CI Re-triggered)**: `ada-coder-bot` investigated the `build-images` and `validate-generated-files` failures, which were caused by an out-of-sync base branch (`ComputeNetworkRef` import mismatch). The bot rebased the PR branch onto the latest `upstream/master`, regenerated types and CRDs via generate script, and force-pushed. The new CI check-runs are currently in progress.
 - **July 7, 2026 (Update)**: Monitored Step 1 progress. PR #11408 remains open with failing CI checks; however, `argus-watcher-bot` has started investigating the failures, and the PR is assigned to `ada-coder-bot`. We will continue monitoring until CI checks pass and the PR is merged.
