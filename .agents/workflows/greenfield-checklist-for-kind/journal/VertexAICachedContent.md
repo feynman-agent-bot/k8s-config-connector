@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [Issue #11392](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11392) | [PR #11416](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11416) | CI Failing | 2026-07-07 | N/A |
+| Step 1: Direct API Types and Identity | [Issue #11392](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11392) | [PR #11416](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11416) | CI Passing | 2026-07-07 | N/A |
 | Step 2: Direct Controller, E2E fixtures and Fuzzer | N/A | N/A | Not Started | N/A | N/A |
 | Step 3: mockGCP generation | N/A | N/A | Not Started | N/A | N/A |
 | Step 4: MockGCP Alignment with RealGCP | N/A | N/A | Not Started | N/A | N/A |
 
 ## History / Status Updates
+- **2026-07-07**: Verified that all CI checks for PR #11416 have now successfully passed. Waiting for human review and merge.
 - **2026-07-07**: Confirmed PR #11416 CI failure (unhandled google.protobuf.Value in mappergenerator, and missing references test failures). Re-assigned PR #11416 to hopper-coder-bot via REST API to trigger a fresh fix run.
 - **2026-07-07**: Checked PR #11416. Found failing CI checks (validations, unit-tests, validate-generated-files). Assigned the PR back to hopper-coder-bot for triage and resolution.
 - **2026-07-07**: Checked Pull Request #11416; CI checks are still pending/in-progress and review is required before merge.
