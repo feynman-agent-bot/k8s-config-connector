@@ -14,6 +14,12 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 ## Status Update Notes
 
+### 2026-07-07 (Update 18)
+- Re-verified PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195): State remains `OPEN` and all 190+ CI/E2E checks are 100% passing.
+- The PR continues to wait for human approval / merge.
+- Verified that the takeover issue [#11426](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11426) remains `OPEN` and assigned to `codebot-robot`.
+- We must continue to wait for PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) to be merged before we can transition to Step 2 (Direct Controller, E2E fixtures and Fuzzer).
+
 ### 2026-07-07 (Update 17)
 - Re-verified PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195): State is `OPEN` and mergeable status is `MERGEABLE`. All 190+ CI/E2E checks are 100% passing.
 - The PR remains waiting for human approval/review to re-apply the `lgtm` label (which was cleared automatically when new changes were detected).
