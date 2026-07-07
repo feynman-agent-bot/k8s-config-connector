@@ -14,7 +14,12 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 ## Status Update Notes
 
-### 2026-07-07
+### 2026-07-07 (Update 2)
+- Re-checked PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) and confirmed it is still blocked by merge conflicts.
+- Checked takeover issue [#11426](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11426) and confirmed it is still open and assigned to `codebot-robot` in its processing queue.
+- Re-confirmed that we must wait for the conflicts on PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) to be resolved and the PR to be merged before moving to Step 2.
+
+### 2026-07-07 (Update 1)
 - Created a "take over" issue for `codebot-robot` to take over PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) to resolve its merge conflicts, rebase, and run tests.
 - Re-verified PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) status: The PR remains open but is blocked by merge conflicts (`mergeable_state: dirty`). All 140+ CI checks are passing and the PR has approval and LGTM. Re-confirmed that we must wait for these conflicts to be resolved and the PR to be merged before we can trigger Step 2.
 - Initialized Greenfield migration tracking journal for `NetworkSecurityAuthzPolicy`.
