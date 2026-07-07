@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [Issue #11392](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11392) | [PR #11416](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11416) | Ready for Review | 2026-07-07 | N/A |
+| Step 1: Direct API Types and Identity | [Issue #11392](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11392) | [PR #11416](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11416) | Changes Requested | 2026-07-07 | N/A |
 | Step 2: Direct Controller, E2E fixtures and Fuzzer | N/A | N/A | Not Started | N/A | N/A |
 | Step 3: mockGCP generation | N/A | N/A | Not Started | N/A | N/A |
 | Step 4: MockGCP Alignment with RealGCP | N/A | N/A | Not Started | N/A | N/A |
 
 ## History / Status Updates
+- **2026-07-07**: Changes requested on PR #11416 due to non-pointer scalar primitive `Model string` in spec. Reassigned PR to hopper-coder-bot to apply the required pointer fix.
 - **2026-07-07**: Re-verified PR #11416. Confirmed state is still OPEN with all 195 CI checks successfully passing. Awaiting human OWNER review and merge.
 - **2026-07-07**: Verified PR #11416 remains open with all CI checks successfully passing. Awaiting human OWNER review and merge.
 - **2026-07-07**: Checked PR #11416 CI status. Confirmed all 195 checks are successfully passing. The PR is fully validated and awaits human review and merge.
