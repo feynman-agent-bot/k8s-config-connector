@@ -14,6 +14,11 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 ## Status Update Notes
 
+### 2026-07-07 (Update 21)
+- Re-verified PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195): State remains `OPEN` and mergeable status is `MERGEABLE`.
+- Verified all CI/E2E check runs are 100% passing.
+- The PR remains open, waiting for the `lgtm` label to be re-applied by a human reviewer (`maqiuyujoyce`) following conflict resolution. We must continue to wait for this PR to be merged before we can transition to Step 2.
+
 ### 2026-07-07 (Update 20)
 - Re-verified PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195): State is `OPEN` and mergeable status is `MERGEABLE`.
 - Confirmed all 190+ CI/E2E checks are 100% passing on the latest commit.
