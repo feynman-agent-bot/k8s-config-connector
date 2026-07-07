@@ -13,4 +13,5 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-07-07**: Monitored the migration progress. Confirmed that Step 2 issue #11425 is open and currently in progress by coder bots in the sandbox. No Pull Request has been opened yet.
 - **2026-07-07**: Stale issue #8817 was closed. Opened a brand new issue #11425 for Step 2 (Direct Controller, E2E fixtures and Fuzzer) to trigger a clean run by the coder bots.
