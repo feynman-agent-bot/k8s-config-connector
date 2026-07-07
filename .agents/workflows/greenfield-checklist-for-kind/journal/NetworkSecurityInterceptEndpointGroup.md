@@ -13,6 +13,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-07-07**: Monitored Step 2 progress. Checked the current status of PR #11437. All completed checks (including `unit-tests`, `validate-generated-files`, and `test-mockgcp`) are fully passing. The remaining checks (`tests-e2e-fixtures-compute` and `tests-e2e-fixtures-bigquery`) are currently active and in-progress, with no failures reported. We will continue to monitor.
 - **2026-07-07**: Monitored Step 2 progress. Verified that major presubmits (including `unit-tests`, `validate-generated-files`, and `test-mockgcp`) have completed successfully on PR #11437. All other active checks remain pending and are currently passing, with no failures reported.
 - **2026-07-07**: Monitored Step 2 progress. Verified that all CI presubmit checks on PR #11437 are currently pending or passing (including `run-linters` and `validate-untested-fields`), with no failures reported. We will continue to monitor the execution of the presubmits.
 - **2026-07-07**: Monitored Step 2 progress. Confirmed that `argus-watcher-bot` actively started rebasing PR #11437 in a sandbox at 18:51 UTC, and successfully pushed the rebase update to the branch at 19:03 UTC. We will continue monitoring the progress of the presubmit check-runs for this PR.
