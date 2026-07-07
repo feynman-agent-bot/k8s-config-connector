@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Notes
+- **2026-07-07**: Checked PR #9008 status. The merge conflicts have been resolved by `codebot-robot` (commit `f9df077`), and the CI checks are currently running. No failures reported on the latest commit. The PR remains in "PR Created" status under Step 1.
 - **2026-07-07**: Checked PR #9008 status. The PR is open and mergeable, but was unassigned with failing CI checks (`validate-generated-files` and `validations`). Assigned the PR to `codebot-robot` to address the failures and complete Step 1.
 - **2026-07-07**: Checked PR #9008 status. The PR is still open but its mergeable state is 'dirty' (has merge conflicts) and it is currently unassigned. Assigning PR #9008 back to `codebot-robot` to resolve the conflicts.
 - **2026-07-07**: Initialized journal for CloudRunInstance greenfield tracking. Step 1 types PR #8766 was closed, and follow-up PR #9008 (addressing issue #9005) is currently open. PR #9008 validations check is failing with client regeneration errors. Assigned PR #9008 to `codebot-robot` to regenerate Go clients and address validations.
