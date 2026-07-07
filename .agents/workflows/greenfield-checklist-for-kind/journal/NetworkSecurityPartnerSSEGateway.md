@@ -1,0 +1,17 @@
+# Greenfield Migration Journal: NetworkSecurityPartnerSSEGateway
+
+## Current Step
+**Step 1**: Direct API Types and Identity and Reference Types Pattern
+
+## Progress Tracking
+
+| Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
+| :--- | :--------- | :----------- | :------------------ | :----- | :----------- | :------------- |
+| 1 | Direct API Types & Identity | [#11410](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11410) | | Open | 2026-07-07 | |
+| 2 | Controller, E2E fixtures & Fuzzer | | | Pending | | |
+| 3 | mockGCP Generation | | | Pending | | |
+| 4 | mockGCP Alignment | | | Pending | | |
+
+## Status Updates
+* **2026-07-07**: Closed outdated issue #8734 and opened new Step 1 issue #11410 to cleanly trigger the AI Factory. Set tracking status for Step 1 to Open.
+* **2026-07-07**: Initialized migration tracking journal for `NetworkSecurityPartnerSSEGateway`.
