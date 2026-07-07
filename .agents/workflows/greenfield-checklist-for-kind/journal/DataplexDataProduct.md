@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4 | MockGCP Alignment with RealGCP | | | | | |
 
 ## Notes & Updates
+- **2026-07-07**: Re-checked PR #11384. All CI checks have successfully passed, but the PR currently has merge conflicts with the base branch (mergeable state: CONFLICTING). It is assigned to `lovelace-coder-bot`, and `argus-watcher-bot` is actively rebasing/resolving conflicts. Awaiting conflict resolution and merge.
 - **2026-07-07**: Checked PR #11384. All CI checks on the latest commit have successfully passed. However, the PR was unassigned and has merge conflicts (`mergeable_state: dirty`). Re-assigned the PR back to its author bot `lovelace-coder-bot` via the GitHub REST API to resolve the conflicts and rebase.
 - **2026-07-07**: Checked PR #11384. All CI check-runs have now successfully passed. The PR remains open, assigned to `lovelace-coder-bot`, and is currently awaiting human OWNER review and merge.
 - **2026-07-07**: Checked PR #11384. All previous CI check failures have been completely resolved, and the PR has successfully passed almost all checks with only two final E2E runs (`tests-e2e-fixtures-compute` and `tests-e2e-fixtures-bigquery`) still in progress. The PR was found unassigned, and was explicitly assigned back to `lovelace-coder-bot` to monitor and handle merging.
