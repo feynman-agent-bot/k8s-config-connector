@@ -12,6 +12,7 @@ Current Step: Step 1 (Direct API Types and Identity and Reference Types Pattern)
 | 4 | mockGCP Alignment | N/A | N/A | Pending | | |
 
 ## Status Updates
+* **2026-07-07**: Monitored Greenfield migration progress. PR [#11252](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11252) remains open and has received human reviewer feedback from acpana requesting changes (converting location to a pointer, correcting snake casing of generated types, and implementing cloudStorageObjectPath as a KCC ref field). Awaiting lovelace-coder-bot to address these comments.
 * **2026-07-07**: Monitored Greenfield migration progress. Re-verified Step 1 Pull Request [#11252](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11252) and confirmed all CI check-runs are successfully completed with 100% green status. The PR is still open, awaiting human OWNER review and merge before we can proceed to Step 2.
 * **2026-07-07**: Monitored Greenfield migration progress. Re-verified Step 1 Pull Request [#11252](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11252) CI checks, confirming 100% green success status with no failures. The PR remains open, awaiting human OWNER review and merge to proceed to Step 2.
 * **2026-07-07**: Monitored Greenfield migration progress. Step 1 Pull Request [#11252](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11252) remains open with all CI checks successfully passing with 100% green status (no failures). Currently awaiting human OWNER review and merge to proceed to Step 2.
