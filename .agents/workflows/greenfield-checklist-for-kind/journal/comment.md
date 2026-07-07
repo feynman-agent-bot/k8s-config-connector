@@ -1,0 +1,16 @@
+## Migration Progress
+
+### Current Step
+**Step 1: Direct API Types and Identity and Reference Types Pattern** (CI checks failing, assigning to PR author `ada-coder-bot` for resolution)
+
+### Progress Tracking Table
+
+| Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
+|---|---|---|---|---|---|
+| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | PR Created | July 6, 2026 | - |
+| Step 2: Direct Controller and E2E Fixtures | - | - | Pending | - | - |
+| Step 3: MockGCP Generation | - | - | Pending | - | - |
+| Step 4: MockGCP Alignment | - | - | Pending | - | - |
+
+### Recent Status Updates
+- **July 7, 2026**: Overseer bot initialized. Found that Step 1 issue #9245 is open and PR #11408 by `ada-coder-bot` is unassigned with failing CI checks. Assigned the PR back to `ada-coder-bot` for resolution.
