@@ -14,6 +14,7 @@
 
 ## Notes / Status Updates
 
+- **2026-07-08**: Detected that Pull Request [#11432](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11432) has merge conflicts (DIRTY state). Assigned the PR back to the author `codebot-robot` to rebase and resolve the conflicts.
 - **2026-07-08**: Verified that all CI checks continue to pass successfully. The PR remains open, awaiting human OWNER review and approval.
 - **2026-07-07**: All CI checks on Pull Request [#11432](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11432) have passed successfully. The PR is now awaiting human OWNER review and approval.
 - **2026-07-07**: Core CI checks (including `unit-tests`, `unit-tests-operator`, and linters/static analyses) have successfully passed on head commit `1fa36e3`. A few `tests-e2e-fixtures` checks are still in progress.
