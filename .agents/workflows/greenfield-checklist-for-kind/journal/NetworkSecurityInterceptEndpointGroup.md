@@ -1,18 +1,19 @@
 # Migration Journal: NetworkSecurityInterceptEndpointGroup
 
 ## Current Step
-Step 2: Direct Controller, E2E fixtures and Fuzzer
+Step 3: mockGCP generation
 
 ## Progress Tracking
 
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Direct API Types and Identity and Reference Types Pattern | [#8728](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8728) | [#8757](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8757) | Merged | 2026-05-28 | 2026-05-28 |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11425](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11425) | [#11437](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11437) | PR Created | 2026-07-07 | - |
-| 3 | mockGCP generation | - | - | Pending | - | - |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11425](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11425) | [#11437](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11437) | Merged | 2026-07-07 | 2026-07-08 |
+| 3 | mockGCP generation | [#11473](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11473) | - | Open | 2026-07-08 | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-07-08**: Step 2 direct controller implementation and testing was successfully merged in PR #11437. Initiating Step 3: mockGCP generation by tracking the newly created issue #11473.
 - **2026-07-08**: Monitored Step 2 progress. Confirmed that all CI presubmit checks are passing and PR #11437 remains officially approved by human owner (`acpana`). The PR is open, fully healthy, and waiting for the merge engine / prow to complete the merge.
 - **2026-07-07**: Monitored Step 2 progress. Confirmed that all CI presubmit checks have completed successfully and PR #11437 is now officially APPROVED by human owner (`acpana`). The PR is open, fully green, and awaiting final merge by the prow bot / merge engine.
 - **2026-07-07**: Monitored Step 2 progress. Verified that all CI presubmit check-runs for PR #11437 have successfully passed and are fully green. The PR is open, healthy, and awaiting final review and merge by human OWNERS.
