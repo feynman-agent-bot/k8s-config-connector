@@ -14,6 +14,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 ## Status Update Notes
 
+### 2026-07-08 (Update 70)
+- Re-verified PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195): State remains `OPEN`, mergeable is `MERGEABLE`, and `mergeStateStatus` is `BLOCKED`.
+- Checked the CI check-runs on PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) and confirmed that `tests-e2e-fixtures` remains in a `failed` state, while `tests-e2e-fixtures-networksecurity` and all other CI check suites are successfully passing.
+- Verified that takeover issue [#11426](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11426) remains `OPEN` and assigned to `codebot-robot` in the queue to coordinate test failure resolution and merge.
+- Verified that PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) is currently assigned to `codebot-robot` and `maqiuyujoyce`.
+- We must continue to wait for all the CI checks to pass and for the PR to be officially merged before transitioning to Step 2.
+
 ### 2026-07-08 (Update 69)
 - Re-verified PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195): State remains `OPEN`, mergeable is `MERGEABLE`, and `mergeStateStatus` is `BLOCKED`.
 - Checked the CI check runs on PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) and confirmed that `tests-e2e-fixtures` has failed, while `tests-e2e-fixtures-networksecurity` and other E2E/CI suites are passing.
