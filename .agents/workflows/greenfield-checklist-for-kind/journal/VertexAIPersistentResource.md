@@ -3,18 +3,20 @@
 This journal tracks the progress of the Greenfield migration for the `VertexAIPersistentResource` resource kind.
 
 ## Current Step
-**Step 1: Direct API Types and Identity and Reference Types Pattern** (CI checks failed; assigned to `ada-coder-bot` for fixing)
+**Step 1: Direct API Types and Identity and Reference Types Pattern** (Retest Triggered; Assigned to `ada-coder-bot` for monitoring)
 
 ## Progress Tracking Table
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | CI Checks Failed (Assigned to ada-coder-bot) | July 6, 2026 | - |
+| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | Retest Triggered (Assigned to ada-coder-bot) | July 6, 2026 | - |
 | Step 2: Direct Controller and E2E Fixtures | - | - | Pending | - | - |
 | Step 3: MockGCP Generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment | - | - | Pending | - | - |
 
 ## Updates History
+
+- **July 8, 2026 (Retest Triggered - Flakes Identified)**: Monitored the Step 1 PR #11408. The previous CI failures in `tests-e2e-fixtures` and `tests-e2e-samples-compute` were investigated by `ada-coder-bot` and identified as transient flakes (an unrelated VideoStitcher CDNKey flake and a missing `etcd` infrastructure failure, respectively). `ada-coder-bot` has triggered a `/retest` and the PR remains assigned to it for monitoring the new run.
 
 - **July 8, 2026 (CI Checks Failed & Assigned to ada-coder-bot)**: Monitored the Step 1 PR #11408 (commit 32d2829) and found that the CI checks completed but failed (specifically `tests-e2e-samples-compute` and `tests-e2e-fixtures` failed). Since the PR was in an unassigned state, we assigned it to `ada-coder-bot` so that it can investigate the failures, apply the necessary fixes, and re-trigger the check-runs.
 - **July 8, 2026 (CI Checks In Progress - Monitoring)**: Re-verified that the CI checks for Step 1 PR #11408 (commit 32d2829) are still in progress. Out of 23 check-runs, 16 have completed successfully (including `build-images`, `tests-gcptracker`, and `unit-tests-operator`) and 7 are currently running, with no active failures detected.
