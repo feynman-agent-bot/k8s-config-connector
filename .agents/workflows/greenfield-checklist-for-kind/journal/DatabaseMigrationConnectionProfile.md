@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4. MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Updates
+- **2026-07-08 15:06 UTC**: Checked Pull Request #11172. Confirmed that all 193 CI checks are fully completed and successful. The PR is open, green, and awaiting human OWNER review and merge to proceed to Step 2.
 - **2026-07-08 14:39 UTC**: Checked Pull Request #11172. Confirmed that all 193 CI checks remain fully completed and successful. The PR is open, green, and awaiting human OWNER review and merge to proceed to Step 2.
 - **2026-07-08 14:24 UTC**: Checked Pull Request #11172. Confirmed that all 193 CI checks remain fully completed and successful. The PR is open, green, and awaiting human OWNER review and merge to proceed to Step 2.
 - **2026-07-08 13:45 UTC**: Checked Pull Request #11172. Confirmed that all 193 CI checks are fully completed and successful. The PR is open, green, and awaiting human OWNER review and merge to proceed to Step 2.
@@ -68,48 +69,48 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 - **2026-07-03 19:20 UTC**: Checked Pull Request #11172. Confirmed that all 190+ CI checks continue to pass successfully. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
 - **2026-07-03 19:00 UTC**: Checked Pull Request #11172. Confirmed that all 190+ CI checks continue to pass successfully. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
 - **2026-07-03 18:43 UTC**: Checked Pull Request #11172. Confirmed that all 190+ CI checks continue to pass successfully. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 18:18 UTC**: Checked Pull Request #11172. Confirmed that all 190+ CI checks continue to pass successfully. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 18:00 UTC**: Checked Pull Request #11172. Confirmed that all 190+ CI checks continue to pass successfully. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 17:52 UTC**: Checked Pull Request #11172. Verified all 190+ CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 17:33 UTC**: Checked Pull Request #11172. Verified all 190+ CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 16:59 UTC**: Checked Pull Request #11172. Verified all 190+ CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 16:41 UTC**: Checked Pull Request #11172. Verified all 190+ CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 16:13 UTC**: Checked Pull Request #11172. Confirmed that all 193 CI checks continue to pass successfully. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 15:43 UTC**: Checked Pull Request #11172. Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 15:16 UTC**: Checked Pull Request #11172. Verified all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 14:59 UTC**: Checked Pull Request #11172. Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 14:31 UTC**: Checked Pull Request #11172. Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 14:13 UTC**: Checked Pull Request #11172. Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 13:46 UTC**: Checked Pull Request #11172. Confirmed that all CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 13:14 UTC**: Checked Pull Request #11172. Confirmed that all 193 CI checks are fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 12:49 UTC**: Checked Pull Request #11172. Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 12:34 UTC**: Checked Pull Request #11172. Confirmed that all 193 CI checks continue to pass successfully. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 12:05 UTC**: Checked Pull Request #11172. Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 11:43 UTC**: Checked Pull Request #11172. Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 11:15 UTC**: Checked Pull Request #11172. Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 10:41 UTC**: Checked Pull Request #11172. Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 10:03 UTC**: Checked Pull Request #11172. Confirmed that all 193 CI checks are fully passing. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 09:31 UTC**: Checked Pull Request #11172. Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 08:49 UTC**: Checked Pull Request #11172. Confirmed that all 193 CI checks continue to pass successfully with no failures. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 08:32 UTC**: Checked Pull Request #11172. Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 08:05 UTC**: Checked Pull Request #11172. Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 07:33 UTC**: Checked Pull Request #11172. Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 07:15 UTC**: Checked Pull Request #11172. Confirmed that all CI checks continue to pass successfully. The PR is open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 06:48**: Checked Pull Request #11172. Confirmed that all CI checks remain fully passing. The PR is still open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 06:18**: Checked Pull Request #11172. Confirmed that all 193 CI checks remain fully passing. The PR is still open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 05:47**: Checked Pull Request #11172. Confirmed that all 193 CI checks are fully passing. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 05:11**: Checked Pull Request #11172. Confirmed that all 193 CI checks are fully passing. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 04:34**: Checked Pull Request #11172. Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 03:51**: Checked Pull Request #11172. Confirmed that all 193 CI checks remain fully passing and green. The PR is open, and we continue to await human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 03:35**: Checked Pull Request #11172. Verified all 190+ CI checks continue to pass successfully. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 03:00**: Checked Pull Request #11172. Verified all 190+ CI checks are successfully passing with no failures. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-03 01:40**: Checked Pull Request #11172. Confirmed all 190+ CI checks remain fully passing. The PR is open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-02 21:57**: Checked Pull Request #11172. Confirmed all 190+ CI checks remain fully passing. The PR is open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-02 21:31**: Checked Pull Request #11172. Verified all 193 CI checks are fully passing. The PR is open and green, awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-02 21:17**: Checked Pull Request #11172. Confirmed all 193 CI checks remain fully passing and green. The PR is open and we continue to await human OWNER review and merge to proceed to Step 2.
-- **2026-07-02 20:55**: Checked Pull Request #11172. Confirmed all 193 CI checks remain fully passing. The PR is open, green, and awaiting human OWNER review and merge.
-- **2026-07-02 20:42**: Checked Pull Request #11172. All 193 CI checks (including unit tests, validations, and E2E fixtures) are fully passing. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
-- **2026-07-02 20:20**: Checked Pull Request #11172. All 193 CI checks (including unit tests, validations, and E2E fixtures) are fully passing. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 18:18**: Checked Pull Request #11172. Confirmed that all 190+ CI checks continue to pass successfully. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 18:00**: Checked Pull Request #11172. Confirmed that all 190+ CI checks continue to pass successfully. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 17:52**: Verified all 190+ CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 17:33**: Verified all 190+ CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 16:59**: Verified all 190+ CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 16:41**: Verified all 190+ CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 16:13**: Confirmed that all 193 CI checks continue to pass successfully. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 15:43**: Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 15:16**: Verified all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 14:59**: Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 14:31**: Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 14:13**: Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 13:46**: Confirmed that all CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 13:14**: Confirmed that all 193 CI checks are fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 12:49**: Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 12:34**: Confirmed that all 193 CI checks continue to pass successfully. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 12:05**: Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 11:43**: Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 11:15**: Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 10:41**: Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 10:03**: Confirmed that all 193 CI checks are fully passing. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 09:31**: Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 08:49**: Confirmed that all 193 CI checks continue to pass successfully with no failures. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 08:32**: Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 08:05**: Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 07:33**: Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 07:15**: Confirmed that all CI checks continue to pass successfully. The PR is open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 06:48**: Confirmed that all CI checks remain fully passing. The PR is still open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 06:18**: Confirmed that all 193 CI checks remain fully passing. The PR is still open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 05:47**: Confirmed that all 193 CI checks are fully passing. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 05:11**: Confirmed that all 193 CI checks are fully passing. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 04:34**: Confirmed that all 193 CI checks remain fully passing and green. The PR remains open, awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 03:51**: Confirmed that all 193 CI checks remain fully passing and green. The PR is open, and we continue to await human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 03:35**: Verified all 190+ CI checks continue to pass successfully. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 03:00**: Verified all 190+ CI checks are successfully passing with no failures. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-03 01:40**: Confirmed all 190+ CI checks remain fully passing. The PR is open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-02 21:57**: Confirmed all 190+ CI checks remain fully passing. The PR is open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-02 21:31**: Verified all 193 CI checks are fully passing. The PR is open and green, awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-02 21:17**: Confirmed all 193 CI checks remain fully passing and green. The PR is open and we continue to await human OWNER review and merge to proceed to Step 2.
+- **2026-07-02 20:55**: Confirmed all 193 CI checks remain fully passing. The PR is open, green, and awaiting human OWNER review and merge.
+- **2026-07-02 20:42**: All 193 CI checks (including unit tests, validations, and E2E fixtures) are fully passing. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
+- **2026-07-02 20:20**: All 193 CI checks (including unit tests, validations, and E2E fixtures) are fully passing. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
 - **2026-07-02 20:05**: Re-verified Pull Request #11172. All 193 CI checks have completed successfully. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
 - **2026-07-02 19:43**: Re-verified Pull Request #11172. All 193 CI checks are fully passing. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
 - **2026-07-02 19:29**: Re-verified Pull Request #11172. All 193 CI checks are fully passing. The PR remains open, green, and awaiting human OWNER review and merge to proceed to Step 2.
