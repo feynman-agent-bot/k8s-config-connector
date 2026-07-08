@@ -14,6 +14,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 ## Status Update Notes
 
+### 2026-07-08 (Update 64)
+- Re-verified PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195): State is `OPEN` and mergeable status is `MERGEABLE`.
+- Some CI checks (`validate-generated-files`, `validations`) are currently failing on the latest merge commit.
+- Assigned PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) to `codebot-robot` to trigger automatic takeover and fix the CI failures.
+- Takeover issue [#11426](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11426) remains `OPEN` and assigned to `codebot-robot`.
+- We must continue to wait for all the CI checks to pass and for the PR to be officially merged before we can transition to Step 2.
+
 ### 2026-07-08 (Update 63)
 - Re-verified PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195): State is `OPEN` and mergeable status is `MERGEABLE`.
 - A new merge commit `eb197f0` was recently pushed to merge master into the PR branch, and the CI/E2E checks are currently running (`pending`).
