@@ -9,10 +9,11 @@ Step 3: mockGCP generation
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Direct API Types and Identity and Reference Types Pattern | [#8728](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8728) | [#8757](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8757) | Merged | 2026-05-28 | 2026-05-28 |
 | 2 | Direct Controller, E2E fixtures and Fuzzer | [#11425](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11425) | [#11437](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11437) | Merged | 2026-07-07 | 2026-07-08 |
-| 3 | mockGCP generation | [#11473](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11473) | - | Open | 2026-07-08 | - |
+| 3 | mockGCP generation | [#11473](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11473) | [#11482](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11482) | PR Created | 2026-07-08 | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-07-08**: Monitored Step 3 mockGCP generation progress. Confirmed that Pull Request #11482 has been successfully opened by `hopper-coder-bot` to resolve issue #11473. The CI presubmit check-runs have been initiated and are currently in a pending state. We will continue monitoring the checks.
 - **2026-07-08**: Monitored Step 3 mockGCP generation progress. Confirmed that issue #11473 is open and assigned to hopper-coder-bot, and the AI Factory has actively started the implementation in a sandbox. No Pull Request has been opened yet.
 - **2026-07-08**: Step 2 direct controller implementation and testing was successfully merged in PR #11437. Initiating Step 3: mockGCP generation by tracking the newly created issue #11473.
 - **2026-07-08**: Monitored Step 2 progress. Confirmed that all CI presubmit checks are passing and PR #11437 remains officially approved by human owner (`acpana`). The PR is open, fully healthy, and waiting for the merge engine / prow to complete the merge.
