@@ -3,19 +3,20 @@
 This journal tracks the progress of the Greenfield migration for the `VertexAIPersistentResource` resource kind.
 
 ## Current Step
-**Step 1: Direct API Types and Identity and Reference Types Pattern** (All 195+ CI checks passed, waiting for OWNER review and merge)
+**Step 1: Direct API Types and Identity and Reference Types Pattern** (New commit b3ada01 pushed, CI checks in-progress)
 
 ## Progress Tracking Table
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | PR Checks Passed | July 6, 2026 | - |
+| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | CI Checks In Progress | July 6, 2026 | - |
 | Step 2: Direct Controller and E2E Fixtures | - | - | Pending | - | - |
 | Step 3: MockGCP Generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment | - | - | Pending | - | - |
 
 ## Updates History
 
+- **July 8, 2026 (CI Checks In Progress)**: A new commit b3ada01 was pushed. All 190+ CI check-runs are currently queued or in-progress. We must wait for the CI checks to complete and pass before checking the status again or proceeding.
 - **July 8, 2026 (Continuous Verification & CI Checks Pristine & Pending OWNER Merge)**: Verified that all 195+ CI check-runs for Step 1 PR #11408 are 100% green and passing with zero failures. The PR is awaiting human OWNER review and merge to complete Step 1. We are holding on Step 2 until the PR is merged.
 - **July 8, 2026 (Step 1 PR Verified 100% Green & Awaiting OWNER Merge)**: Re-checked the status of the Step 1 PR #11408. All 195+ CI check-runs are completely green and passing with zero failures. The PR remains open, healthy, and is awaiting human OWNER review and merge. Step 2 remains pending until Step 1 merges.
 - **July 8, 2026 (Step 1 PR Verified 100% Green & Pending OWNER Merge)**: Re-verified that all 195+ CI checks on PR #11408 are successfully passing. The PR remains open, healthy, and is awaiting human OWNER review and merge to conclude Step 1. We are holding on Step 2 until the PR is merged.
