@@ -3,19 +3,20 @@
 This journal tracks the progress of the Greenfield migration for the `VertexAIPersistentResource` resource kind.
 
 ## Current Step
-**Step 1: Direct API Types and Identity and Reference Types Pattern** (CI checks in progress)
+**Step 1: Direct API Types and Identity and Reference Types Pattern** (CI checks failed; assigned to `ada-coder-bot` for fixing)
 
 ## Progress Tracking Table
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | CI Checks In Progress | July 6, 2026 | - |
+| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | CI Checks Failed (Assigned to ada-coder-bot) | July 6, 2026 | - |
 | Step 2: Direct Controller and E2E Fixtures | - | - | Pending | - | - |
 | Step 3: MockGCP Generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment | - | - | Pending | - | - |
 
 ## Updates History
 
+- **July 8, 2026 (CI Checks Failed & Assigned to ada-coder-bot)**: Monitored the Step 1 PR #11408 (commit 32d2829) and found that the CI checks completed but failed (specifically `tests-e2e-samples-compute` and `tests-e2e-fixtures` failed). Since the PR was in an unassigned state, we assigned it to `ada-coder-bot` so that it can investigate the failures, apply the necessary fixes, and re-trigger the check-runs.
 - **July 8, 2026 (CI Checks In Progress - Monitoring)**: Re-verified that the CI checks for Step 1 PR #11408 (commit 32d2829) are still in progress. Out of 23 check-runs, 16 have completed successfully (including `build-images`, `tests-gcptracker`, and `unit-tests-operator`) and 7 are currently running, with no active failures detected.
 - **July 8, 2026 (CI Checks In Progress)**: Verified that the CI checks on Step 1 PR #11408 are currently running. Most check-runs are currently queued or in-progress, with no active failures detected. We will continue monitoring the PR until the CI checks complete.
 - **July 8, 2026 (CI Checks Failed & Re-assigned)**: CI check-runs for Step 1 PR #11408 completed but failed on 'unit-tests'. The PR was unassigned, so we assigned it back to 'ada-coder-bot' for fixing and re-triggering the checks.
