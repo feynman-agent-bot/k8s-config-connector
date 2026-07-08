@@ -14,11 +14,18 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 ## Status Update Notes
 
+### 2026-07-08 (Update 36)
+- Re-verified PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195): State remains `OPEN` and mergeable status is `MERGEABLE`.
+- Verified all 190+ CI/E2E checks are 100% passing.
+- The PR remains approved with both `approved` and `lgtm` labels and is waiting for a human reviewer or administrative process to officially merge.
+- Checked takeover issue [#11426](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11426): remains `OPEN` and assigned to `codebot-robot` in the queue.
+- We must continue to wait for PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) to be merged before transitioning to Step 2.
+
 ### 2026-07-08 (Update 35)
 - Re-verified PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195): State remains `OPEN` and mergeable status is `MERGEABLE`.
 - Verified all 190+ CI/E2E checks are 100% passing.
 - The PR remains open and is waiting for a human reviewer or administrative process to officially approve or merge the PR.
-- Checked takeover issue [#11426](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11426): remains `OPEN` and assigned to `codebot-robot` in the queue.
+- Checked takeover issue [#11426](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11426): remains `OPEN` and assigned to `codebot-robot`.
 - We must continue to wait for PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) to be merged before transitioning to Step 2.
 
 ### 2026-07-08 (Update 34)
