@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4. MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Updates
+* **2026-07-08**: Re-monitored PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236). The PR remains OPEN and mergeable with 190+ checks passing, but continues to be blocked by the `tests-preview` performance timeout flake. Standing by for human OWNER review and manual merge of Step 1.
 * **2026-07-08**: Re-monitored PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236). The PR remains OPEN and mergeable with all 190+ checks passing, but continues to be blocked by the `tests-preview` performance timeout flake. Continuing to stand by for human OWNER review and manual merge of Step 1.
 * **2026-07-08**: Re-monitored PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236). The PR remains OPEN and mergeable, but continues to be blocked by the `tests-preview` performance timeout flake. Continuing to stand by for human OWNER review and manual merge of Step 1.
 * **2026-07-08**: Re-monitored PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236). The PR remains OPEN with the `tests-preview` check still failing due to a performance timeout flake. We are continuing to stand by for human OWNER review and manual merge of Step 1.
