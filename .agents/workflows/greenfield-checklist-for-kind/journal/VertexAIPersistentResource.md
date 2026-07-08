@@ -16,6 +16,7 @@ This journal tracks the progress of the Greenfield migration for the `VertexAIPe
 
 ## Updates History
 
+- **July 8, 2026 (CI Checks In Progress - Monitoring)**: Re-verified that the CI checks for Step 1 PR #11408 (commit 32d2829) are still in progress. Out of 23 check-runs, 16 have completed successfully (including `build-images`, `tests-gcptracker`, and `unit-tests-operator`) and 7 are currently running, with no active failures detected.
 - **July 8, 2026 (CI Checks In Progress)**: Verified that the CI checks on Step 1 PR #11408 are currently running. Most check-runs are currently queued or in-progress, with no active failures detected. We will continue monitoring the PR until the CI checks complete.
 - **July 8, 2026 (CI Checks Failed & Re-assigned)**: CI check-runs for Step 1 PR #11408 completed but failed on 'unit-tests'. The PR was unassigned, so we assigned it back to 'ada-coder-bot' for fixing and re-triggering the checks.
 - **July 8, 2026 (CI Checks In Progress)**: A new commit b3ada01 was pushed. All 190+ CI check-runs are currently queued or in-progress. We must wait for the CI checks to complete and pass before checking the status again or proceeding.
