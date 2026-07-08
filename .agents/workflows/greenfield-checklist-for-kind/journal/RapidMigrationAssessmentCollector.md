@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
-| 1. Direct API Types and Identity | [#11219](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11219) | [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236) | CI Failed (assigned to bot) | 2026-07-02 | - |
+| 1. Direct API Types and Identity | [#11219](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11219) | [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236) | CI Pending | 2026-07-02 | - |
 | 2. Direct Controller, E2E fixtures and Fuzzer | - | - | Pending | - | - |
 | 3. mockGCP generation | - | - | Pending | - | - |
 | 4. MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Updates
+* **2026-07-08**: Monitored PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236). Detected that `ada-coder-bot` has pushed a new commit resolving the previous CI failure. The new CI checks are currently pending.
 * **2026-07-08**: Monitored PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236). The previously flaky `tests-preview` check passed successfully, but the `tests-e2e-fixtures` check failed due to an unexpected mock log diff in unrelated `videostitcher` tests. Assigned the PR back to `ada-coder-bot` to resolve the CI failure.
 * **2026-07-08**: Re-monitored PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236). The PR remains OPEN and mergeable, but continues to be blocked by the `tests-preview` performance timeout flake while all other checks are completely green. Awaiting human OWNER review and manual merge of Step 1.
 * **2026-07-08**: Re-checked PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236) status. It remains OPEN with all checks passing except the `tests-preview` check, which failed due to a performance timeout flake. Awaiting human OWNER review to manually re-run or merge Step 1.
