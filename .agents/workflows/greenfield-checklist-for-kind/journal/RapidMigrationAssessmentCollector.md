@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
-| 1. Direct API Types and Identity | [#11219](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11219) | [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236) | PR Created | 2026-07-02 | - |
+| 1. Direct API Types and Identity | [#11219](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11219) | [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236) | CI Failed (assigned to bot) | 2026-07-02 | - |
 | 2. Direct Controller, E2E fixtures and Fuzzer | - | - | Pending | - | - |
 | 3. mockGCP generation | - | - | Pending | - | - |
 | 4. MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Updates
+* **2026-07-08**: Monitored PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236). The previously flaky `tests-preview` check passed successfully, but the `tests-e2e-fixtures` check failed due to an unexpected mock log diff in unrelated `videostitcher` tests. Assigned the PR back to `ada-coder-bot` to resolve the CI failure.
 * **2026-07-08**: Re-monitored PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236). The PR remains OPEN and mergeable, but continues to be blocked by the `tests-preview` performance timeout flake while all other checks are completely green. Awaiting human OWNER review and manual merge of Step 1.
 * **2026-07-08**: Re-checked PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236) status. It remains OPEN with all checks passing except the `tests-preview` check, which failed due to a performance timeout flake. Awaiting human OWNER review to manually re-run or merge Step 1.
 * **2026-07-08**: Re-monitored PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236) and verified it is still OPEN. The `tests-preview` check continues to fail due to a performance timeout flake while all other checks are green. Continuing to stand by for human OWNER review and manual action/merge of Step 1.
@@ -80,7 +81,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 * **2026-07-03**: Verified PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236) remains open with all CI checks passing completely green and successfully. Continuing to monitor and stand by for human OWNER review and merge of Step 1.
 * **2026-07-03**: Checked PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236) status. It is still open and all 110+ CI checks have passed successfully. Standing by for human OWNER review and merge.
 * **2026-07-03**: Verified PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236) remains open with all 110+ CI checks passing completely green and successfully. Continuing to monitor and await human OWNER review and merge of Step 1.
-* **2026-07-03**: Re-verified PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236) is still open and all CI checks remain completely green and passing. Continuing to monitor and stand by for human OWNER review and merge of Step 1.
+* **2026-07-03**: Re-verified PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236) remains open with all CI checks completely green and passing. Continuing to monitor and stand by for human OWNER review and merge of Step 1.
 * **2026-07-03**: Verified that all CI checks for PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236) remain completely successful and green. The PR is open, standing by for human OWNER review and merge of Step 1 before proceeding to Step 2.
 * **2026-07-03**: Re-verified all CI checks on PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236) are 100% green and passing. The PR remains open, awaiting human OWNER review and merge of Step 1 before proceeding to Step 2.
 * **2026-07-03**: Confirmed PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236) remains open and all CI checks are completely green. Awaiting human OWNER review and merge of Step 1.
