@@ -1,18 +1,23 @@
 # Greenfield Migration Journal: NetworkSecurityAuthzPolicy
 
 ## Current Step
-Step 1: Direct API Types and Identity and Reference Types Pattern
+Step 2: Direct Controller, E2E fixtures and Fuzzer
 
 ## Migration Progress Tracking
 
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Direct API Types, Identity, Reference | [#8721](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8721) | [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) | PR Created | 2026-06-04 | |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | | | Pending | | |
+| 1 | Direct API Types, Identity, Reference | [#8721](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8721) | [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) | Completed | 2026-06-04 | 2026-07-09 |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11531](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11531) | | Open | 2026-07-09 | |
 | 3 | mockGCP generation | | | Pending | | |
 | 4 | MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Update Notes
+
+### 2026-07-09 (Update 102)
+- Verified that PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) for Step 1 has been successfully merged.
+- Successfully created GitHub Issue [#11531](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11531) to initiate Step 2 ("Implement direct controller, E2E fixtures, and fuzzer for NetworkSecurityAuthzPolicy").
+- Transitioned the current step to Step 2 and marked Step 1 as completed.
 
 ### 2026-07-09 (Update 101)
 - Re-verified PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) status: The PR remains `OPEN` with both `lgtm` and `approved` labels present.
