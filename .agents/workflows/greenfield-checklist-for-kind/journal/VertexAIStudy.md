@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
-| 1. Direct API Types, Identity & Reference Types | [#9250](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9250) | [#11412](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11412) | Checks Pending | 2026-06-05 | |
+| 1. Direct API Types, Identity & Reference Types | [#9250](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9250) | [#11412](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11412) | All Checks Passed | 2026-06-05 | |
 | 2. Direct Controller, E2E Fixtures & Fuzzer | TBD | TBD | Not Started | | |
 | 3. mockGCP Generation | TBD | TBD | Not Started | | |
 | 4. MockGCP Alignment with RealGCP | TBD | TBD | Not Started | | |
 
 ## Status Updates
+- **2026-07-09**: Checked PR #11412. Confirmed all 195+ CI checks are 100% green and successfully passing. The PR remains OPEN, awaiting human OWNER review and merge before proceeding to Step 2.
 - **2026-07-08**: Monitored PR #11412. Verified that all completed CI checks continue to pass successfully with zero failures, with only 3 checks (dataflow, compute, bigquery) still pending. The PR remains OPEN, awaiting completion of all checks followed by human OWNER review and merge.
 - **2026-07-08**: Checked PR #11412 CI status. Verified that 15 checks are still pending while all completed checks continue to pass successfully with zero failures. The PR remains open, awaiting completion of CI checks followed by human OWNER review and merge.
 - **2026-07-08**: Monitored PR #11412. Verified that all CI checks for head commit `eefb2042` are currently in progress/pending with zero failures. The PR remains OPEN, awaiting completion of checks followed by human OWNER review and merge to proceed to Step 2.
