@@ -16,6 +16,8 @@ This journal tracks the progress of the Greenfield migration for the `VertexAIPe
 
 ## Updates History
 
+- **July 9, 2026 (Greenfield Monitoring; Merge Conflicts and CI Flakes Block PR)**: Checked the latest status of Step 1 PR #11408. The PR is still open, but is now in a `dirty` state indicating merge conflicts with `upstream/master`. The CI checks `tests-e2e-fixtures` and `tests-e2e-samples-compute` remain failed due to external/infrastructure issues. Since the AI Factory previously reached its retry limit, human OWNER intervention is required to resolve conflicts and merge the PR. Step 2 remains on hold.
+
 - **July 9, 2026 (Greenfield Monitoring; Re-verified CI & Still Awaiting OWNER Merge)**: Checked the latest status of Step 1 PR #11408. The PR remains open. CI checks show that the core check `tests-e2e-fixtures-vertexai` continues to pass successfully, while `tests-e2e-fixtures` and `tests-e2e-samples-compute` remain failed due to persistent external/infrastructure flakes. We continue to hold on Step 2, awaiting human OWNER review and merge of Step 1.
 
 - **July 9, 2026 (Greenfield Monitoring; Status Confirmed & Holding)**: Re-checked the status of the Step 1 PR #11408. The PR remains open and blocked by the persistent unrelated external flakes in `tests-e2e-fixtures` and `tests-e2e-samples-compute`, while the core `tests-e2e-fixtures-vertexai` check is successfully passing. Since the automated coder bot has reached its retry limit, we continue to hold on Step 2, awaiting human OWNER review and merge of Step 1.
