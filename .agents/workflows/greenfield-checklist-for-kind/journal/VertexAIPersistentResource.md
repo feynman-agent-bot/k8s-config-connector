@@ -3,18 +3,20 @@
 This journal tracks the progress of the Greenfield migration for the `VertexAIPersistentResource` resource kind.
 
 ## Current Step
-**Step 1: Direct API Types and Identity and Reference Types Pattern** (PR Rebased; CI Checks In Progress)
+**Step 1: Direct API Types and Identity and Reference Types Pattern** (CI Checks Finishing)
 
 ## Progress Tracking Table
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | CI Checks In Progress | July 6, 2026 | - |
+| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | CI Checks Finishing | July 6, 2026 | - |
 | Step 2: Direct Controller and E2E Fixtures | - | - | Pending | - | - |
 | Step 3: MockGCP Generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment | - | - | Pending | - | - |
 
 ## Updates History
+
+- **July 9, 2026 (Greenfield Monitoring; CI Checks Near Completion, All Other Checks Green)**: Checked the latest status of Step 1 PR #11408. Only one CI check (`tests-e2e-fixtures-compute`) remains in progress, while all other 190+ checks have completed and passed successfully. There are no active failures. We continue to hold on Step 2, awaiting the merge of Step 1.
 
 - **July 9, 2026 (Greenfield Monitoring; Rebased & CI Running Green)**: Checked the latest status of Step 1 PR #11408. The PR has been successfully rebased by the AI Factory (`argus-watcher-bot`) to resolve merge conflicts, and a new commit `bac454d` was force-pushed. The CI check-runs are currently running. So far, over 180 checks have passed successfully with zero failures, and the remaining 14 checks are in progress. We continue to hold on Step 2, awaiting the merge of Step 1.
 
