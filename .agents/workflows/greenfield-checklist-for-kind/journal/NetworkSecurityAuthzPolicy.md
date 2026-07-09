@@ -14,6 +14,11 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 
 ## Status Update Notes
 
+### 2026-07-09 (Update 115)
+- Verified that Step 2 Pull Request [#11534](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11534) remains in a `CONFLICTING` status on GitHub.
+- Created takeover issue [#11540](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11540) assigned to `codebot-robot` to coordinate resolving the merge conflicts and rebasing the PR branch on top of master.
+- We will continue to monitor the PR and wait for it to be resolved and merged before transitioning to Step 3.
+
 ### 2026-07-09 (Update 114)
 - Verified that Step 2 Pull Request [#11534](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11534) is currently in a `CONFLICTING` status on GitHub.
 - Assigned the PR back to the author bot `ada-coder-bot` using the GitHub REST API to trigger conflict resolution, automatic rebase, and verification check re-runs.
