@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
-| 1. Direct API Types and Identity | [#11219](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11219) | [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236) | CI Pending | 2026-07-02 | - |
+| 1. Direct API Types and Identity | [#11219](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11219) | [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236) | Awaiting Review | 2026-07-02 | - |
 | 2. Direct Controller, E2E fixtures and Fuzzer | - | - | Pending | - | - |
 | 3. mockGCP generation | - | - | Pending | - | - |
 | 4. MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Updates
+* **2026-07-09**: Monitored PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236) checks on the latest commit. Verified that the new `tests-e2e-fixtures-rapidmigrationassessment` and `tests-preview` check-runs successfully passed, along with all unit tests and core validations. The catch-all `tests-e2e-fixtures` failed due to an unrelated recurring `videostitcher` flake. The PR is fully green for `RapidMigrationAssessmentCollector`. Standing by for human OWNER review and manual merge of Step 1.
 * **2026-07-08**: Monitored PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236) checks. Verified that a new workflow run is currently in progress. The `tests-e2e-fixtures-rapidmigrationassessment` and `tests-preview` checks have passed successfully, along with core validations and unit tests, but the catch-all `tests-e2e-fixtures` check failed due to an unrelated recurring mock log diff flake in `videostitcher` tests. Awaiting completion of the remaining checks and human OWNER review of Step 1.
 * **2026-07-08**: Re-checked PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236) checks. Verified that all completed checks (including validations, unit tests, and tests-preview) have successfully passed, and the remaining e2e-fixtures and samples tests are currently running (pending). No failures have been detected so far on the latest commit.
 * **2026-07-08**: Monitored PR [#11236](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11236). Detected that `ada-coder-bot` has pushed a new commit resolving the previous CI failure. The new CI checks are currently pending.
