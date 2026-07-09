@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types & Identity Pattern | [Issue #7938](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7938) | [PR #7941](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7941) | PR Created | 2026-05-07 | - |
+| 1 | Direct API Types & Identity Pattern | [Issue #8740](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8740) | [PR #11526](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11526) | PR Created | 2026-07-07 | - |
 | 2 | Direct Controller & Fuzzer | Pending | - | Pending | - | - |
 | 3 | mockGCP Generation | Pending | - | Pending | - | - |
 | 4 | MockGCP Alignment | Pending | - | Pending | - | - |
 
 ## Status Update Notes
+* **2026-07-09**: Monitored Step 1. Identified that the newer PR #11526 (fixing Issue #8740) is the active attempt that successfully addresses acpana's review feedback on PR #7941 (including the required pointers, unit test file, and acronym). However, detected three failing CI checks on PR #11526 (validate-generated-files, unit-tests, validations) while unassigned. Assigned PR #11526 back to the author bot codebot-robot via the GitHub REST API to address these failures and resume Step 1 progress.
 * **2026-07-09**: Monitored Step 1. Re-verified open PR #7941. Confirmed that all completed CI checks are successfully passing (100% green), with only a single check (`tests-e2e-fixtures-compute`) currently in_progress. Verified the PR remains mergeable, unassigned, and is waiting for human OWNER review/merge. Noted duplicate/alternative PR #11526, but continue to track the fully green PR #7941.
 * **2026-07-09**: Monitored Step 1. Re-verified open PR #7941. Verified that previous check-run failures have been resolved and all completed CI check-runs are passing (100% green), with remaining checks currently pending. The PR remains unassigned, awaiting human OWNER review and merge.
 * **2026-07-09**: Monitored Step 1. Checked open PR #7941. Confirmed that codebot-robot pushed a new commit (bdfc8a706) resolving the previously failing CI checks and updating API checks and client files. The PR is open and mergeable, and all active/completed CI checks are currently passing/pending.
