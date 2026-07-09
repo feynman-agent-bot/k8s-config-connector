@@ -3,18 +3,20 @@
 This journal tracks the progress of the Greenfield migration for the `VertexAIPersistentResource` resource kind.
 
 ## Current Step
-**Step 1: Direct API Types and Identity and Reference Types Pattern** (Awaiting Human Intervention; AI Factory Gave Up)
+**Step 1: Direct API Types and Identity and Reference Types Pattern** (PR Rebased; CI Checks In Progress)
 
 ## Progress Tracking Table
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | Awaiting Human Intervention | July 6, 2026 | - |
+| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | CI Checks In Progress | July 6, 2026 | - |
 | Step 2: Direct Controller and E2E Fixtures | - | - | Pending | - | - |
 | Step 3: MockGCP Generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment | - | - | Pending | - | - |
 
 ## Updates History
+
+- **July 9, 2026 (Greenfield Monitoring; Rebased & CI Running Green)**: Checked the latest status of Step 1 PR #11408. The PR has been successfully rebased by the AI Factory (`argus-watcher-bot`) to resolve merge conflicts, and a new commit `bac454d` was force-pushed. The CI check-runs are currently running. So far, over 180 checks have passed successfully with zero failures, and the remaining 14 checks are in progress. We continue to hold on Step 2, awaiting the merge of Step 1.
 
 - **July 9, 2026 (Greenfield Monitoring; Merge Conflicts and CI Flakes Block PR)**: Checked the latest status of Step 1 PR #11408. The PR is still open, but is now in a `dirty` state indicating merge conflicts with `upstream/master`. The CI checks `tests-e2e-fixtures` and `tests-e2e-samples-compute` remain failed due to external/infrastructure issues. Since the AI Factory previously reached its retry limit, human OWNER intervention is required to resolve conflicts and merge the PR. Step 2 remains on hold.
 
