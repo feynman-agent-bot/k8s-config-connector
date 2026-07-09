@@ -16,6 +16,8 @@ This journal tracks the progress of the Greenfield migration for the `VertexAIPe
 
 ## Updates History
 
+- **July 9, 2026 (Step 1 PR Still Blocked; Verified CI State)**: Re-checked the status of the Step 1 PR #11408. It is still open, assigned to `ada-coder-bot`, and we confirmed via the REST API that the only failing checks are `tests-e2e-fixtures` and `tests-e2e-samples-compute` (due to known external/infrastructure flakes). The PR is otherwise healthy and is waiting for human OWNER review or merge. We continue to hold on Step 2.
+
 - **July 9, 2026 (Monitoring Step 1; Blocked by CI Flakes)**: Re-verified the status of PR #11408. The PR remains open, assigned to `ada-coder-bot`, and the `vertexai` / `aiplatform` fixture tests continue to pass successfully. The PR is still blocked from merging by the unrelated, transient failures in `tests-e2e-fixtures` and `tests-e2e-samples-compute`. No changes have been made. We continue to hold on Step 2 and await human OWNER review and merge of Step 1.
 
 - **July 9, 2026 (CI Still Failing on External Flakes; Awaiting Human OWNER)**: Checked PR #11408 and verified that the PR is open and assigned to `ada-coder-bot`. The CI checks `tests-e2e-fixtures` and `tests-e2e-samples-compute` are still failing due to persistent unrelated flakes, while `tests-e2e-fixtures-vertexai` continues to pass. We remain on hold for Step 2, waiting for human OWNER intervention or a merge of Step 1.
