@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
-| 1. Direct API Types, Identity & Reference Types | [#9250](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9250) | [#11412](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11412) | All Checks Passed | 2026-06-05 | |
+| 1. Direct API Types, Identity & Reference Types | [#9250](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9250) | [#11412](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11412) | Changes Requested | 2026-06-05 | |
 | 2. Direct Controller, E2E Fixtures & Fuzzer | TBD | TBD | Not Started | | |
 | 3. mockGCP Generation | TBD | TBD | Not Started | | |
 | 4. MockGCP Alignment with RealGCP | TBD | TBD | Not Started | | |
 
 ## Status Updates
+- **2026-07-09**: Verified all 195+ CI checks are completed successfully and 100% green. However, reviewer acpana requested changes (commenting out recursive fields and reverting unrelated diffs). Assigned PR #11412 back to author bot lovelace-coder-bot to address feedback.
 - **2026-07-09**: Monitored PR #11412 CI checks. Verified that all 195+ CI checks are completed and 100% green. The PR remains OPEN, awaiting human OWNER review and merge to proceed to Step 2.
 - **2026-07-09**: Monitored PR #11412 CI status. Confirmed that all 195+ CI checks remain 100% green and successfully completed. The PR is OPEN and awaiting human OWNER review and merge before we can proceed to Step 2.
 - **2026-07-09**: Verified PR #11412. All 195+ CI checks have completed successfully and are 100% green (all passed). The PR is OPEN and awaiting human OWNER review and merge before we can proceed to Step 2.
