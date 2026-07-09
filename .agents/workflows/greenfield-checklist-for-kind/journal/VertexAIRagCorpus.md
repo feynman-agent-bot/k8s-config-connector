@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct KRM Types & Identity | [#9247](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9247) | [#11389](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11389) | PR Created | 2026-07-06 | |
+| Step 1: Direct KRM Types & Identity | [#9247](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9247) | [#11389](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11389) | Awaiting Review | 2026-07-06 | |
 | Step 2: Direct Controller, E2E & Fuzzer | | | Pending | | |
 | Step 3: MockGCP Generation | | | Pending | | |
 | Step 4: MockGCP Alignment | | | Pending | | |
 
 ## Status Update Notes
+* **2026-07-09**: Monitored PR #11389. Verified that the PR remains open and is currently mergeable. Checked CI checks: the specific `tests-e2e-fixtures-aiplatform` and all other core validations/linters are passing. The parent `tests-e2e-fixtures` failed solely due to an unrelated mock log drift in VideoStitcher. Since the `VertexAIRagCorpus` changes are verified correct and `hopper-coder-bot` has completed its task, unassigned the coder bot from PR #11389 and issue #9247 to leave the PR clean and ready for human OWNER review and merging.
 * **2026-07-09**: Monitored PR #11389. Detected that the PR was unassigned with a failing `tests-e2e-fixtures` CI check-run. Re-assigned the PR back to the author bot `hopper-coder-bot` via the REST API to address the failing CI check.
 * **2026-07-09**: Monitored PR #11389. Verified that the PR remains open and is currently assigned to `hopper-coder-bot`. The `tests-e2e-fixtures` CI check-run remains in a failed state due to an unrelated mock log drift in VideoStitcher, while all other core validations, linter, and unit-test check-runs continue to pass successfully. Awaiting further updates or commits from the author bot.
 * **2026-07-09**: Monitored PR #11389. Detected that the `tests-e2e-fixtures` CI check-run failed. Re-assigned PR #11389 back to the author bot `hopper-coder-bot` via the REST API to investigate and resolve the CI failure.
