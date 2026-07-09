@@ -14,6 +14,7 @@
 
 ## Notes / Status Updates
 
+- **2026-07-09**: Verified PR [#11432](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11432) status. All CI checks have successfully passed, but the PR remains in a CONFLICTING state with an empty assignees list. Successfully assigned author `codebot-robot` via the REST API to trigger a new rebase and resolve the merge conflicts.
 - **2026-07-09**: Re-verified PR [#11432](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11432) status. All CI checks have successfully passed, but the PR remains in a CONFLICTING state. Successfully assigned author `codebot-robot` to trigger a new rebase and resolve the conflicts.
 - **2026-07-09**: Re-verified PR [#11432](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11432) status. Although all CI checks passed successfully, the PR state has changed to `CONFLICTING`. Successfully assigned the PR back to author `codebot-robot` via the REST API to trigger a rebase and resolve the merge conflicts.
 - **2026-07-09**: Verified PR [#11432](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11432) status. All completed CI checks, including the previously failing `tests-e2e-fixtures-certificatemanager` check-run, have passed successfully. The PR is conflict-free, and the remaining E2E test suites are currently running.
