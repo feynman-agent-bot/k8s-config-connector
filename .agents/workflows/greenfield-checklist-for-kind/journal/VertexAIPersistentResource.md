@@ -16,6 +16,8 @@ This journal tracks the progress of the Greenfield migration for the `VertexAIPe
 
 ## Updates History
 
+- **July 9, 2026 (Step 1 PR Still Blocked by CI Flakes)**: Re-evaluated the Greenfield migration. Checked Step 1 PR #11408 and verified that CI checks `tests-e2e-fixtures` and `tests-e2e-samples-compute` are still in a failed state due to unrelated external flakes. Since the automated coder bot's retry limit has been reached, we are waiting for human OWNER intervention or a manual trigger to re-run and merge the PR. Step 2 (Direct Controller and E2E Fixtures) remains on hold.
+
 - **July 9, 2026 (Continuous Monitoring & CI Still Failing)**: Re-verified the status of the Step 1 PR #11408. The CI checks `tests-e2e-fixtures` and `tests-e2e-samples-compute` remain in a failed state due to transient flakes. The PR is assigned to `ada-coder-bot` but because the automated retry budget has been exhausted, human OWNER intervention (retest, manual trigger, or merge) is required. We continue to hold Step 2 pending Step 1's merge.
 
 - **July 9, 2026 (CI Failing & Awaiting OWNER Retest/Merge)**: Re-verified the status of the Step 1 PR #11408. The CI checks `tests-e2e-fixtures` and `tests-e2e-samples-compute` are still failing due to known external/timing-dependent flakes/infrastructure issues. The PR remains assigned to `ada-coder-bot` but is in a state where human OWNER intervention/retest is required. We continue to hold Step 2 until the Step 1 PR is merged.
