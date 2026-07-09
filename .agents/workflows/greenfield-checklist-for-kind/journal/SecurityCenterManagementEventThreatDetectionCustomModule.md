@@ -14,6 +14,7 @@
 
 ## Notes / Status Updates
 
+- **2026-07-09**: Verified PR [#11432](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11432) status. All completed CI checks, including the previously failing `tests-e2e-fixtures-certificatemanager` check-run, have passed successfully. The PR is conflict-free, and the remaining E2E test suites are currently running.
 - **2026-07-09**: Monitored PR [#11432](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11432) status. Verified `unit-tests` and core lint/formatting/mockgcp checks have completed successfully on head commit `12e2d9441f6a6b463ea2f910744f8c559f806837`. The E2E integration test suites have started and are currently in progress without any failures so far.
 - **2026-07-09**: Monitored PR [#11432](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11432) status. Confirmed the PR remains open and conflict-free, but is failing the flaky, unrelated `tests-e2e-fixtures-certificatemanager` check-run. Since the assignee list was empty, successfully assigned author `codebot-robot` via the REST API to trigger a retry.
 - **2026-07-09**: Re-verified PR [#11432](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11432) status. It is open and conflict-free. While other CI checks passed, `tests-e2e-fixtures-certificatemanager` (and hence `tests-e2e-fixtures`) is failing due to unrelated flakiness. Since the assignees list was empty, successfully assigned the PR to its author `codebot-robot` via the REST API to prompt a retry/re-run.
