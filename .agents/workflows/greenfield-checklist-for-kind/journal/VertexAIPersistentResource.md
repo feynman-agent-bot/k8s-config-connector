@@ -3,18 +3,20 @@
 This journal tracks the progress of the Greenfield migration for the `VertexAIPersistentResource` resource kind.
 
 ## Current Step
-**Step 1: Direct API Types and Identity and Reference Types Pattern** (CI Checks Finishing)
+**Step 1: Direct API Types and Identity and Reference Types Pattern** (CI Checks Passed)
 
 ## Progress Tracking Table
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | CI Checks Finishing | July 6, 2026 | - |
+| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | CI Checks Passed | July 6, 2026 | - |
 | Step 2: Direct Controller and E2E Fixtures | - | - | Pending | - | - |
 | Step 3: MockGCP Generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment | - | - | Pending | - | - |
 
 ## Updates History
+
+- **July 9, 2026 (Greenfield Monitoring; All CI Checks Successfully Passed, Awaiting OWNER Merge)**: Checked the latest status of Step 1 PR #11408. All 195+ CI check-runs have completed and passed successfully with zero failures. The PR is in a pristine state and is now awaiting human OWNER review and merge to complete Step 1. We continue to hold on Step 2.
 
 - **July 9, 2026 (Greenfield Monitoring; CI Checks Near Completion, All Other Checks Green)**: Checked the latest status of Step 1 PR #11408. Only one CI check (`tests-e2e-fixtures-compute`) remains in progress, while all other 190+ checks have completed and passed successfully. There are no active failures. We continue to hold on Step 2, awaiting the merge of Step 1.
 
