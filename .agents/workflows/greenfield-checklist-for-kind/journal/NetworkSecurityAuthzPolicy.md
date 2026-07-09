@@ -14,6 +14,11 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 
 ## Status Update Notes
 
+### 2026-07-09 (Update 105)
+- Re-verified that Step 2 issue [#11531](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11531) remains `OPEN` and assigned to `ada-coder-bot`.
+- Confirmed that AI Factory is still working in a sandbox, and no Pull Request has been opened yet.
+- We will continue to wait for `ada-coder-bot` to submit the Pull Request for Step 2.
+
 ### 2026-07-09 (Update 104)
 - Re-verified that Step 2 issue [#11531](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11531) is `OPEN` and assigned to `ada-coder-bot`.
 - Confirmed that AI Factory has successfully started work in a sandbox, but no Pull Request has been opened yet.
