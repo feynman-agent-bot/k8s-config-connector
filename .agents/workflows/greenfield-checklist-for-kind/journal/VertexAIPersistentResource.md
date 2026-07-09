@@ -3,18 +3,20 @@
 This journal tracks the progress of the Greenfield migration for the `VertexAIPersistentResource` resource kind.
 
 ## Current Step
-**Step 1: Direct API Types and Identity and Reference Types Pattern** (CI Failed; Re-assigned to `ada-coder-bot` for triage/fixes)
+**Step 1: Direct API Types and Identity and Reference Types Pattern** (Awaiting Human Intervention; AI Factory Gave Up)
 
 ## Progress Tracking Table
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | CI Failed (Re-assigned to ada-coder-bot) | July 6, 2026 | - |
+| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | Awaiting Human Intervention | July 6, 2026 | - |
 | Step 2: Direct Controller and E2E Fixtures | - | - | Pending | - | - |
 | Step 3: MockGCP Generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment | - | - | Pending | - | - |
 
 ## Updates History
+
+- **July 9, 2026 (AI Factory Gave Up & Awaiting Human Intervention)**: The AI Factory (`argus-watcher-bot`) has attempted to resolve/retest the CI failures on PR #11408 three times since the last commit and has given up. The failures are due to transient flakes in unrelated tests (videostitcher CDNKey flake and envtest downloading issue). Since the automated coder bot has exhausted its retries, human owner intervention or manual re-triggering of the CI is now required to merge the Step 1 PR.
 
 - **July 9, 2026 (CI Failed & Re-assigned to ada-coder-bot)**: Checked the status of the Step 1 PR #11408 and found that the CI checks finished but failed on `tests-e2e-fixtures` and `tests-e2e-samples-compute`. Since the PR was in an unassigned state, we re-assigned it back to `ada-coder-bot` via the REST API so that it can investigate the failures, apply any necessary fixes, and re-trigger. We are holding on Step 2 until Step 1's PR successfully merges.
 
