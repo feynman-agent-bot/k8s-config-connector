@@ -8,11 +8,16 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Direct API Types, Identity, Reference | [#8721](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8721) | [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) | Completed | 2026-06-04 | 2026-07-09 |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11531](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11531) | | Open | 2026-07-09 | |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11531](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11531) | [#11534](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11534) | PR Created | 2026-07-09 | |
 | 3 | mockGCP generation | | | Pending | | |
 | 4 | MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Update Notes
+
+### 2026-07-09 (Update 106)
+- Verified that `ada-coder-bot` has successfully submitted Pull Request [#11534](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11534) for Step 2 ("Implement direct controller, E2E fixtures, and fuzzer for NetworkSecurityAuthzPolicy").
+- The PR is currently `OPEN` and in `pending` CI check status. All completed check-runs are passing with no failures detected.
+- We will continue to monitor the CI checks and wait for approvals and merge of PR [#11534](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11534) before we can transition to Step 3.
 
 ### 2026-07-09 (Update 105)
 - Re-verified that Step 2 issue [#11531](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11531) remains `OPEN` and assigned to `ada-coder-bot`.
@@ -283,20 +288,20 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 - We must continue to wait for all the CI checks to pass, for human reviewers to re-apply the `lgtm` label, and for the PR to be officially merged before transitioning to Step 2.
 
 ### 2026-07-08 (Update 65)
-- Re-verified PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195): State remains `OPEN` and mergeable status is `MERGEABLE`.
+- Re-verified PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) status: remains open but mergeable (`mergeable: MERGEABLE`).
 - Verified that the latest merge commit `eb197f0` on PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) is still failing on some CI checks (`tests-e2e-fixtures` and `validate-generated-files`).
 - Confirmed that takeover issue [#11426](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11426) remains `OPEN` and assigned to `codebot-robot`, which is in the queue to handle resolving these failures.
 - We must continue to wait for all the CI checks to pass and for the PR to be officially merged before we can transition to Step 2.
 
 ### 2026-07-08 (Update 64)
-- Re-verified PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195): State is `OPEN` and mergeable status is `MERGEABLE`.
+- Re-verified PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) status: remains open but mergeable (`mergeable: MERGEABLE`).
 - Some CI checks (`validate-generated-files`, `validations`) are currently failing on the latest merge commit.
 - Assigned PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) to `codebot-robot` to trigger automatic takeover and fix the CI failures.
 - Takeover issue [#11426](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11426) remains `OPEN` and assigned to `codebot-robot`.
 - We must continue to wait for all the CI checks to pass and for the PR to be officially merged before we can transition to Step 2.
 
 ### 2026-07-08 (Update 63)
-- Re-verified PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195): State is `OPEN` and mergeable status is `MERGEABLE`.
+- Re-verified PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) status: remains open but mergeable (`mergeable: MERGEABLE`).
 - A new merge commit `eb197f0` was recently pushed to merge master into the PR branch, and the CI/E2E checks are currently running (`pending`).
 - Takeover issue [#11426](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11426) remains `OPEN` and assigned to `codebot-robot`.
 - We must continue to wait for all the CI checks to pass and for the PR to be officially merged before we can transition to Step 2.
@@ -570,8 +575,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 - We must continue to wait for PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195) to be merged before we can transition to Step 2.
 
 ### 2026-07-07 (Update 21)
-- Re-verified PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195): State remains `OPEN` and mergeable status is `MERGEABLE`.
-- Verified all CI/E2E check runs are 100% passing.
+- Re-verified PR [#9195](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9195): State remains `OPEN` and mergeable status is `MERGEABLE`. Verified all CI/E2E check runs are 100% passing.
 - The PR remains open, waiting for the `lgtm` label to be re-applied by a human reviewer (`maqiuyujoyce`) following conflict resolution. We must continue to wait for this PR to be merged before we can transition to Step 2.
 
 ### 2026-07-07 (Update 20)
