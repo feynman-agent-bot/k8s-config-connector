@@ -7,12 +7,17 @@
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types, Identity & refs Pattern | [#10320](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10320) | [#10988](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10988) | PR Created | 2026-06-15 | - |
+| 1 | Direct API Types, Identity & refs Pattern | [#10320](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10320) | [#10988](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10988) | PR Approved | 2026-06-15 | - |
 | 2 | Direct Controller, E2E fixtures and Fuzzer | - | - | Not Started | - | - |
 | 3 | mockGCP generation | - | - | Not Started | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Not Started | - | - |
 
 ## Status Update Notes
+
+### 2026-07-11 (Update 160)
+- Re-monitored the open Pull Request #10988 on GitHub.
+- Verified that all 194 CI checks remain 100% completed and fully green with zero failures on the latest commit `53778e7a423511812769e62f00d065a9e8932019`.
+- Confirmed that the PR has been approved by human reviewer `acpana` and carries the `lgtm` and `approved` labels. It remains open pending final automated merge. We remain on Step 1 awaiting the merge.
 
 ### 2026-07-08 (Update 159)
 - Re-monitored the open Pull Request #10988 on GitHub.
