@@ -14,6 +14,16 @@
 
 ## Status Update Notes
 
+### 2026-07-12 (Update 238)
+- Re-monitored the open Pull Request #10988 on GitHub.
+- Verified that all CI checks continue to pass successfully with 100% green status and zero failures (verified via `gh pr checks`).
+- Confirmed that the PR continues to carry both `approved` and `lgtm` labels from reviewer `acpana`, and remains open pending final merge by human OWNERs. We continue to monitor the PR and remain on Step 1.
+
+### 2026-07-12 (Update 237)
+- Re-monitored the open Pull Request #10988 on GitHub.
+- Checked and verified via `gh pr checks` that all CI checks successfully completed and passed (100% green status with zero failures, verified via checks).
+- Confirmed that the PR continues to carry both `approved` and `lgtm` labels from reviewer `acpana`, and remains open pending final merge by human OWNERs. We remain on Step 1 to monitor.
+
 ### 2026-07-12 (Update 236)
 - Re-monitored the open Pull Request #10988 on GitHub.
 - Checked and verified via `gh pr checks` that all CI checks (over 190 jobs, including unit, operator, and e2e-fixtures-workloadmanager runs) successfully completed and passed (100% green status with zero failures, verified via checks).
