@@ -14,6 +14,13 @@
 
 ## Status Update Notes
 
+### 2026-07-13 (Update 326)
+- Checked the status of Pull Request #10988 on GitHub.
+- Observed that `validate-generated-files` and `validations` CI checks are failing on the latest head commit.
+- Inspected the GitHub Actions run log and identified that `apis/workloadmanager/v1alpha1/zz_generated.deepcopy.go` is out-of-date (needs `v1beta1.FolderRefDeprecated` instead of `v1beta1.FolderRef`).
+- Formally assigned the PR to the author bot `ada-coder-bot` to run `make generate` to regenerate the deepcopy file and update the PR branch.
+- We continue to monitor the PR and remain on Step 1.
+
 ### 2026-07-13 (Update 325)
 - Checked the status of Pull Request #10988 on GitHub.
 - Observed that the PR is currently open but `validate-generated-files` and `validations` checks are failing.
