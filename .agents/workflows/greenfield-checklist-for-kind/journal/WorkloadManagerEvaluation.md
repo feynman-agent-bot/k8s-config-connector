@@ -1,18 +1,23 @@
 # Greenfield Migration Journal: WorkloadManagerEvaluation
 
 ## Current Step
-**Step 1**: Direct API Types and Identity and Reference Types Pattern
+**Step 2**: Direct Controller, E2E fixtures and Fuzzer
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types, Identity & refs Pattern | [#10320](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10320) | [#10988](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10988) | PR Approved | 2026-06-15 | - |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | - | - | Not Started | - | - |
+| 1 | Direct API Types, Identity & refs Pattern | [#10320](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10320) | [#10988](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10988) | Completed | 2026-06-15 | 2026-07-15 |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11643](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11643) | - | Open | 2026-07-15 | - |
 | 3 | mockGCP generation | - | - | Not Started | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Not Started | - | - |
 
 ## Status Update Notes
+
+### 2026-07-15 (Update 432)
+- Observed that Pull Request #10988 has been successfully merged and Issue #10320 has been closed, completing Step 1.
+- Formally transitioned the migration of WorkloadManagerEvaluation to Step 2.
+- Opened a new GitHub issue #11643 to coordinate the implementation of the direct controller, E2E fixtures, and fuzzer.
 
 ### 2026-07-15 (Update 431)
 - Re-monitored the open Pull Request #10988 on GitHub.
