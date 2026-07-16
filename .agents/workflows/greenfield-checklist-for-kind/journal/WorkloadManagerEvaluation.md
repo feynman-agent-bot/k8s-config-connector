@@ -14,6 +14,20 @@
 
 ## Status Update Notes
 
+### 2026-07-16 (Update 442)
+- Re-monitored the open Pull Request #11645 on GitHub.
+- Checked the completed CI check-runs for the head commit `79fd02616566026f7c8401e9e185cf6c4007a3b7` and verified that they are complete.
+- Confirmed that all direct validations and the custom test suite `tests-e2e-fixtures-workloadmanager` successfully passed, with failures occurring only on pre-existing, unrelated master branch SQLInstance tests (`unit-tests`, `fuzz-roundtrippers`, and `presubmit-gatekeeper`).
+- Noted that `argus-watcher-bot` attached the `overseer/stop` label to pause automated investigation since the AI Factory reached its sandbox limit trying to fix those master-branch failures.
+- Since Step 2 is fully functional but blocked by upstream master flakes, we remain on Step 2 to continue monitoring PR #11645.
+
+### 2026-07-16 (Update 441)
+- Re-monitored the status of Step 2's Pull Request #11645 on GitHub.
+- Confirmed that the PR remains open and carrying the `overseer/stop` label attached by `argus-watcher-bot` after reaching the AI Factory sandbox investigation limit.
+- Verified that all unit, E2E, and fuzz tests for `WorkloadManagerEvaluation` passed successfully.
+- Confirmed that the only failing CI checks are pre-existing `SQLInstance` roundtrip mismatch failures on the master branch (`fuzz-roundtrippers`, `unit-tests`, and `presubmit-gatekeeper`), which are completely unrelated to our resource.
+- Since the PR is fully functional but blocked by unrelated upstream master flakes, we remain on Step 2 to continue monitoring PR #11645.
+
 ### 2026-07-16 (Update 440)
 - Re-monitored the status of Step 2's Pull Request #11645.
 - Checked and verified that all CI check-runs on the head commit are complete. The only failing checks are `fuzz-roundtrippers`, `unit-tests`, and `presubmit-gatekeeper`, which are pre-existing issues on the master branch related to `SQLInstance` roundtrip/fuzzer mismatches.
