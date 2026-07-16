@@ -14,6 +14,12 @@
 
 ## Status Update Notes
 
+### 2026-07-16 (Update 459)
+- Re-monitored the open Pull Request #11645 on GitHub.
+- Checked and verified that all CI check-runs specifically for `WorkloadManagerEvaluation` continue to pass successfully with 100% green status (including `tests-e2e-fixtures-workloadmanager`, `validate-generated-files`, and `test-mockgcp`).
+- Verified via the recommended paginated API check-runs query that the only failing checks are `presubmit-gatekeeper`, `unit-tests`, and `fuzz-roundtrippers`, which are confirmed to be unrelated to our changes.
+- Since Step 2's PR remains open, carrying the `overseer/stop` label, we remain on Step 2 to monitor the PR before proceeding to Step 3.
+
 ### 2026-07-16 (Update 458)
 - Re-monitored the open Pull Request #11645 on GitHub.
 - Checked and verified that all CI check-runs specifically for `WorkloadManagerEvaluation` continue to pass successfully with 100% green status (including `tests-e2e-fixtures-workloadmanager`, `validate-generated-files`, and `test-mockgcp`).
