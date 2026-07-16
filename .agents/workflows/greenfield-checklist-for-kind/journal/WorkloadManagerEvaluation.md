@@ -14,6 +14,12 @@
 
 ## Status Update Notes
 
+### 2026-07-16 (Update 436)
+- Monitored the status of Step 2's Pull Request #11645.
+- Checked the CI check-runs for the latest commit `79fd02616566026f7c8401e9e185cf6c4007a3b7` and verified that several key checks have successfully progressed: `validate-generated-files` and the custom controller test suite `tests-e2e-fixtures-workloadmanager` both passed successfully.
+- Noted that `fuzz-roundtrippers` failed, but confirmed from the logs that the failure is completely unrelated to `WorkloadManagerEvaluation` (exclusively failing for `SQLInstance` due to a known flake/failure on master).
+- Since other checks are still in a pending state and the PR has not yet been merged, we continue to monitor the PR and remain on Step 2.
+
 ### 2026-07-16 (Update 435)
 - Monitored the status of Step 2's Pull Request #11645.
 - Checked the status of the PR's CI checks and confirmed that the four previously noted checks (`presubmit-gatekeeper`, `validate-generated-files`, `unit-tests`, and `fuzz-roundtrippers`) remain in a failing state.
