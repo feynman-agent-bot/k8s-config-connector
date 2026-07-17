@@ -14,6 +14,12 @@
 
 ## Status Update Notes
 
+### 2026-07-17 (Update 515)
+- Re-monitored the open Pull Request #11645 on GitHub.
+- Confirmed that the PR is currently open and assigned to `hopper-coder-bot`. It carries the `overseer/stop` label indicating automated retries are paused, awaiting manual human OWNER review and merge.
+- Verified that all CI checks specifically targeting `WorkloadManagerEvaluation` continue to pass successfully with 100% green status, while `fuzz-roundtrippers`, `unit-tests`, and `presubmit-gatekeeper` failures are due to the pre-existing SQLInstance roundtrip mismatch on master.
+- Since Step 2's PR has not yet been merged, we continue to monitor the PR and remain on Step 2.
+
 ### 2026-07-17 (Update 514)
 - Re-monitored the open Pull Request #11645 on GitHub.
 - Confirmed that all CI checks specifically targeting `WorkloadManagerEvaluation` continue to pass successfully with 100% green status.
