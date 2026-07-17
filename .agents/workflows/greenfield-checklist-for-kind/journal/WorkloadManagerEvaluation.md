@@ -14,6 +14,20 @@
 
 ## Status Update Notes
 
+### 2026-07-17 (Update 539)
+- Re-monitored the open Pull Request #11645 on GitHub.
+- Checked and verified that all CI checks specifically targeting `WorkloadManagerEvaluation` (such as `tests-e2e-fixtures-workloadmanager`, `validate-generated-files`, and `test-mockgcp`) continue to pass successfully with 100% green status and zero failures (verified via `gh pr checks` and paginated REST API check-runs).
+- Confirmed that `fuzz-roundtrippers`, `unit-tests`, and `presubmit-gatekeeper` failures are due to the pre-existing SQLInstance roundtrip mismatch on the master branch, completely unrelated to this PR.
+- Verified that the PR remains open and is currently assigned to `hopper-coder-bot`, carrying the `overseer/stop` label indicating that automated retries are paused, awaiting manual human OWNER review, approval, and merge of the direct controller changes.
+- Since Step 2's PR has not yet been merged, we continue to monitor the PR and remain on Step 2.
+
+### 2026-07-17 (Update 538)
+- Re-monitored the open Pull Request #11645 on GitHub.
+- Confirmed that the state remains OPEN, and `mergeStateStatus` is `BLOCKED` due to pre-existing unrelated failures on the master branch (SQLInstance roundtrip and legacy fuzzer failures).
+- Checked that all CI checks specifically targeting `WorkloadManagerEvaluation` (such as `tests-e2e-fixtures-workloadmanager`, `validate-generated-files`, and `test-mockgcp`) continue to pass successfully with 100% green status.
+- Verified that the PR remains open and is currently assigned to `hopper-coder-bot`, carrying the `overseer/stop` label indicating that automated retries are paused, awaiting manual human OWNER review, approval, and merge of the direct controller changes.
+- Since Step 2's PR has not yet been merged, we continue to monitor the PR and remain on Step 2.
+
 ### 2026-07-17 (Update 537)
 - Re-monitored the open Pull Request #11645 on GitHub.
 - Confirmed that the state remains OPEN, and `mergeStateStatus` is `BLOCKED` due to pre-existing unrelated failures on the master branch (SQLInstance roundtrip and legacy fuzzer failures).
