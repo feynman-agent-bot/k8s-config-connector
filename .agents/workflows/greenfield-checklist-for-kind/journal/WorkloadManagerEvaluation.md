@@ -14,6 +14,18 @@
 
 ## Status Update Notes
 
+### 2026-07-17 (Update 503)
+- Re-monitored the open Pull Request #11645 on GitHub.
+- Verified that all CI checks specifically for `WorkloadManagerEvaluation` continue to pass successfully.
+- Confirmed that the PR is currently assigned to `hopper-coder-bot` and carries the `overseer/stop` label because the automated watch daemon paused to prevent infinite loops from the unrelated `SQLInstance` failures on master.
+- Since Step 2's PR has not yet been merged, we continue to monitor the PR and remain on Step 2, awaiting final human OWNER review, approval, and merge of the direct controller changes.
+
+### 2026-07-17 (Update 502)
+- Re-monitored the open Pull Request #11645 on GitHub.
+- Checked and verified that all CI check-runs specifically for `WorkloadManagerEvaluation` continue to pass successfully (including `tests-e2e-fixtures-workloadmanager`, `validate-generated-files`, and `test-mockgcp`).
+- Confirmed that the PR remains open and carries the `overseer/stop` label, indicating that the automated watch daemon has paused to prevent infinite loops due to the unrelated pre-existing SQLInstance failures in `fuzz-roundtrippers` and `unit-tests` on the master branch.
+- Since Step 2's PR is not yet merged, we continue to monitor the PR and remain on Step 2 awaiting final human OWNER review, approval, and merge of the direct controller changes.
+
 ### 2026-07-17 (Update 501)
 - Re-monitored the open Pull Request #11645 on GitHub.
 - Checked and verified that all CI check-runs specifically for `WorkloadManagerEvaluation` continue to pass successfully (including `tests-e2e-fixtures-workloadmanager`, `validate-generated-files`, and `test-mockgcp`).
