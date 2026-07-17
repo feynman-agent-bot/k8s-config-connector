@@ -14,6 +14,12 @@
 
 ## Status Update Notes
 
+### 2026-07-17 (Update 505)
+- Re-monitored the open Pull Request #11645 on GitHub.
+- Verified that all CI checks specifically for `WorkloadManagerEvaluation` continue to pass successfully.
+- Confirmed that the PR remains open and carries the `overseer/stop` label due to the unrelated pre-existing `SQLInstance` failures on master, pending final human OWNER review, approval, and merge of the direct controller changes.
+- Since Step 2's PR has not yet been merged, we continue to monitor the PR and remain on Step 2.
+
 ### 2026-07-17 (Update 504)
 - Re-monitored the open Pull Request #11645 on GitHub.
 - Verified that all CI checks specifically for `WorkloadManagerEvaluation` continue to pass successfully.
