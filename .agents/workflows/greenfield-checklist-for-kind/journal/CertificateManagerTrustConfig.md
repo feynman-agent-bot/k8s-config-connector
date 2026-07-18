@@ -14,3 +14,4 @@
 
 ## Notes
 - **2026-07-18**: Initialized the Greenfield checklist orchestration for CertificateManagerTrustConfig. Created Step 1 GitHub issue #11713 to implement KRM types, identity, and generate.sh.
+- **2026-07-18**: Monitored Step 1 progress. Confirmed that Issue #11713 is open and in progress under the sandbox, awaiting PR creation.
