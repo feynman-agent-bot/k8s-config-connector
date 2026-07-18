@@ -1,0 +1,16 @@
+# CertificateManagerTrustConfig Greenfield Migration Journal
+
+## Current Step
+- **Step 1: Direct API Types and Identity and Reference Types Pattern**
+
+## Progress Tracking
+
+| Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
+|---|---|---|---|---|---|
+| Step 1: Direct API Types & Identity | [Issue #11713](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11713) | - | Open | 2026-07-18 | - |
+| Step 2: Controller & E2E fixtures | - | - | - | - | - |
+| Step 3: mockGCP generation | - | - | - | - | - |
+| Step 4: MockGCP Alignment | - | - | - | - | - |
+
+## Notes
+- **2026-07-18**: Initialized the Greenfield checklist orchestration for CertificateManagerTrustConfig. Created Step 1 GitHub issue #11713 to implement KRM types, identity, and generate.sh.
