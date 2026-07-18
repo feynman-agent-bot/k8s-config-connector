@@ -14,6 +14,13 @@
 
 ## Status Update Notes
 
+### 2026-07-18 (Update 613)
+- Re-monitored the open Pull Request #11645 on GitHub.
+- Confirmed that the state remains `OPEN`, carrying the `overseer/stop` label, and is assigned to `hopper-coder-bot`.
+- Checked and verified that all CI checks specifically targeting `WorkloadManagerEvaluation` (such as `tests-e2e-fixtures-workloadmanager`, `validate-generated-files`, and `test-mockgcp`) are passing successfully.
+- Noted that the global checks (`fuzz-roundtrippers`, `unit-tests`, and `presubmit-gatekeeper`) are failing due to pre-existing SQLInstance roundtrip mismatch on the master branch.
+- Since Step 2's PR is not yet merged, we continue to monitor the PR and remain on Step 2.
+
 ### 2026-07-18 (Update 612)
 - Re-monitored the open Pull Request #11645 on GitHub.
 - Checked and verified that all CI checks specifically targeting `WorkloadManagerEvaluation` (including `tests-e2e-fixtures-workloadmanager`, `validate-generated-files`, and `test-mockgcp`) continue to pass successfully with 100% green status and zero failures (verified via `gh pr checks` and paginated REST API check-runs).
