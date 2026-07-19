@@ -13,6 +13,7 @@
 | Step 4: MockGCP Alignment | - | - | - | - | - |
 
 ## Notes
+- **2026-07-19**: Re-checked and verified PR #11732 checks and status. All 136 CI check-runs are successfully completed and 100% green (passing). The pull request remains open, awaiting review and merge by human OWNERS before transitioning to Step 2.
 - **2026-07-18**: Initialized the Greenfield checklist orchestration for CertificateManagerTrustConfig. Created Step 1 GitHub issue #11713 to implement KRM types, identity, and generate.sh.
 - **2026-07-18**: Monitored Step 1 progress. Confirmed that Issue #11713 is open and in progress under the sandbox, awaiting PR creation.
 - **2026-07-18**: Monitored Step 1 progress. Verified that Issue #11713 remains in progress; no PR has been published yet. Continuing to monitor.
