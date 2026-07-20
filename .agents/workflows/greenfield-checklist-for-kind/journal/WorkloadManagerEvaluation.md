@@ -14,6 +14,14 @@
 
 ## Status Update Notes
 
+### 2026-07-20 (Update 664)
+- Re-monitored the open Pull Request #11645 on GitHub.
+- Confirmed that the state remains `OPEN` and `MERGEABLE`.
+- Verified that all targeted checks specifically for `WorkloadManagerEvaluation` (specifically `tests-e2e-fixtures-workloadmanager` and `test-mockgcp`) continue to compile and pass successfully.
+- Noted that `argus-watcher-bot` attached the `overseer/stop` label to prevent infinite retries of the unrelated master branch `SQLInstance` failures, pausing automated investigation until human OWNER review or author intervention.
+- The PR remains open, currently assigned to its author `hopper-coder-bot` to address the outstanding `fields.UpdateByFieldMask` refactoring feedback from `reviewbot-robot`.
+- We continue to monitor the PR and remain on Step 2.
+
 ### 2026-07-20 (Update 663)
 - Re-monitored the open Pull Request #11645 on GitHub.
 - Confirmed that there are no new commits or reviews since `argus-watcher-bot` paused automated investigation by attaching the `overseer/stop` label due to persistent unrelated master branch failures on `SQLInstance`.
