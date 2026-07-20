@@ -13,6 +13,7 @@
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | | |
 
 ## Status Update Notes
+- **2026-07-20**: Audited Greenfield migration progress for VertexAIHyperparameterTuningJob. Verified that Pull Request [#11731](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11731) remains open in 'PR Created' status. All 200+ CI checks have completed successfully and are fully green. Step 1 continues to await human KCC OWNER review, approval, and merge before we can proceed to Step 2.
 - **2026-07-20**: Audited migration progress. Verified that Pull Request [#11731](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11731) remains open in 'PR Created' status. All CI check-runs are fully complete and successfully passing. Step 1 continues to await human KCC OWNER review, approval, and merge before we can transition to Step 2.
 - **2026-07-20**: Audited Step 1 progress. Verified via GitHub CLI that Pull Request [#11731](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11731) remains open and has successfully passed all CI check-runs. Step 1 continues to await human KCC OWNER review, approval, and merge of the direct types PR before we can proceed to Step 2.
 - **2026-07-20**: Re-audited migration progress. Pull Request [#11731](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11731) remains open in 'PR Created' status with all CI checks fully complete and passing. Awaiting human KCC OWNER review and merge of the types implementation before we can transition to Step 2.
