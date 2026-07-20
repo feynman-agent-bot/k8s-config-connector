@@ -14,6 +14,14 @@
 
 ## Status Update Notes
 
+### 2026-07-20 (Update 659)
+- Re-monitored the open Pull Request #11645 on GitHub.
+- Confirmed that the review status remains `REVIEW_REQUIRED` and state is `OPEN`.
+- Verified that all CI checks specifically targeting `WorkloadManagerEvaluation` (`tests-e2e-fixtures-workloadmanager` and `test-mockgcp`) continue to pass successfully.
+- Noted second review comments from `reviewbot-robot` identifying a maintainability and behavior issue in the MockGCP implementation where manual mapping is used instead of standard `fields.UpdateByFieldMask`.
+- Formally assigned/re-assigned the PR back to its author `hopper-coder-bot` via the GitHub CLI to notify it of the review feedback and trigger the necessary refactoring.
+- Since Step 2's PR remains open with outstanding feedback, we continue to monitor the PR and remain on Step 2.
+
 ### 2026-07-20 (Update 658)
 - Re-monitored the open Pull Request #11645 on GitHub.
 - Observed review feedback from `reviewbot-robot` suggesting a refactoring in the mock GCP implementation to leverage the standard `fields.UpdateByFieldMask` helper instead of manual field-level updates.
