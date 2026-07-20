@@ -14,6 +14,13 @@
 
 ## Status Update Notes
 
+### 2026-07-20 (Update 658)
+- Re-monitored the open Pull Request #11645 on GitHub.
+- Observed review feedback from `reviewbot-robot` suggesting a refactoring in the mock GCP implementation to leverage the standard `fields.UpdateByFieldMask` helper instead of manual field-level updates.
+- Checked the status of CI check-runs: several checks are in progress, but the targeted tests specifically for `WorkloadManagerEvaluation` (`tests-e2e-fixtures-workloadmanager` and `test-mockgcp`) are completed successfully. The only failure is `fuzz-roundtrippers`, which is confirmed to be caused by the pre-existing SQLInstance roundtrip mismatch on the master branch, completely unrelated to our WorkloadManagerEvaluation implementation.
+- Formally assigned/re-assigned the PR back to its author `hopper-coder-bot` via the GitHub CLI to notify it of the review feedback and trigger the necessary refactoring.
+- Since Step 2's PR remains open and active with outstanding feedback, we continue to monitor the PR and remain on Step 2.
+
 ### 2026-07-20 (Update 657)
 - Re-monitored the open Pull Request #11645 on GitHub.
 - Noted that `hopper-coder-bot` successfully completed the rebase onto `upstream/master` as requested by human owner `barney-s` and force-pushed to the remote repository.
