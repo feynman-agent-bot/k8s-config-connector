@@ -14,6 +14,13 @@
 
 ## Status Update Notes
 
+### 2026-07-20 (Update 673)
+- Re-monitored the open Pull Request #11645 on GitHub.
+- Verified that the PR remains open and carries the `overseer/stop` label, which pauses automated retries due to pre-existing unrelated failures on master (SQLInstance roundtrip).
+- Confirmed that all targeted CI checks specifically for `WorkloadManagerEvaluation` continue to pass perfectly (specifically `tests-e2e-fixtures-workloadmanager` and `test-mockgcp`).
+- The PR is currently assigned to its author `hopper-coder-bot`, pending either human OWNER review, approval, and merge, or the author bot addressing the outstanding `fields.UpdateByFieldMask` refactoring feedback from `reviewbot-robot`.
+- Since Step 2's PR has not yet been merged, we continue to monitor the PR and remain on Step 2.
+
 ### 2026-07-20 (Update 672)
 - Re-monitored the open Pull Request #11645 on GitHub.
 - Confirmed that the state remains `OPEN` and `MERGEABLE`.
