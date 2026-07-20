@@ -14,6 +14,13 @@
 
 ## Status Update Notes
 
+### 2026-07-20 (Update 661)
+- Re-monitored the open Pull Request #11645 on GitHub.
+- Observed outstanding review feedback from `reviewbot-robot` on the MockGCP update logic, suggesting a refactoring to utilize the standard `fields.UpdateByFieldMask` helper instead of manual field-level updates.
+- Confirmed the PR is open and currently assigned to its author `hopper-coder-bot` to address this feedback.
+- Verified that all CI checks specifically targeting `WorkloadManagerEvaluation` (`tests-e2e-fixtures-workloadmanager` and `test-mockgcp`) continue to compile and pass successfully.
+- Since Step 2's PR remains open, we continue to monitor the PR and remain on Step 2.
+
 ### 2026-07-20 (Update 660)
 - Re-monitored the open Pull Request #11645 on GitHub.
 - Confirmed that the E2E and MockGCP checks specifically targeting `WorkloadManagerEvaluation` (`tests-e2e-fixtures-workloadmanager` and `test-mockgcp`) continue to compile and pass 100% successfully.
