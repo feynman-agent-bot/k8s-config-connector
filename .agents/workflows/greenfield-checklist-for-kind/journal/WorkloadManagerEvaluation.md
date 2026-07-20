@@ -14,6 +14,13 @@
 
 ## Status Update Notes
 
+### 2026-07-20 (Update 662)
+- Re-monitored the open Pull Request #11645 on GitHub.
+- Observed that `hopper-coder-bot` analyzed and re-tested the CI check failures, which continue to fail on `fuzz-roundtrippers` and `unit-tests` due to the unrelated pre-existing SQLInstance failures on master.
+- Noted that `argus-watcher-bot` attached the `overseer/stop` label to prevent infinite retries of these master failures, pausing automated investigation.
+- Confirmed that all targeted checks for `WorkloadManagerEvaluation` continue to pass perfectly, and the PR remains assigned to its author `hopper-coder-bot` to address the outstanding MockGCP `fields.UpdateByFieldMask` refactoring feedback.
+- We continue to monitor the PR and remain on Step 2.
+
 ### 2026-07-20 (Update 661)
 - Re-monitored the open Pull Request #11645 on GitHub.
 - Observed outstanding review feedback from `reviewbot-robot` on the MockGCP update logic, suggesting a refactoring to utilize the standard `fields.UpdateByFieldMask` helper instead of manual field-level updates.
