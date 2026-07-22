@@ -1,18 +1,19 @@
 # CertificateManagerTrustConfig Greenfield Migration Journal
 
 ## Current Step
-- **Step 1: Direct API Types and Identity and Reference Types Pattern**
+- **Step 2: Direct Controller, E2E fixtures and Fuzzer**
 
 ## Progress Tracking
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types & Identity | [Issue #11713](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11713) | [PR #11732](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11732) | PR Created (Checks Passing) | 2026-07-18 | - |
-| Step 2: Controller & E2E fixtures | - | - | - | - | - |
+| Step 1: Direct API Types & Identity | [Issue #11713](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11713) | [PR #11732](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11732) | Completed | 2026-07-18 | 2026-07-22 |
+| Step 2: Controller & E2E fixtures | [Issue #11793](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11793) | - | Open | 2026-07-22 | - |
 | Step 3: mockGCP generation | - | - | - | - | - |
 | Step 4: MockGCP Alignment | - | - | - | - | - |
 
 ## Notes
+- **2026-07-22**: Step 1 PR #11732 has been successfully merged. Transitioned to Step 2. Created Step 2 GitHub Issue #11793 to implement the direct controller, E2E fixtures, and fuzzer.
 - **2026-07-22**: Monitored Step 1 progress. Checked PR #11732 and verified it is APPROVED by human OWNER `acpana`, with all 200 CI checks 100% green. The PR remains OPEN, and we continue to wait for the merge before transitioning to Step 2.
 - **2026-07-22**: Monitored Step 1 progress. Pull Request #11732 has been approved and LGTM'd by human OWNER `acpana`, with all 200 CI checks 100% green. Awaiting Prow merge before we transition to Step 2.
 - **2026-07-22**: Checked PR #11732. Re-verified all 200 CI checks remain 100% green and successfully completed. Pull request is OPEN, and we continue to await review and merge of Step 1 by human OWNERS before transitioning to Step 2.
@@ -100,7 +101,7 @@
 - **2026-07-21**: Monitored Step 1 progress. Checked PR #11732 status and verified all 199 CI check-runs remain 100% green and successfully completed (194 success, 5 skipped). Pull request remains open and awaiting human OWNER review and merge before transitioning to Step 2.
 - **2026-07-21**: Checked PR #11732 status. Re-verified all 199 CI checks are 100% green and successfully completed (all passing). Pull request remains open and continues to await human OWNER review and merge of Step 1 before transitioning to Step 2.
 - **2026-07-21**: Monitored Step 1. Verified PR #11732 remains open with 100% green CI checks (194 success, 5 skipped). Pull request continues to await review and merge by human OWNERS.
-- **2026-07-21**: Checked PR #11732 status again. Verified all 199 CI check-runs remain 100% green and successfully completed (all passing). Pull request remains open and awaiting human OWNER review and merge of Step 1 before transitioning to Step 2.
+- **2026-07-21**: Checked PR #11732 status again. Verified all CI check-runs continue to pass successfully with 100% green status. The pull request remains open, continuing to await human OWNER review and merge of Step 1.
 - **2026-07-21**: Monitored Step 1. Checked PR #11732 checks and verified all 199 CI check-runs remain 100% green and successfully completed. Pull request remains open and awaiting human OWNER review and merge of Step 1 before transitioning to Step 2.
 - **2026-07-21**: Checked PR #11732 status. Confirmed all 199 CI checks are complete and 100% green (194 success, 5 skipped). Pull request continues to be open, awaiting review and merge by human OWNERS.
 - **2026-07-21**: Re-verified PR #11732 checks are 100% complete and passing (199/199 green). The pull request is still open, continuing to await review and merge by human OWNERS before transitioning to Step 2.
@@ -169,7 +170,7 @@
 - **2026-07-20**: Re-verified PR #11732 checks and confirmed all 136 CI check-runs are successfully completed and 100% green. The pull request is open and awaiting human OWNER review and merge of Step 1 before we can transition to Step 2.
 - **2026-07-20**: Checked PR #11732 checks and verified all 136 CI check-runs are successfully completed and 100% green. Pull request remains open and awaiting review and merge by human OWNERS before transitioning to Step 2.
 - **2026-07-20**: Verified PR #11732 is open with all CI checks passing (100% green). Pull request continues to await human OWNER review and merge of Step 1 before transitioning to Step 2.
-- **2026-07-20**: Verified that Pull Request #11732 remains open and all CI check-runs are completely green and 100% passing. Pull request continues to await review and merge by human OWNERS before we can proceed to Step 2.
+- **2026-07-20**: Verified that Pull Request #11732 remains open and all CI check-runs are completely green (100% passing). Pull request continues to await review and merge by human OWNERS before we can proceed to Step 2.
 - **2026-07-20**: Checked PR #11732 status and verified all CI check-runs are green and 100% passing. Pull request is open, awaiting review and merge by human OWNERS before transitioning to Step 2.
 - **2026-07-20**: Monitored Step 1 progress. Verified PR #11732 is still open, with all CI check-runs 100% green and successfully completed. Continuing to await review and merge by human OWNERS before proceeding to Step 2.
 - **2026-07-20**: Monitored Step 1. Verified PR #11732 remains open and all 199 CI check-runs are 100% green and successfully completed. Pull request continues to await review and merge by human OWNERS before we can proceed to Step 2.
