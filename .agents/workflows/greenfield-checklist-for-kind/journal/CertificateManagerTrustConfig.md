@@ -7,12 +7,13 @@
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types & Identity | [Issue #11713](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11713) | [PR #11732](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11732) | PR Created (Checks Passing) | 2026-07-18 | - |
+| Step 1: Direct API Types & Identity | [Issue #11713](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11713) | [PR #11732](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11732) | PR Created (Checks Pending) | 2026-07-18 | - |
 | Step 2: Controller & E2E fixtures | - | - | - | - | - |
 | Step 3: mockGCP generation | - | - | - | - | - |
 | Step 4: MockGCP Alignment | - | - | - | - | - |
 
 ## Notes
+- **2026-07-22**: Monitored Step 1 progress. Checked PR #11732 status. Observed that the PR is OPEN and some CI checks are currently running/pending. Pull request continues to await human OWNER review and merge before transitioning to Step 2.
 - **2026-07-22**: Checked PR #11732 status. Re-verified all 199 CI checks are complete and 100% green. The PR remains open, continuing to await human OWNER review and merge of Step 1.
 - **2026-07-22**: Monitored Step 1. Re-verified all 199 CI check-runs for PR #11732 are complete and 100% green (194 success, 5 skipped). Pull request remains open, continuing to await human OWNER review and merge of Step 1 before we can transition to Step 2.
 - **2026-07-22**: Monitored Step 1. Checked PR #11732 status and verified all 199 CI checks are complete and 100% green (194 success, 5 skipped). Pull request remains open, awaiting human OWNER review and merge of Step 1 before transitioning to Step 2.
