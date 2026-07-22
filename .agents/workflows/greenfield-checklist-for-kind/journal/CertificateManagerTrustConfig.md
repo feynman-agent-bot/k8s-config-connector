@@ -13,6 +13,7 @@
 | Step 4: MockGCP Alignment | - | - | - | - | - |
 
 ## Notes
+- **2026-07-22**: Monitored Step 2 progress. Verified Issue #11793 is open and assigned to `ada-coder-bot`. The sandbox has started implementing the direct controller, E2E fixtures, and fuzzer. No PR has been published yet.
 - **2026-07-22**: Step 1 PR #11732 has been successfully merged. Transitioned to Step 2. Created Step 2 GitHub Issue #11793 to implement the direct controller, E2E fixtures, and fuzzer.
 - **2026-07-22**: Monitored Step 1 progress. Checked PR #11732 and verified it is APPROVED by human OWNER `acpana`, with all 200 CI checks 100% green. The PR remains OPEN, and we continue to wait for the merge before transitioning to Step 2.
 - **2026-07-22**: Monitored Step 1 progress. Pull Request #11732 has been approved and LGTM'd by human OWNER `acpana`, with all 200 CI checks 100% green. Awaiting Prow merge before we transition to Step 2.
