@@ -13,6 +13,7 @@
 | Step 4: MockGCP Alignment | - | - | - | - | - |
 
 ## Notes
+- **2026-07-22**: Monitored Step 1 progress. Verified all 200 CI checks have fully completed and passed cleanly (100% green). Review feedback from human collaborator `acpana` ("address feedback" regarding acronym capitalization `intermediateCas` -> `intermediateCAs` and pointer fields) was successfully addressed by author bot `hopper-coder-bot`. Pull request #11732 remains OPEN and awaiting human OWNER review and merge of Step 1 before we can transition to Step 2.
 - **2026-07-22**: Monitored Step 1 progress. Confirmed that PR #11732 is OPEN and all 200 CI check-runs have successfully completed and are 100% green (all passing cleanly). Pull request continues to await human OWNER review and merge of Step 1 before we can transition to Step 2.
 - **2026-07-22**: Checked PR #11732 status. All 199 CI check-runs successfully completed and are 100% green. The PR remains open, continuing to await human OWNER review and merge of Step 1 before we can transition to Step 2.
 - **2026-07-22**: Monitored Step 1 progress. Checked PR #11732 checks; verified all completed CI check-runs have successfully passed (100% green), with only `tests-e2e-fixtures-compute` currently pending. Pull request is OPEN, continuing to await human OWNER review and merge of Step 1.
