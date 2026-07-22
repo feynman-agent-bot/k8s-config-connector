@@ -1,7 +1,7 @@
 # Migration Journal: FilestoreInstance
 
 ## Current Step
-Step 6: Validate Direct Promotion
+Step 5: Implement direct controller and test fixtures
 
 ## Progress Tracking
 
@@ -11,11 +11,12 @@ Step 6: Validate Direct Promotion
 | 2 | Move to identity and refs pattern | [#10769](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10769) | [#10776](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10776) | Completed | 2026-06-24 | 2026-06-25 |
 | 3 | Implement round-trip KRM fuzzer | [#10841](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10841) | [#10843](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10843) | Completed | 2026-06-25 | 2026-06-25 |
 | 4 | Match real gcp behavior in MockGCP | [#10849](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10849) | [#10914](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10914) | Completed | 2026-06-25 | 2026-07-09 |
-| 5 | Implement direct controller and test fixtures | [#11564](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11564) | - | Completed | 2026-07-10 | 2026-07-22 |
-| 6 | Validate Direct Promotion | [#11786](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11786) | - | Open | 2026-07-22 | - |
+| 5 | Implement direct controller and test fixtures | [#11564](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11564) | - | Open (AI Factory sandbox run in progress) | 2026-07-10 | - |
+| 6 | Validate Direct Promotion | - | - | - | - | - |
 
 ## Check Logs
 
+* **2026-07-22**: Re-opened Step 5 issue [#11564](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11564) and closed Step 6 issue [#11786](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11786) to move back to Step 5 as requested by reviewer @maqiuyujoyce. We are currently waiting for the coder bot to submit the direct controller implementation and test fixtures in a new Pull Request.
 * **2026-07-22**: Monitored Step 6 progress. Checked GitHub Issue [#11786](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11786) and confirmed that the AI Factory sandbox execution for Step 6 (Validate Direct Promotion) is active and running in progress. We are continuing to monitor this issue and waiting for the coder bot to open a new Pull Request.
 * **2026-07-22**: Transitioned to Step 6: Validate Direct Promotion. Opened Issue [#11786](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11786) to validate direct promotion for FilestoreInstance. Closed Step 5 issue [#11564](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11564).
 * **2026-07-22**: Completed Step 5. Switched DefaultController for FilestoreInstance to `ReconcilerTypeDirect` in static_config.go. Ran compare-mock E2E tests and successfully verified 100% test pass under the new direct controller after updating the golden outputs.
