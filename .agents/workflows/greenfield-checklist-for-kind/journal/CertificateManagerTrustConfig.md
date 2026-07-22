@@ -7,12 +7,13 @@
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types & Identity | [Issue #11713](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11713) | [PR #11732](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11732) | PR Created (Failing Checks) | 2026-07-18 | - |
+| Step 1: Direct API Types & Identity | [Issue #11713](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11713) | [PR #11732](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11732) | PR Created (Running Checks) | 2026-07-18 | - |
 | Step 2: Controller & E2E fixtures | - | - | - | - | - |
 | Step 3: mockGCP generation | - | - | - | - | - |
 | Step 4: MockGCP Alignment | - | - | - | - | - |
 
 ## Notes
+- **2026-07-22**: Monitored Step 1 progress. Observed that human collaborator `acpana` left feedback "address feedback" on PR #11732, and author bot `hopper-coder-bot` has pushed a new commit to address it. All 10 remaining CI checks are currently running (in_progress) and none have failed so far.
 - **2026-07-22**: Verified failing CI checks (validate-generated-files, validations) on PR #11732. Confirmed that the PR is open and unassigned, then successfully assigned the PR to its author bot hopper-coder-bot to investigate and apply fixes.
 - **2026-07-22**: Detected failing CI checks (validate-generated-files, validations) on PR #11732. Assigned the PR to author bot hopper-coder-bot to investigate and apply fixes.
 - **2026-07-22**: Checked PR #11732 and verified all CI checks remain 100% green and successfully completed. The pull request remains open, continuing to await human OWNER review and merge of Step 1.
