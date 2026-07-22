@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4 | MockGCP Alignment with RealGCP | N/A | N/A | Pending | N/A | N/A |
 
 ## Status Update Notes
+* **2026-07-22**: Monitored Step 1 status. Re-confirmed that issue #11718 remains open on GitHub and no active pull request is currently available. The sandbox AI Factory is actively working on the resource, and we continue to await the creation of the pull request.
 * **2026-07-22**: Checked Step 1 progress. Re-confirmed that issue #11718 remains open on GitHub with no active pull request. Noted that argus-watcher-bot confirmed the AI Factory continues working in the sandbox environment to address and recreate the pull request for VertexAIModelDeploymentMonitoringJob. We are awaiting the new pull request creation.
 * **2026-07-22**: Checked Step 1 progress. Confirmed that the step-1 issue #11718 remains open on GitHub with no active pull request. We continue to monitor the sandbox environment and are awaiting the creation/re-creation of the pull request for VertexAIModelDeploymentMonitoringJob.
 * **2026-07-22**: Monitored Step 1 progress. Re-confirmed that the step-1 issue #11718 remains open. Verified that no pull request has been created yet on GitHub. We continue to await the new pull request from the sandbox environment.
