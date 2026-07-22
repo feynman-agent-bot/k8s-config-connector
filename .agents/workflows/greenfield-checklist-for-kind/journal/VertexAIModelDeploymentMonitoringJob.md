@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4 | MockGCP Alignment with RealGCP | N/A | N/A | Pending | N/A | N/A |
 
 ## Status Update Notes
+* **2026-07-22**: Checked Step 1 progress. Re-confirmed that Issue [#11718](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11718) remains open on GitHub with no active pull request. The sandbox AI Factory continues working to generate and recreate the pull request for VertexAIModelDeploymentMonitoringJob, and we continue to monitor the progress.
 * **2026-07-22**: Checked Step 1 progress. Verified that Issue #11718 remains open on GitHub. No active or closed pull requests exist yet on upstream. The sandbox AI Factory continues working to generate and recreate the pull request for VertexAIModelDeploymentMonitoringJob. We are monitoring the progress.
 * **2026-07-22**: Checked Step 1 status. Issue [#11718](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11718) remains open on GitHub with no active pull request. Checked open PRs and confirmed that no pull request exists yet. We continue to monitor the sandbox environment and are awaiting the creation of the pull request.
 * **2026-07-22**: Checked Step 1 progress. Re-confirmed that Step 1 issue [#11718](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11718) remains open on GitHub with no active pull request. Checked open PRs and confirmed that no pull request exists yet. We continue to monitor the sandbox environment and are awaiting the creation of the pull request.
