@@ -7,12 +7,13 @@
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types & Identity | [Issue #11713](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11713) | [PR #11732](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11732) | PR Created (Running Checks) | 2026-07-18 | - |
+| Step 1: Direct API Types & Identity | [Issue #11713](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11713) | [PR #11732](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11732) | PR Created (Checks Passing) | 2026-07-18 | - |
 | Step 2: Controller & E2E fixtures | - | - | - | - | - |
 | Step 3: mockGCP generation | - | - | - | - | - |
 | Step 4: MockGCP Alignment | - | - | - | - | - |
 
 ## Notes
+- **2026-07-22**: Checked PR #11732 status. All 199 CI check-runs successfully completed and are 100% green. The PR remains open, continuing to await human OWNER review and merge of Step 1 before we can transition to Step 2.
 - **2026-07-22**: Monitored Step 1 progress. Checked PR #11732 checks; verified all completed CI check-runs have successfully passed (100% green), with only `tests-e2e-fixtures-compute` currently pending. Pull request is OPEN, continuing to await human OWNER review and merge of Step 1.
 - **2026-07-22**: Checked PR #11732 status. Re-verified the PR is OPEN, all completed CI check-runs are passing cleanly (100% green), and some tests are currently running/pending. Author bot `hopper-coder-bot` successfully resolved the previously failing checks (`validations` and `validate-generated-files`) by properly placing custom mapping functions in `mapper.go`. The PR remains open, awaiting human OWNER review and merge of Step 1.
 - **2026-07-22**: Monitored Step 1 progress. Observed that human collaborator `acpana` left feedback "address feedback" on PR #11732, and author bot `hopper-coder-bot` has pushed a new commit to address it. All 10 remaining CI checks are currently running (in_progress) and none have failed so far.
