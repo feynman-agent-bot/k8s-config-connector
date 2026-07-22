@@ -13,6 +13,7 @@
 | Step 4: MockGCP Alignment | - | - | - | - | - |
 
 ## Notes
+- **2026-07-22**: Monitored Step 1 progress. Checked PR #11732 checks; verified all completed CI check-runs have successfully passed (100% green), with only `tests-e2e-fixtures-compute` currently pending. Pull request is OPEN, continuing to await human OWNER review and merge of Step 1.
 - **2026-07-22**: Checked PR #11732 status. Re-verified the PR is OPEN, all completed CI check-runs are passing cleanly (100% green), and some tests are currently running/pending. Author bot `hopper-coder-bot` successfully resolved the previously failing checks (`validations` and `validate-generated-files`) by properly placing custom mapping functions in `mapper.go`. The PR remains open, awaiting human OWNER review and merge of Step 1.
 - **2026-07-22**: Monitored Step 1 progress. Observed that human collaborator `acpana` left feedback "address feedback" on PR #11732, and author bot `hopper-coder-bot` has pushed a new commit to address it. All 10 remaining CI checks are currently running (in_progress) and none have failed so far.
 - **2026-07-22**: Verified failing CI checks (validate-generated-files, validations) on PR #11732. Confirmed that the PR is open and unassigned, then successfully assigned the PR to its author bot hopper-coder-bot to investigate and apply fixes.
