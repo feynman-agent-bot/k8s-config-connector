@@ -1,12 +1,12 @@
 # Greenfield Migration Journal: DiscoveryEngineSampleQuery
 
 ## Current Step
-**Step 2: Direct Controller, E2E fixtures and Fuzzer** (Status: PR Created)
+**Step 2: Direct Controller, E2E fixtures and Fuzzer** (Status: Ready for Review)
 
 | Step | Step Name | GitHub Issue | GitHub PR | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types & Identity | [#9239](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9239) | [#11390](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11390) | Completed | 2026-07-06 | 2026-07-22 |
-| 2 | Direct Controller & E2E Fixtures | [#11821](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11821) | [#11840](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11840) | PR Created | 2026-07-23 | - |
+| 2 | Direct Controller & E2E Fixtures | [#11821](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11821) | [#11840](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11840) | Ready for Review | 2026-07-23 | - |
 | 3 | mockGCP Generation | TBD | TBD | Not Started | - | - |
 | 4 | MockGCP Alignment | TBD | TBD | Not Started | - | - |
 
