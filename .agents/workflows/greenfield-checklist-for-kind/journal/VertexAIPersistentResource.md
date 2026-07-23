@@ -3,18 +3,20 @@
 This journal tracks the progress of the Greenfield migration for the `VertexAIPersistentResource` resource kind.
 
 ## Current Step
-**Step 1: Direct API Types and Identity and Reference Types Pattern** (Awaiting Human OWNER Review/Merge)
+**Step 1: Direct API Types and Identity and Reference Types Pattern** (Merge Conflicts / Re-assigned to Coder Bot)
 
 ## Progress Tracking Table
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | Awaiting OWNER Review/Merge | July 6, 2026 | - |
+| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | Conflicted; Re-assigned to Bot | July 6, 2026 | - |
 | Step 2: Direct Controller and E2E Fixtures | - | - | Pending | - | - |
 | Step 3: MockGCP Generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment | - | - | Pending | - | - |
 
 ## Updates History
+
+- **July 23, 2026 (Greenfield Monitoring; PR #11408 Conflicted and Re-assigned to `ada-coder-bot` for Rebasing & Retest)**: Re-checked the status of PR #11408. Confirmed that while all 202 CI check-runs for the previous commit had successfully passed (100% green), the PR has now entered a `dirty` state due to recent merge conflicts with the latest `master` branch. As a result, the PR has been re-assigned to `ada-coder-bot` to trigger automated merge conflict resolution and a fresh validation cycle. We continue to hold on starting Step 2 pending a successful rebase and OWNER merge of Step 1.
 
 - **July 23, 2026 (Greenfield Monitoring; PR #11408 CI Re-verified Green with 201 Checks, Holding for OWNER Merge)**: Verified the latest status of Step 1 PR #11408. Confirmed that all 201 CI check-runs (196 passing, 5 skipping) have completed successfully with zero failures. The PR is pristine, open, fully validated, and awaiting human OWNER review and merge. We continue to hold on starting Step 2 (Direct Controller and E2E Fixtures) pending OWNER review and merge of Step 1.
 
