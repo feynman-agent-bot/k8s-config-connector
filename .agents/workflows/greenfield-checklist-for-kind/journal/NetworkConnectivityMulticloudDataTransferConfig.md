@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1. Direct API Types and Identity and Reference Types Pattern | [#10290](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10290) | [#11245](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11245) | Awaiting Review/Merge | 2026-06-15 | - |
+| 1. Direct API Types and Identity and Reference Types Pattern | [#10290](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10290) | [#11810](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11810) | PR Created (CI Failing / Assigned) | 2026-06-15 | - |
 | 2. Direct Controller, E2E fixtures and Fuzzer | - | - | - | - | - |
 | 3. mockGCP generation | - | - | - | - | - |
 | 4. MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Update Notes
+- **2026-07-23**: Found open types PR #11810 (replacing/superseding previous closed PRs like #11245). Paginated checks verified that the `unit-tests` check-run is failing due to template path mismatch in `pkg/gcpurls` (`TestRegisteredTemplatesMatchCAI`) and missing exceptions for the new alpha fields in `tests/apichecks` (`TestCRDFieldPresenceInTestsForAlpha`). Assigned the PR back to author bot `hopper-coder-bot` for troubleshooting and resolution.
 - **2026-07-10**: Checked PR #11245 state via GitHub CLI and confirmed it remains open. All 194 CI check runs are 100% green and passing with zero failures. We continue to await human OWNER review and merge of Step 1 to begin Step 2.
 - **2026-07-10**: Re-verified PR #11245 state and status checks. State is still OPEN. All 194 CI checks (including validations, validate-generated-files, and unit-tests) continue to pass successfully with 100% green status and zero failures. The pull request remains perfectly healthy and stable, awaiting final human OWNER review and merge of Step 1 to master before we can transition to Step 2.
 - **2026-07-10**: Monitored open types PR #11245 and verified via paginated checks that all 194 CI status check runs are completed, 100% green, and successfully passing with zero failures. The pull request remains open, stable, and completely healthy in "Awaiting Review/Merge" state as we await human OWNER review and merge of Step 1.
