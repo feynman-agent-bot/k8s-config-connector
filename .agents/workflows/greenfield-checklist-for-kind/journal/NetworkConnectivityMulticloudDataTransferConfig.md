@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4. MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Update Notes
+- **2026-07-23**: Re-verified PR #11810 state via GitHub CLI. Confirmed that all status checks continue to pass successfully with 100% green status and no failures. The pull request is completely healthy, stable, and remains in 'Awaiting Review/Merge' state as we wait for final human OWNER review and merge of Step 1 to transition to Step 2.
 - **2026-07-23**: Checked PR #11810 and confirmed that all CI status check-runs are now 100% green and successfully passing with zero failures. The pull request is completely healthy and stable, in 'Awaiting Review/Merge' state as we await final human OWNER review and merge of Step 1 to transition to Step 2.
 - **2026-07-23**: Found open types PR #11810 (replacing/superseding previous closed PRs like #11245). Paginated checks verified that the `unit-tests` check-run is failing due to template path mismatch in `pkg/gcpurls` (`TestRegisteredTemplatesMatchCAI`) and missing exceptions for the new alpha fields in `tests/apichecks` (`TestCRDFieldPresenceInTestsForAlpha`). Assigned the PR back to author bot `hopper-coder-bot` for troubleshooting and resolution.
 - **2026-07-10**: Checked PR #11245 state via GitHub CLI and confirmed it remains open. All 194 CI check runs are 100% green and passing with zero failures. We continue to await human OWNER review and merge of Step 1 to begin Step 2.
