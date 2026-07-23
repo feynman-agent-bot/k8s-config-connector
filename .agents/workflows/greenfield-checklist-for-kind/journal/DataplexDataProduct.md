@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step | Name | Issue | Pull Request | Status | Date Started | Date Completed |
 |------|------|-------|--------------|--------|--------------|----------------|
-| 1 | Direct API Types, Identity, and References | #9277 | #11384 | PR Created | 2026-07-06 | |
+| 1 | Direct API Types, Identity, and References | #9277 | | Open | 2026-07-06 | |
 | 2 | Direct Controller, E2E fixtures and Fuzzer | | | | | |
 | 3 | mockGCP generation | | | | | |
 | 4 | MockGCP Alignment with RealGCP | | | | | |
 
 ## Notes & Updates
+- **2026-07-23**: Checked Step 1 progress. Confirmed that PR #11384 was closed or not found, and the original PR #9304 was closed without being merged. There is currently no active open pull request for the `DataplexDataProduct` direct types and identity implementation. Issue #9277 remains open and unassigned; keeping Step 1 status as Open and awaiting coder bot assignment.
 - **2026-07-10**: Checked PR #11384 status. Confirmed all 195+ CI checks are 100% passing. Found the PR unassigned and successfully assigned it back to its author bot `lovelace-coder-bot` via the GitHub REST API to ensure continuous automated tracking and monitoring while awaiting final human OWNER review and merge for Step 1.
 - **2026-07-10**: Monitored PR #11384 status. Checked and confirmed that all 195+ CI checks are successfully passing (100% completion) with zero failures. The PR remains open, mergeable with no conflicts, and is correctly assigned to its author bot `lovelace-coder-bot` while awaiting final human OWNER review and merge.
 - **2026-07-10**: Verified PR #11384 status remains OPEN and fully mergeable with zero conflicts, with 100% passing CI checks. Found the PR unassigned and successfully assigned it back to its author bot `lovelace-coder-bot` via the GitHub REST API to ensure continuous automated tracking while awaiting human OWNER review and merge.
