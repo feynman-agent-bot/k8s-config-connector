@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | Step 4: MockGCP Alignment | | | Not Started | | |
 
 ## Recent Status Updates
+* **2026-07-23**: Checked PR #11396 at 13:14 UTC. The PR remains open. The coder bot (`hopper-coder-bot`) has stood down and requested human intervention after encountering persistent transient network connection reset flakes in the `tests-e2e-fixtures-secretmanager` check 4 times since the last commit. No automatic reassignment is performed; awaiting human owner/infrastructure resolution.
 * **2026-07-23**: Checked PR #11396. Found that the PR was stopped with the `overseer/stop` label due to a transient `envtest` setup network flake in `tests-e2e-fixtures-secretmanager`. Removed the `overseer/stop` label and verified/re-assigned `hopper-coder-bot` to resume automated processing.
 * **2026-07-23**: Checked PR #11396 at 09:21 UTC. The PR remains open and is assigned to `hopper-coder-bot`. It currently has a failure in `tests-e2e-fixtures-secretmanager` (likely transient), but `hopper-coder-bot` is assigned to automatically handle and resume its processing.
 * **2026-07-23**: Checked PR #11396. Discovered PR was stopped with the `overseer/stop` label due to a transient network flake in `tests-e2e-fixtures-secretmanager`. Removed the `overseer/stop` label and assigned `hopper-coder-bot` to resume automated processing of the PR.
