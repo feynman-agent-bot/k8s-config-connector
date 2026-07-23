@@ -3,18 +3,20 @@
 This journal tracks the progress of the Greenfield migration for the `VertexAIPersistentResource` resource kind.
 
 ## Current Step
-**Step 1: Direct API Types and Identity and Reference Types Pattern** (CI Checks Passed; Awaiting OWNER Review/Merge)
+**Step 1: Direct API Types and Identity and Reference Types Pattern** (Merge Conflicts / Paused via `overseer/stop`)
 
 ## Progress Tracking Table
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | CI Checks Passed | July 6, 2026 | - |
+| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | Paused (overseer/stop) | July 6, 2026 | - |
 | Step 2: Direct Controller and E2E Fixtures | - | - | Pending | - | - |
 | Step 3: MockGCP Generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment | - | - | Pending | - | - |
 
 ## Updates History
+
+- **July 23, 2026 (Greenfield Monitoring; PR #11408 Paused via `overseer/stop` due to Merge Conflicts & Unrelated TPU CI Flake)**: Verified the latest status of Step 1 PR #11408. The PR remains open, but its mergeable state is `dirty` due to merge conflicts with `upstream/master`. Automated investigation has been paused with the `overseer/stop` label by the watcher bot after exhausting its retry budget on a transient external `tests-e2e-fixtures-tpu` infrastructure failure (where almost all other 198+ checks passed successfully). We continue to hold on starting Step 2 until a human OWNER resolves the conflicts and merges this PR.
 
 - **July 10, 2026 (Greenfield Monitoring; PR #11408 All 197 CI Checks Verified Green & Awaiting OWNER Review/Merge)**: Re-checked the live status of PR #11408. All 197 CI checks continue to pass flawlessly with no active failures. The PR remains open, healthy, and pristine, awaiting human OWNER review and merge to complete Step 1 before we can proceed to Step 2.
 
