@@ -3,18 +3,20 @@
 This journal tracks the progress of the Greenfield migration for the `VertexAIPersistentResource` resource kind.
 
 ## Current Step
-**Step 1: Direct API Types and Identity and Reference Types Pattern** (Awaiting Human OWNER Review / Merge)
+**Step 1: Direct API Types and Identity and Reference Types Pattern** (Awaiting Review Feedback Resolution)
 
 ## Progress Tracking Table
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | 100% Green / Awaiting Merge | July 6, 2026 | - |
+| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | Feedback Received / Resolution in Progress | July 6, 2026 | - |
 | Step 2: Direct Controller and E2E Fixtures | - | - | Pending | - | - |
 | Step 3: MockGCP Generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment | - | - | Pending | - | - |
 
 ## Updates History
+
+- **July 23, 2026 (Greenfield Monitoring; PR #11408 Review Feedback Received from `acpana`, Assigned to `ada-coder-bot` for Resolution)**: Verified the latest status of Step 1 PR #11408. All 202 CI checks have successfully completed and are completely green. However, reviewer `acpana` left new feedback on July 23, 2026, requesting to address the acronym casing in the code instead of keeping it in `acronyms.txt`. The PR remains open, and is currently assigned to `ada-coder-bot` to address this feedback. We continue to hold on Step 2 pending Step 1's merge.
 
 - **July 23, 2026 (Greenfield Monitoring; PR #11408 Conflicts Resolved, All 202 CI Checks Successfully Passed, Awaiting Human OWNER Review & Merge)**: Verified the latest status of Step 1 PR #11408. Confirmed that the merge conflicts have been successfully resolved by `ada-coder-bot`, and the PR is now pristine and conflict-free (`mergeable: true`). All 202 CI checks have successfully completed and are 100% green with zero failures. The PR is open, fully validated, and awaiting human OWNER review and merge. We continue to hold on Step 2 pending Step 1's merge.
 
