@@ -3,18 +3,20 @@
 This journal tracks the progress of the Greenfield migration for the `VertexAIPersistentResource` resource kind.
 
 ## Current Step
-**Step 1: Direct API Types and Identity and Reference Types Pattern** (Resumed / Re-assigned to ada-coder-bot)
+**Step 1: Direct API Types and Identity and Reference Types Pattern** (CI Checks In Progress)
 
 ## Progress Tracking Table
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | Resumed / Assigned | July 6, 2026 | - |
+| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | CI Checks In Progress | July 6, 2026 | - |
 | Step 2: Direct Controller and E2E Fixtures | - | - | Pending | - | - |
 | Step 3: MockGCP Generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment | - | - | Pending | - | - |
 
 ## Updates History
+
+- **July 23, 2026 (Greenfield Monitoring; PR #11408 Active and Healthy CI Checks Running)**: Verified that the new CI run triggered by `ada-coder-bot` is active and running cleanly with zero failures so far. Core checks like `tests-e2e-fixtures-vertexai` (passed in 9m9s), `unit-tests` (passed in 16m38s), `validations` (passed in 26m7s), and `validate-generated-files` (passed in 17m40s) have already completed successfully. The remaining jobs are currently pending/running. We continue to hold on Step 2 (Direct Controller and E2E Fixtures) until Step 1 successfully merges.
 
 - **July 23, 2026 (Greenfield Monitoring; PR #11408 Resumed and Re-assigned)**: Reviewed the status of Step 1 PR #11408. Found that it was paused via `overseer/stop` due to merge conflicts and a transient TPU infrastructure failure after all other 196+ checks had passed. Removed the `overseer/stop` label and re-assigned the PR to `ada-coder-bot` to trigger the automated conflict resolution and retest workflow. We remain on hold for Step 2 until Step 1 successfully merges.
 
