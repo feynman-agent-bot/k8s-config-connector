@@ -1,0 +1,22 @@
+This issue is to track the Greenfield implementation of VertexAIModelDeploymentMonitoringJob.
+
+Workflow: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/4b6625a0942946d0c5d4f8a32e7f37b88d0efb15/.agents/workflows/kcc-greenfield.txt
+
+## Migration Progress: VertexAIModelDeploymentMonitoringJob
+
+### Current Step
+Step 1: Direct API Types and Identity and Reference Types Pattern
+
+### Progress Tracking
+
+| Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
+|------|-----------|--------------|---------------------|--------|--------------|----------------|
+| 1 | Direct API Types and Identity | [#11718](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11718) | N/A | Open | 2026-07-18 | N/A |
+| 2 | Direct Controller, E2E fixtures & Fuzzer | N/A | N/A | Pending | N/A | N/A |
+| 3 | mockGCP generation | N/A | N/A | Pending | N/A | N/A |
+| 4 | MockGCP Alignment with RealGCP | N/A | N/A | Pending | N/A | N/A |
+
+### Status Update Notes
+* **2026-07-23**: Monitored Step 1 progress. Re-confirmed child issue [#11718](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11718) remains open on GitHub with no active pull request. Noted that argus-watcher-bot confirmed the AI Factory continues to work in the sandbox environment to generate direct types, identity, and generate.sh for VertexAIModelDeploymentMonitoringJob. We are continuing to monitor the sandbox and awaiting pull request creation.
+* **2026-07-23**: Checked Step 1 progress. Re-verified child issue [#11718](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11718) remains open and active. Verified that no active pull request has been published on upstream yet. The sandbox AI Factory is continuing its work to generate direct types, identity, and generate.sh for VertexAIModelDeploymentMonitoringJob. We are monitoring the sandbox and awaiting pull request creation.
+* **2026-07-23**: Checked Step 1 progress. Re-confirmed that child issue [#11718](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11718) is open and assigned on GitHub, and verified that no active pull request has been published on upstream yet. The sandbox AI Factory is continuing its work to generate types, identity, and generate.sh. We continue to monitor the sandbox and are awaiting pull request creation.
