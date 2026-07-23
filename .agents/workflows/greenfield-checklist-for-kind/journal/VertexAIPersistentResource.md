@@ -3,18 +3,20 @@
 This journal tracks the progress of the Greenfield migration for the `VertexAIPersistentResource` resource kind.
 
 ## Current Step
-**Step 1: Direct API Types and Identity and Reference Types Pattern** (Awaiting Review Feedback Resolution)
+**Step 1: Direct API Types and Identity and Reference Types Pattern** (Review Feedback Resolved, CI Validation Pending)
 
 ## Progress Tracking Table
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | Feedback Received / Resolution in Progress | July 6, 2026 | - |
+| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | Review Feedback Resolved / CI Validating | July 6, 2026 | - |
 | Step 2: Direct Controller and E2E Fixtures | - | - | Pending | - | - |
 | Step 3: MockGCP Generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment | - | - | Pending | - | - |
 
 ## Updates History
+
+- **July 23, 2026 (Greenfield Monitoring; PR #11408 Review Feedback Resolved, CI Validation Active)**: Verified that all prior review comments from reviewer `acpana` have been successfully resolved by `ada-coder-bot`. The acronym plural casing for `accessURIs` has been handled elegantly inside the type generator, completely eliminating the obsolete exceptions in `acronyms.txt`. A clean, consolidated commit has been force-pushed, and a new CI validation run is currently active and running with zero failures. We remain on hold for Step 2 pending Step 1's merge.
 
 - **July 23, 2026 (Greenfield Monitoring; PR #11408 CI Green, Active Review Feedback Resolution in Progress)**: Re-verified that all 202 CI checks for the latest commit on PR #11408 are 100% green and passing. The PR remains open and assigned to `ada-coder-bot`, with the AI Factory having initiated the automated workflow to resolve acpana's review feedback. We continue to hold on Step 2 (Direct Controller and E2E Fixtures) until Step 1's PR successfully merges.
 
