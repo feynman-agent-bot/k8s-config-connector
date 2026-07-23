@@ -8,12 +8,12 @@
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
 | Step 1: Direct API Types & Identity | [Issue #11713](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11713) | [PR #11732](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11732) | Completed | 2026-07-18 | 2026-07-22 |
-| Step 2: Controller & E2E fixtures | [Issue #11793](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11793) | [PR #11795](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11795) | PR Created (Checks Running) | 2026-07-22 | - |
+| Step 2: Controller & E2E fixtures | [Issue #11793](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11793) | [PR #11795](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11795) | PR Created (Checks Passing) | 2026-07-22 | - |
 | Step 3: mockGCP generation | - | - | - | - | - |
 | Step 4: MockGCP Alignment | - | - | - | - | - |
 
 ## Notes
-- **2026-07-23**: Monitored Step 2 progress. Pull Request #11795 is open with almost all CI check-runs successfully completed and passing cleanly (checks are currently 100% green, with a couple of fixture tests running/pending).
+- **2026-07-23**: Monitored Step 2 progress. Checked PR #11795 and verified all 200 CI checks successfully completed and are 100% green. Pull request is open and continues to await review and merge by human OWNERS before transitioning to Step 3.
 - **2026-07-22**: Monitored Step 2 progress. Verified Issue #11793 is open and assigned to `ada-coder-bot`. The sandbox has started implementing the direct controller, E2E fixtures, and fuzzer. No PR has been published yet.
 - **2026-07-22**: Step 1 PR #11732 has been successfully merged. Transitioned to Step 2. Created Step 2 GitHub Issue #11793 to implement the direct controller, E2E fixtures, and fuzzer.
 - **2026-07-22**: Monitored Step 1 progress. Checked PR #11732 and verified it is APPROVED by human OWNER `acpana`, with all 200 CI checks 100% green. The PR remains OPEN, and we continue to wait for the merge before transitioning to Step 2.
