@@ -1,18 +1,19 @@
 # Greenfield Migration Journal: NetworkConnectivityMulticloudDataTransferConfig
 
 ## Current Step
-Step 1: Direct API Types and Identity and Reference Types Pattern
+Step 2: Direct Controller, E2E fixtures and Fuzzer
 
 ## Progress Tracking
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1. Direct API Types and Identity and Reference Types Pattern | [#10290](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10290) | [#11810](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11810) | Awaiting Review/Merge | 2026-06-15 | - |
-| 2. Direct Controller, E2E fixtures and Fuzzer | - | - | - | - | - |
+| 1. Direct API Types and Identity and Reference Types Pattern | [#10290](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10290) | [#11810](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11810) | Completed | 2026-06-15 | 2026-07-23 |
+| 2. Direct Controller, E2E fixtures and Fuzzer | [#11881](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11881) | - | Open | 2026-07-24 | - |
 | 3. mockGCP generation | - | - | - | - | - |
 | 4. MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Update Notes
+- **2026-07-24**: Verified that Step 1 types PR #11810 has been successfully merged. Transitioning to Step 2. Opened Issue #11881 for implementing the direct controller, E2E fixtures, and fuzzer.
 - **2026-07-23**: Re-verified open types Pull Request #11810 using GitHub CLI. All 194 CI checks are completed, 100% green, and successfully passing with zero failures. The pull request remains open and stable, in 'Awaiting Review/Merge' state as we wait for final human OWNER review and merge of Step 1 to transition to Step 2.
 - **2026-07-23**: Re-verified the open types Pull Request #11810. Confirmed that all status checks are fully completed, 100% green, and successfully passing with zero failures. The pull request continues to be stable and completely healthy in 'Awaiting Review/Merge' state, awaiting final human OWNER review and merge of Step 1.
 - **2026-07-23**: Actively monitored open types PR #11810. Verified that all CI checks are completed, 100% green, and successfully passing with zero failures. The pull request remains open in 'Awaiting Review/Merge' state, waiting for final review and merge by human owners before we can proceed to Step 2.
@@ -130,7 +131,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 - **2026-07-08**: Checked open PR #11245 and verified that all 194 CI check runs continue to pass successfully with zero failures. The pull request is completely healthy and in 'Awaiting Review/Merge' state, waiting for human OWNER review and merge of Step 1.
 - **2026-07-08**: Checked open PR #11245. Confirmed that all CI checks remain completed and 100% green. The migration remains stable in Step 1, awaiting final review and merge by human owners before we can proceed to Step 2.
 - **2026-07-08**: Monitored open PR #11245. Re-verified via exhaustive paginated check queries that all CI checks remain 100% green and successfully passing. The PR is stable and waiting for human OWNER review and merge.
-- **2026-07-08**: Monitored the open PR #11245 and verified that all 194 check runs remain completed and 100% green with zero failures. Step 1 remains in 'Awaiting Review/Merge' state, waiting for human OWNER review and merge.
+- **2026-07-08**: Monitored the open PR #11245 and verified that all 194 check runs remain completed and 100% green with zero failures. Step 1 remains in 'Awaiting Review/Merge', waiting for human OWNER review and merge.
 - **2026-07-08**: Monitored open PR #11245. Re-verified via exhaustive check-runs that all 194 CI checks remain 100% completed and green with zero failures. The PR remains healthy and stable, awaiting final human OWNER review and merge of Step 1 to transition to Step 2.
 - **2026-07-08**: Monitored the open pull request #11245. Verified via exhaustive check-run list that all 180+ CI checks remain completely green and passing with zero failures. Step 1 remains in 'Awaiting Review/Merge' state, awaiting final review and merge by human owners before we can proceed to Step 2.
 - **2026-07-07**: Checked open PR #11245. Verified via exhaustive paginated checks that all CI runs remain completely green and passing with zero failures. Step 1 is stable in 'Awaiting Review/Merge' state, awaiting final review and merge by human owners before we can proceed to Step 2.
