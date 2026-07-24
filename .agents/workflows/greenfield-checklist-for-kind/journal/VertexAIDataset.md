@@ -13,6 +13,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer (Failing CI, assigned to code
 | 4 | mockGCP Alignment | - | - | Not Started | - | - |
 
 ## Status Updates
+* **2026-07-24 (Update 149)**: Checked PR #9787. Found CI check-runs `unit-tests` and `presubmit-gatekeeper` are failing, while the other 195 checks passed. Updated the journal. Attempted to assign `codebot-robot` to the PR, but encountered token scope limitations (`read:org` needed by CLI).
 * **2026-07-24 (Update 148)**: Checked PR #9787. Found CI check-runs `unit-tests`, `presubmit-gatekeeper`, and `zizmor-output` are failing. Since the PR was unassigned on GitHub, successfully assigned it back to `codebot-robot` via the GitHub REST API to investigate and resolve the failures.
 * **2026-07-23 (Update 147)**: Checked PR #9787. Found `unit-tests` and `presubmit-gatekeeper` still failing. Since the PR was unassigned on GitHub, successfully assigned it back to `codebot-robot` via the GitHub REST API to continue the investigation and resolve the test failures.
 * **2026-07-10 (Update 146)**: Checked PR #9787. Verified that the `unit-tests` check-run has failed due to a file naming violation in `pkg/controller/direct/vertexai/` (specifically, `dataset_controller.go` needs to be renamed to `vertexaidataset_controller.go`). Since the PR had become unassigned, successfully assigned it back to `codebot-robot` via the GitHub REST API to rename the file and fix the test failure.
