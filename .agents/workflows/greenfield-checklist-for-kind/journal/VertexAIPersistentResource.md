@@ -16,6 +16,8 @@ This journal tracks the progress of the Greenfield migration for the `VertexAIPe
 
 ## Updates History
 
+- **July 24, 2026 (Greenfield Monitoring; PR #11408 CI Validations Active)**: Monitored the Greenfield migration of `VertexAIPersistentResource`. Confirmed that the Step 1 PR #11408 remains open and is currently validating on GitHub. Several check-runs (including `tests-e2e-fixtures-compute`, `tests-e2e-fixtures-bigquery`, and `tests-e2e-fixtures-dataflow`) are still in progress / pending, while 198+ other check-runs have already passed successfully with zero failures. We continue to hold on Step 2 (Direct Controller and E2E Fixtures) pending the successful completion and merge of Step 1's PR.
+
 - **July 23, 2026 (Greenfield Monitoring; PR #11408 Review Feedback Resolved, CI Validation Active)**: Verified that all prior review comments from reviewer `acpana` have been successfully resolved by `ada-coder-bot`. The acronym plural casing for `accessURIs` has been handled elegantly inside the type generator, completely eliminating the obsolete exceptions in `acronyms.txt`. A clean, consolidated commit has been force-pushed, and a new CI validation run is currently active and running with zero failures. We remain on hold for Step 2 pending Step 1's merge.
 
 - **July 23, 2026 (Greenfield Monitoring; PR #11408 CI Green, Active Review Feedback Resolution in Progress)**: Re-verified that all 202 CI checks for the latest commit on PR #11408 are 100% green and passing. The PR remains open and assigned to `ada-coder-bot`, with the AI Factory having initiated the automated workflow to resolve acpana's review feedback. We continue to hold on Step 2 (Direct Controller and E2E Fixtures) until Step 1's PR successfully merges.
