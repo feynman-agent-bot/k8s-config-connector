@@ -16,6 +16,8 @@ This journal tracks the progress of the Greenfield migration for the `VertexAIPe
 
 ## Updates History
 
+- **July 24, 2026 (Greenfield Monitoring; PR #11408 Re-verified Green, Awaiting OWNER Merge)**: Re-monitored the Greenfield migration of `VertexAIPersistentResource`. Confirmed that all 190+ CI checks for PR #11408 have passed cleanly with zero failures. The PR remains open, pristine, and fully validated, waiting for human OWNER review and merge to complete Step 1 before we can proceed to Step 2 (Direct Controller and E2E Fixtures).
+
 - **July 24, 2026 (Greenfield Monitoring; PR #11408 All CI Checks Passed successfully, Awaiting OWNER Merge)**: Verified that all CI check-runs for the latest commit on PR #11408 have completed successfully and are 100% green with zero failures. The PR remains pristine, open, and fully validated, waiting for human OWNER review and merge to complete Step 1 before we can proceed to Step 2 (Direct Controller and E2E Fixtures).
 
 - **July 24, 2026 (Greenfield Monitoring; PR #11408 CI Validations Active)**: Monitored the Greenfield migration of `VertexAIPersistentResource`. Confirmed that the Step 1 PR #11408 remains open and is currently validating on GitHub. Several check-runs (including `tests-e2e-fixtures-compute`, `tests-e2e-fixtures-bigquery`, and `tests-e2e-fixtures-dataflow`) are still in progress / pending, while 198+ other check-runs have already passed successfully with zero failures. We continue to hold on Step 2 (Direct Controller and E2E Fixtures) pending the successful completion and merge of Step 1's PR.
