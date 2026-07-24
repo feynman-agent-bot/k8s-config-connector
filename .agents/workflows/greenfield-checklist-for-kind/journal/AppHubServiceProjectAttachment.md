@@ -7,12 +7,13 @@ Current Step: **Step 2: Direct Controller, E2E fixtures and Fuzzer**
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|-----------|--------------|---------------------|--------|--------------|----------------|
 | 1 | Direct API Types and Identity | [#8400](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8400) | [#8418](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8418) | Completed | 2026-05-19 | 2026-05-19 |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | [#8788](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8788) | [#8791](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8791) (Closed) | In Progress | 2026-05-28 | - |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11896](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11896) | - | Open | 2026-07-24 | - |
 | 3 | mockGCP generation | - | - | Not Started | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Not Started | - | - |
 
 ## Status Update Notes
 
+- **2026-07-24**: Re-triggered Step 2. Opened a new GitHub issue [#11896](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11896) to track the direct controller implementation and E2E fixtures verification, following the closure of the previous stale issue and PR.
 - **2026-07-23**: Monitored Step 2 progress. Confirmed that Issue #8788 remains open and is currently assigned to @hopper-coder-bot (~0.8 hours since assignment). No active Pull Requests have been opened yet; we continue monitoring and awaiting development.
 - **2026-07-23**: Checked progress on Step 2. Confirmed Issue #8788 remains open with no active Pull Requests on GitHub. Since @ada-coder-bot has been assigned for ~13 days (312 hours) without progress, reassigned the issue to @hopper-coder-bot to trigger the watch daemon for a fresh attempt to implement the controller.
 - **2026-07-10**: Monitored Step 2 progress. Verified Issue #8788 remains open and is currently assigned to @ada-coder-bot (~2.9 hours since assignment). No active Pull Requests have been opened on GitHub yet; we continue monitoring and awaiting development from the assigned bot.
