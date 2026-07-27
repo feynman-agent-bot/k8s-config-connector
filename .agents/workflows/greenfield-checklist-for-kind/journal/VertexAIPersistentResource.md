@@ -3,18 +3,20 @@
 This journal tracks the progress of the Greenfield migration for the `VertexAIPersistentResource` resource kind.
 
 ## Current Step
-**Step 1: Direct API Types and Identity and Reference Types Pattern** (CI Checks Completed with Unrelated Failure, Re-assigned to `ada-coder-bot` for Triage)
+**Step 1: Direct API Types and Identity and Reference Types Pattern** (CI Completed with Infrastructure Failure, /retest Triggered by `ada-coder-bot`)
 
 ## Progress Tracking Table
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | CI Checks Completed with Unrelated Failure, Assigned to `ada-coder-bot` | July 6, 2026 | - |
+| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | CI Completed with Infrastructure Failure, Retest Triggered | July 6, 2026 | - |
 | Step 2: Direct Controller and E2E Fixtures | - | - | Pending | - | - |
 | Step 3: MockGCP Generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment | - | - | Pending | - | - |
 
 ## Updates History
+
+- **July 27, 2026 (Greenfield Monitoring; PR #11408 CI Completed with Infrastructure Failure, /retest Triggered by `ada-coder-bot`)**: Checked the live status of the Step 1 PR #11408. The CI run completed but `tests-e2e-fixtures-edgecontainer` failed due to a raw.githubusercontent.com connection reset. `ada-coder-bot` investigated the failure, categorized it as an infrastructure flake, and successfully commented `/retest` to trigger a new validation loop. We are monitoring the PR and standing by for the retest to start.
 
 - **July 27, 2026 (Greenfield Monitoring; PR #11408 CI Completed with Unrelated Failure, Assigned to `ada-coder-bot` for Retest)**: Checked the live status of the Step 1 PR #11408 on GitHub. The CI run completed but `tests-e2e-fixtures-edgecontainer` failed due to an unrelated external flake. The PR was found unassigned, so we successfully assigned it back to `ada-coder-bot` to trigger a retest / triage loop.
 
