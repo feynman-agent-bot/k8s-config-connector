@@ -3,18 +3,20 @@
 This journal tracks the progress of the Greenfield migration for the `VertexAIPersistentResource` resource kind.
 
 ## Current Step
-**Step 1: Direct API Types and Identity and Reference Types Pattern** (All 202 CI Checks Successful, Awaiting OWNER Merge)
+**Step 1: Direct API Types and Identity and Reference Types Pattern** (Review Feedback Outstanding, Re-assigned to Coder Bot)
 
 ## Progress Tracking Table
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | All 202 CI Checks Successful / Awaiting OWNER Merge | July 6, 2026 | - |
+| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | Review Feedback Outstanding / Assigned to Coder Bot | July 6, 2026 | - |
 | Step 2: Direct Controller and E2E Fixtures | - | - | Pending | - | - |
 | Step 3: MockGCP Generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment | - | - | Pending | - | - |
 
 ## Updates History
+
+- **July 26, 2026 (Greenfield Monitoring; PR #11408 Review Feedback Outstanding, Re-assigned to `ada-coder-bot` to Address Casing & Revert Unrelated Changes)**: Verified the live status of the Step 1 PR #11408. While all 202/202 CI checks remain completely green and flawless, there are outstanding code review comments from human OWNER `acpana` requesting to revert unrelated changes to `generate-proto.sh` and address acronym casing in `acronyms.txt`. The PR was in an unassigned state, so we successfully re-assigned it back to `ada-coder-bot` via the REST API to address this feedback and trigger a fresh validation loop.
 
 - **July 26, 2026 (Greenfield Monitoring; PR #11408 Live Checked, All 202 Checks Passing Flawlessly, Awaiting human OWNER Merge)**: Re-verified the live status of Step 1 PR #11408. Absolutely all 202/202 CI check-runs continue to pass successfully with zero failures (100% green). The PR remains open, pristine, and fully mergeable, awaiting human OWNER review, approval, and merge to complete Step 1 before we can proceed to Step 2.
 
