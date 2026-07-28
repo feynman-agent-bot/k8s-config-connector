@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [Issue #11392](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11392) | [PR #11416](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11416) | Ready for Human Merge (All CI Passed) | 2026-07-07 | N/A |
+| Step 1: Direct API Types and Identity | [Issue #11392](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11392) | [PR #11416](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11416) | Awaiting Changes (Outstanding Human Feedback) | 2026-07-07 | N/A |
 | Step 2: Direct Controller, E2E fixtures and Fuzzer | N/A | N/A | Not Started | N/A | N/A |
 | Step 3: mockGCP generation | N/A | N/A | Not Started | N/A | N/A |
 | Step 4: MockGCP Alignment with RealGCP | N/A | N/A | Not Started | N/A | N/A |
 
 ## History / Status Updates
+- **2026-07-28**: Checked and verified Greenfield migration progress of VertexAICachedContent. Pull Request #11416 remains open, with outstanding human review feedback from human OWNER acpana left on July 21st. To prompt the coder bot to address this feedback, the PR was successfully assigned back to hopper-coder-bot and the ready-for-human label was removed. Step 1 remains open and monitored.
 - **2026-07-28**: Checked and verified Greenfield migration progress of VertexAICachedContent. Pull Request #11416 is OPEN, in a healthy/mergeable state, with all 201 CI checks successfully completed and 100% passing on head commit `3d127efb35570b8b6491aa270af1e55e117fdd4d`. The PR is labeled `ready-for-human` and assigned to `hopper-coder-bot`, continuing to await manual human OWNER review and merge to complete Step 1.
 - **2026-07-28**: Checked Greenfield migration progress of VertexAICachedContent. Confirmed Step 1 Pull Request #11416 remains open, mergeable, and fully green with all 201 CI check-runs successfully completed and passing on head commit `3d127efb35570b8b6491aa270af1e55e117fdd4d`. Labeled `ready-for-human` and assigned to `hopper-coder-bot`, the PR continues to wait for manual review and merge by a human OWNER.
 - **2026-07-28**: Re-monitored Greenfield migration status of VertexAICachedContent. Verified Pull Request #11416 is OPEN, mergeable, and completely green with 100% of all 201 CI check-runs passing on head commit `3d127efb35570b8b6491aa270af1e55e117fdd4d`. The PR remains labeled `ready-for-human` and assigned to `hopper-coder-bot` while safely waiting for manual review and merge by a human OWNER.
