@@ -11,3 +11,4 @@
 
 ## Step Logs & Updates
 * **2026-07-29**: Started Step 1: Direct API Types and Identity. Created tracking issue #12025.
+* **2026-07-29**: Monitored Step 1 progress. Issue #12025 is still Open, and AI Factory is active in the sandbox. No pull requests have been created yet.
