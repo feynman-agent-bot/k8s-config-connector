@@ -1,0 +1,20 @@
+# Migration Journal: ComputeNetworkEndpoint
+
+## Current Step
+**Step 4**: Ensure MockGCP matches real gcp behavior (Awaiting human OWNER review and merge of PR #10977).
+
+## Progress Tracking Table
+
+| Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Direct API Types | [#9994](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9994) | [#10052](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10052) | `Merged` | 2026-06-13 | 2026-06-29 |
+| 2 | Identity and Reference Types Pattern | [#10952](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10952) | [#10953](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10953) | `Merged` | 2026-06-29 | 2026-06-29 |
+| 3 | Create a Round-Trip KRM Fuzzer | [#10963](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10963) | [#10964](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10964) | `Merged` | 2026-06-29 | 2026-06-29 |
+| 4 | Ensure MockGCP matches real gcp behavior | [#10970](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10970) | [#10977](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10977) | `PR Created` | 2026-06-29 | In Progress |
+| 5 | Implement Direct Controller & E2E Fixtures | - | - | `Not Started` | - | - |
+| 6 | Validate Direct Promotion | - | - | `Not Started` | - | - |
+
+## Status Update Notes
+* **2026-07-29**: Verified that Step 4 PR #10977 has been created and all 100+ continuous integration (CI) check-runs have successfully passed. The PR is currently awaiting human OWNER review and merge before we can proceed to Step 5.
+* **2026-06-29**: Step 3 KRM Fuzzer PR #10964 was successfully merged. Step 4 MockGCP issue #10970 was created and assigned to `factorybot-robot`. PR #10977 was opened.
+* **2026-06-29**: Step 2 Identity & Refs PR #10953 was successfully merged.
