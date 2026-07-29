@@ -4,12 +4,13 @@
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [#12025](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12025) | [#12049](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12049) | CI Running | 2026-07-29 | - |
+| Step 1: Direct API Types and Identity | [#12025](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12025) | [#12049](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12049) | Awaiting Merge | 2026-07-29 | - |
 | Step 2: Direct Controller, E2E fixtures and Fuzzer | - | - | Pending | - | - |
 | Step 3: mockGCP generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Step Logs & Updates
+* **2026-07-29**: Checked PR [#12049](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12049) check status. All CI checks have now passed successfully (100% green). The PR is currently awaiting human OWNER review, approval, and merge.
 * **2026-07-29**: Monitored Step 1 progress. Checked PR [#12049](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12049). `ada-coder-bot` pushed a new commit to skip `DiscoveryEngineWidgetConfig` in the unified E2E test runner. CI checks are currently running; `tests-e2e-fixtures-discoveryengine` and other key checks are now passing successfully with no failures reported so far.
 * **2026-07-29**: Checked PR [#12049](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12049) check status. Found that `tests-e2e-fixtures-discoveryengine` failed because the e2e test fixture `discoveryenginewidgetconfigminimal` was run, but no controller config is registered for `DiscoveryEngineWidgetConfig` yet (which is a Step 2 task). Checked assignments; issue [#12025](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12025) is assigned to `ada-coder-bot` to resolve the test setup.
 * **2026-07-29**: Deep-dived into failed CI logs for PR [#12049](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12049). Identified that `TestCRDFieldPresenceInTestsForAlpha` failed because multiple fields are missing from unstructured test objects (such as `.spec.uiSettings.enableQualityFeedback`), and `TestCRDObjectTypes` failed because `status.observedState` lacks structural schema definitions (missing properties or x-kubernetes-preserve-unknown-fields) in the generated CRD. Confirmed `ada-coder-bot` remains assigned to investigate and apply fixes.
