@@ -7,7 +7,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step | Name | Issue | Pull Request | Status | Date Started | Date Completed |
 |------|------|-------|--------------|--------|--------------|----------------|
-| 1 | Direct KRM Types & Identity | [#12016](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12016) | | Open | 2026-07-29 | |
+| 1 | Direct KRM Types & Identity | [#12016](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12016) | [#12044](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12044) | PR Created | 2026-07-29 | |
 | 2 | Direct Controller, E2E fixtures & Fuzzer | | | Not Started | | |
 | 3 | mockGCP generation | | | Not Started | | |
 | 4 | MockGCP Alignment with RealGCP | | | Not Started | | |
@@ -17,3 +17,4 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 - 2026-07-29: Created GitHub issue #12016 for Step 1: Greenfield: Implement direct KRM types, identity, and generate.sh for DiscoveryEngineRecommendationEngine.
 - 2026-07-29: Monitored Step 1 progress. Issue #12016 is currently assigned to neumann-coder-bot, who has started working on the direct types in a sandbox. No PR has been opened yet.
 - 2026-07-29: Re-checked status. Issue #12016 remains open and assigned to neumann-coder-bot, who is actively working on implementation; no Pull Request has been opened yet.
+- 2026-07-29: Detected that `neumann-coder-bot` opened Pull Request #12044 for Step 1. The PR is currently open and CI checks are pending.
