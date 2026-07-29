@@ -7,11 +7,12 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step | Step Name | Issue | Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types and Identity | [#12028](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12028) | N/A | Open | 2026-07-29 | - |
+| 1 | Direct API Types and Identity | [#12028](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12028) | [#12032](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12032) | PR Created | 2026-07-29 | - |
 | 2 | Direct Controller, E2E fixtures and Fuzzer | - | - | Pending | - | - |
 | 3 | mockGCP generation | - | - | Pending | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Notes & Updates
-- **2026-07-29**: Initialized the migration checklist. Created the step 1 tracking issue [#12028](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12028).
+- **2026-07-29**: Detected Pull Request [#12032](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12032) created for Step 1. Checked the CI check runs: `unit-tests` failed due to missing fields in `TestCRDFieldPresenceInTestsForAlpha` exception list (`.spec.dataStoreRef` and `.spec.uri` on `discoveryenginesitemaps`). Assigned the PR back to `ada-coder-bot` for troubleshooting and fix.
 - **2026-07-29**: Checked progress on [#12028](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12028). Verified that the issue remains open and is assigned to `ada-coder-bot` for implementing types, identity, and generation. No Pull Request has been created yet. Waiting for the PR to be opened and merged.
+- **2026-07-29**: Initialized the migration checklist. Created the step 1 tracking issue [#12028](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12028).
