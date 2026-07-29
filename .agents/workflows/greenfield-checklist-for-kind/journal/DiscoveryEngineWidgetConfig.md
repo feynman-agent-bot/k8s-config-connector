@@ -10,6 +10,7 @@
 | Step 4: MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Step Logs & Updates
+* **2026-07-29**: Deep-dived into failed CI logs for PR [#12049](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12049). Identified that `TestCRDFieldPresenceInTestsForAlpha` failed because multiple fields are missing from unstructured test objects (such as `.spec.uiSettings.enableQualityFeedback`), and `TestCRDObjectTypes` failed because `status.observedState` lacks structural schema definitions (missing properties or x-kubernetes-preserve-unknown-fields) in the generated CRD. Confirmed `ada-coder-bot` remains assigned to investigate and apply fixes.
 * **2026-07-29**: Monitored Step 1 progress. Checked PR [#12049](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12049). CI checks failed (`presubmit-gatekeeper`, `unit-tests`, and `validate-generated-files` failed). Assigned the PR back to `ada-coder-bot` for resolution.
 * **2026-07-29**: Monitored Step 1 progress. Checked PR [#12049](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12049). CI checks are in-progress, with key validations and test suites (such as mockgcp, e2e fixtures, preview, etc.) passing successfully.
 * **2026-07-29**: Monitored Step 1 progress. Pull Request [#12049](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12049) has been created. CI checks are in progress, and no failures have been reported.
