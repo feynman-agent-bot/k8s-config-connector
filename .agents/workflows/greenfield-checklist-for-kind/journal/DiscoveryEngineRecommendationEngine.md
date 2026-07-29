@@ -16,3 +16,4 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 - 2026-07-29: Initialized migration tracking journal for `DiscoveryEngineRecommendationEngine`.
 - 2026-07-29: Created GitHub issue #12016 for Step 1: Greenfield: Implement direct KRM types, identity, and generate.sh for DiscoveryEngineRecommendationEngine.
 - 2026-07-29: Monitored Step 1 progress. Issue #12016 is currently assigned to neumann-coder-bot, who has started working on the direct types in a sandbox. No PR has been opened yet.
+- 2026-07-29: Re-checked status. Issue #12016 remains open and assigned to neumann-coder-bot, who is actively working on implementation; no Pull Request has been opened yet.
