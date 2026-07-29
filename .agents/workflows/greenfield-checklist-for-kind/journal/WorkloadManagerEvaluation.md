@@ -1,18 +1,24 @@
 # Greenfield Migration Journal: WorkloadManagerEvaluation
 
 ## Current Step
-**Step 2**: Direct Controller, E2E fixtures and Fuzzer
+**Step 3**: mockGCP generation
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types, Identity & refs Pattern | [#10320](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10320) | [#10988](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10988) | Completed | 2026-06-15 | 2026-07-15 |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11643](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11643) | [#11645](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11645) | PR Created | 2026-07-15 | - |
-| 3 | mockGCP generation | - | - | Not Started | - | - |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11643](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11643) | [#11645](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11645) | Completed | 2026-07-15 | 2026-07-29 |
+| 3 | mockGCP generation | [#12053](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12053) | - | Open | 2026-07-29 | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Not Started | - | - |
 
 ## Status Update Notes
+
+### 2026-07-29 (Update 797)
+- Confirmed that Step 2's Pull Request #11645 has been successfully merged.
+- Marked Step 2 as Completed.
+- Transitioned to Step 3 (mockGCP generation).
+- Created a new GitHub issue #12053 to track Step 3 ("Greenfield: Implement MockGCP and Alignment for WorkloadManagerEvaluation") and labeled it appropriately.
 
 ### 2026-07-28 (Update 796)
 - Re-monitored the open Pull Request #11645 on GitHub.
