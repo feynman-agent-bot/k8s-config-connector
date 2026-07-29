@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Notes & Updates
+- **2026-07-29**: Re-verified the status of Pull Request [#12032](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12032). The pull request remains open, with all CI checks fully passing, and is pending human OWNER review and merge.
 - **2026-07-29**: Checked the status of Pull Request [#12032](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12032). All core CI checks (including `unit-tests`, `validate-generated-files`, `golangci-lint`, and `test-mockgcp`) have passed successfully. The PR is now fully green and awaiting human OWNER review and merge.
 - **2026-07-29**: Detected Pull Request [#12032](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12032) created for Step 1. Checked the CI check runs: `unit-tests` failed due to missing fields in `TestCRDFieldPresenceInTestsForAlpha` exception list (`.spec.dataStoreRef` and `.spec.uri` on `discoveryenginesitemaps`). Assigned the PR back to `ada-coder-bot` for troubleshooting and fix.
 - **2026-07-29**: Checked progress on [#12028](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12028). Verified that the issue remains open and is assigned to `ada-coder-bot` for implementing types, identity, and generation. No Pull Request has been created yet. Waiting for the PR to be opened and merged.
