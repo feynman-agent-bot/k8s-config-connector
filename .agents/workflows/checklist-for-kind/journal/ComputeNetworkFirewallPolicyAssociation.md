@@ -1,0 +1,41 @@
+<!--
+Copyright 2026 Google LLC
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+# Migration Journal: ComputeNetworkFirewallPolicyAssociation
+
+## Current Step
+**Step 1: Direct API Types**
+
+PR #10083 is currently open but marked as `dirty` due to merge conflicts, and changes have been requested by `justinsb`. We have assigned the PR to the author bot `codebot-robot` to perform a rebase and address the feedback/test failures.
+
+## Migration Progress
+
+| Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
+| --- | --- | --- | --- | --- | --- |
+| 1. Direct API Types | [#9998](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9998) | [#10083](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10083) | `PR Created` | 2026-07-29 | |
+| 2. Identity and Reference Types Pattern | | | `Not Started` | | |
+| 3. Create a Round-Trip KRM Fuzzer | | | `Not Started` | | |
+| 4. Ensure MockGCP matches real gcp behavior | | | `Not Started` | | |
+| 5. Implement Direct Controller & E2E Fixtures | | | `Not Started` | | |
+| 6. Validate Direct Promotion | | | `Not Started` | | |
+
+## Update Logs
+
+### 2026-07-29
+- Initiated tracking of `ComputeNetworkFirewallPolicyAssociation` migration.
+- Detected active in-flight PR #10083 for Step 1 (Issue #9998).
+- Noticed PR #10083 is dirty (merge conflicts) and changes were requested by `justinsb`.
+- Assigned PR #10083 to author bot `codebot-robot` to trigger rebasing and address failures.
