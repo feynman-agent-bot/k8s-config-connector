@@ -14,3 +14,4 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 ## Notes & Updates
 - **2026-07-29**: Initialized the migration checklist. Created the step 1 tracking issue [#12028](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12028).
+- **2026-07-29**: Checked progress on [#12028](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12028). Verified that the issue remains open and is assigned to `ada-coder-bot` for implementing types, identity, and generation. No Pull Request has been created yet. Waiting for the PR to be opened and merged.
