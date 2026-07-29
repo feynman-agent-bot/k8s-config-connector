@@ -9,10 +9,17 @@
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types, Identity & refs Pattern | [#10320](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10320) | [#10988](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10988) | Completed | 2026-06-15 | 2026-07-15 |
 | 2 | Direct Controller, E2E fixtures and Fuzzer | [#11643](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11643) | [#11645](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11645) | Completed | 2026-07-15 | 2026-07-29 |
-| 3 | mockGCP generation | [#12053](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12053) | - | Open | 2026-07-29 | - |
+| 3 | mockGCP generation | [#12053](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12053) | [#12058](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12058) | PR Created | 2026-07-29 | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Not Started | - | - |
 
 ## Status Update Notes
+
+### 2026-07-29 (Update 798)
+- Checked and verified the status of Step 3 ("mockGCP generation") on GitHub.
+- Found that `neumann-coder-bot` has successfully opened Pull Request #12058 to implement MockGCP and alignment for `WorkloadManagerEvaluation`.
+- Verified that all CI check-runs on the PR are 100% green and successfully passing with zero failures.
+- The PR remains open, carrying the `overseer`, `step/mockgcp`, and `greenfield` labels, currently awaiting human OWNER review, approval, and merge.
+- Since Step 3's PR is not yet merged, we continue to monitor the PR and remain on Step 3.
 
 ### 2026-07-29 (Update 797)
 - Confirmed that Step 2's Pull Request #11645 has been successfully merged.
