@@ -8,12 +8,13 @@
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :---: | :--- | :--- | :--- | :--- | :---: | :---: |
-| 1 | Direct KRM Types & Identity | [#12013](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12013) | [#12039](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12039) | CI Running | 2026-07-29 | |
+| 1 | Direct KRM Types & Identity | [#12013](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12013) | [#12039](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12039) | CI Passed | 2026-07-29 | |
 | 2 | Direct Controller & E2E | | | Not Started | | |
 | 3 | mockGCP generation | | | Not Started | | |
 | 4 | mockGCP Alignment | | | Not Started | | |
 
 ## Detailed Status History
+- **2026-07-29**: All CI checks on PR [#12039](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12039) have successfully completed and passed. The PR is now fully verified and awaiting review/merge by human owners.
 - **2026-07-29**: All completed CI checks on PR [#12039](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12039) are passing after `hopper-coder-bot` applied the required fixes. Some E2E fixture checks are still running. Currently monitoring the PR.
 - **2026-07-29**: Identified two key unit test failures on PR [#12039](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12039):
   1. `TestRegisteredTemplatesMatchCAI` failed because the URL template for VertexAITensorboardRun is not present in CAI. To resolve, it needs to be added to `ignoredTemplates` in `pkg/gcpurls/registry_test.go`.
