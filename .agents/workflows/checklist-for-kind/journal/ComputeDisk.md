@@ -17,5 +17,6 @@ This journal tracks the migration of the `ComputeDisk` resource kind to a produc
 | 6 | Validate Direct Promotion | [#12077](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12077) | - | Open | 2026-07-29 | - |
 
 ## Status Updates
+- **2026-07-30**: Verified that the AI Factory has picked up the validation task for ComputeDisk. Issue #12077 is currently assigned to `neumann-coder-bot`, and a sandbox run has been initiated to perform the promotion validation and record/verify the HTTP cassettes. Monitoring for the creation of the corresponding pull request.
 - **2026-07-29**: Resumed orchestration of the ComputeDisk migration. Checked historical PRs and verified that all previous steps (Steps 1, 2, 3, 4, 5) have been successfully implemented and merged.
 - **2026-07-29**: Initiated Step 6. Created GitHub Issue #12077 to track the validation of direct promotion for ComputeDisk. Assigned the issue to the overseer/reviewer pool.
