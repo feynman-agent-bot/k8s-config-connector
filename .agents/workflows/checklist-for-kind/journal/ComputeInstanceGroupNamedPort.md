@@ -3,7 +3,7 @@
 This journal tracks the migration progress of the `ComputeInstanceGroupNamedPort` resource to a direct controller.
 
 ## Current Step
-**Step 1: Direct API Types** — The PR is currently open and has successfully passed all CI checks. It was held blocked by `ComputeInstanceGroup` (#10074), which has since been merged. The PR is currently awaiting final merge/unhold, and we have assigned the author bot `codebot-robot` to resume.
+**Step 1: Direct API Types** — The PR has a merge conflict (`mergeable: CONFLICTING`) but all CI checks are passing. We have assigned/added the author bot `codebot-robot` to trigger the automated system to rebase and resolve the merge conflict.
 
 ## Progress Tracking
 
@@ -17,5 +17,5 @@ This journal tracks the migration progress of the `ComputeInstanceGroupNamedPort
 | 6 | Validate Direct Promotion | | | Not Started | | |
 
 ## Status Updates
-* **2026-07-30**: Verified all CI checks are passing on PR #10078. Assigned/added `codebot-robot` as an assignee to PR #10078 to trigger the automated system to process the hold resolution since the blocking PR #10074 has been merged.
+* **2026-07-30**: Identified a merge conflict (`mergeable: CONFLICTING`) on PR #10078, despite all CI checks passing. Explicitly re-assigned `codebot-robot` via GitHub REST API to trigger the automated daemon to perform a rebase/conflict resolution.
 * **2026-07-29**: Started migration tracking. Identified that Step 1 is currently in progress via issue #9988 and PR #10078. PR is open with all CI checks passing. The `/hold` placed by `justinsb` for `ComputeInstanceGroupRef` is now resolved since #10074 is merged. Re-assigned to `codebot-robot` to trigger automated follow-up.
