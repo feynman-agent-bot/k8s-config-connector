@@ -15,6 +15,7 @@ Step 6: Validate Direct Promotion
 | Step 6: Validate Direct Promotion | [#12079](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12079) | [#12099](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12099) | PR Created | 2026-07-30 | - |
 
 ## Status Update Notes
+* **2026-07-30**: Checked progress of PR #12099 for Step 6. Author bot (lovelace-coder-bot) has successfully pushed a new commit to resolve the previous test failures. All completed CI checks have passed, and the remaining checks are currently running. Leaving the PR to run to completion.
 * **2026-07-30**: Identified open PR #12099 for Step 6 (Validate Direct Promotion) with failing checks (presubmit-gatekeeper, tests-e2e-fixtures-compute, unit-tests). Assigned PR back to its author bot (lovelace-coder-bot) to resolve the failures.
 * **2026-07-30**: Steps 1 to 5 have been fully resolved and merged in past runs. Created Issue #12079 to track Step 6 (Validate Direct Promotion).
 * **2026-06-13**: Initiated tracking for ComputeDiskResourcePolicyAttachment. Found in-flight Step 1 PR #10021 (fixing Issue #9968). PR is currently open but failing `unit-tests` check.
