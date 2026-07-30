@@ -19,7 +19,7 @@ limitations under the License.
 ## Current Step
 **Step 1: Direct API Types**
 
-PR #10083 is open and mergeable. All CI checks have now completed successfully and are fully green. Assigned the PR to `codebot-robot` to ensure continued automated tracking. Awaiting final human review and merge.
+PR #10083 is open and mergeable. All CI checks have completed successfully and are fully green. We have verified and ensured the PR is assigned to its author bot `codebot-robot` to maintain active tracking. Awaiting final human review and merge.
 
 ## Migration Progress
 
