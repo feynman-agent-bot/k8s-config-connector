@@ -7,12 +7,12 @@ Current Step: Step 2: Identity and Reference Types Pattern
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|------|--------------|---------------------|--------|--------------|----------------|
 | 1 | Direct API Types | #10000 | #10082 | Merged | 2026-06-13 | 2026-06-13 |
-| 2 | Identity and Reference Types Pattern | #12078 | | Open | 2026-07-29 | |
+| 2 | Identity and Reference Types Pattern | #12078 | #12085 | PR Created | 2026-07-29 | |
 | 3 | Create a Round-Trip KRM Fuzzer | | | Not Started | | |
 | 4 | Ensure MockGCP matches real gcp behavior | | | Not Started | | |
 | 5 | Implement Direct Controller & E2E Fixtures | | | Not Started | | |
 | 6 | Validate Direct Promotion | | | Not Started | | |
 
 ## Status Updates
-- **2026-07-30**: Monitored progress. Issue #12078 remains open and is assigned to lovelace-coder-bot. argus-watcher-bot confirmed that an AI Factory sandbox has started working on the issue. No pull request has been opened yet.
+- **2026-07-30**: Lovelace-coder-bot opened Pull Request #12085 to implement the modern identity and reference pattern for ComputeNetworkPeering, addressing Issue #12078. The PR has passed auto-review by reviewbot-robot and is currently awaiting human OWNER review and merge before proceeding to Step 3.
 - **2026-07-29**: Initialized the migration tracking journal. Identified that Step 1 (Direct API Types) was previously completed under Issue #10000 and PR #10082 (Merged on 2026-06-13). Opened Issue #12078 to kick off Step 2 (Move ComputeNetworkPeering to identity and refs pattern).
