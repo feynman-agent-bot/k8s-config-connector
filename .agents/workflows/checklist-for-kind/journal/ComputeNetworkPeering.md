@@ -14,4 +14,5 @@ Current Step: Step 2: Identity and Reference Types Pattern
 | 6 | Validate Direct Promotion | | | Not Started | | |
 
 ## Status Updates
+- **2026-07-30**: Monitored progress. Issue #12078 remains open and is assigned to lovelace-coder-bot. argus-watcher-bot confirmed that an AI Factory sandbox has started working on the issue. No pull request has been opened yet.
 - **2026-07-29**: Initialized the migration tracking journal. Identified that Step 1 (Direct API Types) was previously completed under Issue #10000 and PR #10082 (Merged on 2026-06-13). Opened Issue #12078 to kick off Step 2 (Move ComputeNetworkPeering to identity and refs pattern).
