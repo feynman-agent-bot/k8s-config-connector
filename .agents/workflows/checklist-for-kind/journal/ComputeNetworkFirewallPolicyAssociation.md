@@ -36,7 +36,7 @@ PR #10083 is open and mergeable. All CI checks have completed successfully and a
 
 ### 2026-07-30
 - Verified all CI checks for PR #10083 have successfully passed and are fully green.
-- Assigned PR #10083 to its author bot `codebot-robot` via REST API to ensure automated monitoring remains active.
+- Re-assigned PR #10083 to its author bot `codebot-robot` via REST API after verifying that the assignee list was empty, ensuring active automated tracking remains enabled.
 - Awaiting final human review and merge by human OWNERs to proceed to Step 2.
 
 ### 2026-07-29
