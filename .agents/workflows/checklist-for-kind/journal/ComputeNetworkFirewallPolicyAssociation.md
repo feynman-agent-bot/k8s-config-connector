@@ -19,7 +19,7 @@ limitations under the License.
 ## Current Step
 **Step 1: Direct API Types**
 
-PR #10083 is open and mergeable. The branch has been rebased and updated. CI checks are currently running and passing. We have assigned the PR to `codebot-robot` to ensure it continues to be monitored.
+PR #10083 is open and mergeable. All CI checks have now completed successfully and are fully green. Assigned the PR to `codebot-robot` to ensure continued automated tracking. Awaiting final human review and merge.
 
 ## Migration Progress
 
@@ -35,9 +35,9 @@ PR #10083 is open and mergeable. The branch has been rebased and updated. CI che
 ## Update Logs
 
 ### 2026-07-30
-- Verified PR #10083 is now rebased, clean, and mergeable.
-- Monitored CI checks for PR #10083: All completed checks have passed successfully, with only two checks currently in progress.
-- Assigned PR #10083 to `codebot-robot` to ensure continued automated tracking.
+- Verified all CI checks for PR #10083 have successfully passed and are fully green.
+- Assigned PR #10083 to its author bot `codebot-robot` to ensure automated monitoring remains active.
+- Awaiting final human review and merge by human OWNERs to proceed to Step 2.
 
 ### 2026-07-29
 - Initiated tracking of `ComputeNetworkFirewallPolicyAssociation` migration.
