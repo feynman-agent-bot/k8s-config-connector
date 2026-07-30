@@ -12,7 +12,7 @@ Step 6: Validate Direct Promotion
 | Step 3: Round-Trip KRM Fuzzer | [#10673](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10673) | [#10674](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10674) | Merged | 2026-06-22 | 2026-06-22 |
 | Step 4: Ensure MockGCP matches real gcp behavior | [#10676](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10676) | [#10678](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10678) | Merged | 2026-06-22 | 2026-06-23 |
 | Step 5: Implement Direct Controller & E2E Fixtures | [#10739](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10739) | [#10740](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10740) | Merged | 2026-06-23 | 2026-06-24 |
-| Step 6: Validate Direct Promotion | [#12079](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12079) | [#12099](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12099) | PR Created | 2026-07-30 | - |
+| Step 6: Validate Direct Promotion | [#12079](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12079) | [#12099](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12099) | PR Green | 2026-07-30 | - |
 
 ## Status Update Notes
 * **2026-07-30**: Checked progress of PR #12099 for Step 6. All CI checks have successfully passed! The PR is now fully green and awaiting human/OWNER review and merge.
