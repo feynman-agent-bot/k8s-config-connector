@@ -15,8 +15,8 @@ Step 6: Validate Direct Promotion
 | Step 6: Validate Direct Promotion | [#12079](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12079) | [#12099](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12099) | PR Green | 2026-07-30 | - |
 
 ## Status Update Notes
-* **2026-07-31**: Monitored the progress of PR #12099. All CI checks are passing and the PR is green, awaiting human OWNER review and merge.
-* **2026-07-30**: Checked progress of PR #12099 for Step 6. All CI checks have successfully passed! The PR is now fully green and awaiting human/OWNER review and merge.
+* **2026-07-31**: Monitored progress of PR #12099. Verified that all CI checks are passing and the PR is completely green, awaiting human OWNER review and merge.
+* **2026-07-30**: Verified progress of PR #12099 for Step 6. All CI checks have successfully passed! The PR is now fully green and awaiting human/OWNER review and merge.
 * **2026-07-30**: Checked progress of PR #12099 for Step 6. Author bot (lovelace-coder-bot) has successfully pushed a new commit to resolve the previous test failures. All completed CI checks have passed, and the remaining checks are currently running. Leaving the PR to run to completion.
 * **2026-07-30**: Identified open PR #12099 for Step 6 (Validate Direct Promotion) with failing checks (presubmit-gatekeeper, tests-e2e-fixtures-compute, unit-tests). Assigned PR back to its author bot (lovelace-coder-bot) to resolve the failures.
 * **2026-07-30**: Steps 1 to 5 have been fully resolved and merged in past runs. Created Issue #12079 to track Step 6 (Validate Direct Promotion).
