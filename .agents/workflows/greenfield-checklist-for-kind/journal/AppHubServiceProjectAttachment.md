@@ -1,18 +1,19 @@
 # Greenfield Migration Progress: AppHubServiceProjectAttachment
 
-Current Step: **Step 2: Direct Controller, E2E fixtures and Fuzzer**
+Current Step: **Step 3: mockGCP generation**
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|-----------|--------------|---------------------|--------|--------------|----------------|
 | 1 | Direct API Types and Identity | [#8400](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8400) | [#8418](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8418) | Completed | 2026-05-19 | 2026-05-19 |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11896](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11896) | [#11902](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11902) | PR Created | 2026-07-24 | - |
-| 3 | mockGCP generation | - | - | Not Started | - | - |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11896](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11896) | [#11902](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11902) | Completed | 2026-07-24 | 2026-07-31 |
+| 3 | mockGCP generation | [#12124](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12124) | - | Open | 2026-07-31 | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Not Started | - | - |
 
 ## Status Update Notes
 
+- **2026-07-31**: Completed Step 2. Pull Request #11902 has been successfully merged. Transitioned to Step 3 and opened GitHub Issue [#12124](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12124) to track implementing MockGCP and Alignment for AppHubServiceProjectAttachment.
 - **2026-07-31**: Monitored Step 2. Checked status of Pull Request #11902 on GitHub. Verified that all 202 CI check-runs continue to pass successfully with 100% green status. Confirmed that collaborator `acpana` approved the PR, which is conflict-free and mergeable. The PR awaits merge by human owners before we can transition to Step 3.
 - **2026-07-31**: Monitored Step 2. Checked status of Pull Request #11902 on GitHub. Verified that all 202 CI check-runs continue to pass successfully with 100% green status. The PR is open, conflict-free, and mergeable, continuing to await human OWNER review and merge before we can transition to Step 3.
 - **2026-07-31**: Monitored Step 2. Confirmed that Pull Request #11902 remains open, conflict-free, and mergeable on GitHub. Checked all CI checks and verified they are completely green (100% success across all 202 check-runs). The PR is awaiting human OWNER review, approval, and merge before transitioning to Step 3.
@@ -43,7 +44,7 @@ Current Step: **Step 2: Direct Controller, E2E fixtures and Fuzzer**
 - **2026-07-30**: Monitored Step 2. Re-verified status of Pull Request #11902. Confirmed that all 202 CI check-runs are completely green, passing, and mergeable on GitHub with no requested changes. The PR is conflict-free and remains open awaiting human OWNER review and merge before transitioning to Step 3.
 - **2026-07-30**: Monitored Step 2. Re-verified status of Pull Request #11902. Confirmed that all 202 CI check-runs continue to pass successfully with 100% green status. The PR remains open, conflict-free, mergeable, and is awaiting human OWNER review and merge.
 - **2026-07-30**: Monitored Step 2. Re-checked Pull Request #11902 and verified all CI checks remain 100% green and successfully passing. The PR is conflict-free, mergeable, and continues to await human OWNER review and merge before transitioning to Step 3.
-- **2026-07-30**: Monitored Step 2. Verified that Pull Request #11902 remains open and mergeable, with all 202 CI check-runs completely green and passing. The PR continues to await human OWNER review, approval, and merge.
+- **2026-07-30**: Verified that Pull Request #11902 remains open and mergeable, with all 202 CI check-runs completely green and passing. The PR continues to await human OWNER review, approval, and merge.
 - **2026-07-30**: Monitored Step 2. Re-verified status of Pull Request #11902 on GitHub. Confirmed that all 148 CI checks are 100% green, passing, and mergeable. The PR continues to await human OWNER review, approval, and merge.
 - **2026-07-30**: Monitored Step 2. Re-checked status of Pull Request #11902 on GitHub. Verified that all 202 CI checks continue to pass successfully with 100% green status. The PR is conflict-free, mergeable, and remains open awaiting human OWNER review and merge before we can proceed to Step 3.
 - **2026-07-30**: Re-verified Step 2. Confirmed that Pull Request #11902 remains open, conflict-free, and mergeable on GitHub with all CI checks completely green and passing (100% success). The PR continues to await human OWNER review, approval, and merge.
@@ -186,7 +187,7 @@ Current Step: **Step 2: Direct Controller, E2E fixtures and Fuzzer**
 - **2026-07-03**: Monitored PR #8791 status. Re-verified all 193 CI check-runs on GitHub remain completely green and passing. The PR is conflict-free, mergeable, and ready, but remains open awaiting human OWNER review and merge before transitioning to Step 3.
 - **2026-07-03**: Monitored PR #8791. Verified all 193 CI checks on GitHub are 100% green and passing. The PR remains open, conflict-free, and mergeable, pending human OWNER review, approval, and merge before we can proceed to Step 3.
 - **2026-07-03**: Monitored PR #8791 status on GitHub. Confirmed all 193 CI check-runs are completely green and passing. The PR is conflict-free, mergeable, and ready, but remains open awaiting human OWNER review and merge before transitioning to Step 3.
-- **2026-07-03**: Monitored PR #8791 status. Re-verified all 193 CI checks are completely green and passing. The PR is conflict-free and mergeable, but remains open pending human OWNER review, approval, and merge before we can transition to Step 3.
+- **2026-07-03**: Monitored PR #8791 status. Re-verified all 193 CI checks are completely green and passing, and the PR is conflict-free and mergeable. Awaiting human OWNER review, approval, and merge before proceeding to Step 3.
 - **2026-07-03**: Checked PR #8791 status on GitHub. Confirmed all CI check-runs remain 100% green and passing. The PR is conflict-free and mergeable, but still open awaiting human OWNER review, approval, and merge before we can transition to Step 3.
 - **2026-07-03**: Re-verified PR #8791 status. Checked all 193 CI checks and confirmed they are 100% green and successfully passing. The PR is conflict-free, mergeable, and has no active assignees, but is still awaiting human OWNER review and merge before transitioning to Step 3.
 - **2026-07-03**: Monitored PR #8791 status. Confirmed all 193 CI check-runs remain completely green and successfully passing. The PR is conflict-free and mergeable, but remains open awaiting human OWNER review, approval, and merge before we can transition to Step 3.
