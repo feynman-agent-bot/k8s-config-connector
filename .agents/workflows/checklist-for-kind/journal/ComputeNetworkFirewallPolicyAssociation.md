@@ -35,9 +35,9 @@ PR #10083 is open and all core presubmit CI checks (including `crd-equivalence-c
 ## Update Logs
 
 ### 2026-07-31
-- Checked the CI check-runs on PR #10083 and verified that all core presubmit checks (including `crd-equivalence-check`) have successfully passed and are fully green.
-- Discovered that the PR was unassigned and there was no active tracking assignee.
-- Re-assigned PR #10083 to its author bot `codebot-robot` via the GitHub CLI to maintain active automated tracking while awaiting final human review and merge by human OWNERs.
+- Verified that PR #10083 (Step 1) is still open and all core presubmit checks have passed.
+- Noticed the PR was unassigned; re-assigned it to its author bot `codebot-robot` via the GitHub REST API to ensure active automated tracking until it is merged by human OWNERs.
+- Updated the parent issue #10123 with the current progress.
 
 ### 2026-07-30
 - Verified all CI checks for PR #10083 have successfully passed and are fully green.
