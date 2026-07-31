@@ -7,7 +7,7 @@ Step 1: Direct API Types
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
-| 1. Direct API Types | [#9980](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9980) | [#10070](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10070) | Merge Conflict (Assigned to Author Bot) | 2026-06-13 | - |
+| 1. Direct API Types | [#9980](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9980) | [#10070](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10070) | Failing CI (Assigned to Author Bot) | 2026-06-13 | - |
 | 2. Identity & Reference Types | - | - | - | - | - |
 | 3. Round-Trip KRM Fuzzer | - | - | - | - | - |
 | 4. MockGCP Real Behavior | - | - | - | - | - |
@@ -15,6 +15,7 @@ Step 1: Direct API Types
 | 6. Validate Direct Promotion | - | - | - | - | - |
 
 ## Status Updates
+- **2026-07-31**: Checked PR #10070 and found it open, mergeable, but with failing CI checks (crd-equivalence-check, unit-tests-2-of-4, zizmor-output). Assigned the PR back to the author bot `codebot-robot` to trigger automated self-healing/CI fix loop.
 - **2026-07-31**: Checked PR #10070 and found it conflicting and unassigned. Assigned it back to the author bot `codebot-robot` to trigger automated merge conflict resolution.
 - **2026-07-31**: Orchestration sweep: Verified PR #10070 remains in a conflicting state and is unassigned. Re-assigned the PR back to the author bot `codebot-robot` via the GitHub REST API to trigger automated merge conflict resolution.
 - **2026-07-31**: Checked PR #10070 status and found it open, conflicting, and unassigned. Re-assigned PR #10070 back to the author bot `codebot-robot` via GitHub REST API to resume merge conflict resolution.
