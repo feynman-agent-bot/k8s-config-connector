@@ -1,6 +1,6 @@
 # Greenfield Migration Progress: AppHubServiceProjectAttachment
 
-Current Step: **Step 3: mockGCP generation**
+Current Step: **Step 4: MockGCP Alignment with RealGCP**
 
 ## Progress Tracking
 
@@ -8,11 +8,12 @@ Current Step: **Step 3: mockGCP generation**
 |------|-----------|--------------|---------------------|--------|--------------|----------------|
 | 1 | Direct API Types and Identity | [#8400](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8400) | [#8418](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8418) | Completed | 2026-05-19 | 2026-05-19 |
 | 2 | Direct Controller, E2E fixtures and Fuzzer | [#11896](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11896) | [#11902](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11902) | Completed | 2026-07-24 | 2026-07-31 |
-| 3 | mockGCP generation | [#12124](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12124) | [#12129](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12129) | PR Created | 2026-07-31 | - |
-| 4 | MockGCP Alignment with RealGCP | - | - | Not Started | - | - |
+| 3 | mockGCP generation | [#12124](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12124) | [#12129](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12129) | Completed | 2026-07-31 | 2026-07-31 |
+| 4 | MockGCP Alignment with RealGCP | [#12151](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12151) | - | Open | 2026-07-31 | - |
 
 ## Status Update Notes
 
+- **2026-07-31**: Verified that Pull Request [#12129](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12129) for Step 3 (mockGCP generation) has been merged. Completed Step 3 and initiated Step 4 (MockGCP Alignment with RealGCP) by opening GitHub Issue [#12151](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12151).
 - **2026-07-31**: Monitored Step 3. Checked Pull Request [#12129](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12129) on GitHub. All 238 CI checks are completed and 100% green with no failures. No reviews or comments requesting changes have been added. The PR remains open and continues to wait for human OWNER review and merge before we can transition to Step 4.
 - **2026-07-31**: Monitored Step 3. Re-verified status of Pull Request [#12129](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12129) on GitHub. Confirmed all 238 CI checks remain completely green and successfully passing (100% success rollup). Checked reviews and comments, and verified no blocking actions or changes have been requested. The PR remains open, conflict-free, and mergeable, continuing to await human OWNER review and merge before we can proceed to Step 4.
 - **2026-07-31**: Monitored Step 3. Re-verified status of Pull Request [#12129](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12129) on GitHub. Checked all 238 CI checks and confirmed they are all 100% completed, green, and successfully passing. There are no blocking reviews or comments, and the PR remains open, conflict-free, and mergeable, continuing to wait for human OWNER review and merge.
