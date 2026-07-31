@@ -19,7 +19,7 @@ limitations under the License.
 ## Current Step
 **Step 1: Direct API Types**
 
-PR #10083 is open and mergeable. All CI checks have completed successfully and are fully green. We have assigned and verified the PR is assigned to its author bot `codebot-robot` to maintain active tracking. Awaiting final human review and merge.
+PR #10083 is open, but we detected a failure in the `crd-equivalence-check` check-run. The PR was unassigned, so we re-assigned it to its author bot `codebot-robot` to address the failure and trigger a re-run.
 
 ## Migration Progress
 
@@ -35,9 +35,9 @@ PR #10083 is open and mergeable. All CI checks have completed successfully and a
 ## Update Logs
 
 ### 2026-07-31
-- Confirmed that all CI check-runs on PR #10083 have passed successfully.
-- Added the required labels `direct-migration` and `overseer` to PR #10083.
-- Ensured `codebot-robot` is assigned to PR #10083 to maintain active automated tracking.
+- Checked the CI check-runs on PR #10083 and detected a failure in `crd-equivalence-check`.
+- Discovered that the PR was unassigned and there was no active tracking assignee.
+- Re-assigned PR #10083 to its author bot `codebot-robot` via the GitHub REST API to trigger a fix and re-run.
 
 ### 2026-07-30
 - Verified all CI checks for PR #10083 have successfully passed and are fully green.
