@@ -19,7 +19,7 @@ limitations under the License.
 ## Current Step
 **Step 1: Direct API Types**
 
-PR #10083 is open and all core presubmit CI checks (including `crd-equivalence-check`) are successfully passing. The PR has been assigned to its author bot `codebot-robot` to maintain active automated tracking while awaiting final human review and merge by human OWNERs to proceed to Step 2.
+PR #10083 is open. The PR is currently failing the `zizmor-output` CI check and has been re-assigned to its author bot `codebot-robot` via the GitHub REST API to investigate and resolve the failure, while awaiting final human review and merge by human OWNERs to proceed to Step 2.
 
 ## Migration Progress
 
