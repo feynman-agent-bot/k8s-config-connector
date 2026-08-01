@@ -3,7 +3,7 @@
 This journal tracks the migration progress of the `ComputeInstanceGroupNamedPort` resource to a direct controller.
 
 ## Current Step
-**Step 1: Direct API Types** — The PR #10078 is currently open. The previously failing check `crd-equivalence-check` has passed, but a new failure was detected in `tests-e2e-fixtures-managedkafka`, causing `presubmit-gatekeeper` to fail. We have re-assigned the author bot `codebot-robot` to trigger automated triage.
+**Step 1: Direct API Types** — The PR #10078 is currently open and all CI checks are 100% green and passing. We have assigned the author bot `codebot-robot` to trigger the automated system to process hold resolution and merge validation, as the blocking PR #10074 has been merged.
 
 ## Progress Tracking
 
@@ -17,7 +17,8 @@ This journal tracks the migration progress of the `ComputeInstanceGroupNamedPort
 | 6 | Validate Direct Promotion | | | Not Started | | |
 
 ## Status Updates
-* **2026-08-01 (latest)**: Verified that the `crd-equivalence-check` is now passing (resolved by the latest fixup commit). However, a new failure was detected in `tests-e2e-fixtures-managedkafka`, causing `presubmit-gatekeeper` to fail. Re-assigned the author bot `codebot-robot` to trigger automated check triaging and potential re-run.
+* **2026-08-01 (latest)**: Checked and verified PR #10078 is 100% green with all CI checks passing. Assigned the author bot `codebot-robot` to trigger the automated hold-resolution and merge validation, as the blocking PR #10074 has been merged.
+* **2026-08-01 (earlier)**: Verified that the `crd-equivalence-check` is now passing (resolved by the latest fixup commit). However, a new failure was detected in `tests-e2e-fixtures-managedkafka`, causing `presubmit-gatekeeper` to fail. Re-assigned the author bot `codebot-robot` to trigger automated triage.
 * **2026-08-01 (earlier)**: Detected a failing `crd-equivalence-check` on the latest commit (which was pushed today, 2026-08-01). Assigned the author bot `codebot-robot` via the GitHub REST API to trigger automated diagnosis and resolution of the failure.
 * **2026-08-01 (even earlier)**: Re-verified PR #10078 is open and all CI checks are 100% green and passing. Re-assigned the author bot `codebot-robot` via the GitHub REST API to trigger automated hold-resolution and merge validation, as the PR remains blocked by a `/hold` despite the blocking PR #10074 being merged.
 * **2026-07-31 (earlier)**: Checked and verified PR #10078 is open, and all 100+ CI checks are 100% green and passing. Co-assigned the author bot `codebot-robot` via the GitHub REST API to trigger automated hold-resolution and merge validation, as the blocking PR #10074 is merged.
