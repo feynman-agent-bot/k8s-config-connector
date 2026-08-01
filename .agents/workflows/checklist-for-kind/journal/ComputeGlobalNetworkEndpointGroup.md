@@ -12,6 +12,7 @@
 | 6. Validate Direct Promotion | - | - | - | - | - |
 
 ## Status Updates
+- **2026-08-01**: Checked PR #10070 and found it open, mergeable, but with failing checks (`presubmit-gatekeeper`, `tests-e2e-fixtures-privateca`). It was unassigned. Assigned it back to the author bot `codebot-robot` via the GitHub REST API to trigger automated self-healing/CI fix loop.
 - **2026-07-31**: Checked PR #10070 status and found it open, mergeable, but with failing checks (`presubmit-gatekeeper`, `tests-e2e-fixtures-privateca`) and unassigned. Assigned PR #10070 back to the author bot `codebot-robot` via the GitHub REST API to trigger automated self-healing/CI fix loop.
 - **2026-07-31**: Orchestration sweep: PR #10070 is open, mergeable, but has failing CI checks (`tests-e2e-fixtures-privateca`). It was unassigned. Assigned it back to the author bot `codebot-robot` to trigger automated self-healing.
 - **2026-07-31**: Checked PR #10070 and found it open, mergeable, but with failing CI checks (crd-equivalence-check, unit-tests-2-of-4, zizmor-output). Assigned the PR back to the author bot `codebot-robot` to trigger automated self-healing/CI fix loop.
