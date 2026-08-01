@@ -3,7 +3,7 @@
 This journal tracks the migration progress of the `ComputeInstanceGroupNamedPort` resource to a direct controller.
 
 ## Current Step
-**Step 1: Direct API Types** — The PR #10078 is currently open and all CI checks are green (100% passing). The `/hold` was placed pending the merge of #10074, which has now been merged. We have verified that the PR is in a `MERGEABLE` state. We are awaiting final merge by human owners. We have ensured `codebot-robot` is assigned to trigger automated hold-resolution and merge validation.
+**Step 1: Direct API Types** — The PR #10078 is currently open and has a failing CI check (`crd-equivalence-check`). We have assigned the author bot `codebot-robot` via the GitHub REST API to trigger automated diagnosis and fixing of the failing check.
 
 ## Progress Tracking
 
@@ -17,7 +17,8 @@ This journal tracks the migration progress of the `ComputeInstanceGroupNamedPort
 | 6 | Validate Direct Promotion | | | Not Started | | |
 
 ## Status Updates
-* **2026-08-01 (latest)**: Re-verified PR #10078 is open and all CI checks are 100% green and passing. Re-assigned the author bot `codebot-robot` via the GitHub REST API to trigger automated hold-resolution and merge validation, as the PR remains blocked by a `/hold` despite the blocking PR #10074 being merged.
+* **2026-08-01 (latest)**: Detected a failing `crd-equivalence-check` on the latest commit (which was pushed today, 2026-08-01). Assigned the author bot `codebot-robot` via the GitHub REST API to trigger automated diagnosis and resolution of the failure.
+* **2026-08-01 (earlier)**: Re-verified PR #10078 is open and all CI checks are 100% green and passing. Re-assigned the author bot `codebot-robot` via the GitHub REST API to trigger automated hold-resolution and merge validation, as the PR remains blocked by a `/hold` despite the blocking PR #10074 being merged.
 * **2026-07-31 (earlier)**: Checked and verified PR #10078 is open, and all 100+ CI checks are 100% green and passing. Co-assigned the author bot `codebot-robot` via the GitHub REST API to trigger automated hold-resolution and merge validation, as the blocking PR #10074 is merged.
 * **2026-07-31 (even earlier)**: Re-verified that PR #10078 remains 100% green with passing CI checks and is in a `MERGEABLE` state. Ensured that `codebot-robot` is explicitly assigned as an assignee to trigger the automated hold-resolution and merge flow.
 * **2026-07-31**: Confirmed that PR #10078 has 100% green and passing CI checks and is in a `MERGEABLE` state. Added `codebot-robot` as an assignee to trigger the automated system to handle unholding and process any next steps, since the blocking PR #10074 was successfully merged.
