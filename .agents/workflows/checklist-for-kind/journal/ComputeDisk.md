@@ -17,6 +17,7 @@ This journal tracks the migration of the `ComputeDisk` resource kind to a produc
 | 6 | Validate Direct Promotion | [#12077](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12077) | [#12089](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12089) | PR Created (Passing) | 2026-07-29 | - |
 
 ## Status Updates
+- **2026-08-01**: Re-verified PR #12089 status. All 100+ CI checks continue to pass successfully (100% green). The PR is open, mergeable, and ready for human OWNER review and merge to complete the ComputeDisk direct migration.
 - **2026-08-01**: Overseer run verified that PR #12089 has all 100+ CI checks passing successfully (100% green). The PR remains open and mergeable, awaiting human OWNER review and merge to finalize the ComputeDisk migration.
 - **2026-08-01**: Re-verified PR #12089 status in current Overseer run. Confirmed that all 100+ CI checks are 100% green and passing, the branch has no conflicts, and it remains open awaiting human OWNER review and merge to finalize the ComputeDisk direct migration.
 - **2026-08-01**: Overseer run re-verified that PR #12089 is open, fully mergeable (no conflicts), and has 100% of its over 100 CI checks passing (green). The migration is awaiting human OWNER review, approval, and merge.
