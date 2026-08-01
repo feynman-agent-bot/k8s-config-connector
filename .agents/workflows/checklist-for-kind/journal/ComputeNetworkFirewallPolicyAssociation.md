@@ -19,7 +19,7 @@ limitations under the License.
 ## Current Step
 **Step 1: Direct API Types**
 
-PR #10083 is open with changes requested. The PR is currently failing the `zizmor-output` CI check and has been re-assigned to its author bot `codebot-robot` via the GitHub REST API to investigate and resolve the failure, while awaiting final human review and merge by human OWNERs to proceed to Step 2.
+PR #10083 is open with changes requested. All CI checks are now successfully passing and are green. The PR has been re-assigned to its author bot `codebot-robot` while awaiting final human review and merge by human OWNERs to proceed to Step 2.
 
 ## Migration Progress
 
@@ -35,9 +35,9 @@ PR #10083 is open with changes requested. The PR is currently failing the `zizmo
 ## Update Logs
 
 ### 2026-08-01
-- Verified that PR #10083 (Step 1) remains open in state `BLOCKED`.
-- The `zizmor-output` check is failing, blocking PR merge.
-- Assigned PR #10083 back to the author bot `codebot-robot` to investigate and resolve the failing CI check.
+- Verified that all CI checks for PR #10083 (Step 1) are now passing and fully green.
+- PR remains open in state `BLOCKED` with review decision `CHANGES_REQUESTED`.
+- Assigned PR #10083 back to the author bot `codebot-robot` to maintain active tracking while awaiting human OWNER review and merge.
 
 ### 2026-07-31
 - Verified that PR #10083 (Step 1) is still open and currently under review with changes requested.
