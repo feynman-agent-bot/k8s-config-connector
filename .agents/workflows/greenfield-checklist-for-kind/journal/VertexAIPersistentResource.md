@@ -16,6 +16,8 @@ This journal tracks the progress of the Greenfield migration for the `VertexAIPe
 
 ## Updates History
 
+- **August 1, 2026 (Greenfield Monitoring; PR #11408 Status Checked, Still Standby Awaiting OWNER)**: Re-verified the status of PR #11408. The pull request remains open, pristine, and conflict-free, but remains paused under the `overseer/stop` label due to the sticky connection resets in `tests-e2e-fixtures-edgecontainer`. All other 202 CI check-runs are completely green. We continue to await human OWNER review and merge.
+
 - **August 1, 2026 (Greenfield Monitoring; PR #11408 Live Monitored, Paused under `overseer/stop` / Standby)**: Re-verified the status of the Step 1 PR #11408 on GitHub. The PR remains open, unmerged, and paused under the `overseer/stop` label due to the sticky external `raw.githubusercontent.com` connection resets in `tests-e2e-fixtures-edgecontainer`. All other 202 CI check-runs pass successfully. We continue to wait on standby for human OWNER review and merge of Step 1.
 
 - **August 1, 2026 (Greenfield Monitoring; PR #11408 Live Checked, Still Paused under `overseer/stop` / Standby)**: Re-verified the status of the Step 1 PR #11408 on GitHub. The PR is open, unmerged, and remains paused under the `overseer/stop` label due to the persistent, sticky `raw.githubusercontent.com` connection resets in `tests-e2e-fixtures-edgecontainer`. All other 202 CI check-runs pass successfully, and no new commits, reviews, or comments have been posted. We continue to wait on standby for human OWNER review and merge of Step 1.
