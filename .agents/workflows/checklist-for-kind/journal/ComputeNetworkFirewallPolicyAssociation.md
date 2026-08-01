@@ -37,7 +37,7 @@ PR #10083 is open with changes requested. All CI checks are now successfully pas
 ### 2026-08-01
 - Verified that all CI checks for PR #10083 (Step 1) are now passing and fully green.
 - PR remains open in state `BLOCKED` with review decision `CHANGES_REQUESTED`.
-- Assigned PR #10083 back to the author bot `codebot-robot` to maintain active tracking while awaiting human OWNER review and merge.
+- Assigned PR #10083 back to the author bot `codebot-robot` via GitHub REST API to maintain active tracking while awaiting human OWNER review and merge.
 
 ### 2026-07-31
 - Verified that PR #10083 (Step 1) is still open and currently under review with changes requested.
