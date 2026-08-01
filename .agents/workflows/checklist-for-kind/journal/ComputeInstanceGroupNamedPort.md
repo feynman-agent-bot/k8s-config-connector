@@ -17,7 +17,7 @@ This journal tracks the migration progress of the `ComputeInstanceGroupNamedPort
 | 6 | Validate Direct Promotion | | | Not Started | | |
 
 ## Status Updates
-* **2026-08-01 (latest)**: Verified that PR #10078 is 100% green with passing CI checks. Discovered that the author bot `codebot-robot` was not assigned; successfully assigned `codebot-robot` via the GitHub REST API to trigger the automated unhold and merge validation flows.
+* **2026-08-01 (latest)**: Verified that PR #10078 remains 100% green with passing CI checks. Confirmed the blocking PR #10074 has been merged, and successfully assigned the author bot `codebot-robot` via the GitHub REST API to trigger the automated unhold and merge validation flows.
 * **2026-08-01 (earlier)**: Checked and verified PR #10078 is 100% green with all CI checks passing. Assigned the author bot `codebot-robot` to trigger the automated hold-resolution and merge validation, as the blocking PR #10074 has been merged.
 * **2026-08-01 (earlier)**: Verified that the `crd-equivalence-check` is now passing (resolved by the latest fixup commit). However, a new failure was detected in `tests-e2e-fixtures-managedkafka`, causing `presubmit-gatekeeper` to fail. Re-assigned the author bot `codebot-robot` to trigger automated triage.
 * **2026-08-01 (earlier)**: Detected a failing `crd-equivalence-check` on the latest commit (which was pushed today, 2026-08-01). Assigned the author bot `codebot-robot` via the GitHub REST API to trigger automated diagnosis and resolution of the failure.
