@@ -12,6 +12,7 @@ Current Step: Step 6 - Validate Direct Promotion
 | 6 | Validate Direct Promotion | [#12075](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12075) | [#12101](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12101) | CI Passed | 2026-07-29 | - |
 
 ### Status Update Notes
+- **2026-08-03**: Orchestrator health check verified that all 202 CI check-runs on Pull Request [#12101](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12101) remain 100% green and successfully passing. The migration of ComputeInstanceGroupManager to direct controller is completely validated and is awaiting human OWNER review, approval, and merge.
 - **2026-08-03**: Orchestrator monitored Step 6 and verified that all 202 CI checks are completely green and passing. The direct migration is fully ready and waiting for human OWNER review, approval, and merge to complete the migration.
 - **2026-08-03**: Re-verified that Pull Request [#12101](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12101) remains fully open, green, and passing all 202 CI check-runs. Step 6 (Validate Direct Promotion) is completely validated and is awaiting human OWNER review, approval, and merge.
 - **2026-08-03**: Orchestrator verified that all 202 CI check-runs for Pull Request [#12101](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12101) are completely green and passing. The direct migration is fully validated and awaiting human OWNER review, approval, and merge.
