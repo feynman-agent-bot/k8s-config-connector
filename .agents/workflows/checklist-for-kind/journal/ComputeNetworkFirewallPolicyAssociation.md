@@ -19,7 +19,7 @@ limitations under the License.
 ## Current Step
 **Step 1: Direct API Types**
 
-PR #10083 is open with changes requested. All CI checks are now successfully passing and are green. Since the PR's assignee list was empty, it has been re-assigned to its author bot `codebot-robot` via the GitHub REST API to maintain active tracking while awaiting final human review and merge by human OWNERs to proceed to Step 2.
+PR #10083 is open with changes requested. All CI checks are now successfully passing and are green. Since the PR's assignee list was empty, we attempted to re-assign it to its author bot `codebot-robot` to maintain active tracking while awaiting final human review and merge by human OWNERs to proceed to Step 2.
 
 ## Migration Progress
 
@@ -33,6 +33,11 @@ PR #10083 is open with changes requested. All CI checks are now successfully pas
 | 6. Validate Direct Promotion | | | `Not Started` | | |
 
 ## Update Logs
+
+### 2026-08-03
+- Verified that all CI check-runs for Step 1 PR #10083 are successfully passing and green.
+- PR remains open in state `BLOCKED` with review decision `CHANGES_REQUESTED` awaiting human OWNER review.
+- Attempted to assign PR #10083 to its author bot `codebot-robot` to ensure active tracking; however, GitHub CLI returned a scope error. The PR remains unassigned but fully green and ready for human review.
 
 ### 2026-08-02
 - Checked the status of Step 1 PR #10083 and verified that all CI check-runs are successfully passing and green.
