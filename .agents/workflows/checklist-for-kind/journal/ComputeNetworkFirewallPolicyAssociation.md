@@ -36,7 +36,7 @@ PR #10083 is open with changes requested. All CI checks are now successfully pas
 
 ### 2026-08-05
 - Re-verified Step 1 PR #10083 on GitHub. Confirmed all 170+ CI check-runs continue to pass successfully and are green.
-- Assigned PR #10083 back to its author bot `codebot-robot` via the GitHub REST API to ensure active tracking is continuously maintained.
+- Verified that PR assignee was empty and assigned PR #10083 back to its author bot `codebot-robot` via the GitHub REST API to ensure active tracking is continuously maintained.
 - Updated the parent tracking issue #10123 progress comment on GitHub.
 
 ### 2026-08-04
