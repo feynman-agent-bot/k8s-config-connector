@@ -1,18 +1,19 @@
 # Migration Journal: VertexAIHyperparameterTuningJob
 
 ## Current Step
-- **Step 1: Direct API Types and Identity and Reference Types Pattern** (Issue #8388)
+- **Step 1: Direct API Types and Identity and Reference Types Pattern** (Issue #12190)
 
 ## Progress Tracking Table
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types, Identity & generate.sh | [#8388](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8388) | [#11731](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11731) | PR Created | 2026-07-18 | |
+| 1 | Direct API Types, Identity & generate.sh | [#12190](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12190) | - | Open | 2026-08-05 | |
 | 2 | Direct Controller, E2E fixtures & Fuzzer | - | - | Pending | | |
 | 3 | mockGCP generation | - | - | Pending | | |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | | |
 
 ## Status Update Notes
+- **2026-08-05**: Conducted a new periodic progress audit of the Greenfield migration. Confirmed that the previous Step 1 Issue #8388 and PR #11731 were closed by collaborator barney-s because they used outdated instructions. Created a new Step 1 Issue #12190 using the current Greenfield migration instructions to restart the implementation of the direct API types, identity, and generation script for VertexAIHyperparameterTuningJob.
 - **2026-07-29**: Performed a fresh progress audit of the Greenfield migration. Checked Step 1 Pull Request [#11731](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11731) and verified that it remains open, fully healthy, conflict-free, and completely `MERGEABLE` on GitHub with `reviewDecision` set to `REVIEW_REQUIRED`. Re-verified via `gh pr checks` that 100% of all 202 CI checks are fully complete and successfully passing (all green, zero failures) on head commit `fdf7ddcb055ef4b9d8416bf7d784d81ee4887742`. The migration remains at Step 1, continuing to wait for human KCC OWNER review, approval, and merge of the direct types implementation.
 - **2026-07-29**: Conducted the latest periodic progress audit of the Greenfield migration. Re-verified that Step 1 Pull Request [#11731](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11731) remains open on GitHub, fully healthy, completely conflict-free, and in a completely `MERGEABLE` state (`reviewDecision: REVIEW_REQUIRED`, `mergeStateStatus: BLOCKED`) on head commit `fdf7ddcb055ef4b9d8416bf7d784d81ee4887742`. Verified via paginated checks that 100% of all 202 CI check-runs are complete and successfully passing (all green, zero failures). No review approvals have been posted yet, and the migration continues to wait at Step 1 for human KCC OWNER review, approval, and merge of the direct types implementation.
 - **2026-07-29**: Performed a fresh progress audit of the Greenfield migration. Re-verified that Step 1 Pull Request [#11731](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11731) remains open on GitHub, fully healthy, completely conflict-free, and in a `MERGEABLE` state (`reviewDecision: REVIEW_REQUIRED`, `mergeStateStatus: BLOCKED`). Verified via `gh pr checks` on head commit `fdf7ddcb055ef4b9d8416bf7d784d81ee4887742` that 100% of all 202 CI check-runs are complete and successfully passing (all green, zero failures). No reviews or approvals have been submitted yet. The migration remains at Step 1, continuing to wait for human KCC OWNER review, approval, and merge.
