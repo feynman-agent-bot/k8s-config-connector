@@ -9,12 +9,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity and Reference Types Pattern | [#12181](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12181) | | Open | 2026-08-04 | |
+| Step 1: Direct API Types and Identity and Reference Types Pattern | [#12181](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12181) | [#12184](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12184) | Open | 2026-08-04 | |
 | Step 2: Direct Controller, E2E fixtures and Fuzzer | | | Pending | | |
 | Step 3: MockGCP generation | | | Pending | | |
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Recent Status Updates
+- **2026-08-05**: Monitored Step 1 progress. Confirmed child issue #12181 remains open. Coder bot `hopper-coder-bot` submitted Pull Request #12184. Confirmed the PR is open but failing CI checks due to `TestGenerateScripts/securitycentermanagement/generate.sh` failing in `unit-tests-3-of-4`. Assigned the PR back to `hopper-coder-bot` to resolve the generator script validation issues.
 - **2026-08-04**: Parent issue monitored. Since the previous child issue #8731 was closed by a human maintainer ("old instructions closing") without types being implemented, created a new child issue #12181 for Step 1 with up-to-date instructions. Standing by for a coder bot to complete direct KRM types implementation and submit a Pull Request.
 - **2026-08-04**: Monitored Step 1 progress. Confirmed child issue #8731 remained open and assigned to `lovelace-coder-bot` (~160 minutes since assignment) with no active types-only PR yet. Since the assignment duration reached the rotation threshold, unassigned `lovelace-coder-bot` and rotated child issue #8731 assignment to `hopper-coder-bot` to trigger a fresh KRM types implementation attempt.
 - **2026-08-04**: Monitored Step 1 progress. Confirmed child issue #8731 remains open and assigned to `lovelace-coder-bot` (~82 minutes since assignment). No active types-only PR has been opened yet. Standing by for `lovelace-coder-bot` to complete direct KRM types implementation and submit a Pull Request.
