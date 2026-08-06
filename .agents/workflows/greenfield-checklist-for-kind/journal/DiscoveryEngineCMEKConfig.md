@@ -6,12 +6,13 @@ Current Step: Step 1 (Direct API Types and Identity)
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [Issue #12019](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12019) | [PR #12037](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12037) | Addressing Comments | 2026-07-29 | - |
+| Step 1: Direct API Types and Identity | [Issue #12019](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12019) | [PR #12037](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12037) | Review Required | 2026-07-29 | - |
 | Step 2: Direct Controller, E2E fixtures and Fuzzer | - | - | - | - | - |
 | Step 3: mockGCP generation | - | - | - | - | - |
 | Step 4: MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Update Notes
+* **2026-08-06**: Monitored Step 1 progress. Checked PR #12037 and confirmed that all 201 CI check-runs are successfully passing and neumann-coder-bot has successfully addressed acpana's review comments. The PR remains open in "Review Required" state, awaiting human OWNER review and approval.
 * **2026-08-05**: Monitored Step 1 progress. Checked PR #12037; found review comments left by reviewer `acpana`. Assigned the PR back to `neumann-coder-bot` via REST API to address comments. The PR remains open in "Addressing Comments" state.
 * **2026-07-29**: Monitored Step 1 progress. PR #12037 remains OPEN and all 201 CI check-runs are successfully passing. The PR is awaiting human OWNER review and approval.
 * **2026-07-29**: Monitored Step 1 progress. PR #12037 remains open, in "Review Required" state, awaiting human OWNER review and approval. Confirmed that all CI checks have successfully passed.
