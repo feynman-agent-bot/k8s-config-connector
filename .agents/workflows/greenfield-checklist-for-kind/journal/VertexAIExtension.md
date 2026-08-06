@@ -10,6 +10,7 @@
 | 4 | MockGCP Alignment | - | - | Pending | - | - |
 
 ## Recent Status Updates
+* **2026-08-06**: Verified PR [#12205](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12205) status: all compiled tests and checks, including `unit-tests-1-of-4`, are now passing successfully! The PR is in a clean green state (with some final checks pending) and is awaiting human OWNER review, approval, and merge before we can proceed to Step 3.
 * **2026-08-06**: CI check `unit-tests-1-of-4` is failing in `TestCRDFieldPresenceInTestsForAlpha` because E2E tests now cover some fields previously marked as missing. The exception file `tests/apichecks/testdata/exceptions/alpha-missingfields.txt` is out of date and needs to be updated. `argus-watcher-bot` has started investigating, and `hopper-coder-bot` is assigned to apply the fix.
 * **2026-08-06**: Detected that PR [#12205](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12205) has been created for Step 2. However, the CI checks failed (specifically `unit-tests-1-of-4`). Assigning the PR back to `hopper-coder-bot` to triage and fix.
 * **2026-08-06**: Re-verified the status of Issue #12201. Coder bots are still actively working in the AI Factory sandbox, and no Pull Request has been created yet. Continuing to monitor.
