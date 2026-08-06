@@ -121,6 +121,9 @@ func (s *tensorboardService) UpdateTensorboard(ctx context.Context, req *pb.Upda
 		case "description":
 			obj.Description = req.GetTensorboard().GetDescription()
 
+		case "etag":
+			obj.Etag = req.GetTensorboard().GetEtag()
+
 		default:
 			return nil, status.Errorf(codes.InvalidArgument, "field %q is not yet handled in mock", path)
 		}

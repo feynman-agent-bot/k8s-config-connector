@@ -1,4 +1,4 @@
-# Copyright 2024 Google LLC
+# Copyright 2026 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,6 +17,12 @@ kind: VertexAITensorboard
 metadata:
   name: vertexaitensorboard${uniqueId}
 spec:
-  displayName: "config-connector v1"
-  description: "Dashboard version 1"
+  projectRef:
+    external: ${projectId}
+  displayName: "config-connector maximal v1"
+  description: "Dashboard maximal version 1"
   region: us-central1
+  encryptionSpec:
+    kmsKeyRef:
+      external: projects/${projectId}/locations/us-central1/keyRings/kmskeyring-${uniqueId}/cryptoKeys/kmscryptokey-${uniqueId}
+  isDefault: true

@@ -17,6 +17,8 @@ kind: VertexAITensorboard
 metadata:
   name: vertexaitensorboard${uniqueId}
 spec:
-  displayName: "config-connector v2"
-  description: "Dashboard version 2"
+  projectRef:
+    external: ${projectId}
+  displayName: "config-connector v1"
+  description: "Dashboard version 1"
   region: us-central1
