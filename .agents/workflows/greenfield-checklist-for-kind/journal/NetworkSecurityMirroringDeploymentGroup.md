@@ -15,6 +15,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Recent Status Updates
+- **2026-08-06**: Monitored Step 1 progress. Confirmed child issue #12181 remains open and assigned to both `ada-coder-bot` and `hopper-coder-bot` (~85 minutes since assignment) with active sandbox tasks running. No active types-only PR has been opened yet. Standing by for a coder bot to complete types implementation and submit a Pull Request.
 - **2026-08-06**: Checked Step 1 progress. Confirmed child issue #12181 remains open and assigned to both `ada-coder-bot` and `hopper-coder-bot` with active sandbox tasks running. No new types-only PR has been submitted yet. Standing by for a coder bot to complete the implementation and submit a Pull Request.
 - **2026-08-06**: Monitored Step 1 progress. Confirmed child issue #12181 remains open and has been assigned to `ada-coder-bot` and `hopper-coder-bot` with active sandbox tasks triggered to implement direct KRM types. No active Pull Request has been opened yet. Standing by for a coder bot to submit the direct KRM types Pull Request.
 - **2026-08-06**: Checked Step 1 progress. Confirmed PR #12184 remained open with changes requested by `walle-agent-bot` regarding the `Location` field type. Since `hopper-coder-bot` remained unresponsive for over 6 hours despite sequential nudges, closed stale PR #12184 and rotated the assignment of child issue #12181 to `ada-coder-bot` to trigger a fresh and correct types-only implementation attempt.
