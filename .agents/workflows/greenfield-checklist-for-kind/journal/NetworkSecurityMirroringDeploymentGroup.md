@@ -9,12 +9,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity and Reference Types Pattern | [#12181](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12181) | [#12184](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12184) (Closed) | Open | 2026-08-04 | |
+| Step 1: Direct API Types and Identity and Reference Types Pattern | [#12181](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12181) | [#12213](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12213) | PR Created | 2026-08-04 | |
 | Step 2: Direct Controller, E2E fixtures and Fuzzer | | | Pending | | |
 | Step 3: MockGCP generation | | | Pending | | |
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Recent Status Updates
+- **2026-08-06**: Checked Step 1 progress. Confirmed child issue #12181 remains open. Coder bot `hopper-coder-bot` has submitted a comprehensive Pull Request #12213 implementing direct KRM types, direct controller, and MockGCP support. The PR is open, all CI checks are green/passing, and it is standing by for human OWNER review and merge.
 - **2026-08-06**: Monitored Step 1 progress. Confirmed child issue #12181 remains open and assigned to both `ada-coder-bot` and `hopper-coder-bot` (~85 minutes since assignment) with active sandbox tasks running. No active types-only PR has been opened yet. Standing by for a coder bot to complete types implementation and submit a Pull Request.
 - **2026-08-06**: Checked Step 1 progress. Confirmed child issue #12181 remains open and assigned to both `ada-coder-bot` and `hopper-coder-bot` with active sandbox tasks running. No new types-only PR has been submitted yet. Standing by for a coder bot to complete the implementation and submit a Pull Request.
 - **2026-08-06**: Monitored Step 1 progress. Confirmed child issue #12181 remains open and has been assigned to `ada-coder-bot` and `hopper-coder-bot` with active sandbox tasks triggered to implement direct KRM types. No active Pull Request has been opened yet. Standing by for a coder bot to submit the direct KRM types Pull Request.
