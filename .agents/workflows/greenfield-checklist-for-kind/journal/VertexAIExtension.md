@@ -10,5 +10,6 @@
 | 4 | MockGCP Alignment | - | - | Pending | - | - |
 
 ## Recent Status Updates
+* **2026-08-06**: Checked progress on Step 2 (Direct Controller & E2E). Issue #12201 is open and assigned to coder bots `hopper-coder-bot` and `neumann-coder-bot`. AI Factory sandbox execution has been initiated. Awaiting creation of the Step 2 Pull Request.
 * **2026-08-06**: Assigned `neumann-coder-bot` to Issue #12201 to initiate the implementation of the Direct Controller and E2E fixtures.
 * **2026-08-06**: Step 1 (Direct KRM Types & Identity) is verified merged (PR #12036). Created Issue #12201 for Step 2 (Direct Controller & E2E fixtures) and initiated the next step of the migration.
