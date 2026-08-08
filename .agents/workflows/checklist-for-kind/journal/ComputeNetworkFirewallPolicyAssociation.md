@@ -37,7 +37,7 @@ PR #10083 is open with changes requested. All CI checks are now successfully pas
 ### 2026-08-08
 - Re-verified Step 1 PR #10083 on GitHub and confirmed that all CI check-runs continue to pass successfully and are 100% green.
 - Confirmed that the PR remains open under CHANGES_REQUESTED review state, awaiting final human OWNER approval and merge before we can proceed to Step 2.
-- Verified that the PR was unassigned; successfully assigned PR #10083 back to its author bot `codebot-robot` using the GitHub REST API (`gh api`) to maintain active automated tracking.
+- Detected that the PR was unassigned; successfully assigned/restored PR #10083's assignment back to its author bot `codebot-robot` using the GitHub REST API (`gh api`) to maintain active automated tracking.
 - Refreshed and updated the parent tracking issue #10123 progress comment on GitHub to match current status.
 
 ### 2026-08-07
