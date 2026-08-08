@@ -1,0 +1,19 @@
+# TPUQueuedResource Greenfield Migration Journal
+
+## Current Step
+Step 1: Direct API Types and Identity and Reference Types Pattern
+
+## Migration Progress Table
+
+| Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
+|---|---|---|---|---|---|---|
+| 1 | Direct API Types and Identity | [#10306](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10306) | [#11251](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11251) | Open | 2026-07-02 | - |
+| 2 | Direct Controller & E2E | - | - | Pending | - | - |
+| 3 | MockGCP Generation | - | - | Pending | - | - |
+| 4 | MockGCP Alignment | - | - | Pending | - | - |
+
+## Status Updates
+- **2026-08-08**: Monitored Step 1 progress. Checked Pull Request #11251 and confirmed all 197 CI checks are complete and 100% passing. The PR is open, carrying `ready-for-human` and `lgtm` labels, and continues to await human OWNER review and merge.
+- **2026-07-10**: Verified Step 1 progress. Pull Request #11251 remains open and unassigned with 100% green status. All 194 CI checks are complete, verified passing, and the PR continues to await human OWNER review and merge.
+- **2026-07-10**: Monitored Step 1 progress. Checked Pull Request #11251 and confirmed all 194 CI checks remain 100% complete, green, and passing. The PR is open, unassigned, and continues to await human OWNER review and merge.
+- **2026-07-10**: Monitored Step 1 progress. Checked Pull Request #11251 and confirmed all 194 CI checks remain 100% complete, green, and passing. The PR continues to await human OWNER review and merge.
