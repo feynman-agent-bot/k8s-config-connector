@@ -7,11 +7,12 @@ Current Step: Step 2 (Direct Controller, E2E fixtures and Fuzzer)
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types & Identity | [#11243](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11243) | [#11261](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11261) | Merged | 2026-07-02 | 2026-07-15 |
-| 2 | Direct Controller & E2E Fixtures | [#12249](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12249) | N/A | Open | 2026-08-08 | |
+| 2 | Direct Controller & E2E Fixtures | [#12249](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12249) | [#12258](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12258) | PR Created | 2026-08-08 | |
 | 3 | mockGCP Generation | N/A | N/A | Pending | | |
 | 4 | mockGCP Alignment | N/A | N/A | Pending | | |
 
 ## Status Updates
+* **2026-08-08**: Monitored Greenfield migration progress. Step 2 (Direct Controller, E2E fixtures & Fuzzer) Pull Request [#12258](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12258) has been created. All 190+ CI checks are successfully passing (100% green). The PR is open and mergeable, awaiting final human OWNER review and merge to transition to Step 3.
 * **2026-08-08**: Monitored Greenfield migration progress. Step 1 (Direct API Types & Identity) has been successfully completed and merged via Pull Request [#11261](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11261) on 2026-07-15. Initialized Step 2 (Direct Controller, E2E fixtures & Fuzzer) by creating GitHub Issue [#12249](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12249) and assigning it to feynman-agent-bot to begin implementation.
 * **2026-07-10**: Monitored Greenfield migration progress. Re-verified that Step 1 Pull Request [#11252](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11252) remains open and mergeable. All 190+ CI check-runs are 100% green and successfully passing. We continue to await final human OWNER (`justinsb` or `acpana`) review and merge to proceed to Step 2.
 * **2026-07-10**: Monitored Greenfield migration progress. Re-verified that all 190+ CI checks on Step 1 Pull Request [#11252](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11252) remain 100% green and successfully passing. The PR is mergeable and continues to await final human OWNER (`justinsb` or `acpana`) review and merge to transition to Step 2.
