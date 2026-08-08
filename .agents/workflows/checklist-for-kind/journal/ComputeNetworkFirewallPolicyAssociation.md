@@ -38,7 +38,7 @@ PR #10083 is open with changes requested. All CI checks are now successfully pas
 - Re-verified Step 1 PR #10083 on GitHub and confirmed that all CI check-runs continue to pass successfully and are 100% green.
 - Confirmed that the PR remains open under CHANGES_REQUESTED review state, awaiting final human OWNER approval and merge before we can proceed to Step 2.
 - Verified that the PR was unassigned; successfully assigned PR #10083 back to its author bot `codebot-robot` using the GitHub REST API (`gh api`) to maintain active automated tracking.
-- Updated the parent tracking issue #10123 progress comment on GitHub.
+- Refreshed and updated the parent tracking issue #10123 progress comment on GitHub to match current status.
 
 ### 2026-08-07
 - Re-verified Step 1 PR #10083 on GitHub. All CI check-runs continue to pass successfully and are green.
@@ -84,4 +84,3 @@ PR #10083 is open with changes requested. All CI checks are now successfully pas
 - Initiated tracking of `ComputeNetworkFirewallPolicyAssociation` migration.
 - Detected active in-flight PR #10083 for Step 1 (Issue #9998).
 - Assigned PR #10083 to author bot `codebot-robot` to trigger rebasing and address failures.
-
