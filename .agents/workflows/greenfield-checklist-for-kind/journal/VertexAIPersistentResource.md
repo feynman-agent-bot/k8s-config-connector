@@ -3,18 +3,20 @@
 This journal tracks the progress of the Greenfield migration for the `VertexAIPersistentResource` resource kind.
 
 ## Current Step
-**Step 1: Direct API Types and Identity and Reference Types Pattern** (Active - All CI Checks Passed, Awaiting OWNER Merge)
+**Step 1: Direct API Types and Identity and Reference Types Pattern** (Active - Rebased, CI Checks Pending)
 
 ## Progress Tracking Table
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | Active - All CI Checks Passed, Awaiting OWNER Merge | July 6, 2026 | - |
+| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | Active - Rebased, CI Checks Pending | July 6, 2026 | - |
 | Step 2: Direct Controller and E2E Fixtures | - | - | Pending | - | - |
 | Step 3: MockGCP Generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment | - | - | Pending | - | - |
 
 ## Updates History
+
+- **August 10, 2026 (Greenfield Monitoring; PR #11408 Live Monitored, Status: Rebased, CI Checks Pending)**: At 18:42 UTC, `argus-watcher-bot` successfully rebased PR #11408 onto the latest `master` branch in a sandbox. Immediately after, at 18:50 UTC, `ada-coder-bot` applied and pushed the rebased changes to the remote branch. A new set of CI presubmit check-runs has been triggered and is currently running. We remain on standby monitoring the check-runs of Step 1.
 
 - **August 10, 2026 (Greenfield Monitoring; PR #11408 Live Monitored, Status: All Checks Passed, Standby - Awaiting OWNER)**: Checked the live status of the Step 1 PR #11408 on GitHub at 16:20 UTC. Re-verified that all 245 CI check-runs have completed successfully with no failures. The PR remains open, fully mergeable, conflict-free, and healthy. It continues to await human OWNER review, approval, and merge. We remain on standby waiting for Step 1 to be merged.
 
