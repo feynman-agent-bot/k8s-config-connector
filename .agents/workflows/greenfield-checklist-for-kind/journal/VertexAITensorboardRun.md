@@ -2,18 +2,19 @@
 
 ## Current Status
 - **Current Step**: Step 1: Direct KRM Types & Identity
-- **Last Updated**: 2026-08-11 (05:33)
+- **Last Updated**: 2026-08-11 (08:24)
 
 ## Migration Steps Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :---: | :--- | :--- | :--- | :--- | :---: | :---: |
-| 1 | Direct KRM Types & Identity | [#12013](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12013) | [#12039](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12039) | CI Passed | 2026-07-29 | |
+| 1 | Direct KRM Types & Identity | [#12013](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12013) | [#12039](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12039) | Re-assigned to Author Bot | 2026-07-29 | |
 | 2 | Direct Controller & E2E | | | Not Started | | |
 | 3 | mockGCP generation | | | Not Started | | |
 | 4 | mockGCP Alignment | | | Not Started | | |
 
 ## Detailed Status History
+- **2026-08-11 (08:24)**: Re-verified PR [#12039](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12039). Found that all 211 CI checks are successfully passing but the PR's mergeable state is dirty (indicating merge conflicts). Re-assigned the PR back to author `hopper-coder-bot` via the REST API to trigger conflict resolution and rebase.
 - **2026-08-11 (05:33)**: Re-verified that Step 1 PR [#12039](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12039) remains open and all 211 CI checks are passing successfully. Step 1 is awaiting manual review and merge by human OWNERS before we can initiate Step 2.
 - **2026-08-11**: Re-verified that Step 1 PR [#12039](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12039) remains open with all 211 CI checks passing cleanly. Currently awaiting manual review and merge from human OWNERS before we can proceed to Step 2.
 - **2026-08-10 (21:35)**: Re-verified that all 211 CI checks for Step 1 PR [#12039](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12039) have passed cleanly. The PR remains open and is currently awaiting manual review and merge from human OWNERS before we can proceed to Step 2.
