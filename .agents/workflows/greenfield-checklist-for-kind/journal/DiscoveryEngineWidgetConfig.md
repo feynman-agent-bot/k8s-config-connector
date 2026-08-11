@@ -10,6 +10,7 @@
 | Step 4: MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Step Logs & Updates
+* **2026-08-11**: Monitored Step 1 progress. Confirmed PR [#12049](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12049) is open with pending `walle-agent-bot` change requests. Observed that the PR had no assignees on GitHub, so assigned the author bot `ada-coder-bot` via the GitHub REST API to ensure the requested `Location *string` pointer type fix is addressed.
 * **2026-08-11**: Monitored Step 1 progress. Verified PR [#12049](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12049) CI checks are 100% green. Confirmed that `ada-coder-bot` remains assigned and is working on the `Location *string` pointer type change requested by `walle-agent-bot`.
 * **2026-08-11**: Monitored Step 1 progress. Checked PR [#12049](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12049) and verified all 200+ CI checks continue to pass successfully (100% green). Verified that the assignee `ada-coder-bot` is active and we are currently awaiting their update to change the `Location` field to a pointer type `*string` as requested by `walle-agent-bot`.
 * **2026-08-11**: Monitored Step 1 progress. Confirmed all CI checks remain 100% green. To ensure `ada-coder-bot` receives a fresh event to process the `Location *string` pointer type change requested by `walle-agent-bot`, unassigned and re-assigned `ada-coder-bot` on PR [#12049](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12049) via the GitHub REST API.
