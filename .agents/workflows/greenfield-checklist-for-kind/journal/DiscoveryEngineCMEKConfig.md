@@ -12,6 +12,7 @@ Current Step: Step 1 (Direct API Types and Identity)
 | Step 4: MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Update Notes
+* **2026-08-11**: Monitored Step 1 progress. Confirmed PR #12037 remains open with "Conflicts / Rebase Required" status. The PR is correctly assigned to `neumann-coder-bot` for conflict resolution and rebase.
 * **2026-08-11**: Monitored Step 1 progress. Verified PR #12037 remains open with merge conflicts, and is assigned to `neumann-coder-bot` for conflict resolution/rebase. Confirmed all 200+ CI check-runs on the last build remain green and fully passing.
 * **2026-08-11**: Monitored Step 1 progress. Verified PR #12037 remains open with merge conflicts. Confirmed the PR is assigned to `neumann-coder-bot` for conflict resolution and rebasing. Awaiting resolution of conflicts.
 * **2026-08-11**: Checked PR #12037 status. Found the PR is open but has merge conflicts (mergeable_state: dirty) and is unassigned. Assigned the PR back to the author bot `neumann-coder-bot` via the REST API to resolve conflicts and rebase.
