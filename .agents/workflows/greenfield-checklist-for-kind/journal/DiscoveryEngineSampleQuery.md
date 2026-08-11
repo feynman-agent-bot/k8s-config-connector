@@ -1,16 +1,17 @@
 # Greenfield Migration Journal: DiscoveryEngineSampleQuery
 
 ## Current Step
-**Step 2: Direct Controller, E2E fixtures and Fuzzer** (Status: Ready for Review)
+**Step 2: Direct Controller, E2E fixtures and Fuzzer** (Status: Needs Rebase)
 
 | Step | Step Name | GitHub Issue | GitHub PR | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types & Identity | [#9239](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9239) | [#11390](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11390) | Completed | 2026-07-06 | 2026-07-22 |
-| 2 | Direct Controller & E2E Fixtures | [#11821](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11821) | [#11840](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11840) | Ready for Review | 2026-07-23 | - |
+| 2 | Direct Controller & E2E Fixtures | [#11821](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11821) | [#11840](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11840) | Needs Rebase | 2026-07-23 | - |
 | 3 | mockGCP Generation | TBD | TBD | Not Started | - | - |
 | 4 | MockGCP Alignment | TBD | TBD | Not Started | - | - |
 
 ## Status Update History
+*   **2026-08-11 at 21:40 UTC**: Checked open PR #11840. Detected that the PR's mergeability state has changed to CONFLICTING. Assigned the PR back to the author bot `ada-coder-bot` for conflict resolution and rebase.
 *   **2026-08-11 at 18:33 UTC**: Checked open PR #11840. Re-verified via GitHub CLI that all 240+ CI checks remain 100% green and successful with zero failures. The PR remains open, is mergeable, and currently awaiting human OWNER review, approval, and merge to complete Step 2.
 *   **2026-08-11 at 15:51 UTC**: Checked open PR #11840. Re-verified via GitHub CLI that all 240+ CI check-runs remain 100% green and successful with zero failures. The PR remains open, is mergeable, and currently awaiting human OWNER review, approval, and merge to complete Step 2.
 *   **2026-08-11 at 13:11 UTC**: Checked open PR #11840. Re-verified via GitHub CLI that all 240+ CI check-runs remain 100% green and successful with zero failures. The PR remains open, is mergeable, and currently awaiting human OWNER review, approval, and merge to complete Step 2.
