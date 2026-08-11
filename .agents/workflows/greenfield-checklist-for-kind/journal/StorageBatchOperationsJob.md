@@ -14,8 +14,8 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 ## Status Updates
 - **2026-08-11**: PR #11238 has merge conflicts (status is `CONFLICTING`). Assigned `hopper-coder-bot` to resolve the conflicts and re-verify the KRM types.
-- **2026-08-11**: Verified PR #11238 remains open. 100% of its 199 CI checks are passing successfully (193 success, 6 skipped, 0 failures). Step 1 continues to await manual review and merge from repository OWNERs.
-- **2026-08-10**: Re-verified PR #11238 remains open. 100% of its 199 CI checks are passing successfully (193 success, 6 skipped, 0 failures). Step 1 continues to await manual review and merge from repository OWNERs.
+- **2026-08-11**: Verified PR #11238 remains open. 100% of its 197 CI checks are passing successfully (191 success, 6 skipped, 0 failures). Step 1 continues to await manual review and merge from repository OWNERs.
+- **2026-08-10**: Re-verified PR #11238 remains open. 100% of its 197 CI checks are passing successfully (191 success, 6 skipped, 0 failures). Step 1 continues to await manual review and merge from repository OWNERs.
 - **2026-08-09**: Verified PR #11238 remains open with all 197 CI checks passing successfully. Step 1 continues to await manual review and merge from repository OWNERs.
 - **2026-08-08**: Verified PR #11238 remains open with all 194 CI checks passing successfully. Step 1 continues to await manual review and merge from repository OWNERs.
 - **2026-07-10**: Verified PR #11238 remains open with 100% green status (all 194 CI checks passing). Step 1 continues to await manual review and merge from repository OWNERs.
