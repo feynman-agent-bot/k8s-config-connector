@@ -19,7 +19,7 @@ limitations under the License.
 ## Current Step
 **Step 1: Direct API Types**
 
-PR #10083 is open with changes requested. All CI checks are now successfully passing and are green. We verified the PR's assignee list, corrected its empty state, and successfully assigned it back to its author bot `codebot-robot` via the GitHub REST API to maintain active tracking while awaiting final human review and merge by human OWNERs to proceed to Step 2.
+PR #10083 is open with changes requested. All 239 CI checks are successfully passing and are green, but the PR has merge conflicts and is in a dirty state. We successfully assigned the PR back to its author bot `codebot-robot` via the GitHub REST API to trigger a rebase and resolve the merge conflicts while awaiting final human review and merge by human OWNERs to proceed to Step 2.
 
 ## Migration Progress
 
@@ -35,10 +35,10 @@ PR #10083 is open with changes requested. All CI checks are now successfully pas
 ## Update Logs
 
 ### 2026-08-12
-- Re-verified Step 1 PR #10083 on GitHub. All CI check-runs continue to pass successfully and are green.
-- PR remains open under CHANGES_REQUESTED review state, awaiting final human OWNER approval and merge before we can proceed to Step 2.
-- Confirmed that the PR is actively assigned to its author bot `codebot-robot` to maintain tracking.
-- Refreshed and updated the parent tracking issue #10123 progress comment on GitHub to match the latest status.
+- Re-verified Step 1 PR #10083 on GitHub. Confirmed all 239 CI check-runs are successfully passing and green.
+- Checked mergeability status and detected that the PR is currently dirty with merge conflicts.
+- Re-assigned PR #10083 back to its author bot `codebot-robot` via the GitHub REST API to trigger a rebase and resolve the merge conflicts.
+- Updated the local journal and refreshed the parent tracking issue #10123 progress comment on GitHub.
 
 ### 2026-08-11
 - Re-verified Step 1 PR #10083 on GitHub. Confirmed all 170+ CI check-runs are successfully passing and are green.
