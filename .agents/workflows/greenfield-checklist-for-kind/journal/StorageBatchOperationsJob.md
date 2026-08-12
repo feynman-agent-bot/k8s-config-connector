@@ -13,7 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4 | MockGCP Alignment with RealGCP | - | - | Not Started | - | - |
 
 ## Status Updates
-- **2026-08-12**: Checked PR #11238 status. Verified it remains open but paused due to the `overseer/stop` label. All 199 CI checks are passing successfully (100% green). Step 1 remains in Paused state awaiting human OWNER review.
+- **2026-08-12**: Checked PR #11238 status. Verified it remains open but paused due to the `overseer/stop` label. All 197 CI checks are passing successfully (100% green). Step 1 remains in Paused state awaiting human OWNER review.
 - **2026-08-11**: PR #11238 is currently in a paused state due to the `overseer/stop` label. Human OWNERs are investigating the declarativeness of the `StorageBatchOperationsJob` resource. Further automated actions are suspended until the label is removed.
 - **2026-08-11**: PR #11238 has merge conflicts (status is `CONFLICTING`). Assigned `hopper-coder-bot` to resolve the conflicts and re-verify the KRM types.
 - **2026-08-11**: Verified PR #11238 remains open. 100% of its 197 CI checks are passing successfully (191 success, 6 skipped, 0 failures). Step 1 continues to await manual review and merge from repository OWNERs.
