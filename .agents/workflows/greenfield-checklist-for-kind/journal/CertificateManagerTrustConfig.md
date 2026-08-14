@@ -8,11 +8,12 @@
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
 | Step 1: Direct API Types & Identity | [Issue #11713](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11713) | [PR #11732](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11732) | Completed | 2026-07-18 | 2026-07-22 |
-| Step 2: Controller & E2E fixtures | [Issue #11793](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11793) | [PR #11795](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11795) | PR Created (Checks Pending) | 2026-07-22 | - |
+| Step 2: Controller & E2E fixtures | [Issue #11793](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11793) | [PR #11795](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11795) | PR Created (Checks Passing) | 2026-07-22 | - |
 | Step 3: mockGCP generation | - | - | - | - | - |
 | Step 4: MockGCP Alignment | - | - | - | - | - |
 
 ## Notes
+- **2026-08-14**: Monitored Step 2 progress. Checked and verified via GitHub CLI that all 202 CI check-runs for PR #11795 continue to pass successfully with 100% green status (zero failures). Pull request remains open and awaiting human OWNER review and merge of Step 2 before transitioning to Step 3.
 - **2026-08-13**: Monitored Step 2 progress. Pull Request #11795 was recently rebased by `argus-watcher-bot` to resolve any merge conflicts. Fresh commit `6b5fd0e987edb137f69ac8d29226182e094b3621` has been pushed, triggering a new round of CI check-runs. All checks are currently pending or in progress. Pull request continues to wait for human OWNER review and merge of Step 2 before transitioning to Step 3.
 - **2026-08-13**: Monitored Step 2. Re-verified PR #11795 remains open in 'REVIEW_REQUIRED' state with 100% green CI checks (202/202 check-runs successfully completed). Continues to await human OWNER review and merge of Step 2.
 - **2026-08-13**: Checked PR #11795 checks status. Re-verified via GitHub CLI that all 202/202 CI checks are 100% green and successfully completed. State remains OPEN with no reviews, continuing to await human OWNER review and merge of Step 2 before we can transition to Step 3.
