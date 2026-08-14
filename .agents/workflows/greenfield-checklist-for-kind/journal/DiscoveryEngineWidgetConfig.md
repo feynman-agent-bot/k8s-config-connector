@@ -4,12 +4,13 @@
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [#12025](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12025) | [#12049](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12049) | Changes Requested | 2026-07-29 | - |
+| Step 1: Direct API Types and Identity | [#12025](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12025) | [#12049](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12049) | Awaiting Merge | 2026-07-29 | - |
 | Step 2: Direct Controller, E2E fixtures and Fuzzer | - | - | Pending | - | - |
 | Step 3: mockGCP generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Step Logs & Updates
+* **2026-08-14**: Monitored Step 1 progress. Confirmed all 200+ CI checks continue to pass successfully (100% green). Verified that `ada-coder-bot` successfully implemented the `Location *string` pointer type feedback, and `reviewbot-robot` gave the PR a "Pass" with "No actions required" on the latest auto-review. The PR remains open, awaiting human OWNER review and merge.
 * **2026-08-13**: Monitored Step 1 progress. Confirmed PR [#12049](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12049) is open, unassigned, and has pending feedback on changing the 'Location' field to a pointer type '*string'. Successfully re-assigned the author bot `ada-coder-bot` via the GitHub REST API to address the feedback. All 200+ CI checks continue to pass flawlessly.
 * **2026-08-12**: Monitored Step 1 progress. Confirmed that PR [#12049](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12049) is open, unassigned, and has pending feedback on changing the 'Location' field to a pointer type '*string'. Successfully re-assigned the author bot `ada-coder-bot` via the GitHub REST API to address the feedback. All 200+ CI checks continue to pass flawlessly.
 * **2026-08-12**: Monitored Step 1 progress. Re-verified PR [#12049](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12049) check status and confirmed all 200+ checks remain 100% green and successful. Found that the PR was unassigned and that the feedback from `walle-agent-bot` on the `Location *string` pointer type is still outstanding. Assigned the PR back to the author bot `ada-coder-bot` via the GitHub REST API to ensure they address the feedback.
