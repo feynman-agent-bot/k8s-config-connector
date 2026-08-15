@@ -3,18 +3,20 @@
 This journal tracks the progress of the Greenfield migration for the `VertexAIPersistentResource` resource kind.
 
 ## Current Step
-**Step 1: Direct API Types and Identity and Reference Types Pattern** (Active - All Checks Passed, Standby - Awaiting OWNER)
+**Step 1: Direct API Types and Identity and Reference Types Pattern** (Active - Review Feedback Pending, Assigned to Author Bot)
 
 ## Progress Tracking Table
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | Active - All Checks Passed, Standby - Awaiting OWNER | July 6, 2026 | - |
+| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | Active - Review Feedback Pending, Assigned to Author Bot | July 6, 2026 | - |
 | Step 2: Direct Controller and E2E Fixtures | - | - | Pending | - | - |
 | Step 3: MockGCP Generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment | - | - | Pending | - | - |
 
 ## Updates History
+
+- **August 15, 2026 (Greenfield Monitoring; PR #11408 Live Monitored, Status: Review Feedback Pending, Assigned to `ada-coder-bot`)**: Re-verified the status of Greenfield PR #11408 on GitHub. While all CI checks are passing successfully, the reviewer bot `reviewbot-robot` left architectural feedback on August 13, 2026 regarding reference normalization and kubebuilder tags, which has not yet been addressed. Since the PR had no active assignees, assigned the PR back to its author bot `ada-coder-bot` via the REST API to address the review feedback. We remain on standby monitoring the updates.
 
 - **August 15, 2026 (Greenfield Monitoring; PR #11408 Live Monitored, Status: All Checks Passed, Standby - Awaiting OWNER)**: Re-verified the live status of Greenfield PR #11408 on GitHub. Checked the paginated API for all 247 CI check-runs and confirmed that all checks are completed and passing successfully. The PR remains open, healthy, conflict-free, and mergeable, on standby awaiting human OWNER review, approval, and merge. We remain on standby waiting for Step 1 to be merged.
 
