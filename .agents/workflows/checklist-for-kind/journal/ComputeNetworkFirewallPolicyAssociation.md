@@ -19,7 +19,7 @@ limitations under the License.
 ## Current Step
 **Step 1: Direct API Types**
 
-PR #10083 is open with changes requested. All 239 CI checks are successfully passing and are green, but the PR remains in a dirty state with active merge conflicts. We verified that the PR is actively assigned to its author bot `codebot-robot` to trigger a rebase and resolve the merge conflicts while awaiting final human review and merge by human OWNERs to proceed to Step 2.
+PR #10083 is open with changes requested. All 239 CI checks are successfully passing and are green. Although the PR is currently conflicting, it remains actively assigned to its author bot `codebot-robot` to trigger a rebase and resolve the merge conflicts while awaiting final human review and merge by human OWNERs to proceed to Step 2.
 
 ## Migration Progress
 
@@ -33,6 +33,12 @@ PR #10083 is open with changes requested. All 239 CI checks are successfully pas
 | 6. Validate Direct Promotion | | | `Not Started` | | |
 
 ## Update Logs
+
+### 2026-08-15
+- Re-verified Step 1 PR #10083 on GitHub. Confirmed all 239 CI check-runs continue to pass successfully and are 100% green.
+- Verified that the PR remains open in state `OPEN` with active merge conflicts (`mergeable` status is `CONFLICTING`).
+- Confirmed that the PR is actively assigned to its author bot `codebot-robot` to trigger a rebase and resolve the merge conflicts while awaiting final human review and merge by human OWNERs.
+- Updated the local journal and refreshed the parent tracking issue #10123 progress comment on GitHub.
 
 ### 2026-08-14
 - Re-verified Step 1 PR #10083 on GitHub. Confirmed all 239 CI check-runs are successfully passing and are green.
