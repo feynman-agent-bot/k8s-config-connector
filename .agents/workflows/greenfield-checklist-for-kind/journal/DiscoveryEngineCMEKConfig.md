@@ -12,6 +12,7 @@ Current Step: Step 1 (Direct API Types and Identity)
 | Step 4: MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Update Notes
+* **2026-08-16 (02:00 UTC)**: Re-monitored Step 1 progress. Confirmed PR #12037 remains open with merge conflicts (mergeable status: CONFLICTING, mergeStateStatus: DIRTY). Checked and verified that all 244 CI check-runs continue to pass successfully with green status. Re-assigned `neumann-coder-bot` via the REST API to trigger conflict resolution and rebase.
 * **2026-08-15 (23:00 UTC)**: Re-monitored Step 1 progress. Confirmed PR #12037 remains open in "Conflicts / Rebase Required" state (mergeable status: CONFLICTING). Checked and verified that all CI check-runs are successfully passing (completely green). Re-assigned `neumann-coder-bot` via the REST API to re-trigger automatic conflict resolution and rebasing.
 * **2026-08-15 (20:25 UTC)**: Re-monitored Step 1 progress. Confirmed PR #12037 remains open in "Conflicts / Rebase Required" state (mergeable status: CONFLICTING). Checked and verified that all CI check-runs are successfully passing (completely green). Re-assigned `neumann-coder-bot` via the REST API to re-trigger automatic conflict resolution and rebasing.
 * **2026-08-15 (17:53 UTC)**: Re-monitored Step 1 progress. Confirmed PR #12037 remains open in "Conflicts / Rebase Required" state (mergeable status: CONFLICTING). Checked and verified that all CI check-runs are successfully passing (completely green). Re-assigned `neumann-coder-bot` via the REST API to re-trigger automatic conflict resolution and rebasing.
@@ -57,7 +58,7 @@ Current Step: Step 1 (Direct API Types and Identity)
 * **2026-08-09**: Monitored Step 1 progress. Verified all 244 CI checks have successfully passed on PR #12037. The PR is mergeable and remains open in "Review Required" state, awaiting human OWNER review and approval.
 * **2026-08-09**: Monitored Step 1 progress. Confirmed PR #12037 remains OPEN in "Review Required" state with all 244 CI checks fully passing. No new review comments or changes have occurred; still awaiting final human OWNER review and approval before proceeding to Step 2.
 * **2026-08-09**: Monitored Step 1 progress. Checked PR #12037 via GitHub REST API; all 244 CI checks are fully passing. The PR remains open and mergeable, awaiting final human OWNER review and approval.
-* **2026-08-09**: Monitored Step 1 progress. Re-verified PR #12037 remains open with all 244 CI checks fully passing (gatekeeper green). No new reviews or comments have been received, and the PR continues to await human OWNER review and approval.
+* **2026-08-09**: Monitored Step 1 progress. Re-verified PR #12037 remains open with all 244 CI check-runs passing successfully (gatekeeper green). No new reviews or comments have been received, and the PR continues to await human OWNER review and approval.
 * **2026-08-09**: Monitored Step 1 progress. Checked PR #12037 and confirmed all 244 CI checks are successfully passing (gatekeeper green). The PR remains open in "Review Required" state, awaiting final human OWNER review/approval.
 * **2026-08-08**: Monitored Step 1 progress. Confirmed that PR #12037 remains open with all 244 CI checks successfully passing. The PR is mergeable and awaiting final human OWNER review/approval before proceeding to Step 2.
 * **2026-08-08**: Monitored Step 1 progress. Checked PR #12037 and verified that all 244 CI checks are successfully passing (gatekeeper green). The PR remains open and mergeable, awaiting final human OWNER review and approval before we can proceed to Step 2.
@@ -105,7 +106,7 @@ Current Step: Step 1 (Direct API Types and Identity)
 * **2026-07-29**: Monitored Step 1 progress. Checked PR #12037; confirmed all CI checks have successfully passed. The PR remains open and is awaiting human OWNER review and approval before we can proceed to Step 2.
 * **2026-07-29**: Verified PR #12037. All CI checks are passing successfully. The PR remains open in "Review Required" state, awaiting human review and approval.
 * **2026-07-29**: Checked PR #12037 head commit check-runs via GitHub API; confirmed all 160+ CI checks have passed successfully. The PR remains open in "Review Required" state, awaiting human review and approval.
-* **2026-07-29**: Re-verified Step 1 progress. Checked PR #12037 head commit check-runs via GitHub API; confirmed all CI checks have passed. The PR is still open and waiting for human review/approval.
+* **2026-07-29**: Re-verified Step 1 PR #12037 status. Checked CI check-runs via GitHub API; confirmed all CI checks have passed. The PR is still open and waiting for human review/approval.
 * **2026-07-29**: Monitored Step 1 progress. Pull Request #12037 is open, and all CI check-runs have successfully passed. The PR is now waiting for human review and approval.
 * **2026-07-29**: Monitored Step 1 progress. Pull Request #12037 is open, and CI checks are currently in progress with several runs pending or passed.
 * **2026-07-29**: Monitored Step 1 progress. Pull Request #12037 has been created by `neumann-coder-bot` and is currently running CI check-runs.
