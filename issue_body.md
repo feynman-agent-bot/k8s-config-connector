@@ -1,6 +1,6 @@
 This issue is to track the Greenfield implementation of AppHubServiceProjectAttachment.
 
-Workflow: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/4b6625a0942946d0c5d4f8a32e7f37b88d0efb15/.agents/workflows/kcc-greenfield.txt
+Workflow: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/main/.agents/workflows/kcc-greenfield.txt
 
 ### Migration Progress: AppHubServiceProjectAttachment
 
@@ -17,6 +17,6 @@ Current Step: **Step 4: MockGCP Alignment with RealGCP**
 
 ## Status Update Notes
 
-- **2026-08-07**: Monitored Step 4. Checked status of Pull Request [#12155](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12155) on GitHub. Re-verified using `gh pr checks` and REST API that all 239 CI check-runs continue to pass successfully with 100% green status and zero failures. The PR remains open, conflict-free, and mergeable, continuing to wait for human OWNER review and merge.
-- **2026-08-07**: Monitored Step 4. Checked status of Pull Request [#12155](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12155) on GitHub. Re-verified using `gh pr checks` and paginated REST API that all 239 CI check-runs remain completely green and successfully passing with zero failures. The PR is conflict-free, mergeable, has no active reviews, and continues to await human OWNER review and merge.
-- **2026-08-07**: Monitored Step 4. Checked status of Pull Request [#12155](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12155) on GitHub. Re-verified that all 239 CI checks remain completed and successfully passing 100% green with zero failures. The PR continues to be conflict-free, mergeable, has no active reviews, and is awaiting human OWNER review and merge.
+- **2026-08-16**: Monitored Step 4. Re-verified Pull Request [#12155](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12155) status on GitHub. Confirmed via `gh pr checks` that all CI checks continue to pass successfully with 100% green status and zero failures. The PR is conflict-free, fully mergeable, and remains open, continuing to await human OWNER (`fedebongio`) review, approval, and merge.
+- **2026-08-15**: Monitored Step 4. Re-verified Pull Request [#12155](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12155) status on GitHub. Confirmed via `gh pr checks` that all CI checks continue to pass successfully with 100% green status and zero failures. The PR is conflict-free, fully mergeable, and remains open, continuing to await human OWNER (`fedebongio`) review, approval, and merge.
+- **2026-08-14**: Monitored Step 4. Re-verified Pull Request [#12155](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12155) status on GitHub. Confirmed via paginated REST API checks and GitHub CLI that all 239 CI check-runs continue to be 100% green with zero failures. The PR is conflict-free, fully mergeable, and remains open, continuing to await human OWNER (`fedebongio`) review, approval, and merge.
