@@ -8,11 +8,12 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1. Direct API Types and Identity and Reference Types Pattern | [#10290](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10290) | [#11810](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11810) | Completed | 2026-06-15 | 2026-07-23 |
-| 2. Direct Controller, E2E fixtures and Fuzzer | [#11881](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11881) | [#11883](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11883) | Awaiting Review/Merge | 2026-07-24 | - |
+| 2. Direct Controller, E2E fixtures and Fuzzer | [#11881](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11881) | [#11883](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11883) | Closed (Regenerating) | 2026-07-24 | - |
 | 3. mockGCP generation | - | - | - | - | - |
 | 4. MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Update Notes
+- **2026-08-16**: Pull Request #11883 was closed by collaborator `barney-s` to allow the system to regenerate a new Pull Request with updated instructions. Removed the `overseer/stop` label from Issue #11881 to trigger the automated recreation/conflict-resolution of the Step 2 Pull Request by the downstream AI Factory/watchdog.
 - **2026-08-15**: Re-monitored Step 2 status at 22:57 UTC on Saturday, August 15, 2026. Pull Request #11883 remains OPEN with `CONFLICTING` mergeability. Verified via robust `gh pr checks` queries that all 244 CI status checks have completed successfully and are 100% green with zero failures. The PR remains assigned to its author bot `hopper-coder-bot` for conflict resolution and rebase before final human OWNER review and merge of Step 2 to master.
 - **2026-08-15**: Re-monitored Step 2 status at 17:11 UTC on Saturday, August 15, 2026. Pull Request #11883 remains OPEN with `CONFLICTING` mergeability, though all 244 CI status checks successfully passed and are 100% green. The PR remains assigned to its author bot `hopper-coder-bot` for conflict resolution and rebase before final human OWNER review and merge of Step 2 to master.
 - **2026-08-15**: Re-monitored Step 2 status on Saturday, August 15, 2026. Pull Request #11883 remains OPEN with `CONFLICTING` mergeability, though all 244 CI status checks have completed successfully and are 100% green with zero failures. Re-assigned the PR to its author bot `hopper-coder-bot` via the GitHub REST API to trigger conflict resolution and rebase before final human OWNER review and merge of Step 2 to master.
