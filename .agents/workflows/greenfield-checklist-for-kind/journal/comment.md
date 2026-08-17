@@ -5,18 +5,18 @@ Workflow: https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-devel
 ## Migration Progress
 
 ### Current Step
-**Step 1: Direct API Types and Identity and Reference Types Pattern** (Active - All Checks Passed, Standby - Awaiting OWNER)
+**Step 1: Direct API Types and Identity and Reference Types Pattern** (Active - Review Feedback Pending, Assigned to Author Bot)
 
 ### Progress Tracking Table
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | Active - All Checks Passed, Standby - Awaiting OWNER | July 6, 2026 | - |
+| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | Active - Review Feedback Pending, Assigned to Author Bot | July 6, 2026 | - |
 | Step 2: Direct Controller and E2E Fixtures | - | - | Pending | - | - |
 | Step 3: MockGCP Generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment | - | - | Pending | - | - |
 
 ### Recent Status Updates
-- **August 14, 2026 (Greenfield Monitoring; PR #11408 Live Monitored, Status: All Checks Passed, Standby - Awaiting OWNER)**: Confirmed again that Step 1 PR #11408 is fully healthy, conflict-free, and all 245 CI check-runs are successfully completed and passing. The PR remains open and awaiting human OWNER review and merge before we can proceed to Step 2.
-- **August 14, 2026 (Greenfield Monitoring; PR #11408 Live Monitored, Status: All Checks Passed, Standby - Awaiting OWNER)**: Re-verified the live status of Greenfield PR #11408 on GitHub again in this run. Checked the paginated API for all 245 CI check-runs and confirmed that all have completed and passed successfully with zero failures. The PR remains open, healthy, and conflict-free, on standby awaiting human OWNER review, approval, and merge. We remain on standby waiting for Step 1 to be merged.
-- **August 14, 2026 (Greenfield Monitoring; PR #11408 Live Monitored, Status: All Checks Passed, Standby - Awaiting OWNER)**: Re-verified the live status of Greenfield PR #11408 on GitHub. Checked the paginated API for all 245 CI check-runs and confirmed that all have completed and passed successfully with zero failures. The PR remains open, healthy, and conflict-free, on standby awaiting human OWNER review, approval, and merge. We remain on standby waiting for Step 1 to be merged.
+- **August 17, 2026 (Greenfield Monitoring; PR #11408 Live Monitored, Status: All Checks Passed, Review Feedback Pending, Standby)**: Checked the live status of Greenfield PR #11408 at 17:44 UTC. All 247 CI check-runs remain fully passing and completely green. The PR is mergeable and conflict-free. It remains assigned to `ada-coder-bot` while awaiting the push of a commit to address the outstanding architectural review comments from `reviewbot-robot` (Normalize Fallback Violation and Missing Kubebuilder Required Tag). We continue to monitor the progress and remain on standby.
+- **August 17, 2026 (Greenfield Monitoring; PR #11408 Live Monitored, Status: All Checks Passed, Review Feedback Pending, Standby)**: Checked the live status of Greenfield PR #11408 at 13:17 UTC. All 247 CI check-runs remain fully passing and completely green. The PR is mergeable and conflict-free, but remains assigned to `ada-coder-bot` while awaiting the push of a commit to address the outstanding architectural review comments from `reviewbot-robot` (Normalize Fallback Violation and Missing Kubebuilder Required Tag). We continue to monitor the progress.
+- **August 17, 2026 (Greenfield Monitoring; PR #11408 Live Monitored, Status: All Checks Passed, Review Feedback Pending, Standby)**: Checked the live status of Greenfield PR #11408 at 10:54 UTC. All 247 CI check-runs remain fully passing and completely green. The PR is mergeable and conflict-free, but remains assigned to `ada-coder-bot` while awaiting the push of a commit to address the outstanding architectural review comments from `reviewbot-robot` (Normalize Fallback Violation and Missing Kubebuilder Required Tag). We continue to monitor the progress.
