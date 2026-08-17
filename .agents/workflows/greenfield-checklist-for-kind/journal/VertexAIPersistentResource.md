@@ -3,18 +3,20 @@
 This journal tracks the progress of the Greenfield migration for the `VertexAIPersistentResource` resource kind.
 
 ## Current Step
-**Step 1: Direct API Types and Identity and Reference Types Pattern** (Active - Review Feedback Pending, Re-assigned via REST API)
+**Step 1: Direct API Types and Identity and Reference Types Pattern** (Active - Review Feedback Pending, Assigned to Author Bot)
 
 ## Progress Tracking Table
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | Active - Review Feedback Pending, Re-assigned via REST API | July 6, 2026 | - |
+| Step 1: Direct API Types and Identity | [#9245](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9245) | [#11408](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11408) | Active - Review Feedback Pending, Assigned to Author Bot | July 6, 2026 | - |
 | Step 2: Direct Controller and E2E Fixtures | - | - | Pending | - | - |
 | Step 3: MockGCP Generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment | - | - | Pending | - | - |
 
 ## Updates History
+
+- **August 17, 2026 (Greenfield Monitoring; PR #11408 Live Monitored, Status: All Checks Passed, Review Feedback Pending)**: Checked the live status of Greenfield Step 1 PR #11408 on GitHub. All 247 CI check-runs are passing successfully, and the branch is mergeable and conflict-free. The PR remains assigned to its author bot `ada-coder-bot`, and we are on standby awaiting the automated pipeline or commit addressing the outstanding architectural review comments from `reviewbot-robot` (Normalize Fallback Violation and Missing Kubebuilder Required Tag).
 
 - **August 16, 2026 (Greenfield Monitoring; PR #11408 Live Monitored, Status: All Checks Passed, Architectural Review Pending)**: Checked the live status of Greenfield Step 1 PR #11408 on GitHub. Verified that all 247 CI check-runs continue to pass successfully. The PR branch is mergeable and conflict-free. The PR remains assigned to its author bot `ada-coder-bot`, and we are on standby awaiting the automated pipeline or commit addressing the outstanding architectural review feedback from `reviewbot-robot` (Normalize Fallback Violation and Missing Kubebuilder Required Tag).
 
