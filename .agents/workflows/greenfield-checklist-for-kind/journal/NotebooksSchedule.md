@@ -13,6 +13,7 @@ Step 3: mockGCP generation
 | Step 4: MockGCP Alignment with RealGCP | TBD | TBD | Pending | | |
 
 ## Recent Status Updates
+- **2026-08-19**: Re-verified Step 3 PR #12264 and PR #12396. Checked and confirmed that both PRs remain open and all 244 CI check-runs are successfully completed and 100% green. They continue to await reviews, approval, and merge from KCC OWNERS before we can proceed to Step 4 (MockGCP Alignment with RealGCP).
 - **2026-08-18**: Monitored Step 3 PR #12264 and PR #12396. Confirmed both PRs are open and all 244 CI check-runs are successfully completed and 100% green. They continue to await reviews, approval, and merge from KCC OWNERS.
 - **2026-08-18**: Checked Step 3 PR #12264 and PR #12396. Confirmed all 244 CI checks are successfully completed and 100% green. Verified that the reference normalization comment from reviewbot-robot on PR #12396 was addressed by ada-coder-bot using refs.Normalize. Both PRs are open, green, and awaiting required review/merge by KCC OWNERS before we can proceed to Step 4.
 - **2026-08-18**: Monitored Step 3 PR #12264. Confirmed all 244 CI checks remain fully completed and 100% green. The PR remains open, awaiting required KCC OWNERS' reviews, approval, and merge. Also checked related types PR #12396 which is also open and green.
