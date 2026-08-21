@@ -13,6 +13,7 @@ Step 3: mockGCP generation
 | Step 4: MockGCP Alignment with RealGCP | TBD | TBD | Pending | | |
 
 ## Recent Status Updates
+- **2026-08-21**: Re-confirmed that both Step 3 MockGCP PR #12264 and KRM types PR #12396 remain open and 100% green with all 244+ CI checks passing. Continued active monitoring while awaiting final reviews, approval, and merge from KCC OWNERS to proceed to Step 4 (MockGCP Alignment with RealGCP).
 - **2026-08-21**: Re-verified that both Step 3 PRs #12264 (MockGCP) and #12396 (KRM types/refs) remain open and 100% green with all 244+ CI checks successfully completed. Active monitoring is ongoing while we await final reviews, approval, and merge from KCC OWNERS to proceed to Step 4 (MockGCP Alignment with RealGCP).
 - **2026-08-21**: Checked and verified that both Step 3 MockGCP PR #12264 and KRM types PR #12396 remain open with all 244+ CI checks successfully completed with 100% green status. Active monitoring is ongoing while we await reviews, approval, and merge from KCC OWNERS before we can proceed to Step 4 (MockGCP Alignment with RealGCP).
 - **2026-08-21**: Active monitoring of Step 3 MockGCP PR #12264 and KRM types/refs PR #12396 on 2026-08-21 confirms both PRs remain open and 100% green with all 244+ CI checks successfully passing. Awaiting final reviews, approval, and merge from KCC OWNERS to proceed to Step 4 (MockGCP Alignment with RealGCP).
