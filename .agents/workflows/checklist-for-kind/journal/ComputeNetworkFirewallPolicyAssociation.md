@@ -19,7 +19,7 @@ limitations under the License.
 ## Current Step
 **Step 1: Direct API Types**
 
-PR #10083 is open with changes requested. All 239 CI checks are successfully passing and are green. Although the PR is currently conflicting, it remains actively assigned to its author bot `codebot-robot` to trigger a rebase and resolve the merge conflicts while awaiting final human review and merge by human OWNERs to proceed to Step 2.
+PR #10083 is open with changes requested. All 239 CI checks are successfully passing and are green. Although the PR is currently conflicting, it remains actively assigned to its author bot `codebot-robot` to trigger a rebase and resolve the merge conflicts while awaiting final human review and merge by human OWNERs to proceed to Step 2. Today, a subsequent check confirmed that all 239/239 checks are 100% passing and the assignment remains active. We are waiting for human OWNER review and merge to proceed to Step 2.
 
 ## Migration Progress
 
@@ -38,6 +38,7 @@ PR #10083 is open with changes requested. All 239 CI checks are successfully pas
 - Conducted subsequent scheduled orchestrator checks on August 22, 2026. Re-verified that Step 1 PR #10083 is open, has all 239 CI checks passing (100% green), and remains in a conflicting status (`mergeable_state: "dirty"`).
 - Confirmed that PR #10083 is actively assigned to its author bot `codebot-robot` to trigger a rebase and resolve the merge conflicts while awaiting final human review and merge by human OWNERs to proceed to Step 2.
 - Refreshed the local journal and updated the parent tracking issue #10123 progress comment on GitHub to match the latest state.
+- Performed another active verification check during the scheduled run. Re-confirmed that all 239/239 check-runs are completely green with zero failures, the PR remains assigned to `codebot-robot`, and is currently awaiting human OWNER merge before proceeding to Step 2.
 
 ### 2026-08-21
 - Conducted the daily scheduled orchestrator check run. Re-verified that PR #10083 is open, has all 239 CI check-runs successfully passing (100% green), and remains conflicting with dirty merge state (mergeable: `CONFLICTING`, mergeStateStatus: `DIRTY`).
