@@ -13,6 +13,7 @@ Step 3: mockGCP generation
 | Step 4: MockGCP Alignment with RealGCP | TBD | TBD | Pending | | |
 
 ## Recent Status Updates
+- **2026-08-22**: Re-verified that Step 3 MockGCP PR #12264 and related KRM types PR #12396 remain open and fully green with all CI checks passing successfully. We are continuing to monitor both pull requests as we await KCC OWNERS' final reviews, approvals, and merges to proceed to Step 4.
 - **2026-08-22**: Actively checked the migration status of NotebooksSchedule. Verified that MockGCP PR #12264 and KRM types/refs PR #12396 both remain open and 100% green with all CI check-runs passing. Continued active monitoring while we await final reviews, approval, and merge from KCC OWNERS to proceed to Step 4 (MockGCP Alignment with RealGCP).
 - **2026-08-22**: Re-verified that both Step 3 MockGCP PR #12264 and KRM types/refs PR #12396 remain open and completely green with 100% passing CI checks (all 244+ check-runs green). Active monitoring continues as we wait for KCC OWNERS' review, approval, and merge to proceed to Step 4.
 - **2026-08-22**: Verified that both Step 3 MockGCP PR #12264 and KRM types/refs PR #12396 remain open with 100% passing CI checks (all 244+ check-runs green). We continue to actively monitor both PRs and await reviews, approval, and final merge from KCC OWNERS before we can proceed to Step 4.
