@@ -8,11 +8,12 @@
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
 | Step 1: Direct API Types & Identity | [Issue #11713](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11713) | [PR #11732](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11732) | Completed | 2026-07-18 | 2026-07-22 |
-| Step 2: Controller & E2E fixtures | [Issue #11793](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11793) | [PR #12508](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12508) | PR Created (Failing Checks / Assigned) | 2026-07-22 | - |
+| Step 2: Controller & E2E fixtures | [Issue #11793](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11793) | [PR #12508](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12508) | PR Created (Checks Passing) | 2026-07-22 | - |
 | Step 3: mockGCP generation | - | - | - | - | - |
 | Step 4: MockGCP Alignment | - | - | - | - | - |
 
 ## Notes
+- **2026-08-22**: Re-monitored Step 2. All 232 CI check-runs for Pull Request #12508 are 100% green and successfully completed with zero failures (including e2e fixtures, unit tests, and exceptions). The PR is open and awaiting human OWNER review and merge of Step 2 before transitioning to Step 3.
 - **2026-08-22**: Re-monitored Step 2. Checked Pull Request #12508 which is open but has failing CI checks on `tests-e2e-fixtures-certificatemanager` and `unit-tests-3-of-4`. Assigned the PR back to `ada-coder-bot` via the GitHub REST API to trigger automated investigation, triage, and fix of the latest failures. Step 2 remains in progress.
 - **2026-08-22**: Re-monitored Step 2. Pull Request #12508 is open, and all compile-time issues, unit tests, and exceptions are successfully resolved and passing. However, the `tests-e2e-fixtures-certificatemanager` job failed due to a mock HTTP traffic log mismatch (`_http_mock.log` diff) for the minimal fixture in MockGCP. Assigned the PR back to `ada-coder-bot` via the GitHub REST API to trigger mock traffic log regeneration and update. Step 2 remains in progress.
 - **2026-08-22**: Re-monitored Step 2. Pull Request #12508 was open but had compilation errors in `mockgcp/mockcertificatemanager/trustconfig.go` on lines 176-177 and 181-182. The fields `ca.PemCertificate` and `anchor.PemCertificate` were referenced directly, but they are defined as a `oneof` field in `certificatemanagerpb` and must be accessed via `GetPemCertificate()`. Assigned the PR back to `ada-coder-bot` via the GitHub REST API to fix these compile-time errors in MockGCP. Step 2 remains in progress.
