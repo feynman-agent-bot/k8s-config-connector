@@ -36,6 +36,7 @@ PR #10083 is open with changes requested, but all 239 CI checks are successfully
 
 ### 2026-08-25
 - Conducted the scheduled overseer orchestration check. Re-verified that Step 1 PR #10083 remains open, fully green (all 239 CI check-runs successfully passing), but is still conflicting (`mergeable` is `CONFLICTING`, `mergeStateStatus` is `DIRTY`). Confirmed the PR is correctly assigned to its author bot `codebot-robot` to resolve merge conflicts while we await final human OWNER review and merge to proceed to Step 2.
+- Performed an additional scheduled orchestrator check. Re-verified that Step 1 PR #10083 is open with all 239 CI checks 100% passing (completely green), but is still in a conflicting status (dirty). Confirmed the PR is actively assigned to its author bot `codebot-robot` to trigger rebasing and resolve conflicts, and we are awaiting final human OWNER review and merge before proceeding to Step 2.
 
 ### 2026-08-24
 - Performed the scheduled overseer orchestration check. Re-verified that Step 1 PR #10083 remains open and fully green (all 239 check-runs passing successfully), but is still conflicting (`mergeable` is `CONFLICTING`, `mergeStateStatus` is `DIRTY`). Confirmed the PR remains assigned to its author bot `codebot-robot` to resolve conflicts while we await final human OWNER review and merge before we can proceed to Step 2.
