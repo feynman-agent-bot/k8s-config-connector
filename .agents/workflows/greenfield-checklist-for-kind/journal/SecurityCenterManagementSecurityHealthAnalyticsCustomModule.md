@@ -6,7 +6,7 @@
 
 | Step | Step Name | GitHub Issue | Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Direct API Types, Identity, and generate.sh | [#11397](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11397) | [#11415](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11415) | PR Created (Resolving Conflicts) | 2026-07-07 | - |
+| 1 | Direct API Types, Identity, and generate.sh | [#11397](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11397) | [#11415](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11415) | PR Open (Re-nudged Bot to Resolve Conflicts) | 2026-07-07 | - |
 | 2 | Direct Controller, E2E fixtures, and Fuzzer | - | - | - | - | - |
 | 3 | mockGCP generation | - | - | - | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | - | - | - |
