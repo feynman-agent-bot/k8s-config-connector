@@ -35,11 +35,9 @@ PR #10083 is open with changes requested, but all 239 CI checks are successfully
 ## Update Logs
 
 ### 2026-08-28
-- Performed a scheduled overseer check-run on Friday, August 28, 2026. Verified that Step 1 PR #10083 is still open, has all 239 CI check-runs passing successfully (100% green), but remains conflicting (`CONFLICTING`/`DIRTY` merge state).
-- Executed a scheduled overseer orchestration check-run on August 28, 2026. Checked the status of Step 1 PR #10083 and verified that it remains open and has all 239 CI check-runs passing successfully (100% green). The PR is currently conflicting and actively assigned to its author bot `codebot-robot` to trigger a rebase and resolve the merge conflicts while we continue to await final human OWNER review and merge to proceed to Step 2.
-- Verified that Step 1 PR #10083 remains in a conflicting status (`CONFLICTING` with dirty merge state), with review status CHANGES_REQUESTED. Confirmed that the PR is actively and correctly assigned to its author bot `codebot-robot` to trigger a rebase and resolve the merge conflicts while we await final human OWNER review and merge to proceed to Step 2.
-- Refreshed the local journal and updated the progress comment on parent tracking issue #10123 on GitHub. No further steps can be taken until the Step 1 PR is merged.
-- Completed a subsequent scheduled overseer orchestration check-run on Friday, August 28, 2026. Re-verified that Step 1 PR #10083 is open and 100% green with all 239 CI check-runs passing successfully, but still remains in a conflicting status. Confirmed the PR remains assigned to its author bot `codebot-robot` to address conflicts while we continue to await final human OWNER review and merge before we can proceed to Step 2.
+- Completed the latest scheduled overseer orchestration check-run. Verified that Step 1 PR #10083 is open and 100% green with all 239 CI check-runs passing successfully.
+- Confirmed that the PR is currently conflicting (`mergeable_state: "dirty"`, `mergeable: "CONFLICTING"`) and remains actively assigned to its author bot `codebot-robot` to trigger a rebase and resolve the merge conflicts while we continue to await final human OWNER review and merge to proceed to Step 2.
+- Refreshed the progress comment on parent tracking issue #10123 on GitHub to match the latest status.
 
 ### 2026-08-27
 - Executed another scheduled overseer orchestration check-run on August 27, 2026. Checked the status of Step 1 PR #10083 and verified that it remains open and has all 239 CI check-runs passing successfully (100% green). The PR is currently conflicting and actively assigned to its author bot `codebot-robot` to trigger a rebase and resolve the merge conflicts while we continue to await final human OWNER review and merge to proceed to Step 2.
