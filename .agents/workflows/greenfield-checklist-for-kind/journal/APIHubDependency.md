@@ -4,7 +4,7 @@ This journal tracks the progress of migrating the `APIHubDependency` resource to
 
 ## Current Status
 - **Current Step:** Step 1: Direct API Types and Identity and Reference Types Pattern
-- **Status:** Pull request [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570) is paused (`overseer/stop` attached) after consecutive investigations of the stale rerun failure. The newer workflow check is fully green. Awaiting human OWNER review/approval.
+- **Status:** Pull request [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570) is actively in review (`overseer/review` label is present). The PR remains healthy with all functional checks green, awaiting human OWNER review and approval.
 
 ## Migration Steps Tracking
 
@@ -16,7 +16,7 @@ This journal tracks the progress of migrating the `APIHubDependency` resource to
 | 4 | MockGCP Alignment with RealGCP | TBD | TBD | Pending | | |
 
 ## Progress Journal Notes
-- **2026-08-28 (Status update):** Verified the migration status of APIHubDependency. Step 1 PR [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570) remains open and paused due to the `overseer/stop` label. The PR remains healthy with all functional checks green, awaiting human OWNER review and approval before proceeding to Step 2.
+- **2026-08-28 (Status update):** Verified the migration status of APIHubDependency. Confirmed via API query that the PR is currently active under human review (`overseer/review` label is present, and no `overseer/stop` label is attached to the PR or issues). Checked automated CI status: all functional checks (smoketests, unit tests, linters, e2e fixtures) are passing successfully, with only the known stale 'Validate PR Release Note' check showing a failure (due to rerun/stale webhook payload limitations). The PR is fully healthy and remains in 'In Progress' status, awaiting human OWNER approval to merge before proceeding to Step 2.
 - **2026-08-27 (Status update):** The watcher bot `argus-watcher-bot` has attached the `overseer/stop` label to PR [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570) after attempting to investigate the stale "Validate PR Release Note" check run 3 times without success. The PR remains paused/stopped in compliance with safety guidelines. The actual newest check has successfully passed and is fully green, so the PR is healthy and awaits human OWNER review and approval.
 - **2026-08-27 (Analysis):** Analyzed the `overseer/stop` label on Pull Request [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570). The automated checks are fully healthy and passing; the "Validate PR Release Note" failure is a known GitHub Actions rerun/stale webhook payload limitation, whereas the newer workflow run has completed successfully. Awaiting human OWNER review and approval.
 - **2026-08-27 (Update):** `lovelace-coder-bot` opened Pull Request [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570) for Step 1. All automated CI checks have completed and passed successfully. Awaiting human OWNER review and approval.
