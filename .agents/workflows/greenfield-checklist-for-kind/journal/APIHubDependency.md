@@ -4,7 +4,7 @@ This journal tracks the progress of migrating the `APIHubDependency` resource to
 
 ## Current Status
 - **Current Step:** Step 1: Direct API Types and Identity and Reference Types Pattern
-- **Status:** Pull request [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570) has unit test failures (`unit-tests-1-of-4`) on the latest push. The watch daemon `argus-watcher-bot` has automatically started investigating the failure. Awaiting fix and subsequent human OWNER review/approval.
+- **Status:** Pull request [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570) is open and healthy. The unit test failure has been fixed by `lovelace-coder-bot` registering `.spec.attributes` in `exceptions/alpha-missingfields.txt`. All automated checks are passing. Awaiting human OWNER review and approval to merge.
 
 ## Migration Steps Tracking
 
@@ -16,6 +16,7 @@ This journal tracks the progress of migrating the `APIHubDependency` resource to
 | 4 | MockGCP Alignment with RealGCP | TBD | TBD | Pending | | |
 
 ## Progress Journal Notes
+- **2026-08-29 (Status update):** `lovelace-coder-bot` has successfully resolved the `unit-tests-1-of-4` failure by registering `.spec.attributes` under `exceptions/alpha-missingfields.txt` and has force-pushed the branch. All automated reviews have successfully passed. Awaiting final human OWNER review/approval to merge before proceeding to Step 2.
 - **2026-08-28 (Status update - 23:55):** Detected a unit test failure (`unit-tests-1-of-4` failed) on the latest push `ecd23d51f3c903d55723fc068e5faaed2d3634ce` on PR #12570. The watch daemon `argus-watcher-bot` has automatically initiated investigation and troubleshooting as of 23:48:46 UTC. The PR remains "In Progress" for Step 1.
 - **2026-08-28 (Status update):** Verified the migration status of APIHubDependency. Confirmed via API query that the PR is currently active under human review (`overseer/review` label is present, and no `overseer/stop` label is attached to the PR or issues). Checked automated CI status: all functional checks (smoketests, unit tests, linters, e2e fixtures) are passing successfully, with only the known stale 'Validate PR Release Note' check showing a failure (due to rerun/stale webhook payload limitations). The PR is fully healthy and remains in 'In Progress' status, awaiting human OWNER approval to merge before proceeding to Step 2.
 - **2026-08-27 (Status update):** The watcher bot `argus-watcher-bot` has attached the `overseer/stop` label to PR [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570) after attempting to investigate the stale "Validate PR Release Note" check run 3 times without success. The PR remains paused/stopped in compliance with safety guidelines. The actual newest check has successfully passed and is fully green, so the PR is healthy and awaits human OWNER review and approval.
