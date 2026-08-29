@@ -16,6 +16,7 @@ This journal tracks the progress of migrating the `APIHubDependency` resource to
 | 4 | MockGCP Alignment with RealGCP | TBD | TBD | Pending | | |
 
 ## Progress Journal Notes
+- **2026-08-29 (Status update - Rebase Pending):** Verified PR mergeability status is dirty. Conflict resolution by `argus-watcher-bot` is still in progress / pending. Awaiting completion of the rebase and final human OWNER review before proceeding to Step 2.
 - **2026-08-29 (Status update - Merge Conflict):** Detected merge conflicts on PR [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570). The watch daemon `argus-watcher-bot` has automatically initiated conflict resolution and rebasing. The PR remains "In Progress" for Step 1.
 - **2026-08-29 (Status update):** `lovelace-coder-bot` has successfully resolved the `unit-tests-1-of-4` failure by registering `.spec.attributes` under `exceptions/alpha-missingfields.txt` and has force-pushed the branch. All automated reviews have successfully passed. Awaiting final human OWNER review/approval to merge before proceeding to Step 2.
 - **2026-08-28 (Status update - 23:55):** Detected a unit test failure (`unit-tests-1-of-4` failed) on the latest push `ecd23d51f3c903d55723fc068e5faaed2d3634ce` on PR #12570. The watch daemon `argus-watcher-bot` has automatically initiated investigation and troubleshooting as of 23:48:46 UTC. The PR remains "In Progress" for Step 1.
