@@ -4,7 +4,7 @@ This journal tracks the progress of migrating the `APIHubDependency` resource to
 
 ## Current Status
 - **Current Step:** Step 1: Direct API Types and Identity and Reference Types Pattern
-- **Status:** Pull request [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570) has encountered merge conflicts. The watch daemon `argus-watcher-bot` has automatically initiated conflict resolution and rebasing (with the most recent sandbox run active at 21:10 UTC). Step 1 remains in progress, on hold pending rebase completion and human OWNER merge.
+- **Status:** Pull request [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570) has been successfully rebased and is now `MERGEABLE`. All automated CI checks are fully passing. Step 1 remains in progress, awaiting final human OWNER review and merge.
 
 ## Migration Steps Tracking
 
@@ -16,6 +16,7 @@ This journal tracks the progress of migrating the `APIHubDependency` resource to
 | 4 | MockGCP Alignment with RealGCP | TBD | TBD | Pending | | |
 
 ## Progress Journal Notes
+- **2026-08-29 (Status update - Rebase Resolved & All CI Checks Passing):** Verified that PR [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570) has been successfully rebased and is now `MERGEABLE`. All 100+ automated CI checks (smoketests, unit tests, linters, e2e fixtures) have completed and passed successfully. Step 1 remains 'In Progress', awaiting final human OWNER review and merge.
 - **2026-08-29 (Status update - Rebase Sandbox Active 21:10 UTC):** Verified that PR [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570) remains in `CONFLICTING` status. The rebase daemon `argus-watcher-bot` is actively attempting conflict resolution in a sandbox (most recent sandbox run active at 21:10 UTC). Step 1 remains 'In Progress' and on hold pending conflict resolution and human OWNER merge.
 - **2026-08-29 (Status update - Rebase Sandbox Active 18:50 UTC):** Verified that PR [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570) remains in `CONFLICTING` status. The rebase daemon `argus-watcher-bot` is actively attempting conflict resolution in a sandbox (most recent sandbox run active at 18:50 UTC). Step 1 remains 'In Progress' and on hold pending conflict resolution and human OWNER merge.
 - **2026-08-29 (Status update - Rebase Sandbox Active):** Verified that PR [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570) remains in `CONFLICTING` status. The rebase daemon `argus-watcher-bot` has continued attempting conflict resolution in a sandbox (most recent attempt logged at 16:27 UTC). Step 1 remains 'In Progress' and on hold pending conflict resolution and human OWNER approval to merge.
