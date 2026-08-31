@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [#9290](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9290) | [#11396](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11396) | PR Created | 2026-07-06 | |
+| Step 1: Direct API Types and Identity | [#9290](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9290) | [#12643](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12643) | PR Created | 2026-07-06 | |
 | Step 2: Direct Controller & E2E | | | Not Started | | |
 | Step 3: mockGCP Generation | | | Not Started | | |
 | Step 4: MockGCP Alignment | | | Not Started | | |
 
 ## Recent Status Updates
+* **2026-08-31**: Checked PR #12643. Verified that the PR is open, but has a failing CI check: `unit-tests-1-of-4`. The PR remains open, awaiting resolution of the CI failure and human OWNER review/merge.
 * **2026-08-31**: Checked PR #11396 at 16:30 UTC. Verified that all CI checks continue to pass successfully with zero failures (all checks green). The PR remains open, marked with the `overseer/stop` label, and is awaiting final human OWNER review, approval, and merge. Automated tracking remains paused due to the stop label.
 * **2026-08-31**: Checked PR #11396 at 14:15 UTC. Verified that all CI checks continue to pass successfully with zero failures (all checks green). The PR remains open, marked with the `overseer/stop` label, and is awaiting final human OWNER review, approval, and merge. Automated tracking remains paused due to the stop label.
 * **2026-08-31**: Checked PR #11396 at 12:03 UTC. Verified that all CI checks continue to pass successfully with zero failures (all checks green). The PR remains open, marked with the `overseer/stop` label, and is awaiting final human OWNER review, approval, and merge. Automated tracking remains paused due to the stop label.
