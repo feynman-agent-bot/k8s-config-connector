@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | Step 4: MockGCP Alignment | | | Not Started | | |
 
 ## Recent Status Updates
+* **2026-08-31**: Checked PR #12643 at 23:05 UTC. Verified that the PR remains open with a failing CI check in `unit-tests-1-of-4` due to a `TestMissingRefs` failure where `[refs] crd=dialogflowtools.dialogflow.cnrm.cloud.google.com version=v1alpha1: field ".spec.extensionSpec.name" should be a reference` was added to the schema but not declared in `testdata/exceptions/missingrefs.txt`. `argus-watcher-bot` has started addressing the review feedback/CI failure.
 * **2026-08-31**: Checked PR #12643. Verified that the PR is open, but has a failing CI check: `unit-tests-1-of-4`. The PR remains open, awaiting resolution of the CI failure and human OWNER review/merge.
 * **2026-08-31**: Checked PR #11396 at 16:30 UTC. Verified that all CI checks continue to pass successfully with zero failures (all checks green). The PR remains open, marked with the `overseer/stop` label, and is awaiting final human OWNER review, approval, and merge. Automated tracking remains paused due to the stop label.
 * **2026-08-31**: Checked PR #11396 at 14:15 UTC. Verified that all CI checks continue to pass successfully with zero failures (all checks green). The PR remains open, marked with the `overseer/stop` label, and is awaiting final human OWNER review, approval, and merge. Automated tracking remains paused due to the stop label.
