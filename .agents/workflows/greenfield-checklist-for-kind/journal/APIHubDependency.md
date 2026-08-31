@@ -3,19 +3,20 @@
 This journal tracks the progress of migrating the `APIHubDependency` resource to a production-ready direct controller.
 
 ## Current Status
-- **Current Step:** Step 1: Direct API Types and Identity and Reference Types Pattern
-- **Status:** Pull request [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570) is open, MERGEABLE, and all 100+ automated CI checks are fully passing. Step 1 remains in progress, awaiting final human OWNER review/approval and merge.
+- **Current Step:** Step 2: Direct Controller, E2E fixtures and Fuzzer
+- **Status:** Step 1 PR [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570) has been successfully merged! Step 2 is now in progress, and Issue [#12642](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12642) is open to track the direct controller, E2E fixtures, and fuzzer implementation.
 
 ## Migration Steps Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types & Identity | [#12564](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12564) | [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570) | In Progress | 2026-05-19 | |
-| 2 | Direct Controller & Fuzzer | TBD | TBD | Pending | | |
+| 1 | Direct API Types & Identity | [#12564](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12564) | [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570) | Completed | 2026-05-19 | 2026-08-31 |
+| 2 | Direct Controller & Fuzzer | [#12642](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12642) | TBD | In Progress | 2026-08-31 | |
 | 3 | mockGCP Generation | TBD | TBD | Pending | | |
 | 4 | MockGCP Alignment with RealGCP | TBD | TBD | Pending | | |
 
 ## Progress Journal Notes
+- **2026-08-31 (Status update - Completed Step 1 & Initiated Step 2):** Step 1 PR [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570) has been successfully merged! Standardized Step 2 issue [#12642](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12642) is now open to track the direct controller, E2E fixtures, and fuzzer implementation.
 - **2026-08-31 (Status update - Completed Detailed Check-Runs Verification):** Performed comprehensive check-runs query on head commit `6ccc6f00c8aa41b9d858c8668f2c7999c69f294b` of PR [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570). Confirmed that 100% of the 100+ checks (including `unit-tests-1-of-4`, `golangci-lint`, and `validate-manifests`) are fully green, and there are no active, pending, or failing runs. The PR is exceptionally healthy and awaits final human OWNER review and merge.
 - **2026-08-31 (Status update - Awaiting Human OWNER Review/Approval and Merge):** Checked status of PR [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570). Verified that the PR remains open, `MERGEABLE`, and all 100+ automated CI checks (including linters, unit tests, e2e fixtures) are fully passing. The implementation has been reviewed and LGTM'd by a collaborator (`anhdle-sso`) and is waiting for final human OWNER review/approval and merge.
 - **2026-08-30 (Status update - All CI Checks Verified Green & Awaiting Human OWNER Merge):** Verified that all 100+ automated CI checks (including linters, unit tests, e2e fixtures) are passing successfully. PR [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570) is in `MERGEABLE` status and fully healthy. Step 1 remains in progress, awaiting final human OWNER review/approval and merge.
