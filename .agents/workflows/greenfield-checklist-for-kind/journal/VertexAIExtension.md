@@ -1,6 +1,6 @@
 # VertexAIExtension Greenfield Migration Journal
 
-**Current Step**: Step 2: Direct Controller, E2E fixtures and Fuzzer
+**Current Step**: Step 2: Direct Controller, E2E fixtures and Fuzzer (Paused)
 
 | Step | Step Name | GitHub Issue | GitHub PR | Status | Date Started | Date Completed |
 |------|-----------|--------------|-----------|--------|--------------|----------------|
@@ -10,6 +10,7 @@
 | 4 | MockGCP Alignment | - | - | Pending | - | - |
 
 ## Recent Status Updates
+* **2026-09-01** at 00:07 UTC: Checked VertexAIExtension Greenfield migration status. The parent issue #12006 remains classified under the 'backlog' label as the resource lacks CRUD/Create operations. Pull Request [#12411](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12411) remains open. In strict compliance with repository safety guidelines and human maintainer directives regarding backlog resources, all automated processing remains paused, and both the parent issue and the PR are left completely untouched.
 * **2026-08-31** at 21:56 UTC: Re-verified VertexAIExtension Greenfield migration status. The parent issue #12006 remains classified under the 'backlog' label as the resource lacks CRUD/Create operations. Pull Request [#12411](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12411) remains open. In strict compliance with repository safety guidelines and human maintainer directives regarding backlog resources, all automated processing remains paused, and both the parent issue and the PR are left completely untouched.
 * **2026-08-31** at 19:40 UTC: Checked VertexAIExtension Greenfield migration status. The parent issue #12006 is in the 'backlog' as VertexAIExtension is considered unmanageable for KCC due to missing Create/CRUD APIs. Pull Request [#12411](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12411) remains open with the 'overseer/stop' label applied. In strict compliance with repository safety guidelines, all automated processing remains paused and the parent issue and PR are left completely untouched.
 * **2026-08-31** at 15:24 UTC: Re-verified VertexAIExtension Greenfield migration status. The parent issue #12006 remains in 'backlog' with the 'overseer/stop' label active on Pull Request [#12411](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12411). In strict accordance with the repository safety guardrails and human maintainer directives, all automated processing remains paused, and we leave the parent issue and PR completely untouched.
