@@ -4,18 +4,19 @@ This journal tracks the progress of migrating the `APIHubDependency` resource to
 
 ## Current Status
 - **Current Step:** Step 2: Direct Controller, E2E fixtures and Fuzzer
-- **Status:** Step 2 Pull Request [#12644](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12644) has been successfully created by `ada-coder-bot`. Most checks are passing, but `unit-tests-3-of-4` is currently failing. The watch daemon `argus-watcher-bot` has conducted an auto-review and is addressing the feedback.
+- **Status:** Step 2 Pull Request [#12644](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12644) is open and all 100+ automated CI checks (including linters, unit-tests, E2E fixtures, and fuzzers) are fully passing and green. The latest auto-review is completely positive with no actions required. The PR is exceptionally healthy and currently awaiting final human OWNER review, approval, and merge.
 
 ## Migration Steps Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types & Identity | [#12564](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12564) | [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570) | Completed | 2026-05-19 | 2026-08-31 |
-| 2 | Direct Controller & Fuzzer | [#12642](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12642) | [#12644](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12644) | PR Created | 2026-08-31 | |
+| 2 | Direct Controller & Fuzzer | [#12642](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12642) | [#12644](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12644) | CI Verified | 2026-08-31 | |
 | 3 | mockGCP Generation | TBD | TBD | Pending | | |
 | 4 | MockGCP Alignment with RealGCP | TBD | TBD | Pending | | |
 
 ## Progress Journal Notes
+- **2026-09-01 (Status update - PR #12644 CI Fixed & Verified Passing):** Step 2 Pull Request [#12644](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12644) has been successfully updated by `ada-coder-bot` to resolve the `unit-tests-3-of-4` check failure. The golden exceptions list in `tests/apichecks/testdata/exceptions/alpha-missingfields.txt` was updated as those fields are now fully covered by E2E tests. Confirmed that 100% of automated CI checks are fully passing and green. The latest auto-review is completely positive with no actions required. The PR is healthy and currently awaiting human OWNER review and merge before we can proceed to Step 3.
 - **2026-08-31 (Status update - PR #12644 Created & CI Failure Under Investigation):** Step 2 Pull Request [#12644](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12644) has been created to implement the direct controller, fuzzer, and E2E fixtures. Verified CI status: most checks are fully green (including e2e fixtures for `apihub` and `test-mockgcp`), but `unit-tests-3-of-4` has failed. The watcher bot `argus-watcher-bot` has conducted an auto-review and is addressing the failing checks.
 - **2026-08-31 (Status update - Completed Step 1 & Initiated Step 2):** Step 1 PR [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570) has been successfully merged! Standardized Step 2 issue [#12642](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12642) is now open to track the direct controller, E2E fixtures, and fuzzer implementation.
 - **2026-08-31 (Status update - Completed Detailed Check-Runs Verification):** Performed comprehensive check-runs query on head commit `6ccc6f00c8aa41b9d858c8668f2c7999c69f294b` of PR [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570). Confirmed that 100% of the 100+ checks (including `unit-tests-1-of-4`, `golangci-lint`, and `validate-manifests`) are fully green, and there are no active, pending, or failing runs. The PR is exceptionally healthy and awaits final human OWNER review and merge.
