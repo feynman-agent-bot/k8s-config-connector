@@ -16,6 +16,7 @@ This journal tracks the progress of the Greenfield resource migration for `AIPla
 | **Step 4**: MockGCP Alignment with RealGCP | - | - | `Not Started` | - | - |
 
 ## Status Update Log
+* **2026-09-02**: Monitored the migration progress. PR #12702 remains open with all CI checks in a green/passing state, waiting for the automated coder bot's sandbox run to commit the fix for copying the immutable `ExplanationSpec` in `compareModel`.
 * **2026-09-02**: Verified that all CI checks for PR #12702 are fully passing. The PR is currently waiting for the automated coder bot to apply the fix for copying the immutable `ExplanationSpec` in `compareModel` based on the review comment from `reviewbot-robot`.
 * **2026-09-02**: Monitored Step 2 PR status. All CI checks are fully passing. Confirmed that the AI Factory sandbox has been initiated to address the review comment from `reviewbot-robot` regarding the copying of immutable `ExplanationSpec` in `compareModel`.
 * **2026-09-02**: All CI checks on PR #12702 are now passing. However, a review from `reviewbot-robot` was received pointing out that the immutable `ExplanationSpec` is not copied in `compareModel`. The PR is currently awaiting code fixes to address this review feedback before it can be merged.
