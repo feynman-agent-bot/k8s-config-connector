@@ -4,18 +4,19 @@ This journal tracks the progress of migrating the `APIHubDependency` resource to
 
 ## Current Status
 - **Current Step:** Step 2: Direct Controller, E2E fixtures and Fuzzer
-- **Status:** Step 2 Pull Request [#12644](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12644) remains open. Re-verified on Wednesday, September 2, 2026, that all 100+ automated CI checks (including linters, unit-tests, E2E fixtures, and fuzzers) are 100% green and passing. The PR is clean and mergeable, and currently awaiting final human OWNER review, approval, and merge.
+- **Status:** Step 2 Pull Request [#12644](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12644) remains open and has been verified with 100% green CI. However, migration is paused pending both the merge of [#12644](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12644) and the progression/merge of its blocker dependency resource `APIHubExternalAPI` (issue [#12660](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12660), PR [#12671](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12671)).
 
 ## Migration Steps Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types & Identity | [#12564](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12564) | [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570) | Completed | 2026-05-19 | 2026-08-31 |
-| 2 | Direct Controller & Fuzzer | [#12642](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12642) | [#12644](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12644) | CI Verified | 2026-08-31 | |
+| 2 | Direct Controller & Fuzzer | [#12642](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12642) | [#12644](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12644) | Blocked / CI Verified | 2026-08-31 | |
 | 3 | mockGCP Generation | TBD | TBD | Pending | | |
 | 4 | MockGCP Alignment with RealGCP | TBD | TBD | Pending | | |
 
 ## Progress Journal Notes
+- **2026-09-02 (Status update - Blocker APIHubExternalAPI Evaluated):** Evaluated dependency blocker resource `APIHubExternalAPI` (issue [#12660](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12660)), as highlighted by gemmahou. The direct controller PR [#12671](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12671) for `APIHubExternalAPI` remains open. Thus, the migration for `APIHubDependency` remains paused on Step 2, pending both the merging of its own Step 2 PR [#12644](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12644) and the completion and merging of its dependency `APIHubExternalAPI`.
 - **2026-09-02 (Status update - PR #12644 Re-Verified Passing & Awaiting OWNER Merge):** Re-verified on Wednesday, September 2, 2026, that 100% of the 100+ automated CI checks on Step 2 Pull Request [#12644](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12644) are fully passing and green. The PR remains exceptionally healthy, clean, and mergeable. The migration is paused on Step 2, awaiting final human OWNER review, approval, and merge before we can proceed to Step 3 (mockGCP Generation).
 - **2026-09-01 (Status update - PR #12644 Checked & Awaiting Human Merge):** Re-verified at 21:26 UTC that all 100+ automated CI checks on Step 2 Pull Request [#12644](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12644) are fully green and passing. The PR has been reviewed by the automated robot with completely positive findings and no actions required. The migration is paused on Step 2, waiting for a human OWNER (e.g., `barney-s`) to review, approve, and merge the PR before we can proceed to Step 3 (mockGCP Generation).
 - **2026-09-01 (Status update - PR #12644 CI Fully Passing & Awaiting OWNER Merge):** Re-verified that 100% of the 100+ automated CI checks on Step 2 Pull Request [#12644](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12644) are fully passing and green. The PR is clean and mergeable. The migration is currently on hold, awaiting final human OWNER review, approval, and merge of the PR before we can proceed to Step 3 (mockGCP Generation).
