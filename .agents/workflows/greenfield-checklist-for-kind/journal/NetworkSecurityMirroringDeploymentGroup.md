@@ -9,12 +9,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity and Reference Types Pattern | [#12181](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12181) | [#12754](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12754) | PR Created | 2026-08-04 | |
+| Step 1: Direct API Types and Identity and Reference Types Pattern | [#12181](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12181) | [#12754](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12754) (Closed) | Retrying | 2026-08-04 | |
 | Step 2: Direct Controller, E2E fixtures and Fuzzer | | | Pending | | |
 | Step 3: MockGCP generation | | | Pending | | |
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Recent Status Updates
+- **2026-09-04**: Monitored Step 1 progress. Confirmed that child issue #12181 remains OPEN and assigned to `neumann-coder-bot`. Pull Request #12754 was closed by repository member seans3 because of a missing `release-note` block in the initial PR description. The author was requested to retry Step 1 with the correct release note block in the initial description. We are standing by for `neumann-coder-bot` to submit a retry Pull Request for Step 1.
 - **2026-09-03**: Monitored Step 1 progress. Confirmed that a new PR #12754 has been opened for child issue #12181. Checked all CI checks and verified that all 250+ testing jobs are completely green and passing successfully. The `Validate PR Release Note` check is currently failing due to a missing `release-note` block. Since token scope limitations prevent automated editing of the PR description, we stand by for a human owner or the author to add the release note block so the PR can be merged to complete Step 1.
 - **2026-09-03**: Monitored Greenfield migration progress. Observed that Pull Request #12213 was closed by repository member seans3 ("bot generated controller, which is incorrect"). Child issue #12181 remains open and a new sandbox task has been initiated under assignee neumann-coder-bot to implement a correct, types-only solution. Standing by for neumann-coder-bot to submit a new PR for Step 1.
 - **2026-09-03**: Monitored Greenfield migration progress. Re-verified child issue #12181 and Pull Request #12213 remain open. Confirmed all 250+ CI check-runs are completely green with 100% passing status. Since the PR is paused under the `overseer/stop` label, we respect the automated pause and stand by for human OWNER review and merge to complete Step 1.
