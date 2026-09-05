@@ -3,7 +3,7 @@
 This journal tracks the progress of the Greenfield resource migration for `AIPlatformModel` to a production-ready direct controller.
 
 ## Current Status
-* **Current Step**: Step 2: Direct Controller, E2E fixtures and Fuzzer
+* **Current Step**: Step 3: mockGCP generation
 * **Last Updated**: 2026-09-05
 
 ## Progress Tracking
@@ -11,11 +11,12 @@ This journal tracks the progress of the Greenfield resource migration for `AIPla
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
 | **Step 1**: Direct API Types and Identity and Reference Types Pattern | [#6815](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6815) | [#6817](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/6817) | `Merged` | 2026-05-29 | 2026-05-29 |
-| **Step 2**: Direct Controller, E2E fixtures and Fuzzer | [#12698](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12698) | [#12702](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12702) | `Approved / Pending Merge` | 2026-09-02 | - |
-| **Step 3**: mockGCP generation | - | - | `Not Started` | - | - |
+| **Step 2**: Direct Controller, E2E fixtures and Fuzzer | [#12698](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12698) | [#12702](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12702) | `Merged` | 2026-09-02 | 2026-09-05 |
+| **Step 3**: mockGCP generation | [#12781](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12781) | - | `Open` | 2026-09-05 | - |
 | **Step 4**: MockGCP Alignment with RealGCP | - | - | `Not Started` | - | - |
 
 ## Status Update Log
+* **2026-09-05**: Step 2 PR [#12702](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12702) has been successfully merged! Created Step 3 GitHub issue [#12781](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12781) to implement MockGCP and Alignment for AIPlatformModel, transitioning the migration to Step 3.
 * **2026-09-05**: Monitored Step 2. Confirmed that PR [#12702](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12702) has been fully approved by human code owner `barney-s`. All 240+ CI checks are 100% green and passing. The PR is currently waiting to be merged before we can proceed to Step 3.
 * **2026-09-05**: Monitored Step 2. Verified that both PR [#12702](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12702) and PR [#12764](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12764) remain 100% green, passing all 240+ CI checks completely. Step 2 remains open and is currently awaiting final human code owner review/approval and merge before proceeding to Step 3.
 * **2026-09-04**: Monitored Step 2. Confirmed that `neumann-coder-bot` successfully committed a clean-up fix on PR [#12702](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12702) returning `gcpClient, nil` instead of `gcpClient, err` in the client helper as requested by a human reviewer. The LGTM was temporarily removed due to this new change; all `AIPlatformModel` and unit test CI check-runs are passing perfectly. Awaiting final human owner review and merge.
