@@ -1,7 +1,7 @@
 # Migration Journal: FilestoreInstance
 
 ## Current Step
-Step 5: Implement direct controller and test fixtures
+Step 6: Validate Direct Promotion
 
 ## Progress Tracking
 
@@ -11,11 +11,12 @@ Step 5: Implement direct controller and test fixtures
 | 2 | Move to identity and refs pattern | [#10769](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10769) | [#10776](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10776) | Completed | 2026-06-24 | 2026-06-25 |
 | 3 | Implement round-trip KRM fuzzer | [#10841](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10841) | [#10843](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10843) | Completed | 2026-06-25 | 2026-06-25 |
 | 4 | Match real gcp behavior in MockGCP | [#10849](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10849) | [#10914](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10914) | Completed | 2026-06-25 | 2026-07-09 |
-| 5 | Implement direct controller and test fixtures | [#11564](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11564) | [#11566](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11566) | PR Created (All checks green, awaiting OWNER review/merge) | 2026-07-10 | - |
-| 6 | Validate Direct Promotion | - | - | - | - | - |
+| 5 | Implement direct controller and test fixtures | [#11564](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11564) | [#11566](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11566) | Completed (Awaiting merge of PR #11566) | 2026-07-10 | 2026-09-06 |
+| 6 | Validate Direct Promotion | [#12787](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12787) | - | Open | 2026-09-06 | - |
 
 ## Check Logs
 
+* **2026-09-06**: Transitioned to Step 6 as requested by reviewer @maqiuyujoyce ("Please move on with step 5"). Verified both Step 5 PR [#11566](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11566) and validation PR [#12595](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12595) are 100% green and successfully passing all 190+ CI checks, awaiting final merge. Opened a new GitHub Issue [#12787](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12787) for Step 6: Validate Direct Promotion.
 * **2026-09-06**: Monitored Step 5 progress. Checked Pull Request [#11566](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11566) status on Sunday, September 6, 2026. Verified that both the direct controller PR [#11566](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11566) and the validation PR [#12595](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12595) are 100% green and successfully passing all 190+ CI checks. Both remain open, mergeable, and currently awaiting final review and manual merge by a repository human OWNER. Since the PRs are not yet merged, we must continue to monitor and wait before transitioning to Step 6.
 * **2026-09-03**: Monitored Step 5 progress. Checked Pull Request [#11566](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11566) status on Thursday, September 3, 2026. Re-verified via GitHub CLI that all 190+ CI checks continue to pass 100% green on PR [#11566](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11566), and all 190+ CI checks are also 100% green on the companion validation PR [#12595](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12595). The PRs remain healthy, open, and fully mergeable, awaiting manual human OWNER review, approval, and merge. Since the PRs are not yet merged, we must continue to monitor the progress and wait before transitioning to Step 6.
 * **2026-09-02**: Monitored Step 5 progress. Checked Pull Request [#11566](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11566) status. Confirmed via GitHub API/CLI checks that all 190+ CI check-runs remain successfully completed and are 100% green with zero failures. Both the direct controller PR [#11566](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11566) and the validation PR [#12595](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12595) remain open, healthy, and mergeable, awaiting manual review, approval, and merge by a repository human OWNER. Since the PRs are not yet merged, we must continue to monitor the progress and wait before transitioning to Step 6.
