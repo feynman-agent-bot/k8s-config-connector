@@ -3,8 +3,8 @@
 This journal tracks the progress of migrating the `APIHubDependency` resource to a production-ready direct controller.
 
 ## Current Status
-- **Current Step:** Step 3: mockGCP Generation
-- **Status:** Step 3 Pull Request [#12780](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12780) is open and has been verified with 100% green and passing CI checks. The migration is currently awaiting final human OWNER review, approval, and merge of the PR.
+- **Current Step:** Step 4: MockGCP Alignment with RealGCP
+- **Status:** Step 4 Issue [#12801](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12801) is open to track the alignment of MockGCP logs with RealGCP. Step 3 PR [#12780](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12780) has been successfully merged.
 
 ## Migration Steps Tracking
 
@@ -12,10 +12,11 @@ This journal tracks the progress of migrating the `APIHubDependency` resource to
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types & Identity | [#12564](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12564) | [#12570](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12570) | Completed | 2026-05-19 | 2026-08-31 |
 | 2 | Direct Controller & Fuzzer | [#12642](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12642) | [#12644](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12644) | Completed | 2026-08-31 | 2026-09-04 |
-| 3 | mockGCP Generation | [#12779](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12779) | [#12780](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12780) | PR Created / 100% Green | 2026-09-05 | |
-| 4 | MockGCP Alignment with RealGCP | TBD | TBD | Pending | | |
+| 3 | mockGCP Generation | [#12779](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12779) | [#12780](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12780) | Completed | 2026-09-05 | 2026-09-08 |
+| 4 | MockGCP Alignment with RealGCP | [#12801](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12801) | TBD | Open | 2026-09-08 | |
 
 ## Progress Journal Notes
+- **2026-09-08 (Status update - Step 3 Merged & Step 4 Initiated):** Step 3 Pull Request [#12780](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12780) was successfully merged on Tuesday, September 8, 2026! Standardized Step 4 issue [#12801](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12801) is now open to track alignment of MockGCP logs with RealGCP for `APIHubDependency`.
 - **2026-09-08 (Status update - Routine Progress Tracking 18:41 UTC):** Re-verified on Tuesday, September 8, 2026, at 18:41 UTC, that the Step 3 Pull Request [#12780](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12780) remains open with all automated CI checks passing perfectly (100% green across all 251 checks). It carries the `overseer/ready-for-human` label, is fully mergeable, and continues to await final human OWNER review, approval, and merge.
 - **2026-09-08 (Status update - Routine Progress Tracking 16:34 UTC):** Re-verified on Tuesday, September 8, 2026, at 16:34 UTC, that the Step 3 Pull Request [#12780](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12780) remains open with all automated CI checks passing perfectly (100% green across all 251 checks). It carries the `overseer/ready-for-human` label, is fully mergeable, and continues to await final human OWNER review, approval, and merge.
 - **2026-09-08 (Status update - Routine Progress Tracking 14:25 UTC):** Re-verified on Tuesday, September 8, 2026, at 14:25 UTC, that the Step 3 Pull Request [#12780](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12780) remains open with all automated CI checks passing perfectly (100% green across all 251 checks). It carries the `overseer/ready-for-human` label, is fully mergeable, and continues to await final human OWNER review, approval, and merge.
