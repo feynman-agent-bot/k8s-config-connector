@@ -1,0 +1,19 @@
+### Migration Progress: ComputeNetworkEndpoint
+
+**Step 4**: Ensure MockGCP matches real gcp behavior (Awaiting human OWNER review and merge of PR #10977).
+
+## Progress Tracking Table
+
+| Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Direct API Types | [#9994](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9994) | [#10052](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10052) | `Merged` | 2026-06-13 | 2026-06-29 |
+| 2 | Identity and Reference Types Pattern | [#10952](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10952) | [#10953](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10953) | `Merged` | 2026-06-29 | 2026-06-29 |
+| 3 | Create a Round-Trip KRM Fuzzer | [#10963](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10963) | [#10964](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10964) | `Merged` | 2026-06-29 | 2026-06-29 |
+| 4 | Ensure MockGCP matches real gcp behavior | [#10970](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10970) | [#10977](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10977) | `PR Created` | 2026-06-29 | In Progress |
+| 5 | Implement Direct Controller & E2E Fixtures | - | - | `Not Started` | - | - |
+| 6 | Validate Direct Promotion | - | - | `Not Started` | - | - |
+
+## Status Update Notes
+* **2026-09-11**: Checked the status of Step 4 PR #10977. Confirmed that all continuous integration (CI) check-runs remain 100% green and successfully passing. However, since the PR remains open in state "OPEN" with the active `overseer/stop` label, we must respect the stop label and leave the PR paused as we await human OWNER review and merge of PR #10977 before we can proceed to Step 5 (Implement Direct Controller & E2E Fixtures).
+* **2026-09-10**: Checked the status of Step 4 PR #10977 at 07:11 UTC. Confirmed that all continuous integration (CI) checks remain 100% green and successfully passing. However, since the PR remains open in state "OPEN" with the active `overseer/stop` label, we must respect the stop label and leave the PR paused as we await human OWNER review and merge of PR #10977 before we can proceed to Step 5 (Implement Direct Controller & E2E Fixtures).
+* **2026-09-10**: Checked the status of Step 4 PR #10977 at 04:59 UTC. Confirmed that all continuous integration (CI) checks remain 100% green and successfully passing. However, since the PR remains open in state "OPEN" with the active `overseer/stop` label, we must respect the stop label and leave the PR paused as we await human OWNER review and merge of PR #10977 before we can proceed to Step 5 (Implement Direct Controller & E2E Fixtures).
