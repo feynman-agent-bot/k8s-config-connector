@@ -1,7 +1,7 @@
 # Migration Journal: FilestoreInstance
 
 ## Current Step
-Step 6: Validate Direct Promotion
+Step 5a: Implement standardized label reconciliation (Addendum)
 
 ## Progress Tracking
 
@@ -12,10 +12,12 @@ Step 6: Validate Direct Promotion
 | 3 | Implement round-trip KRM fuzzer | [#10841](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10841) | [#10843](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10843) | Completed | 2026-06-25 | 2026-06-25 |
 | 4 | Match real gcp behavior in MockGCP | [#10849](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10849) | [#10914](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10914) | Completed | 2026-06-25 | 2026-07-09 |
 | 5 | Implement direct controller and test fixtures | [#11564](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11564) | [#11566](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11566) | Completed (Combined into PR #12788) | 2026-07-10 | 2026-09-06 |
+| 5a | Implement standardized label reconciliation | [#12908](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12908) | - | Open | 2026-09-11 | - |
 | 6 | Validate Direct Promotion | [#12787](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12787) | [#12788](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12788) | PR Created (All checks green, awaiting OWNER review/merge) | 2026-09-06 | - |
 
 ## Check Logs
 
+* **2026-09-11**: Identified that the direct controller is missing the new label reconciliation standard (see Issue #12869). Opened Issue [#12908](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12908) to address this. Step 6 (PR #12788) remains open and green, but we will wait for the label fix before proceeding or merging.
 * **2026-09-11**: Monitored Step 6 progress. Checked Pull Request [#12788](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12788) status at 15:57 UTC (current check). Re-verified via the GitHub REST API that all 250/250 CI check-runs remain successfully completed and are 100% green with zero failures on the latest commit (`df6c7b865c89d68082b22b82601ff8cc79378dec`). The PR remains healthy, open, and mergeable, currently awaiting manual review and final merge from a repository human OWNER. Since the PR is not yet merged, we must continue to monitor and wait before completing the migration.
 * **2026-09-11**: Monitored Step 6 progress. Checked Pull Request [#12788](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12788) status at 12:32 UTC. Re-verified via the GitHub REST API that all 250/250 CI check-runs remain successfully completed and are 100% green with zero failures on the latest commit (`df6c7b865c89d68082b22b82601ff8cc79378dec`). The PR is healthy, open, and mergeable, currently awaiting manual review and final merge from a repository human OWNER.
 * **2026-09-11**: Monitored Step 6 progress. Checked Pull Request [#12788](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12788) status. Re-verified via the GitHub REST API that all 250/250 CI check-runs successfully completed and are 100% green with zero failures on the latest commit (`df6c7b865c89d68082b22b82601ff8cc79378dec`). The PR remains healthy, open, and mergeable, currently awaiting manual review and final merge from a repository human OWNER.
