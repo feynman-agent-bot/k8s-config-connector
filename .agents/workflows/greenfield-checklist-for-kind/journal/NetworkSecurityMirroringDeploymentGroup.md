@@ -3,18 +3,19 @@
 This journal tracks the Greenfield migration progress of the `NetworkSecurityMirroringDeploymentGroup` resource to a production-ready direct controller.
 
 ## Current Step
-Step 1: Direct API Types and Identity and Reference Types Pattern
+Step 2: Direct Controller, E2E fixtures and Fuzzer
 
 ## Progress Tracking Table
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity and Reference Types Pattern | [#12181](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12181) | [#12774](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12774) | PR Created | 2026-08-04 | |
-| Step 2: Direct Controller, E2E fixtures and Fuzzer | | | Pending | | |
+| Step 1: Direct API Types and Identity and Reference Types Pattern | [#12181](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12181) | [#12774](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12774) | Merged | 2026-08-04 | 2026-09-16 |
+| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#13197](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13197) | | Open | 2026-09-16 | |
 | Step 3: MockGCP generation | | | Pending | | |
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Recent Status Updates
+- **2026-09-16**: Step 1 (Direct API Types and Identity and Reference Types Pattern) has completed successfully; Pull Request #12774 has been merged and child issue #12181 is closed. Initiated Step 2 (Direct Controller, E2E fixtures, and Fuzzer) by creating child issue #13197 and updating the migration tracking journal.
 - **2026-09-11**: Monitored Greenfield migration progress of Step 1. Re-verified Pull Request #12774 and child issue #12181 remain open, with all 248 CI checks passing 100% green. The types-only PR carries human approval from `seans3` but is currently blocked from automatic merge since Prow dismissed the `lgtm` label following the rebase on Sep 9. It remains assigned to human approver `ldanielmadariaga` and we continue to stand by for a human OWNER to re-apply `/lgtm` or `/approve` to merge the PR and complete Step 1.
 - **2026-09-11**: Monitored Step 1 progress. Confirmed Pull Request #12774 remains open and all 248 CI checks are passing 100% green. The PR remains approved by human reviewer `seans3` on Sep 7, but the branch rebase on Sep 9 invalidated the Prow labels required for automatic merge. It is currently blocked and assigned to human approver `ldanielmadariaga`. We continue to stand by for a human OWNER to re-apply `/lgtm` and/or `/approve` to merge the PR and complete Step 1.
 - **2026-09-11**: Monitored Greenfield migration progress of Step 1. Re-verified Pull Request #12774 remains open with all 248 CI checks passing 100% green. The types-only PR has human approval from `seans3` but is currently blocked from automatic merge as Prow removed the `lgtm` label after the rebase on Sep 9. It remains assigned to human approver `ldanielmadariaga` and we continue to stand by for a human OWNER to re-apply `/lgtm` and/or `/approve` to merge the PR and complete Step 1.
