@@ -17,3 +17,4 @@
 - Initialized Greenfield Migration journal.
 - Verified that Step 1 was completed under Issue #9276 and PR #9333.
 - Created Step 2 child issue [#13236](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13236) to implement the direct controller, E2E fixtures, and fuzzer.
+- Checked progress: Verified that Issue #13236 is Open, assigned to `lovelace-coder-bot`, and currently in progress in a sandbox. No PR has been created yet.
