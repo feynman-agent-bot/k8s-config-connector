@@ -1,18 +1,19 @@
 # DataplexDataProduct Greenfield Migration Journal
 
 ## Current Step
-Step 1: Direct API Types and Identity and Reference Types Pattern
+Step 2: Direct Controller, E2E fixtures and Fuzzer
 
 ## Progress Tracking
 
 | Step | Name | Issue | Pull Request | Status | Date Started | Date Completed |
 |------|------|-------|--------------|--------|--------------|----------------|
-| 1 | Direct API Types, Identity, and References | #9277 | #13457 | PR Created | 2026-07-06 | |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | | | | | |
+| 1 | Direct API Types, Identity, and References | #9277 | #13457 | Merged | 2026-07-06 | 2026-09-28 |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | #13496 | | Open | 2026-09-28 | |
 | 3 | mockGCP generation | | | | | |
 | 4 | MockGCP Alignment with RealGCP | | | | | |
 
 ## Log
+- **2026-09-28**: Verified Step 1 PR #13457 has successfully merged into master. Step 1 (#9277) is now Completed and Closed. Advanced migration workflow to Step 2 ("Direct Controller, E2E fixtures and Fuzzer"). Reused and adopted existing Step 2 child issue #13496, currently assigned to `hopper-coder-bot`, and monitoring for controller implementation and PR creation.
 - **2026-09-28**: Monitored Step 1 progress on child issue #9277. Noted that previously linked PR #11384 was closed without merging, and a new open PR #13457 was created for Step 1. Updated the tracking table to link active PR #13457 (Status: `PR Created`). Confirmed PR #13457 is open and mergeable, with CI checks currently running. Continuing to monitor Step 1 progress while awaiting CI completion and human OWNER review.
 - **2026-09-11 (22:15 UTC)**: Monitored Step 1 progress on child PR #11384. Confirmed the PR is open, all CI check-runs are successfully passing (100% complete, 0 failures), and the mergeable status is CONFLICTING. Since the `overseer/stop` label is active on the PR, we strictly respect this paused state and leave the PR completely untouched, in accordance with the safety guardrails, awaiting human OWNER review, conflict resolution, and final merge.
 - **2026-09-11 (21:55 UTC)**: Monitored Step 1 progress on child PR #11384. Verified the PR remains in an open state with all CI check-runs successfully passing (100% complete, 0 failures), while the merge state remains CONFLICTING. Since the `overseer/stop` label is active, we strictly respect this paused state and leave the PR untouched, in accordance with safety guardrails, awaiting human OWNER review, conflict resolution, and final merge.
