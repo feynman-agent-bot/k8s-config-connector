@@ -10,11 +10,12 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
 | Step 1: Direct API Types and Identity and Reference Types Pattern | [#12181](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12181) | [#12774](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12774) | Merged | 2026-08-04 | 2026-09-16 |
-| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#13197](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13197) | [#13199](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13199) | PR Created | 2026-09-16 | |
+| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#13197](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13197) | [#13512](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13512) | PR Created | 2026-09-16 | |
 | Step 3: MockGCP generation | | | Pending | | |
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Recent Status Updates
+- **2026-09-29**: Monitored Step 2 progress. Confirmed Pull Request [#13512](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13512) is opened for Step 2 child issue #13197. All CI checks are passing 100% green and the PR is currently under review. Updated Step 2 tracking with PR #13512 and standing by for PR #13512 to be reviewed and merged.
 - **2026-09-28**: Monitored Step 2 progress. Confirmed Pull Request [#13199](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13199) is opened for Step 2 child issue #13197. The PR is currently open and undergoing review / CI checks. Updated Step 2 status to 'PR Created' and standing by for PR #13199 to be reviewed and merged.
 - **2026-09-16**: Step 1 (Direct API Types and Identity and Reference Types Pattern) has completed successfully; Pull Request #12774 has been merged and child issue #12181 is closed. Initiated Step 2 (Direct Controller, E2E fixtures, and Fuzzer) by creating child issue #13197 and updating the migration tracking journal.
 - **2026-09-11**: Monitored Greenfield migration progress of Step 1. Re-verified Pull Request #12774 and child issue #12181 remain open, with all 248 CI checks passing 100% green. The types-only PR carries human approval from `seans3` but is currently blocked from automatic merge since Prow dismissed the `lgtm` label following the rebase on Sep 9. It remains assigned to human approver `ldanielmadariaga` and we continue to stand by for a human OWNER to re-apply `/lgtm` or `/approve` to merge the PR and complete Step 1.
