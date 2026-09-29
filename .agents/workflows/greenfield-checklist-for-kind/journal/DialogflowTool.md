@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [#9290](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9290) | [#12643](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12643) | PR Created | 2026-07-06 | |
+| Step 1: Direct API Types and Identity | [#9290](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9290) | [#13521](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13521) | PR Created | 2026-07-06 | |
 | Step 2: Direct Controller & E2E | | | Not Started | | |
 | Step 3: mockGCP Generation | | | Not Started | | |
 | Step 4: MockGCP Alignment | | | Not Started | | |
 
 ## Recent Status Updates
+* **2026-09-29**: Discovered new PR #13521 replacing closed PR #12643 at 23:38 UTC. Verified that all 255 CI checks are completed and passing successfully with zero failures (all checks green). The PR remains open, fully green, and awaiting final human OWNER review, approval, and merge.
 * **2026-09-11**: Checked PR #12643 at 14:26 UTC. Verified that all 247 CI checks are completed and passing successfully with zero failures (all checks green). The PR remains open, fully green, and awaiting final human OWNER review, approval, and merge.
 * **2026-09-11**: Checked PR #12643 at 10:04 UTC. Verified that all 247 CI checks are completed and passing successfully with zero failures (all checks green). The PR remains open, fully green, and awaiting final human OWNER review, approval, and merge.
 * **2026-09-11**: Checked PR #12643 at 05:45 UTC. Verified that all 247 CI checks are completed and passing successfully with zero failures (all checks green). The PR remains open, fully green, and awaiting final human OWNER review, approval, and merge.
