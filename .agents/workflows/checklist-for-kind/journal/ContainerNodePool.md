@@ -1,7 +1,7 @@
 # Migration Journal: ContainerNodePool
 
 ## Current Step
-Step 4: Ensure MockGCP matches real gcp behavior
+Step 5: Implement Direct Controller & E2E Fixtures
 
 ## Migration Progress
 
@@ -10,10 +10,11 @@ Step 4: Ensure MockGCP matches real gcp behavior
 | 1 | Direct API Types | [#9794](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9794) | [#9800](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9800) | Completed | 2026-06-12 | 2026-06-12 |
 | 2 | Identity and Reference Types Pattern | [#10433](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10433) | [#10506](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10506) | Completed | 2026-06-19 | 2026-06-19 |
 | 3 | Create a Round-Trip KRM Fuzzer | [#9794](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9794) | [#9800](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9800) | Completed | 2026-06-12 | 2026-06-12 |
-| 4 | Ensure MockGCP matches real gcp behavior | [#10887](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10887) | [#12571](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12571) | Open | 2026-06-25 | |
-| 5 | Implement Direct Controller & E2E Fixtures | | | Pending | | |
+| 4 | Ensure MockGCP matches real gcp behavior | [#10887](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10887) | [#12571](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12571) | Completed | 2026-06-25 | 2026-10-01 |
+| 5 | Implement Direct Controller & E2E Fixtures | [#13563](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13563) | | Open | 2026-10-01 | |
 
 ## Status Update Notes
+* **2026-10-01**: MockGCP alignment PR #12571 was approved by @maqiuyujoyce and successfully merged. Completed Step 4. Created Step 5 GitHub issue [#13563](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13563) to implement direct controller and test fixtures for ContainerNodePool.
 * **2026-09-11**: Re-verified Step 4 status at 18:16 UTC. MockGCP alignment PR #12571 remains OPEN and mergeable, with all GHA check-runs passing (100% green with zero failures). The `overseer/stop` label is absent, and the PR is labeled `overseer/ready-for-human`. We continue to monitor and wait for the AI Factory (which acknowledged the review feedback at 2026-09-10 21:14 UTC) to address human reviewer @maqiuyujoyce's request for individual/parallel re-recording of the remaining 15 GKE node pool test fixtures before proceeding to Step 5.
 * **2026-09-11**: Re-verified Step 4 status at 15:58 UTC. MockGCP alignment PR #12571 remains OPEN and mergeable, with all GHA check-runs passing (100% green with zero failures). The `overseer/stop` label is absent, and the PR is labeled `overseer/ready-for-human`. We continue to monitor and wait for the AI Factory (which acknowledged the review feedback at 2026-09-10 21:14 UTC) to address human reviewer @maqiuyujoyce's request for individual/parallel re-recording of the remaining 15 GKE node pool test fixtures before proceeding to Step 5.
 * **2026-09-11**: Re-verified Step 4 status at 12:46 UTC. MockGCP alignment PR #12571 remains OPEN and mergeable, and all GHA check-runs are passing (100% green with zero failures). The `overseer/stop` label is absent, and the PR is labeled `overseer/ready-for-human`. We continue to monitor and wait for the assignee bot/process to address human reviewer @maqiuyujoyce's request for individual/parallel re-recording of the remaining 15 GKE node pool test fixtures (e.g., `containernodepool-subnetworkref`, `containernodepool-swap`, etc.) before proceeding to Step 5.
