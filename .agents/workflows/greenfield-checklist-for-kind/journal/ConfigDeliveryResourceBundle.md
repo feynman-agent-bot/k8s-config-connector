@@ -8,7 +8,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Direct API Types, Identity & Reference | [#13174](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13174) | [#13183](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13183) | Merged | 2026-09-16 | 2026-09-27 |
 | 2 | Direct Controller, E2E fixtures & Fuzzer | [#13485](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13485) | [#13486](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13486) | Merged | 2026-09-27 | 2026-10-02 |
-| 3 | MockGCP implementation | [#13672](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13672) | - | Open | 2026-10-02 | - |
+| 3 | MockGCP implementation | [#13672](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13672) | [#13677](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13677) | PR Created | 2026-10-02 | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## History of Status Updates
@@ -31,3 +31,4 @@
 - Step 2 PR [#13486](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13486) merged. Closed issue [#13485](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13485).
 - Created child issue [#13672](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13672) for Step 3 ("Greenfield: Implement MockGCP and Alignment for ConfigDeliveryResourceBundle").
 - Set status to "Open" for Step 3.
+- PR [#13677](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13677) created for Step 3. Updated status to "PR Created".
