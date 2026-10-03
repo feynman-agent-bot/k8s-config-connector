@@ -1,17 +1,18 @@
 # Greenfield Migration Progress: CCInsightsAnalysisRule
 
 ### Current Step
-Step 2: Direct Controller, E2E fixtures and Fuzzer
+Step 3: mockGCP generation
 
 ### Progress Tracking Table
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
 | 1. Direct API Types, Identity, Reference | [#9259](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9259) | [#13520](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13520) | Merged | 2026-07-02 | 2026-09-30 |
-| 2. Direct Controller, E2E fixtures, Fuzzer | [#13543](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13543) | [#13548](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13548) | PR Created | 2026-09-30 | - |
-| 3. mockGCP generation | - | - | Pending | - | - |
+| 2. Direct Controller, E2E fixtures, Fuzzer | [#13543](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13543) | [#13548](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13548) | Merged | 2026-09-30 | 2026-10-03 |
+| 3. mockGCP generation | [#13695](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13695) | - | Open | 2026-10-03 | - |
 | 4. MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ### Recent Status Updates
+- **2026-10-03 (16:36 UTC)**: Step 2 Pull Request [#13548](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13548) was successfully merged into master, and Issue [#13543](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13543) was closed. Transitioned to Step 3: created GitHub Issue [#13695](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13695) to implement MockGCP and Alignment for `CCInsightsAnalysisRule`. Status is `Open`.
 - **2026-09-30 (08:05 UTC)**: Pull Request [#13548](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13548) was opened for Step 2 (Issue [#13543](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13543)) to implement the direct controller, E2E fixtures, and fuzzer for `CCInsightsAnalysisRule`. Status updated to `PR Created`. Presubmit CI checks are in progress. Transitioning to Step 3 remains blocked until this PR is merged.
 - **2026-09-30 (06:05 UTC)**: Step 1 Pull Request [#13520](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13520) was successfully merged into master, and Issue [#9259](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9259) was closed. Transitioned to Step 2: created GitHub Issue [#13543](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13543) to implement direct controller, E2E fixtures, and fuzzer for `CCInsightsAnalysisRule`.
 - **2026-09-29 (23:35 UTC)**: Monitored Step 1 progress. Noted that previous Pull Request [#12689](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12689) was closed and replaced by new open Pull Request [#13520](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13520) for Issue [#9259](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9259). CI checks on PR #13520 are currently being investigated and addressed by automated bot tooling (`argus-watcher-bot`). Step 1 remains in progress, and transitioning to Step 2 remains blocked until Step 1's PR is merged.
