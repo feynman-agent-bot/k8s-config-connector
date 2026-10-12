@@ -12,9 +12,10 @@ Step 4: MockGCP Alignment with RealGCP
 | 1 | Direct API Types and Identity | [#8714](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8714) | [#8762](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8762) | Merged | 2026-05-27 | 2026-05-28 |
 | 2 | Direct Controller, E2E fixtures and Fuzzer | [#8811](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8811) | [#8833](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8833) | Merged | 2026-05-29 | 2026-06-04 |
 | 3 | MockGCP generation | [#11101](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11101) | [#13532](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13532) | Merged | 2026-07-07 | 2026-10-12 |
-| 4 | MockGCP Alignment with RealGCP | [#13930](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13930) | - | Open | 2026-10-12 | - |
+| 4 | MockGCP Alignment with RealGCP | [#13930](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13930) | [#13932](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13932) | PR Created | 2026-10-12 | - |
 
 ## Status Updates
+- **2026-10-12**: Active Pull Request [#13932](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13932) created for Step 4 (MockGCP Alignment with RealGCP). Verified that all 257 CI check-runs have passed; PR is open and awaiting human OWNER review and merge approval.
 - **2026-10-12**: Step 3 completed with Pull Request [#13532](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13532) merged. Opened child issue [#13930](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13930) for Step 4 (MockGCP Alignment with RealGCP).
 - **2026-09-30**: Updated Step 3 tracking to point to active Pull Request [#13532](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13532) (replacing closed PR #11399). All CI checks on PR #13532 have passed and it is awaiting human OWNER review and merge approval.
 - **2026-09-11 22:26**: Re-verified during current execution that PR #11399 still has the `overseer/stop` label. Automated processing remains paused in compliance with safety rules. The PR is open, fully mergeable, and verified as having all CI checks passing. It is awaiting human OWNER review and merge approval to conclude Step 3.
