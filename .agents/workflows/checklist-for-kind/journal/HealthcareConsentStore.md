@@ -11,7 +11,7 @@ Step 5: Implement Direct Controller & E2E Fixtures
 | 2 | Identity and Reference Types Pattern | [#14204](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14204) | [#14208](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14208) | Completed | 2026-10-21 | 2026-10-21 |
 | 3 | Create a Round-Trip KRM Fuzzer | [#14257](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14257) | [#14265](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14265) | Completed | 2026-10-21 | 2026-10-22 |
 | 4 | Ensure MockGCP matches real gcp behavior | [#14291](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14291) | [#14305](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14305) | Completed | 2026-10-22 | 2026-10-23 |
-| 5 | Implement Direct Controller & E2E Fixtures | [#14315](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14315) | - | Open | 2026-10-23 | - |
+| 5 | Implement Direct Controller & E2E Fixtures | [#14315](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14315) | [#14319](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14319) | PR Created | 2026-10-23 | - |
 | 6 | Validate Direct Promotion | - | - | Pending | - | - |
 
 ### Status Updates
@@ -25,3 +25,4 @@ Step 5: Implement Direct Controller & E2E Fixtures
 - **2026-10-23**: Pull request #14305 opened for Step 4.
 - **2026-10-23**: Pull request #14305 merged. Step 4 completed.
 - **2026-10-23**: Created issue #14315 for Step 5: Implement direct controller and test fixtures for HealthcareConsentStore.
+- **2026-10-23**: Pull request #14319 opened for Step 5.
