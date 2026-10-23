@@ -10,7 +10,7 @@ Step 4: Ensure MockGCP matches real gcp behavior
 | 1 | Direct API Types | [#14109](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14109) | [#14115](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14115) | Completed | 2026-10-20 | 2026-10-20 |
 | 2 | Identity and Reference Types Pattern | [#14204](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14204) | [#14208](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14208) | Completed | 2026-10-21 | 2026-10-21 |
 | 3 | Create a Round-Trip KRM Fuzzer | [#14257](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14257) | [#14265](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14265) | Completed | 2026-10-21 | 2026-10-22 |
-| 4 | Ensure MockGCP matches real gcp behavior | [#14291](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14291) | - | Open | 2026-10-22 | - |
+| 4 | Ensure MockGCP matches real gcp behavior | [#14291](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14291) | [#14305](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14305) | PR Created | 2026-10-22 | - |
 | 5 | Implement Direct Controller & E2E Fixtures | - | - | Pending | - | - |
 | 6 | Validate Direct Promotion | - | - | Pending | - | - |
 
@@ -22,3 +22,4 @@ Step 4: Ensure MockGCP matches real gcp behavior
 - **2026-10-21**: Created issue #14257 for Step 3: Implement round-trip KRM fuzzer for HealthcareConsentStore.
 - **2026-10-22**: Pull request #14265 merged. Step 3 completed.
 - **2026-10-22**: Created issue #14291 for Step 4: Match real gcp behavior in MockGCP for HealthcareConsentStore.
+- **2026-10-23**: Pull request #14305 opened for Step 4.
