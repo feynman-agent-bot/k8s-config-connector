@@ -9,10 +9,11 @@ Step 3: mockGCP Generation
 |------|-----------|--------------|-----------|--------|--------------|----------------|
 | 1 | Direct KRM Types & Identity | [#13423](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13423) | [#13424](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13424) | Completed | 2026-09-24 | 2026-10-21 |
 | 2 | Direct Controller & E2E Fixtures | [#14250](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14250) | [#14268](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14268) | Completed | 2026-10-21 | 2026-10-23 |
-| 3 | mockGCP Generation | [#14355](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14355) | N/A | Open | 2026-10-23 | N/A |
+| 3 | mockGCP Generation | [#14355](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14355) | [#14380](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14380) | PR Created | 2026-10-23 | N/A |
 | 4 | mockGCP Alignment with RealGCP | N/A | N/A | Pending | N/A | N/A |
 
 ## Status Update Notes
+- **2026-10-24**: PR #14380 created for Step 3 (mockGCP Generation) and all presubmit checks passed. Awaiting review and merge.
 - **2026-10-23**: PR #14268 for Step 2 was merged. Opened issue #14355 for Step 3 (mockGCP Generation).
 - **2026-10-22**: PR #14268 created for Step 2 (Direct Controller & E2E Fixtures) and is currently open with presubmit checks running.
 - **2026-10-21**: PR #13424 for Step 1 (Direct KRM Types & Identity) was merged. Opened issue #14250 for Step 2 (Direct Controller & E2E Fixtures).
