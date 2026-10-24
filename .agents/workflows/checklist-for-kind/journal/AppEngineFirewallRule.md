@@ -10,7 +10,7 @@ Step 5: Implement Direct Controller & E2E Fixtures
 | 2 | Identity and Reference Types | [#14207](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14207) | [#14214](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14214) | Merged | 2026-10-21 | 2026-10-21 |
 | 3 | Round-Trip KRM Fuzzer | [#14258](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14258) | [#14264](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14264) | Merged | 2026-10-21 | 2026-10-22 |
 | 4 | Match MockGCP with Real GCP | [#14295](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14295) | [#14304](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14304) | Merged | 2026-10-22 | 2026-10-23 |
-| 5 | Direct Controller & E2E Fixtures | [#14366](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14366) | - | Open | 2026-10-23 | - |
+| 5 | Direct Controller & E2E Fixtures | [#14366](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14366) | [#14378](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14378) | PR Created | 2026-10-23 | - |
 | 6 | Validate Direct Promotion | - | - | Pending | - | - |
 
 ## Status Update History
@@ -28,3 +28,4 @@ Step 5: Implement Direct Controller & E2E Fixtures
 - **2026-10-23**: PR #14304 created for Step 4.
 - **2026-10-23**: PR #14304 merged. Step 4 completed.
 - **2026-10-23**: Created Step 5 child issue #14366 to implement direct controller and test fixtures for AppEngineFirewallRule.
+- **2026-10-24**: PR #14378 created for Step 5.
