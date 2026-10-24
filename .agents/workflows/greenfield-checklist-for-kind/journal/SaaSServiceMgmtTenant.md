@@ -9,7 +9,7 @@ Step 3: MockGCP Generation
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types and Identity and Reference Types Pattern | [#13604](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13604) | [#13623](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13623) | Merged | 2026-10-01 | 2026-10-14 |
 | 2 | Direct Controller, E2E fixtures and Fuzzer | [#13983](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13983) | [#13984](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13984) | Merged | 2026-10-14 | 2026-10-24 |
-| 3 | MockGCP Generation | [#14381](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14381) | - | Open | 2026-10-24 | - |
+| 3 | MockGCP Generation | [#14381](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14381) | [#14400](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14400) | PR Created | 2026-10-24 | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Updates
@@ -20,3 +20,4 @@ Step 3: MockGCP Generation
 - 2026-10-14: PR #13984 created for Step 2.
 - 2026-10-24: PR #13984 merged. Completed Step 2.
 - 2026-10-24: Created Step 3 issue #14381.
+- 2026-10-24: PR #14400 created for Step 3.
