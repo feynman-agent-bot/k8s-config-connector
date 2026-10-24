@@ -11,7 +11,7 @@ Step 5: Implement Direct Controller & E2E Fixtures
 | Step 2: Identity and Reference Types Pattern | [#14212](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14212) | [#14218](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14218) | Completed | 2026-10-21 | 2026-10-21 |
 | Step 3: Create a Round-Trip KRM Fuzzer | [#14259](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14259) | [#14263](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14263) | Completed | 2026-10-21 | 2026-10-22 |
 | Step 4: Ensure MockGCP matches real gcp behavior | [#14290](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14290) | [#14302](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14302) | Completed | 2026-10-22 | 2026-10-23 |
-| Step 5: Implement Direct Controller & E2E Fixtures | [#14368](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14368) | - | Open | 2026-10-23 | - |
+| Step 5: Implement Direct Controller & E2E Fixtures | [#14368](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14368) | [#14394](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14394) | PR Created | 2026-10-23 | - |
 | Step 6: Validate Direct Promotion | - | - | Pending | - | - |
 
 ## Status Update Notes
@@ -24,3 +24,4 @@ Step 5: Implement Direct Controller & E2E Fixtures
 - **2026-10-23**: Pull Request [#14302](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14302) created for Step 4. Presubmit checks in progress; awaiting completion, review, and merge.
 - **2026-10-23**: Pull Request [#14302](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14302) merged for Step 4.
 - **2026-10-23**: Step 4 completed. Started Step 5 and created child issue [#14368](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14368) ("Implement direct controller and test fixtures for VertexAIFeaturestoreEntityTypeFeature").
+- **2026-10-24**: Pull Request [#14394](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14394) created for Step 5. Presubmit checks in progress; awaiting completion, review, and merge.
