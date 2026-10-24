@@ -7,7 +7,7 @@ Step 1: Direct API Types
 
 | Step | Name | Issue | PR | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types | [#14339](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14339) | - | Open | 2026-10-23 | - |
+| 1 | Direct API Types | [#14339](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14339) | [#14370](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14370) | PR Created | 2026-10-23 | - |
 | 2 | Identity and Reference Types Pattern | - | - | Pending | - | - |
 | 3 | Create a Round-Trip KRM Fuzzer | - | - | Pending | - | - |
 | 4 | Ensure MockGCP matches real gcp behavior | - | - | Pending | - | - |
@@ -16,3 +16,4 @@ Step 1: Direct API Types
 
 ## Status Updates
 - 2026-10-23: Initiated migration for AppEngineFlexibleAppVersion. Created child issue #14339 for Step 1 (Direct API Types).
+- 2026-10-24: PR #14370 created for Step 1. Awaiting CI and review.
