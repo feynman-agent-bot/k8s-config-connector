@@ -1,7 +1,7 @@
 # Migration Journal: ComputeNetworkEndpoint
 
 ## Current Step
-**Step 4**: Ensure MockGCP matches real gcp behavior (Awaiting human OWNER review and merge of PR #10977).
+**Step 5**: Implement Direct Controller & E2E Fixtures (Issue #14493 created, awaiting PR).
 
 ## Progress Tracking Table
 
@@ -10,11 +10,12 @@
 | 1 | Direct API Types | [#9994](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9994) | [#10052](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10052) | `Merged` | 2026-06-13 | 2026-06-29 |
 | 2 | Identity and Reference Types Pattern | [#10952](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10952) | [#10953](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10953) | `Merged` | 2026-06-29 | 2026-06-29 |
 | 3 | Create a Round-Trip KRM Fuzzer | [#10963](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10963) | [#10964](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10964) | `Merged` | 2026-06-29 | 2026-06-29 |
-| 4 | Ensure MockGCP matches real gcp behavior | [#10970](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10970) | [#10977](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10977) | `PR Created` | 2026-06-29 | In Progress |
-| 5 | Implement Direct Controller & E2E Fixtures | - | - | `Not Started` | - | - |
+| 4 | Ensure MockGCP matches real gcp behavior | [#10970](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10970) | [#10977](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10977) | `Merged` | 2026-06-29 | 2026-10-27 |
+| 5 | Implement Direct Controller & E2E Fixtures | [#14493](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14493) | - | `Open` | 2026-10-28 | - |
 | 6 | Validate Direct Promotion | - | - | `Not Started` | - | - |
 
 ## Status Update Notes
+* **2026-10-28**: Confirmed that Step 4 PR #10977 was merged on 2026-10-27 and Step 4 issue #10970 was closed. Successfully opened Step 5 child issue #14493 ("Implement direct controller and test fixtures for ComputeNetworkEndpoint") with label `overseer`. Currently awaiting implementation PR for Step 5.
 * **2026-09-11**: Checked the status of Step 4 PR #10977 at 21:35 UTC. Confirmed that all continuous integration (CI) check-runs (including build, unit-tests, and e2e-fixtures) remain 100% green and successfully passing. However, since the PR remains open in state "OPEN" with the active `overseer/stop` label, we must respect the stop label and leave the PR paused as we await human OWNER review and merge of PR #10977 before we can proceed to Step 5 (Implement Direct Controller & E2E Fixtures).
 * **2026-09-11**: Checked the status of Step 4 PR #10977 at 19:24 UTC. Confirmed that all continuous integration (CI) check-runs (including build, unit-tests, and e2e-fixtures) remain 100% green and successfully passing. However, since the PR remains open in state "OPEN" with the active `overseer/stop` label, we must respect the stop label and leave the PR paused as we await human OWNER review and merge of PR #10977 before we can proceed to Step 5 (Implement Direct Controller & E2E Fixtures).
 * **2026-09-11**: Checked the status of Step 4 PR #10977 at 10:29 UTC. Confirmed that all continuous integration (CI) check-runs remain 100% green and successfully passing. However, since the PR remains open in state "OPEN" with the active `overseer/stop` label, we must respect the stop label and leave the PR paused as we await human OWNER review and merge of PR #10977 before we can proceed to Step 5 (Implement Direct Controller & E2E Fixtures).
