@@ -1,18 +1,19 @@
 # Migration Progress: ApigeeAddonsConfig
 
-**Current Step:** Step 1: Direct API Types
+**Current Step:** Step 3: Create a Round-Trip KRM Fuzzer
 
 ## Progress Tracking Table
 
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types | [#14341](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14341) | [#14357](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14357) | PR Created | 2026-10-23 | - |
-| 2 | Identity and Reference Types Pattern | - | - | Pending | - | - |
-| 3 | Create a Round-Trip KRM Fuzzer | - | - | Pending | - | - |
+| 1 | Direct API Types | [#14341](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14341) | [#14357](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14357) | Completed | 2026-10-23 | 2026-10-28 |
+| 2 | Identity and Reference Types Pattern | - | [#14357](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14357) | Completed | 2026-10-28 | 2026-10-28 |
+| 3 | Create a Round-Trip KRM Fuzzer | [#14540](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14540) | - | Open | 2026-10-28 | - |
 | 4 | Ensure MockGCP matches real gcp behavior | - | - | Pending | - | - |
 | 5 | Implement Direct Controller & E2E Fixtures | - | - | Pending | - | - |
 | 6 | Validate Direct Promotion | - | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-10-28**: Step 1 PR [#14357](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14357) merged successfully. Step 2 (Identity & Reference Types Pattern) was also implemented and verified in PR #14357. Opened child issue [#14540](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14540) for Step 3: Create a Round-Trip KRM Fuzzer.
 - **2026-10-24**: Pull Request [#14357](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14357) was opened for Step 1 child issue #14341. Waiting for PR review and merge.
 - **2026-10-23**: Initialized migration workflow for `ApigeeAddonsConfig`. Opened child issue #14341 for Step 1: Direct API Types.
