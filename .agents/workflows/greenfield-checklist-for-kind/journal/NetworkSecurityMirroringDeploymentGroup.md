@@ -3,18 +3,19 @@
 This journal tracks the Greenfield migration progress of the `NetworkSecurityMirroringDeploymentGroup` resource to a production-ready direct controller.
 
 ## Current Step
-Step 2: Direct Controller, E2E fixtures and Fuzzer
+Step 3: MockGCP generation
 
 ## Progress Tracking Table
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
 | Step 1: Direct API Types and Identity and Reference Types Pattern | [#12181](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12181) | [#12774](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12774) | Merged | 2026-08-04 | 2026-09-16 |
-| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#13197](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13197) | [#13512](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13512) | PR Created | 2026-09-16 | |
-| Step 3: MockGCP generation | | | Pending | | |
+| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#13197](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13197) | [#13512](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13512) | Merged | 2026-09-16 | 2026-10-29 |
+| Step 3: MockGCP generation | [#14564](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14564) | | Open | 2026-10-29 | |
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Recent Status Updates
+- **2026-10-29**: Step 2 (Direct Controller, E2E fixtures and Fuzzer) completed successfully with Pull Request [#13512](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13512) merged and child issue [#13197](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13197) closed. Initiated Step 3 (MockGCP generation) by opening child issue [#14564](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14564).
 - **2026-09-29**: Monitored Step 2 progress. Confirmed Pull Request [#13512](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13512) is opened for Step 2 child issue #13197. All CI checks are passing 100% green and the PR is currently under review. Updated Step 2 tracking with PR #13512 and standing by for PR #13512 to be reviewed and merged.
 - **2026-09-28**: Monitored Step 2 progress. Confirmed Pull Request [#13199](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13199) is opened for Step 2 child issue #13197. The PR is currently open and undergoing review / CI checks. Updated Step 2 status to 'PR Created' and standing by for PR #13199 to be reviewed and merged.
 - **2026-09-16**: Step 1 (Direct API Types and Identity and Reference Types Pattern) has completed successfully; Pull Request #12774 has been merged and child issue #12181 is closed. Initiated Step 2 (Direct Controller, E2E fixtures, and Fuzzer) by creating child issue #13197 and updating the migration tracking journal.
