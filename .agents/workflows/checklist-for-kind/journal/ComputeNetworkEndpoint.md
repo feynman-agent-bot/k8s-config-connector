@@ -1,7 +1,7 @@
 # Migration Journal: ComputeNetworkEndpoint
 
 ## Current Step
-**Step 6**: Validate Direct Promotion (Issue #14532 created, awaiting PR).
+**Step 6**: Validate Direct Promotion (Awaiting CI and human OWNER review and merge of PR #14534).
 
 ## Progress Tracking Table
 
@@ -12,9 +12,10 @@
 | 3 | Create a Round-Trip KRM Fuzzer | [#10963](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10963) | [#10964](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10964) | `Merged` | 2026-06-29 | 2026-06-29 |
 | 4 | Ensure MockGCP matches real gcp behavior | [#10970](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10970) | [#10977](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10977) | `Merged` | 2026-06-29 | 2026-10-27 |
 | 5 | Implement Direct Controller & E2E Fixtures | [#14493](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14493) | [#14504](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14504) | `Merged` | 2026-10-28 | 2026-10-28 |
-| 6 | Validate Direct Promotion | [#14532](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14532) | - | `Open` | 2026-10-28 | In Progress |
+| 6 | Validate Direct Promotion | [#14532](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14532) | [#14534](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14534) | `PR Created` | 2026-10-28 | In Progress |
 
 ## Status Update Notes
+* **2026-10-29**: Implementation PR #14534 ("Validate direct promotion for ComputeNetworkEndpoint") has been opened for Step 6 issue #14532. Automated CI monitoring and triage is active; currently awaiting CI completion and human OWNER review and merge of PR #14534.
 * **2026-10-28**: Confirmed that Step 5 PR #14504 was merged on 2026-10-28 and Step 5 issue #14493 was closed. Successfully opened Step 6 child issue #14532 ("Validate direct promotion for ComputeNetworkEndpoint") with label `overseer`. Currently awaiting implementation PR for Step 6.
 * **2026-10-28**: PR #14504 ("Implement direct controller and test fixtures for ComputeNetworkEndpoint") was opened for Step 5 issue #14493. Confirmed all 257 continuous integration (CI) check-runs are 100% green and successfully passing. The PR is labeled with `overseer` and `overseer/ready-for-human`, currently awaiting human OWNER review and merge before proceeding to Step 6.
 * **2026-10-28**: Confirmed that Step 4 PR #10977 was merged on 2026-10-27 and Step 4 issue #10970 was closed. Successfully opened Step 5 child issue #14493 ("Implement direct controller and test fixtures for ComputeNetworkEndpoint") with label `overseer`. Currently awaiting implementation PR for Step 5.
