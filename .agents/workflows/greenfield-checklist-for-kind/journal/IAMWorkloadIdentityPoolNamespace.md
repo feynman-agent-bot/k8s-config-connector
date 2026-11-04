@@ -12,6 +12,7 @@ Step 1a: Prepopulate Direct API Types, Identity, and Judgement Queue
 | Step 2: Direct Controller, E2E fixtures and Fuzzer | - | - | Pending | - | - |
 | Step 3: mockGCP generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment with RealGCP | - | - | Pending | - | - |
+| Step 5: Release | - | - | Pending | - | - |
 
 ## Status Update Notes
 - **2026-11-04**: Monitored Step 1a PR [#14209](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14209). All CI checks (258 successful, 5 skipped) are passing; PR remains mergeable, labeled `overseer/ready-for-human`, and awaiting human maintainer review and merge.
