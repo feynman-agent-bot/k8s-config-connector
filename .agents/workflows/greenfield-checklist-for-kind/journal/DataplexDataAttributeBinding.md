@@ -7,7 +7,7 @@
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
 | Step 1: Direct API Types and Identity | [#9276](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9276) | [#9333](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9333) | Completed | 2026-06-19 | 2026-06-19 |
-| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#13236](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13236) | [#13301](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13301) | PR Created | 2026-09-18 | - |
+| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#13236](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13236) | [#14881](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14881) | PR Created | 2026-09-18 | - |
 | Step 3: mockGCP generation | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
@@ -34,3 +34,8 @@
 - Confirmed all CI checks continue to pass successfully.
 - Verified that `reviewbot-robot` completed the KCC Auto-Review with all pass results and no required actions.
 - Awaiting human OWNER review and merge of PR #13301 before proceeding to Step 3.
+
+### 2026-11-04
+- Verified that previous Step 2 PR [#13301](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13301) was closed without merging and replaced by new open PR [#14881](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14881).
+- Confirmed all 258 CI checks pass successfully on PR [#14881](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14881).
+- Awaiting human OWNER review and merge of PR [#14881](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14881) before proceeding to Step 3.
